@@ -26,7 +26,7 @@
                                ▼
                         👤 Người 1
          1. Gộp 4 file thành 1 bộ dữ liệu tổng (2.314 dòng)
-         2. Chạy Preprocessing: chuẩn hóa Unicode, tách từ pyvi
+         2. Chạy Preprocessing: chuẩn hóa Unicode, tách từ underthesea
          3. Chia tập theo post_id thành: train, val, test
                                │
          ┌─────────────────────┴─────────────────────┐
@@ -60,7 +60,7 @@
    * Viết module và chạy tiền xử lý `src/preprocessing.py` trên toàn bộ văn bản:
      * Chuẩn hóa bảng mã tiếng Việt (Unicode NFC).
      * Xóa khoảng trắng thừa, làm sạch ký tự rác.
-     * **Tách từ ghép tiếng Việt** (ví dụ: *"sinh viên"* $\rightarrow$ *"sinh_viên"*, *"học phí"* $\rightarrow$ *"học_phí"* bằng thư viện `pyvi`).
+     * **Tách từ ghép tiếng Việt** (ví dụ: *"sinh viên"* $\rightarrow$ *"sinh_viên"*, *"học phí"* $\rightarrow$ *"học_phí"* bằng thư viện `underthesea`).
 4. **Chia tập dữ liệu (Split) & Bàn giao:**
    * Viết script `make_splits.py`: Cắt bảng dữ liệu đã làm sạch thành 3 file **theo nguyên bài viết (`post_id`)** để chống rò rỉ dữ liệu:
      * `data/splits/train.csv` (~70%, ~1.600 câu): **Bàn giao cho Người 2 và Người 3**.

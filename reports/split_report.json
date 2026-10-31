@@ -1,0 +1,38 @@
+{
+  "seed": 42,
+  "n_candidates": 200,
+  "group_leakage": {
+    "train_val": true,
+    "train_test": true,
+    "val_test": true
+  },
+  "record_checks": {
+    "total_conserved": true,
+    "id_multiset_equal": true,
+    "no_duplicate_ids_in_splits": true
+  },
+  "cross_split_text_duplicates": [],
+  "splits": {
+    "train": {
+      "samples": 1594,
+      "posts": 9,
+      "toxic": 125,
+      "non_toxic": 1469,
+      "sample_ratio_pct": 68.89
+    },
+    "val": {
+      "samples": 371,
+      "posts": 4,
+      "toxic": 32,
+      "non_toxic": 339,
+      "sample_ratio_pct": 16.03
+    },
+    "test": {
+      "samples": 349,
+      "posts": 4,
+      "toxic": 31,
+      "non_toxic": 318,
+      "sample_ratio_pct": 15.08
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "input_files": {
+    "thanh_vien_1.csv": 579,
+    "thanh_vien_2.csv": 579,
+    "thanh_vien_3.csv": 578,
+    "thanh_vien_4.csv": 578
+  },
+  "total_records_before_processing": 2314,
+  "valid_records": 2314,
+  "invalid_records": 0,
+  "removed_duplicates": 0,
+  "conflicting_label_records": 0,
+  "duplicate_text_records": 0,
+  "label_0": 2126,
+  "label_1": 188,
+  "label_0_ratio_pct": 91.88,
+  "label_1_ratio_pct": 8.12,
+  "unique_post_ids": 17,
+  "avg_sentences_per_post": 136.12,
+  "text_char_length": {
+    "mean": 60.89,
+    "median": 36.0,
+    "min": 1,
+    "max": 1507
+  },
+  "text_word_length": {
+    "mean": 13.84,
+    "median": 8.0,
+    "min": 1,
+    "max": 340
+  },
+  "record_count_check": true,
+  "issues_total": 0,
+  "parse_errors": []
+}
