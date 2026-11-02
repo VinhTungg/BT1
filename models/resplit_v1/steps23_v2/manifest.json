@@ -1,0 +1,929 @@
+{
+  "run_id": "steps23_v2",
+  "completed_at_utc": "2026-11-02T16:11:39.021575+00:00",
+  "train": {
+    "path": "D:\\Kì 1 Năm 4\\Phân tích và khai phá dữ liệu văn bản\\BTL\\BT1\\data\\clean\\train.csv",
+    "sha256": "349122f38dbe83e36606043d7c8a7aaeebd86390df56407e32ae6553da43c646",
+    "rows": 6000,
+    "posts": 70,
+    "labels": {
+      "0": 5606,
+      "1": 394
+    }
+  },
+  "validation": {
+    "path": "D:\\Kì 1 Năm 4\\Phân tích và khai phá dữ liệu văn bản\\BTL\\BT1\\data\\clean\\val.csv",
+    "sha256": "150077176e8ee903db4e8357eb508f7872026c935f4350f3899ef560382e51db",
+    "rows": 1277,
+    "posts": 16,
+    "labels": {
+      "0": 1194,
+      "1": 83
+    }
+  },
+  "source_manifest_sha256": "4755eddb3cffc758427d3a63a447158ea326f36b18c941c2ea5a88c13c536ebd",
+  "stop_words": [
+    "và",
+    "là",
+    "của",
+    "ở",
+    "tại",
+    "trong",
+    "trên",
+    "dưới",
+    "theo"
+  ],
+  "folds": 3,
+  "configurations": 11,
+  "models": [
+    {
+      "model": "reference_slang_word_char_svm_zero",
+      "backend": "sklearn",
+      "input_contract": "raw_text",
+      "threshold": 0.0,
+      "threshold_basis": "fixed zero",
+      "path": "models/resplit_v1/steps23_v2/reference_slang_word_char_svm_zero.joblib",
+      "sha256": "1137ada2493c982ab7beb51a9c93157a7dc8818d493c83adaff949c533d8a304",
+      "validation_metrics": {
+        "accuracy": 0.9162098668754894,
+        "precision_toxic": 0.38,
+        "recall_toxic": 0.4578313253012048,
+        "f1_toxic": 0.41530054644808745,
+        "macro_f1": 0.685085954371239,
+        "tn": 1132,
+        "fp": 62,
+        "fn": 45,
+        "tp": 38,
+        "predicted_toxic": 100
+      },
+      "reload_verified": true,
+      "profile": "slang",
+      "feature_params": {
+        "kind": "word_char",
+        "ngram_range": [
+          1,
+          2
+        ],
+        "min_df": 2,
+        "char_weight": 1.0
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "model": "reference_slang_word_char_svm_oof",
+      "backend": "sklearn",
+      "input_contract": "raw_text",
+      "threshold": 0.0,
+      "threshold_basis": "train grouped out-of-fold scores only",
+      "path": "models/resplit_v1/steps23_v2/reference_slang_word_char_svm_oof.joblib",
+      "sha256": "1137ada2493c982ab7beb51a9c93157a7dc8818d493c83adaff949c533d8a304",
+      "validation_metrics": {
+        "accuracy": 0.9162098668754894,
+        "precision_toxic": 0.38,
+        "recall_toxic": 0.4578313253012048,
+        "f1_toxic": 0.41530054644808745,
+        "macro_f1": 0.685085954371239,
+        "tn": 1132,
+        "fp": 62,
+        "fn": 45,
+        "tp": 38,
+        "predicted_toxic": 100
+      },
+      "reload_verified": true,
+      "profile": "slang",
+      "feature_params": {
+        "kind": "word_char",
+        "ngram_range": [
+          1,
+          2
+        ],
+        "min_df": 2,
+        "char_weight": 1.0
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "model": "reference_preserve_bow_svm_zero",
+      "backend": "sklearn",
+      "input_contract": "raw_text",
+      "threshold": 0.0,
+      "threshold_basis": "fixed zero",
+      "path": "models/resplit_v1/steps23_v2/reference_preserve_bow_svm_zero.joblib",
+      "sha256": "15bcaa34c5d06310e55f7ddc95aa70e37ac13cd86361571d998e3bfd09b7e166",
+      "validation_metrics": {
+        "accuracy": 0.9122944400939702,
+        "precision_toxic": 0.3669724770642202,
+        "recall_toxic": 0.4819277108433735,
+        "f1_toxic": 0.4166666666666667,
+        "macro_f1": 0.68462461191081,
+        "tn": 1125,
+        "fp": 69,
+        "fn": 43,
+        "tp": 40,
+        "predicted_toxic": 109
+      },
+      "reload_verified": true,
+      "profile": "preserve",
+      "feature_params": {
+        "kind": "bow",
+        "ngram_range": [
+          1,
+          1
+        ],
+        "min_df": 2
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "model": "reference_preserve_bow_svm_oof",
+      "backend": "sklearn",
+      "input_contract": "raw_text",
+      "threshold": 0.18217656494383117,
+      "threshold_basis": "train grouped out-of-fold scores only",
+      "path": "models/resplit_v1/steps23_v2/reference_preserve_bow_svm_oof.joblib",
+      "sha256": "49bfe2743ec6fad9885c76308eaab0fff15a34190aef018f3862fac37eaa4df8",
+      "validation_metrics": {
+        "accuracy": 0.9224745497259201,
+        "precision_toxic": 0.3888888888888889,
+        "recall_toxic": 0.3373493975903614,
+        "f1_toxic": 0.36129032258064514,
+        "macro_f1": 0.6600115639581008,
+        "tn": 1150,
+        "fp": 44,
+        "fn": 55,
+        "tp": 28,
+        "predicted_toxic": 72
+      },
+      "reload_verified": true,
+      "profile": "preserve",
+      "feature_params": {
+        "kind": "bow",
+        "ngram_range": [
+          1,
+          1
+        ],
+        "min_df": 2
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "model": "reference_slang_tfidf_svm_zero",
+      "backend": "sklearn",
+      "input_contract": "raw_text",
+      "threshold": 0.0,
+      "threshold_basis": "fixed zero",
+      "path": "models/resplit_v1/steps23_v2/reference_slang_tfidf_svm_zero.joblib",
+      "sha256": "92ca0a861ba839c4d347dd123d87534f3fbb71d8934ab7049e6db516150c102d",
+      "validation_metrics": {
+        "accuracy": 0.8981989036805011,
+        "precision_toxic": 0.3333333333333333,
+        "recall_toxic": 0.5662650602409639,
+        "f1_toxic": 0.41964285714285715,
+        "macro_f1": 0.6819244328632741,
+        "tn": 1100,
+        "fp": 94,
+        "fn": 36,
+        "tp": 47,
+        "predicted_toxic": 141
+      },
+      "reload_verified": true,
+      "profile": "slang",
+      "feature_params": {
+        "kind": "tfidf",
+        "ngram_range": [
+          1,
+          1
+        ],
+        "min_df": 1
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "model": "reference_slang_tfidf_svm_oof",
+      "backend": "sklearn",
+      "input_contract": "raw_text",
+      "threshold": 0.17357533828613042,
+      "threshold_basis": "train grouped out-of-fold scores only",
+      "path": "models/resplit_v1/steps23_v2/reference_slang_tfidf_svm_oof.joblib",
+      "sha256": "220a879ef700406da6ea7c22bf711166687adb9eecf15eaa9a4bf3c3b35d4006",
+      "validation_metrics": {
+        "accuracy": 0.9216914643696162,
+        "precision_toxic": 0.40229885057471265,
+        "recall_toxic": 0.42168674698795183,
+        "f1_toxic": 0.4117647058823529,
+        "macro_f1": 0.6849091985787603,
+        "tn": 1142,
+        "fp": 52,
+        "fn": 48,
+        "tp": 35,
+        "predicted_toxic": 87
+      },
+      "reload_verified": true,
+      "profile": "slang",
+      "feature_params": {
+        "kind": "tfidf",
+        "ngram_range": [
+          1,
+          1
+        ],
+        "min_df": 1
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "model": "preserve_ng2_keep_zero",
+      "backend": "sklearn",
+      "input_contract": "raw_text",
+      "threshold": 0.0,
+      "threshold_basis": "fixed zero",
+      "path": "models/resplit_v1/steps23_v2/preserve_ng2_keep_zero.joblib",
+      "sha256": "a0bb54217d9feec2f7665ffa6e451e6a0431478fb0eb623b409eab7ea915142a",
+      "validation_metrics": {
+        "accuracy": 0.9154267815191856,
+        "precision_toxic": 0.37373737373737376,
+        "recall_toxic": 0.4457831325301205,
+        "f1_toxic": 0.4065934065934066,
+        "macro_f1": 0.6805311046457758,
+        "tn": 1132,
+        "fp": 62,
+        "fn": 46,
+        "tp": 37,
+        "predicted_toxic": 99
+      },
+      "reload_verified": true,
+      "profile": "preserve",
+      "feature_params": {
+        "kind": "word_char",
+        "ngram_range": [
+          1,
+          2
+        ],
+        "min_df": 2,
+        "char_weight": 1.0,
+        "word_stop_words": null
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "model": "preserve_ng2_keep_oof",
+      "backend": "sklearn",
+      "input_contract": "raw_text",
+      "threshold": -0.026872489791189162,
+      "threshold_basis": "train grouped out-of-fold scores only",
+      "path": "models/resplit_v1/steps23_v2/preserve_ng2_keep_oof.joblib",
+      "sha256": "ec76c9535b14f9fe5d5f6e408e3cd817b99901eff3a222cd19fbae474879d58e",
+      "validation_metrics": {
+        "accuracy": 0.9107282693813625,
+        "precision_toxic": 0.3577981651376147,
+        "recall_toxic": 0.46987951807228917,
+        "f1_toxic": 0.40625,
+        "macro_f1": 0.6789929085520745,
+        "tn": 1124,
+        "fp": 70,
+        "fn": 44,
+        "tp": 39,
+        "predicted_toxic": 109
+      },
+      "reload_verified": true,
+      "profile": "preserve",
+      "feature_params": {
+        "kind": "word_char",
+        "ngram_range": [
+          1,
+          2
+        ],
+        "min_df": 2,
+        "char_weight": 1.0,
+        "word_stop_words": null
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "model": "preserve_ng2_stop_zero",
+      "backend": "sklearn",
+      "input_contract": "raw_text",
+      "threshold": 0.0,
+      "threshold_basis": "fixed zero",
+      "path": "models/resplit_v1/steps23_v2/preserve_ng2_stop_zero.joblib",
+      "sha256": "0b43feda4eb91de41dba072710693f0eeb984f0cc6d6b83f06bdac5245d200d2",
+      "validation_metrics": {
+        "accuracy": 0.9138606108065779,
+        "precision_toxic": 0.36893203883495146,
+        "recall_toxic": 0.4578313253012048,
+        "f1_toxic": 0.40860215053763443,
+        "macro_f1": 0.6810747239174658,
+        "tn": 1129,
+        "fp": 65,
+        "fn": 45,
+        "tp": 38,
+        "predicted_toxic": 103
+      },
+      "reload_verified": true,
+      "profile": "preserve",
+      "feature_params": {
+        "kind": "word_char",
+        "ngram_range": [
+          1,
+          2
+        ],
+        "min_df": 2,
+        "char_weight": 1.0,
+        "word_stop_words": [
+          "và",
+          "là",
+          "của",
+          "ở",
+          "tại",
+          "trong",
+          "trên",
+          "dưới",
+          "theo"
+        ]
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "model": "preserve_ng2_stop_oof",
+      "backend": "sklearn",
+      "input_contract": "raw_text",
+      "threshold": 0.015801756785871212,
+      "threshold_basis": "train grouped out-of-fold scores only",
+      "path": "models/resplit_v1/steps23_v2/preserve_ng2_stop_oof.joblib",
+      "sha256": "652a227377481a852745f33fd6e623c5164f9752723d571936cb5a81120d488d",
+      "validation_metrics": {
+        "accuracy": 0.9154267815191856,
+        "precision_toxic": 0.3711340206185567,
+        "recall_toxic": 0.43373493975903615,
+        "f1_toxic": 0.4,
+        "macro_f1": 0.6772535804549284,
+        "tn": 1133,
+        "fp": 61,
+        "fn": 47,
+        "tp": 36,
+        "predicted_toxic": 97
+      },
+      "reload_verified": true,
+      "profile": "preserve",
+      "feature_params": {
+        "kind": "word_char",
+        "ngram_range": [
+          1,
+          2
+        ],
+        "min_df": 2,
+        "char_weight": 1.0,
+        "word_stop_words": [
+          "và",
+          "là",
+          "của",
+          "ở",
+          "tại",
+          "trong",
+          "trên",
+          "dưới",
+          "theo"
+        ]
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "model": "preserve_ng3_keep_zero",
+      "backend": "sklearn",
+      "input_contract": "raw_text",
+      "threshold": 0.0,
+      "threshold_basis": "fixed zero",
+      "path": "models/resplit_v1/steps23_v2/preserve_ng3_keep_zero.joblib",
+      "sha256": "31fb85ed30a4d90f697ace7c31b1acd1587d2fcb76183b4b064ff3d03e06ed61",
+      "validation_metrics": {
+        "accuracy": 0.9146436961628818,
+        "precision_toxic": 0.37254901960784315,
+        "recall_toxic": 0.4578313253012048,
+        "f1_toxic": 0.41081081081081083,
+        "macro_f1": 0.682399917857917,
+        "tn": 1130,
+        "fp": 64,
+        "fn": 45,
+        "tp": 38,
+        "predicted_toxic": 102
+      },
+      "reload_verified": true,
+      "profile": "preserve",
+      "feature_params": {
+        "kind": "word_char",
+        "ngram_range": [
+          1,
+          3
+        ],
+        "min_df": 2,
+        "char_weight": 1.0,
+        "word_stop_words": null
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "model": "preserve_ng3_keep_oof",
+      "backend": "sklearn",
+      "input_contract": "raw_text",
+      "threshold": 0.00944322144868495,
+      "threshold_basis": "train grouped out-of-fold scores only",
+      "path": "models/resplit_v1/steps23_v2/preserve_ng3_keep_oof.joblib",
+      "sha256": "0bcc208b3441adada333f52e3b472744b7dee971196279318ff255990a1ddfbf",
+      "validation_metrics": {
+        "accuracy": 0.9154267815191856,
+        "precision_toxic": 0.37373737373737376,
+        "recall_toxic": 0.4457831325301205,
+        "f1_toxic": 0.4065934065934066,
+        "macro_f1": 0.6805311046457758,
+        "tn": 1132,
+        "fp": 62,
+        "fn": 46,
+        "tp": 37,
+        "predicted_toxic": 99
+      },
+      "reload_verified": true,
+      "profile": "preserve",
+      "feature_params": {
+        "kind": "word_char",
+        "ngram_range": [
+          1,
+          3
+        ],
+        "min_df": 2,
+        "char_weight": 1.0,
+        "word_stop_words": null
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "model": "preserve_ng3_stop_zero",
+      "backend": "sklearn",
+      "input_contract": "raw_text",
+      "threshold": 0.0,
+      "threshold_basis": "fixed zero",
+      "path": "models/resplit_v1/steps23_v2/preserve_ng3_stop_zero.joblib",
+      "sha256": "70324503cb10a2ff4346070b1dad75174a54f2e2b8e86d2882c35b4e50bfb5f7",
+      "validation_metrics": {
+        "accuracy": 0.9154267815191856,
+        "precision_toxic": 0.37623762376237624,
+        "recall_toxic": 0.4578313253012048,
+        "f1_toxic": 0.41304347826086957,
+        "macro_f1": 0.6837369290038525,
+        "tn": 1131,
+        "fp": 63,
+        "fn": 45,
+        "tp": 38,
+        "predicted_toxic": 101
+      },
+      "reload_verified": true,
+      "profile": "preserve",
+      "feature_params": {
+        "kind": "word_char",
+        "ngram_range": [
+          1,
+          3
+        ],
+        "min_df": 2,
+        "char_weight": 1.0,
+        "word_stop_words": [
+          "và",
+          "là",
+          "của",
+          "ở",
+          "tại",
+          "trong",
+          "trên",
+          "dưới",
+          "theo"
+        ]
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "model": "preserve_ng3_stop_oof",
+      "backend": "sklearn",
+      "input_contract": "raw_text",
+      "threshold": 0.011062120422288829,
+      "threshold_basis": "train grouped out-of-fold scores only",
+      "path": "models/resplit_v1/steps23_v2/preserve_ng3_stop_oof.joblib",
+      "sha256": "879f0de97dd8625aa1f02e1d69ebf4e685a0e8289689ffddad13eda7ecd6efba",
+      "validation_metrics": {
+        "accuracy": 0.9154267815191856,
+        "precision_toxic": 0.37373737373737376,
+        "recall_toxic": 0.4457831325301205,
+        "f1_toxic": 0.4065934065934066,
+        "macro_f1": 0.6805311046457758,
+        "tn": 1132,
+        "fp": 62,
+        "fn": 46,
+        "tp": 37,
+        "predicted_toxic": 99
+      },
+      "reload_verified": true,
+      "profile": "preserve",
+      "feature_params": {
+        "kind": "word_char",
+        "ngram_range": [
+          1,
+          3
+        ],
+        "min_df": 2,
+        "char_weight": 1.0,
+        "word_stop_words": [
+          "và",
+          "là",
+          "của",
+          "ở",
+          "tại",
+          "trong",
+          "trên",
+          "dưới",
+          "theo"
+        ]
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "model": "slang_ng2_keep_zero",
+      "backend": "sklearn",
+      "input_contract": "raw_text",
+      "threshold": 0.0,
+      "threshold_basis": "fixed zero",
+      "path": "models/resplit_v1/steps23_v2/slang_ng2_keep_zero.joblib",
+      "sha256": "1137ada2493c982ab7beb51a9c93157a7dc8818d493c83adaff949c533d8a304",
+      "validation_metrics": {
+        "accuracy": 0.9162098668754894,
+        "precision_toxic": 0.38,
+        "recall_toxic": 0.4578313253012048,
+        "f1_toxic": 0.41530054644808745,
+        "macro_f1": 0.685085954371239,
+        "tn": 1132,
+        "fp": 62,
+        "fn": 45,
+        "tp": 38,
+        "predicted_toxic": 100
+      },
+      "reload_verified": true,
+      "profile": "slang",
+      "feature_params": {
+        "kind": "word_char",
+        "ngram_range": [
+          1,
+          2
+        ],
+        "min_df": 2,
+        "char_weight": 1.0,
+        "word_stop_words": null
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "model": "slang_ng2_keep_oof",
+      "backend": "sklearn",
+      "input_contract": "raw_text",
+      "threshold": 0.0,
+      "threshold_basis": "train grouped out-of-fold scores only",
+      "path": "models/resplit_v1/steps23_v2/slang_ng2_keep_oof.joblib",
+      "sha256": "1137ada2493c982ab7beb51a9c93157a7dc8818d493c83adaff949c533d8a304",
+      "validation_metrics": {
+        "accuracy": 0.9162098668754894,
+        "precision_toxic": 0.38,
+        "recall_toxic": 0.4578313253012048,
+        "f1_toxic": 0.41530054644808745,
+        "macro_f1": 0.685085954371239,
+        "tn": 1132,
+        "fp": 62,
+        "fn": 45,
+        "tp": 38,
+        "predicted_toxic": 100
+      },
+      "reload_verified": true,
+      "profile": "slang",
+      "feature_params": {
+        "kind": "word_char",
+        "ngram_range": [
+          1,
+          2
+        ],
+        "min_df": 2,
+        "char_weight": 1.0,
+        "word_stop_words": null
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "model": "slang_ng2_stop_zero",
+      "backend": "sklearn",
+      "input_contract": "raw_text",
+      "threshold": 0.0,
+      "threshold_basis": "fixed zero",
+      "path": "models/resplit_v1/steps23_v2/slang_ng2_stop_zero.joblib",
+      "sha256": "bbc8b41496412ad97250263ecf46648a7aff02a2c32f2b10ba8531ea0aa0d75c",
+      "validation_metrics": {
+        "accuracy": 0.9138606108065779,
+        "precision_toxic": 0.36893203883495146,
+        "recall_toxic": 0.4578313253012048,
+        "f1_toxic": 0.40860215053763443,
+        "macro_f1": 0.6810747239174658,
+        "tn": 1129,
+        "fp": 65,
+        "fn": 45,
+        "tp": 38,
+        "predicted_toxic": 103
+      },
+      "reload_verified": true,
+      "profile": "slang",
+      "feature_params": {
+        "kind": "word_char",
+        "ngram_range": [
+          1,
+          2
+        ],
+        "min_df": 2,
+        "char_weight": 1.0,
+        "word_stop_words": [
+          "và",
+          "là",
+          "của",
+          "ở",
+          "tại",
+          "trong",
+          "trên",
+          "dưới",
+          "theo"
+        ]
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "model": "slang_ng2_stop_oof",
+      "backend": "sklearn",
+      "input_contract": "raw_text",
+      "threshold": -0.0026259944447323555,
+      "threshold_basis": "train grouped out-of-fold scores only",
+      "path": "models/resplit_v1/steps23_v2/slang_ng2_stop_oof.joblib",
+      "sha256": "3b0da86ce65d01303bfa48435b26387935185a4882d94caefc513083652a949e",
+      "validation_metrics": {
+        "accuracy": 0.9138606108065779,
+        "precision_toxic": 0.36893203883495146,
+        "recall_toxic": 0.4578313253012048,
+        "f1_toxic": 0.40860215053763443,
+        "macro_f1": 0.6810747239174658,
+        "tn": 1129,
+        "fp": 65,
+        "fn": 45,
+        "tp": 38,
+        "predicted_toxic": 103
+      },
+      "reload_verified": true,
+      "profile": "slang",
+      "feature_params": {
+        "kind": "word_char",
+        "ngram_range": [
+          1,
+          2
+        ],
+        "min_df": 2,
+        "char_weight": 1.0,
+        "word_stop_words": [
+          "và",
+          "là",
+          "của",
+          "ở",
+          "tại",
+          "trong",
+          "trên",
+          "dưới",
+          "theo"
+        ]
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "model": "slang_ng3_keep_zero",
+      "backend": "sklearn",
+      "input_contract": "raw_text",
+      "threshold": 0.0,
+      "threshold_basis": "fixed zero",
+      "path": "models/resplit_v1/steps23_v2/slang_ng3_keep_zero.joblib",
+      "sha256": "f37a09fb9a1d7203297134544feb0c46cfd26b9822204eb627abcf5189f0ea0f",
+      "validation_metrics": {
+        "accuracy": 0.9154267815191856,
+        "precision_toxic": 0.3786407766990291,
+        "recall_toxic": 0.46987951807228917,
+        "f1_toxic": 0.41935483870967744,
+        "macro_f1": 0.6868733653007847,
+        "tn": 1130,
+        "fp": 64,
+        "fn": 44,
+        "tp": 39,
+        "predicted_toxic": 103
+      },
+      "reload_verified": true,
+      "profile": "slang",
+      "feature_params": {
+        "kind": "word_char",
+        "ngram_range": [
+          1,
+          3
+        ],
+        "min_df": 2,
+        "char_weight": 1.0,
+        "word_stop_words": null
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "model": "slang_ng3_keep_oof",
+      "backend": "sklearn",
+      "input_contract": "raw_text",
+      "threshold": 0.00778227874054288,
+      "threshold_basis": "train grouped out-of-fold scores only",
+      "path": "models/resplit_v1/steps23_v2/slang_ng3_keep_oof.joblib",
+      "sha256": "2d3807c0b328296c24903cae5635de0b9e1f2dd99bb76eafd891eaaa60a9eb6c",
+      "validation_metrics": {
+        "accuracy": 0.9154267815191856,
+        "precision_toxic": 0.37623762376237624,
+        "recall_toxic": 0.4578313253012048,
+        "f1_toxic": 0.41304347826086957,
+        "macro_f1": 0.6837369290038525,
+        "tn": 1131,
+        "fp": 63,
+        "fn": 45,
+        "tp": 38,
+        "predicted_toxic": 101
+      },
+      "reload_verified": true,
+      "profile": "slang",
+      "feature_params": {
+        "kind": "word_char",
+        "ngram_range": [
+          1,
+          3
+        ],
+        "min_df": 2,
+        "char_weight": 1.0,
+        "word_stop_words": null
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "model": "slang_ng3_stop_zero",
+      "backend": "sklearn",
+      "input_contract": "raw_text",
+      "threshold": 0.0,
+      "threshold_basis": "fixed zero",
+      "path": "models/resplit_v1/steps23_v2/slang_ng3_stop_zero.joblib",
+      "sha256": "633febfda7f74e2dfef71d39e3359ddad97f3f055e7099b65269fe1030d9b194",
+      "validation_metrics": {
+        "accuracy": 0.9146436961628818,
+        "precision_toxic": 0.375,
+        "recall_toxic": 0.46987951807228917,
+        "f1_toxic": 0.41711229946524064,
+        "macro_f1": 0.6855312236658692,
+        "tn": 1129,
+        "fp": 65,
+        "fn": 44,
+        "tp": 39,
+        "predicted_toxic": 104
+      },
+      "reload_verified": true,
+      "profile": "slang",
+      "feature_params": {
+        "kind": "word_char",
+        "ngram_range": [
+          1,
+          3
+        ],
+        "min_df": 2,
+        "char_weight": 1.0,
+        "word_stop_words": [
+          "và",
+          "là",
+          "của",
+          "ở",
+          "tại",
+          "trong",
+          "trên",
+          "dưới",
+          "theo"
+        ]
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      }
+    },
+    {
+      "model": "slang_ng3_stop_oof",
+      "backend": "sklearn",
+      "input_contract": "raw_text",
+      "threshold": -0.002950521489135968,
+      "threshold_basis": "train grouped out-of-fold scores only",
+      "path": "models/resplit_v1/steps23_v2/slang_ng3_stop_oof.joblib",
+      "sha256": "e858f15159c0a4e51f86cceace13d7a6fb2bf682bf2a9dfdf37d4e47b5fdd026",
+      "validation_metrics": {
+        "accuracy": 0.9146436961628818,
+        "precision_toxic": 0.37735849056603776,
+        "recall_toxic": 0.4819277108433735,
+        "f1_toxic": 0.42328042328042326,
+        "macro_f1": 0.6885958141772095,
+        "tn": 1128,
+        "fp": 66,
+        "fn": 43,
+        "tp": 40,
+        "predicted_toxic": 106
+      },
+      "reload_verified": true,
+      "profile": "slang",
+      "feature_params": {
+        "kind": "word_char",
+        "ngram_range": [
+          1,
+          3
+        ],
+        "min_df": 2,
+        "char_weight": 1.0,
+        "word_stop_words": [
+          "và",
+          "là",
+          "của",
+          "ở",
+          "tại",
+          "trong",
+          "trên",
+          "dưới",
+          "theo"
+        ]
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      }
+    }
+  ],
+  "best_on_validation": "slang_ng3_stop_oof",
+  "test_evaluated": false,
+  "selection_rule": "Validation Macro-F1, then F1-toxic, then Recall-toxic; first on exact ties.",
+  "threshold_policy": "Threshold fitted on pooled train grouped OOF scores; zero is a fixed comparison. Validation selects candidates; test never read.",
+  "cv_caveat": "Configurations partly originate from previous validation selection; OOF diagnostics and threshold calibration are not unbiased nested-CV estimates."
+}

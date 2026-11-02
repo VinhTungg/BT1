@@ -309,9 +309,8 @@ def render_split_report(
         "  (3) hình phạt lớn nếu tập nào thiếu hẳn một lớp.",
         "- Chọn candidate có cost thấp nhất; tie-break theo thứ tự candidate →",
         "  kết quả deterministic, reproducible với cùng seed.",
-        f"- Không dùng `StratifiedGroupKFold` trực tiếp vì số nhóm rất nhỏ "
-        f"({posts.shape[0]} post) và fold-based split không bỏ kiểm soát được tỷ lệ "
-        "70/15/15; thuật toán trên kiểm soát cả tỷ lệ, nhóm và cân bằng nhãn.",
+        "- Chia trực tiếp ba tập 70/15/15 bằng thuật toán nhóm của dự án;",
+        "  các fold đồng đều của cross-validation phục vụ một mục đích khác.",
         "",
         f"- Random seed: `{stats['seed']}`",
         f"- Số candidate thử: `{stats['n_candidates']}`",
@@ -370,9 +369,9 @@ def render_split_report(
         "",
         "## Giới hạn còn tồn tại",
         "",
-        "- Số nhóm rất nhỏ (17 post); tỷ lệ 70/15/15 chỉ đạt gần (không chính xác)",
+        f"- Có {posts.shape[0]} nhóm bài viết; tỷ lệ 70/15/15 chỉ đạt gần (không chính xác)",
         "  vì mỗi post có nhiều câu; ràng buộc group-aware được ưu tiên tuyệt đối.",
-        "- Dataset mất cân bằng nặng (toxic chỉ ~8%); split giữ phân bố nhãn gần",
+        f"- Toxic chiếm {100 * toxic_total / n_total:.2f}%; split giữ phân bố nhãn gần",
         "  tổng thể, không oversample/undersample hay tăng dữ liệu.",
         "- Duplicate check thiết kế exact (lower-case `text_clean`), không fuzzy;",
         "  câu ngắn phổ biến trùng tự nhiên cần review thủ công nếu xuất hiện.",

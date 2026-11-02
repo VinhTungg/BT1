@@ -1,5 +1,5 @@
 {
-  "source": "data/comments.csv",
+  "source": "archive/training_data_20261031_234450/data/comments.csv",
   "source_sha256": "996cfb53c8ffc42931da9062ffb41cc72deb7778af21c5cd3715a027b0128a95",
   "total_rows": 2314,
   "source_posts": 17,
@@ -25,5 +25,6 @@
       "rows": 578,
       "posts": 17
     }
-  ]
+  ],
+  "source_original_path": "data/comments.csv"
 }

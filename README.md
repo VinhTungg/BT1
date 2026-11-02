@@ -1,5 +1,48 @@
 # Thu thập bình luận PTIT để phân loại toxic / non-toxic
 
+Bộ dữ liệu đang dùng: **resplit_v1**, được chọn trong [data/current_dataset.json](data/current_dataset.json).
+Tối ưu bước 2–3: [quy trình và cách chạy](docs/TEXT_FEATURE_OPTIMIZATION.md).
+Ba tập nằm ở `data/clean/`: train 6.000, validation 1.277, test 1.318 câu.
+Xem [data/README.md](data/README.md) và [báo cáo tối ưu hiện tại](reports/resplit_v1/steps23_v2/REPORT.md).
+
+Đợt thu thập thêm khoảng 6.000 bình luận: [docs/DATA_EXPANSION.md](docs/DATA_EXPANSION.md).
+Chế độ tìm link và giới hạn số câu mới đều dùng chính `collect_comments.py`.
+
+> **Trạng thái hiện tại:** Đã kiểm định ba cấu hình tham chiếu theo ba fold bài viết,
+> thử tám biến thể tiền xử lý/đặc trưng và ngưỡng SVM học từ dự đoán ngoài mẫu trên train.
+> Chọn chuẩn hóa viết tắt + TF-IDF từ 1–3/ký tự + từ dừng có chọn lọc + Linear SVM.
+> Macro-F1 validation 68,86%; mô hình hiện tại nằm trong `models/current_run.json`.
+> Mô hình tối ưu mới chưa đánh giá test. Bốn baseline + Dummy vẫn được giữ để đối chiếu.
+> Toàn bộ 8.595 nhãn đã được nhóm chốt làm bộ nhãn chuẩn ngày 02/11/2026.
+> Lịch sử và các đầu ra cũ được giữ cục bộ theo [archive/README.md](archive/README.md); Git chỉ chứa bộ dữ liệu và các lượt thực nghiệm còn dùng.
+
+## ML baseline — Người 2
+
+Đã có script huấn luyện bốn baseline và DummyClassifier trên dữ liệu đã chia.
+Hướng dẫn cài đặt, tìm tham số, tải mô hình và bàn giao:
+[docs/ML_BASELINES.md](docs/ML_BASELINES.md).
+
+```powershell
+.\.venv\Scripts\python.exe -X utf8 -m pip install -r requirements-baselines.txt
+.\.venv\Scripts\python.exe -X utf8 scripts/train_baselines.py
+```
+
+Kết quả validation hiện tại nằm trong `reports/resplit_v1/baselines/validation_report.md`,
+các pipeline đã lưu trong `models/resplit_v1/baselines/`. Script chỉ fit trên train và
+chọn tham số bằng validation; tập test dành cho đánh giá cuối.
+
+Thử thêm TF-IDF ký tự, kết hợp từ + ký tự và trọng số lớp:
+
+```powershell
+.\.venv\Scripts\python.exe -X utf8 scripts/train_improved_baselines.py
+```
+
+Hướng dẫn và giới hạn kết luận:
+[docs/ML_BASELINE_IMPROVEMENTS.md](docs/ML_BASELINE_IMPROVEMENTS.md).
+Nhánh mở rộng khi chạy sẽ dùng cùng dataset đang chọn và xuất vào
+`reports/resplit_v1/improvements/`, `models/resplit_v1/improvements/`.
+Các thí nghiệm thuộc bộ chia cũ đã được dọn và giữ trong bản nén lịch sử cục bộ.
+
 Python + Playwright. Bạn chọn bài bằng cách điền link vào `post_urls.txt` và tự đăng nhập Facebook.
 Tool chỉ xử lý các bài trong danh sách này. Bộ nhận diện đã được chỉnh theo cấu trúc bình luận,
 gắn thẻ và phản hồi nhiều tầng quan sát trên Facebook. Giao diện có thể thay đổi nên vẫn cần kiểm tra kết quả.

@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import csv
 import hashlib
+import json
 import re
 import sys
 import time
@@ -85,9 +86,25 @@ def read_urls(path: Path) -> list[str]:
 class Dataset:
     """Append only; retain labels and deduplicate exact normalized text globally."""
 
-    def __init__(self, path: Path):
+    def __init__(self, path: Path, *, exclude_paths: list[Path] | None = None,
+                 target_comments: int | None = None):
         self.path = path
         self.seen: set[str] = set()
+        self.excluded: set[str] = set()
+        self.target_comments = target_comments
+        if target_comments is not None and target_comments < 1:
+            raise ValueError("Mục tiêu số bình luận phải lớn hơn 0.")
+        for source in exclude_paths or []:
+            if source.resolve() == path.resolve():
+                raise ValueError("Không dùng cùng file làm --output và --exclude-data.")
+            with source.open(encoding="utf-8-sig", newline="") as handle:
+                reader = csv.DictReader(handle)
+                if not reader.fieldnames or "text" not in reader.fieldnames:
+                    raise ValueError(f"File loại trùng thiếu cột text: {source}")
+                for row in reader:
+                    if row.get("text") is None or None in row:
+                        raise ValueError(f"File loại trùng có dòng lỗi: {source}")
+                    self.excluded.add(normalize_text(row["text"]).casefold())
         if path.exists() and path.stat().st_size:
             with path.open(encoding="utf-8-sig", newline="") as handle:
                 reader = csv.DictReader(handle)
@@ -98,14 +115,20 @@ class Dataset:
                         raise ValueError("CSV có dòng thiếu/thừa cột; cần kiểm tra trước khi ghi tiếp.")
                     self.seen.add(normalize_text(row["text"]))
 
+    @property
+    def target_reached(self) -> bool:
+        return self.target_comments is not None and len(self.seen) >= self.target_comments
+
     def pending(self, candidates: list[dict]) -> list[dict]:
         seen = set(self.seen)
         result = []
         for candidate in candidates:
             text = normalize_text(candidate["text"])
-            if text and text not in seen:
+            if text and text not in seen and text.casefold() not in self.excluded:
                 result.append({**candidate, "text": text})
                 seen.add(text)
+        if self.target_comments is not None:
+            result = result[:max(0, self.target_comments - len(self.seen))]
         return result
 
     def save(self, candidates: list[dict], source_url: str) -> int:
@@ -290,6 +313,35 @@ def scroll_comments(page, args) -> None:
     page.wait_for_timeout(args.wait_ms)
 
 
+def save_post_context(page, args, source: str) -> None:
+    """Keep optional, bounded UI evidence for later context-dependent labels."""
+    directory = getattr(args, 'context_dir', None)
+    if directory is None:
+        return
+    ensure_same_post(source, page.url)
+    text = select_scope(page, args).inner_text()
+    ensure_same_post(source, page.url)
+    directory.mkdir(parents=True, exist_ok=True)
+    key = hashlib.sha256(post_key(source).rsplit(':', 1)[-1].encode()).hexdigest()[:24]
+    snapshot = {
+        'source_url': source, 'post_id': post_key(source),
+        'captured_at': datetime.now(timezone.utc).isoformat(timespec='seconds'),
+        'context_kind': 'visible_post_scope_with_comments_and_ui',
+        'max_chars': 24000, 'truncated': len(text) > 24000,
+        'text': text[:24000],
+    }
+    serialized = json.dumps(snapshot, ensure_ascii=False, indent=2)
+    first = directory / f'{key}_first.json'
+    if not first.exists():
+        temporary = first.with_suffix('.tmp')
+        temporary.write_text(serialized, encoding='utf-8')
+        temporary.replace(first)
+    latest = directory / f'{key}_latest.json'
+    temporary = latest.with_suffix('.tmp')
+    temporary.write_text(serialized, encoding='utf-8')
+    temporary.replace(latest)
+
+
 def collect_post(page, args, script: str, dataset: Dataset, source: str, *, autosave: bool) -> dict:
     """Only collect the current user-selected post; no discovery or navigation."""
     candidates = {}
@@ -307,6 +359,7 @@ def collect_post(page, args, script: str, dataset: Dataset, source: str, *, auto
                 candidates[text] = {**record, "text": text}
         if autosave:
             saved += dataset.save(list(candidates.values()), source)
+        save_post_context(page, args, source)
 
     check_access(page)
     ensure_same_post(source, page.url)
@@ -314,6 +367,9 @@ def collect_post(page, args, script: str, dataset: Dataset, source: str, *, auto
     select_all_comments(page, args)
     page.wait_for_timeout(args.wait_ms)
     capture()
+    if autosave and dataset.target_reached:
+        print(f"  Đã đạt mục tiêu {dataset.target_comments} bình luận trong file đầu ra.", flush=True)
+        return {"records": list(candidates.values()), "saved": saved, "rounds": 0, "stop_reason": "target_reached"}
     stable = 0
     stop_reason = "max_rounds"
     rounds = 0
@@ -322,9 +378,15 @@ def collect_post(page, args, script: str, dataset: Dataset, source: str, *, auto
         expanded = expand_once(page, args)
         if expanded:
             capture()
+            if autosave and dataset.target_reached:
+                stop_reason = "target_reached"
+                break
         # Scrolling also loads top-level comments that have no "View more" button.
         scroll_comments(page, args)
         capture()
+        if autosave and dataset.target_reached:
+            stop_reason = "target_reached"
+            break
         after = (len(candidates), select_scope(page, args).locator(args.article_selector).count())
         stable = stable + 1 if before == after else 0
         print(f"  Lượt {rounds}/{args.max_rounds}: nhận diện {len(candidates)} văn bản; "
@@ -333,10 +395,14 @@ def collect_post(page, args, script: str, dataset: Dataset, source: str, *, auto
             stop_reason = "no_more_loaded"
             break
     # One last rendering wait and capture before leaving the post.
-    page.wait_for_timeout(args.wait_ms)
-    capture()
-    message = ("không tải thêm dữ liệu sau nhiều lượt" if stop_reason == "no_more_loaded"
-               else "đã chạm giới hạn lượt; có thể còn bình luận chưa tải")
+    if stop_reason != "target_reached":
+        page.wait_for_timeout(args.wait_ms)
+        capture()
+        if autosave and dataset.target_reached:
+            stop_reason = "target_reached"
+    message = {"no_more_loaded": "không tải thêm dữ liệu sau nhiều lượt",
+               "target_reached": "đã đạt mục tiêu số bình luận",
+               "max_rounds": "đã chạm giới hạn lượt; có thể còn bình luận chưa tải"}[stop_reason]
     print(f"  Dừng bài: {message}. Có {len(candidates)} văn bản khác nhau.", flush=True)
     return {"records": list(candidates.values()), "saved": saved, "rounds": rounds, "stop_reason": stop_reason}
 
@@ -377,15 +443,39 @@ def main() -> int:
     parser.add_argument("--scope-selector", help="CSS selector vùng bài đăng nếu tự nhận diện sai.")
     parser.add_argument("--article-selector", default=DEFAULT_ARTICLE)
     parser.add_argument("--text-selector", default=DEFAULT_TEXT)
+    parser.add_argument("--discover-groups", type=Path,
+                        help="Chỉ tìm link bài từ file nhóm đã được cho phép; --urls là file đầu ra mới.")
+    parser.add_argument("--discovery-report", type=Path, default=BASE / "reports/discovery/post_candidates.csv")
+    parser.add_argument("--discovery-rounds", type=positive, default=40)
+    parser.add_argument("--min-comments", type=positive, default=10)
+    parser.add_argument("--max-posts", type=positive, default=150)
+    parser.add_argument("--discovery-keyword", action="append", default=[],
+                        help="Tìm thêm bài theo từ khóa trong từng nhóm đã cho phép; có thể lặp.")
+    parser.add_argument("--discovery-search-only", action="store_true",
+                        help="Chỉ duyệt kết quả tìm kiếm trong nhóm, không quét lại bảng tin.")
+    parser.add_argument("--exclude-annotations", type=Path, default=BASE / "annotations")
+    parser.add_argument("--exclude-data", type=Path, action="append", default=[],
+                        help="CSV dữ liệu cũ có cột text; có thể lặp để không lưu lại nội dung cũ.")
+    parser.add_argument("--target-comments", type=positive,
+                        help="Dừng khi CSV đầu ra có đủ số bình luận duy nhất; không tính file --exclude-data.")
+    parser.add_argument("--context-dir", type=Path,
+                        help="Lưu riêng bản chữ của vùng bài đang mở để rà nhãn cần ngữ cảnh; có thể gồm bình luận và UI.")
     args = parser.parse_args()
     profile = browser_profile(args.browser, args.profile)
     urls = []
     dataset = None
     script = ""
     try:
-        if not args.login_only:
+        if args.discover_groups and not args.login_only:
+            from src.post_discovery import read_groups, known_post_ids, discovery_sources
+            urls = read_groups(args.discover_groups)
+            known_post_ids(args.exclude_annotations)
+            discovery_sources(urls, args.discovery_keyword, args.discovery_search_only)
+            if args.urls.exists():
+                raise ValueError("Chọn --urls là file đầu ra mới khi tìm link, tránh ghi đè danh sách đang có.")
+        elif not args.login_only:
             urls = read_urls(args.urls)
-            dataset = Dataset(args.output)
+            dataset = Dataset(args.output, exclude_paths=args.exclude_data, target_comments=args.target_comments)
             script = (BASE / "extract_comments.js").read_text(encoding="utf-8")
     except (OSError, ValueError) as exc:
         print(f"Lỗi: {exc}", file=sys.stderr)
@@ -423,7 +513,25 @@ def main() -> int:
                     print(f"Đã kết thúc bước đăng nhập; phiên được giữ trong {profile}")
                     print(f"Lần sau chạy lại với --browser {args.browser} để thu thập.")
                     return 0
+                if args.discover_groups:
+                    from src.post_discovery import run_discovery
+                    try:
+                        result = run_discovery(
+                            page, groups=urls, annotation_dir=args.exclude_annotations,
+                            output_urls=args.urls, report_path=args.discovery_report,
+                            rounds=args.discovery_rounds, minimum=args.min_comments,
+                            max_posts=args.max_posts, wait_ms=args.wait_ms, check_access=check_access,
+                            keywords=args.discovery_keyword, search_only=args.discovery_search_only,
+                        )
+                    except (PlaywrightError, ValueError, OSError) as exc:
+                        print(f"Dừng tìm link: {exc}; các link đã tìm được vẫn được giữ.", file=sys.stderr)
+                        return 1
+                    print(f"Đã lưu {result['accepted_posts']} link bài đủ điều kiện vào {args.urls}")
+                    return 0
                 for index, source in enumerate(urls, 1):
+                    if dataset.target_reached:
+                        print(f"Đã đủ {len(dataset.seen)} bình luận trong {args.output}; dừng thu thập.", flush=True)
+                        break
                     print(f"\nBài {index}/{len(urls)}: {source}")
                     try:
                         page.goto(source, wait_until="domcontentloaded", timeout=60000)

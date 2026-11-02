@@ -1,5 +1,7 @@
 # Gán nhãn bình luận PTIT cho 4 thành viên
 
+> Bốn file annotation là phần dữ liệu gán nhãn ban đầu. Toàn bộ bộ dữ liệu hiện hành đã chốt nằm trong `data/clean/`, chọn qua `data/current_dataset.json`; xem `data/README.md`. Lịch sử nguồn được giữ cục bộ theo `archive/README.md`.
+
 Đợt chia này gồm 2.314 bình luận từ 17 bài viết, lấy từ `data/comments.csv`.
 File gốc giữ nguyên trên máy người thu thập. Bốn file dưới đây chứa đầy đủ
 các cột nguồn và thêm cột `note`; mỗi bình luận được giao đúng một lần.

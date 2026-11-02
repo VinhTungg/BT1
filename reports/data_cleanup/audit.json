@@ -1,0 +1,48 @@
+{
+  "dataset_id": "resplit_v1",
+  "splits": {
+    "train": {
+      "samples": 6000,
+      "non_toxic": 5606,
+      "toxic": 394,
+      "posts": 70
+    },
+    "val": {
+      "samples": 1277,
+      "non_toxic": 1194,
+      "toxic": 83,
+      "posts": 16
+    },
+    "test": {
+      "samples": 1318,
+      "non_toxic": 1236,
+      "toxic": 82,
+      "posts": 22
+    }
+  },
+  "total_samples": 8595,
+  "checks_passed": true,
+  "archive": "archive/data_before_consolidation_20261101_024306",
+  "additional_rows_removed": 0,
+  "label_origins": {
+    "group_accepted": 8595
+  },
+  "verification": {
+    "active_csv_files": 4,
+    "archived_csv_files": 13,
+    "empty_required_fields": 0,
+    "invalid_labels": 0,
+    "duplicate_ids": 0,
+    "duplicate_clean_texts_casefold": 0,
+    "duplicate_tokenized_inputs_casefold": 0,
+    "conflicting_labels_on_duplicate_inputs": 0,
+    "post_overlap_between_splits": 0,
+    "split_csv_bytes_equal_previous_version": true,
+    "merged_csv_bytes_equal_previous_version": true,
+    "current_model_artifacts_unchanged_and_hash_verified": true,
+    "baseline_and_improved_default_paths_verified": true,
+    "unit_tests_passed": 24,
+    "prediction_smoke_test_passed": true
+  },
+  "label_status": "group_accepted"
+}

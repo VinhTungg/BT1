@@ -2,6 +2,7 @@
 
 import csv
 import io
+import json
 import tempfile
 import unittest
 from contextlib import redirect_stdout
@@ -56,7 +57,7 @@ class AutoCollectionTests(unittest.TestCase):
         cls.browser.close()
         cls.playwright.stop()
 
-    def run_fixture(self, *, autosave=True, max_rounds=6, html=HTML):
+    def run_fixture(self, *, autosave=True, max_rounds=6, html=HTML, target_comments=None, save_context=False):
         page = self.browser.new_page()
         page.route('**/*', lambda route: route.fulfill(status=200, content_type='text/html; charset=utf-8', body=html))
         try:
@@ -66,7 +67,9 @@ class AutoCollectionTests(unittest.TestCase):
                                    max_rounds=max_rounds, idle_rounds=2)
             with tempfile.TemporaryDirectory(dir=BASE) as directory:
                 output = Path(directory) / 'comments.csv'
-                dataset = Dataset(output)
+                if save_context:
+                    args.context_dir = Path(directory) / 'contexts'
+                dataset = Dataset(output, target_comments=target_comments)
                 with redirect_stdout(io.StringIO()):
                     result = collect_post(page, args, (BASE/'extract_comments.js').read_text(encoding='utf-8'),
                                           dataset, POST, autosave=autosave)
@@ -74,6 +77,9 @@ class AutoCollectionTests(unittest.TestCase):
                 if output.exists():
                     with output.open(encoding='utf-8-sig', newline='') as handle:
                         rows = list(csv.DictReader(handle))
+                if save_context:
+                    result['context_snapshots'] = {p.stem.rsplit('_', 1)[-1]: json.loads(p.read_text(encoding='utf-8'))
+                                                   for p in args.context_dir.glob('*.json')}
                 return result, rows, page.evaluate('Boolean(window.allSelected)'), page.evaluate('Boolean(window.wrong)')
         finally:
             page.close()
@@ -90,6 +96,25 @@ class AutoCollectionTests(unittest.TestCase):
         result, rows, _, _ = self.run_fixture(autosave=False)
         self.assertEqual(rows, [])
         self.assertEqual(len(result['records']), 2)
+
+    def test_target_stops_before_expanding_more_comments(self):
+        result, rows, _, wrong = self.run_fixture(target_comments=1)
+        self.assertEqual(result['stop_reason'], 'target_reached')
+        self.assertEqual(result['rounds'], 0)
+        self.assertEqual(len(rows), 1)
+        self.assertFalse(wrong)
+
+    def test_context_evidence_keeps_first_and_latest_of_the_same_post_only(self):
+        result, rows, _, _ = self.run_fixture(save_context=True)
+        snapshots = result['context_snapshots']
+        self.assertEqual(set(snapshots), {'first', 'latest'})
+        for snapshot in snapshots.values():
+            self.assertEqual(snapshot['source_url'], POST)
+            self.assertEqual(snapshot['context_kind'], 'visible_post_scope_with_comments_and_ui')
+            self.assertNotIn('Không được lấy bình luận ngoài hộp thoại.', snapshot['text'])
+        self.assertNotIn('nội dung phản hồi.', snapshots['first']['text'])
+        self.assertIn('nội dung phản hồi.', snapshots['latest']['text'])
+        self.assertEqual(len(rows), 2)
 
     def test_max_rounds_is_enforced(self):
         result, _, _, _ = self.run_fixture(max_rounds=1)

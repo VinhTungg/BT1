@@ -1,6 +1,9 @@
 # Phân Công Nhiệm Vụ Bài Tập Lớn 1c
 ## Đề tài: Phân loại bình luận toxic và non-toxic trong các nhóm Facebook sinh viên PTIT
 
+> Cập nhật 02/11/2026: bộ hiện hành có 8.595 câu trong `data/clean/` (train 6.000, validation 1.277, test 1.318). Các số 2.314/579 và `data/splits/` phía dưới mô tả đợt annotation/phân công ban đầu. Dùng `data/current_dataset.json` và `models/current_run.json` khi chạy dự án.
+
+
 * **Quy mô nhóm:** 4 thành viên
 * **Phương thức gán nhãn:** **4 thành viên tự phụ trách gán nhãn/kiểm duyệt độc lập file của mình**, sau đó gửi lại cho Người 1 để gộp và xử lý.
 * **Quy ước nhãn:**

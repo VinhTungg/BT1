@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-02",
+  "local_history_bundle": "archive/legacy_outputs_20261102_162553.zip",
+  "archived_files": 330,
+  "archived_bytes": 17078453,
+  "obsolete_paths": [
+    "models/baselines",
+    "models/baseline_improvements",
+    "models/data_expansion",
+    "reports/baselines",
+    "reports/baseline_improvements",
+    "reports/data_expansion",
+    "reports/discovery",
+    "reports/training_run.json",
+    "reports/split_report.json",
+    "reports/split_report.md",
+    "reports/data_audit.json",
+    "reports/data_audit.md",
+    "reports/data_issues.csv",
+    "KE_HOACH_BTL.md"
+  ],
+  "temporary_paths": [
+    ".runtime-temp",
+    ".cache",
+    "tmp",
+    "__pycache__",
+    "src/__pycache__",
+    "scripts/__pycache__",
+    "tests/__pycache__"
+  ],
+  "kept_model_runs": [
+    "models/resplit_v1/baselines",
+    "models/resplit_v1/steps23_v1",
+    "models/resplit_v1/steps23_v2"
+  ],
+  "reason": "Keep active dataset, reproducible baseline/refinement chain, code/tests and current reports; remove superseded split outputs and local caches.",
+  "bundle_verified_sha256": true,
+  "documentation_backup": "archive/docs_before_cleanup_20261102.zip",
+  "local_history_excluded_from_git": true,
+  "byte_preserving_git_attributes": true
+}

@@ -1,0 +1,36 @@
+{
+  "verified_at_utc": "2026-11-01T01:14:57.091159+00:00",
+  "run_id": "resplit_v1_20261101_081343",
+  "active_dataset": "resplit_v1",
+  "split_hashes_and_counts_verified": true,
+  "train_val_test_sizes": [
+    6000,
+    1277,
+    1318
+  ],
+  "no_id_post_or_input_overlap": true,
+  "historical_input_data_unchanged": true,
+  "model_artifacts_verified": 5,
+  "validation_winner_sealed_before_test": true,
+  "stored_test_predictions_and_metrics_recomputed": true,
+  "evaluation_overwrite_guard_verified": true,
+  "cli_defaults_use_active_dataset_without_reading_test": true,
+  "related_unit_tests_passed": 20,
+  "edge_predictions": [
+    {
+      "text": "",
+      "label": 0,
+      "label_name": "non-toxic",
+      "model": "tfidf_svm",
+      "run_id": "resplit_v1_20261101_081343"
+    },
+    {
+      "text": "zzqvxy987654",
+      "label": 0,
+      "label_name": "non-toxic",
+      "model": "tfidf_svm",
+      "run_id": "resplit_v1_20261101_081343"
+    }
+  ],
+  "remaining_required_work": []
+}

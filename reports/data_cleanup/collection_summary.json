@@ -1,0 +1,26 @@
+{
+  "created_at_utc": "2026-11-01T00:06:55.203271+00:00",
+  "raw_path": "data/incoming/comments_round_2.csv",
+  "raw_snapshot_sha256": "98a22af6793479aa4731e572066061468bd012a204432d2af9be639955442311",
+  "raw_snapshot_bytes": 1528464,
+  "new_comments_saved": 6500,
+  "source_posts": 91,
+  "group_counts": {
+    "2k5ptit": 3252,
+    "408571091380061": 2300,
+    "confessions.ptit": 784,
+    "584397217391365": 164
+  },
+  "errors": {
+    "duplicate_ids": 0,
+    "old_post_overlap": 0,
+    "old_text_overlap": 0,
+    "id_text_mismatch": 0,
+    "raw_labels_filled": 0,
+    "unverified_sources": 0,
+    "damaged_reasons": 0
+  },
+  "frozen_split_fingerprints_verified": true,
+  "source_minimum_observed_comments": 10,
+  "scope": "Historical second collection batch; final active dataset is data/clean/manifest.json."
+}

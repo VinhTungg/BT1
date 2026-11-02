@@ -94,6 +94,37 @@ class CollectorTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 Dataset(path)
 
+    def test_new_batch_excludes_old_text_casefold_and_caps_only_new_rows(self):
+        with tempfile.TemporaryDirectory(dir=BASE) as temp:
+            root = Path(temp)
+            old = root / "old.csv"
+            old.write_text("text,label\nCÂU CŨ,0\n", encoding="utf-8-sig")
+            output = root / "new.csv"
+            dataset = Dataset(output, exclude_paths=[old], target_comments=2)
+            candidates = [{"text": text, "extraction_method": "fixture"} for text in
+                          ("câu cũ", "Câu mới một", "Câu mới hai", "Câu mới ba")]
+            self.assertEqual(dataset.save(candidates, URL), 2)
+            self.assertTrue(dataset.target_reached)
+            with output.open(encoding="utf-8-sig", newline="") as handle:
+                rows = list(csv.DictReader(handle))
+            self.assertEqual([r["text"] for r in rows], ["Câu mới một", "Câu mới hai"])
+            self.assertEqual(dataset.save(candidates, URL), 0)
+            resumed = Dataset(output, exclude_paths=[old], target_comments=3)
+            self.assertEqual(resumed.save(candidates, URL), 1)
+            self.assertTrue(resumed.target_reached)
+
+    def test_exclusion_file_errors_do_not_create_output(self):
+        with tempfile.TemporaryDirectory(dir=BASE) as temp:
+            root = Path(temp)
+            old = root / "old.csv"
+            old.write_text("label\n0\n", encoding="utf-8")
+            output = root / "new.csv"
+            with self.assertRaises(ValueError):
+                Dataset(output, exclude_paths=[old])
+            self.assertFalse(output.exists())
+            with self.assertRaises(ValueError):
+                Dataset(old, exclude_paths=[old])
+
     def test_expand_labels_only(self):
         for label in ["Xem thêm bình luận", "Xem thêm 10 bình luận", "Xem 3 phản hồi",
                       "Xem tất cả 3 phản hồi", "View more comments", "View 2 replies", "See more"]:

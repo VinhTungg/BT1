@@ -1,0 +1,1278 @@
+﻿id,post_id,text,label,score,prediction,outcome,has_negation,has_mention,short_comment
+04f8b0771301de7947720a38,2k5ptit:1218145957061246,Người tham gia ẩn danh bình thường thui iêmmm,0,0.04824710375998775,1,FP,False,False,False
+07ec632336c91174e3fe0a38,2k5ptit:1218145957061246,[MENTION] sợ thí,0,-1.0426255596410163,0,TN,False,True,True
+129c0c2d89764b67f0f5568f,2k5ptit:1218145957061246,[MENTION] vl ít thế anh zai,0,-0.18698991472671328,0,TN,False,True,False
+2497347290b9d853498af283,2k5ptit:1218145957061246,"Cô chi, cô vân anh học p chăm vl k thì điểm thấp thôi rồi luôn nhé. Thầy ninh thì thôi điểm siêu thấp. Cô thư thì a ms học bên trr thì dạy siêu tâm huyết điểm thực lực. Mmt thì a k bt",0,-0.6390718959329835,0,TN,False,False,False
+2b34b3259a08d32dff237c55,2k5ptit:1218145957061246,"anh học cô Chi 2 môn và đều được A+, rcm em nên pick cô Chi để thấy được ánh sáng của những năm đại học nhé",0,-1.1022333589317188,0,TN,False,False,False
+2c61b42fbd4566bd2e1eedcf,2k5ptit:1218145957061246,Người tham gia ẩn danh đr yên tâm mà pick đi em,0,0.13141989090023332,1,FP,False,False,False
+38442294f55563f05380f250,2k5ptit:1218145957061246,[MENTION] 3 lần học cô Chi review cho e nó đi kìa =))),0,-0.6661498077909112,0,TN,False,True,False
+39c71f41b9962d31e5fdbd70,2k5ptit:1218145957061246,[MENTION] ơ A+ mà sao mất hobo ạ...,0,-0.8400863618992098,0,TN,False,True,False
+41b6e5b95efab94d6384b9ae,2k5ptit:1218145957061246,Người tham gia ẩn danh 619 mà LSD khó ko ạ,0,-0.44645832985735867,0,TN,True,False,False
+4b2ad5cae9effd0de2e45f8e,2k5ptit:1218145957061246,[MENTION] thế cô Quỳnh Chi là cô a A+ à a,0,-0.6986929727710491,0,TN,False,True,False
+4d99caeae8e5e9b75f6eb47d,2k5ptit:1218145957061246,[MENTION] a này fan cô,0,-0.9878968499666039,0,TN,False,True,True
+5c4159605d6dbbd74cb3968d,2k5ptit:1218145957061246,Cô Chi ok đấy e ạ,0,-1.2107046856826325,0,TN,False,False,False
+611120bc9e17ef7342708817,2k5ptit:1218145957061246,Người tham gia ẩn danh dạy ok cho điểm 8 9 nch là cx dc,0,-0.2817291904097096,0,TN,False,False,False
+648f784816d90224e7711758,2k5ptit:1218145957061246,"[MENTION] dạy hay ,cho điểm cao hay gì vậy anh",0,-0.24245698911843339,0,TN,False,True,False
+69b9fb2b7e43a90bd074f0b7,2k5ptit:1218145957061246,[MENTION] cô tuyệt vời dễ tính cho điểm các e như phật học cô kiến thức đầy mình,0,-1.1292161142615988,0,TN,False,True,False
+6b15384a4e2021eb587ce795,2k5ptit:1218145957061246,Người tham gia ẩn danh 619điểm thầy cho cao ko chị ơi,0,-0.5004836061452029,0,TN,True,False,False
+6f2a0a13b22e815bdcdc2fcc,2k5ptit:1218145957061246,Người tham gia ẩn danh đấy là cô Chi khác em ạ,0,-0.9395196761627567,0,TN,False,False,False
+74b9cbfe85b75a932229ff19,2k5ptit:1218145957061246,[MENTION] thầy Ninh của bạn đúng không,0,-0.8404664858451132,0,TN,True,True,False
+7e585be9a0d693996b469e85,2k5ptit:1218145957061246,[MENTION] anh mất hb vì cô Chi bé ạ...,0,-0.9174753274758576,0,TN,False,True,False
+834cbc9721a7f88250af8e74,2k5ptit:1218145957061246,[MENTION] fan cô nào vậy ạ,0,-1.2009519972746434,0,TN,False,True,False
+8449ebcd4533e2265829d0f3,2k5ptit:1218145957061246,[MENTION] mà a học cô ở môn gì vậy ạ,0,-1.2869334396525407,0,TN,False,True,False
+9b8af871e6c2b2c96e271fd7,2k5ptit:1218145957061246,"Người tham gia ẩn danh 1 lần dơ + 0,1 nhé",0,-0.15292789168082177,0,TN,False,False,False
+a02e585b74c23529b7123352,2k5ptit:1218145957061246,[MENTION] antifan,0,-0.621574125215176,0,TN,False,True,True
+b57532fc1212497a07036e8d,2k5ptit:1218145957061246,[MENTION] =)) thật ko tr,0,-0.9486055355343039,0,TN,True,True,True
+baef6fe22ff1221172a6bd60,2k5ptit:1218145957061246,Cô vân anh,0,-1.0410080034354183,0,TN,False,False,True
+bce79ca49619a4b7b236729a,2k5ptit:1218145957061246,Cô Vân Anh cô Chi thầy Ninh kỳ này em học cứ phải gọi là yên tâm nhé,0,-0.9688424555249057,0,TN,False,False,False
+c66775b1c6da048f700185c4,2k5ptit:1218145957061246,Người tham gia ẩn danh 423Cô Chi vs cô Vân Anh có cộng điểm nếu mình giơ tay lên bảng làm bài ko ạ,0,-0.7259311613544295,0,TN,True,False,False
+cf0aa0d66a97c576f272d424,2k5ptit:1218145957061246,"Người tham gia ẩn danh cô cho điểm thoáng, nhiều bạn ko cần báo cáo cũng có điểm em ạ, slide co cho cực dễ hiểu, cực tâm huyết em nhé",0,-0.4101487210640187,0,TN,True,False,False
+d5624a71dea62b0fa6d67fdd,2k5ptit:1218145957061246,"[MENTION] cô cho điểm cao,dạy dễ hiểu ,tâm huyết ko a",0,-0.2270765785445682,0,TN,True,True,False
+d73ffab1b48b39e726d43ae9,2k5ptit:1218145957061246,cô VA code java swing nhé chán mà điểm thấp vl,0,-0.59712779784954,0,TN,False,False,False
+e4610db669043d31c1b68849,2k5ptit:1218145957061246,[MENTION] oop kìa ...,0,-0.525807610822095,0,TN,False,True,True
+ec95effd7bee1728fbd83a75,2k5ptit:1218145957061246,"Thầy Ninh dễ tính, trước chị học thầy toàn cho học onl vì bận",0,-0.6917732639625903,0,TN,False,False,False
+f650129f380f3dead70c80af,2k5ptit:1218145957061246,Người tham gia ẩn danh có nhé,0,-0.5368730486482589,0,TN,False,False,False
+f82e2f38fb5b5c09d6e4f3ae,2k5ptit:1218145957061246,"[MENTION] cô cho điểm thấp, đề giữa kì khó hay caia gì vậy ạ",0,-1.0362957990649686,0,TN,False,True,False
+0169f48fbbafd2176034143e,2k5ptit:1233352562207252,Khó cho thầy rồi,0,-0.8542625499153341,0,TN,False,False,True
+0d18acb972d92351a569baf5,2k5ptit:1233352562207252,"[MENTION] a này toàn A+ có khác, nhận xét nghe nó tín",0,-0.4618522895744424,0,TN,False,True,False
+1e2aa0a3a647bc2db3bfdf28,2k5ptit:1233352562207252,Khó lói r e,0,-0.8410109197818969,0,TN,False,False,True
+290968291f3ab7bc88099c44,2k5ptit:1233352562207252,tưởng đăng ký cho vui còn lịch có r,0,-0.4100400615679738,0,TN,False,False,False
+2a75b999f09c30a6e6624681,2k5ptit:1233352562207252,"[MENTION] thầy mà đc hb alo em nhé, em dk cho đi thi cấp qg",0,-0.9355420968805765,0,TN,False,True,False
+2e1f9f29d933788155acf44c,2k5ptit:1233352562207252,[MENTION] thầy Tuyên best nhé,0,-0.6479868841962511,0,TN,False,True,True
+32aa3a4cb64de8ebbd1ab25d,2k5ptit:1233352562207252,[MENTION] khả năng mấy A+ hả a,0,-0.4362482328547984,0,TN,False,True,False
+3910c13efc743a99a86631e9,2k5ptit:1233352562207252,Hay thôi mình trùng sinh chứ thấy khó quá à :(((,0,-0.8897635651937559,0,TN,False,False,False
+44bea9316daba64c850af285,2k5ptit:1233352562207252,[MENTION] thầy thì nằm dọc trong góc nhìn của tk nằm ngang,0,-0.04385055792926773,0,TN,False,True,False
+4869af0adeec4117c16e7519,2k5ptit:1233352562207252,[MENTION] thầy Hoá với thầy Hùng ạNhưng hai môn chỉ có 2 thầy này ạ,0,-1.133163825458096,0,TN,False,True,False
+4b0a69a5fa1a1941f3c5c5c9,2k5ptit:1233352562207252,[MENTION] khác năm ngoái,0,-0.956205573661747,0,TN,False,True,True
+4d9a21648176a1d52b3c2ee3,2k5ptit:1233352562207252,[MENTION] doanh tưởng an trò yêu thầy nmh,0,-0.6657315844781276,0,TN,False,True,False
+573ce44a8c9942edf4bbcb08,2k5ptit:1233352562207252,đăng kí k tạch thầy H nào luôn mà =)),0,-0.724916302085644,0,TN,False,False,False
+6a9819602132c171c8759931,2k5ptit:1233352562207252,[MENTION] này nằm ngang luôn ấy thầy,0,-0.66806008774176,0,TN,False,True,False
+6aa39ffa0341715430cd1a6e,2k5ptit:1233352562207252,[MENTION] em thì sao thầy:)),0,-1.0897415386830933,0,TN,False,True,True
+859e7a155dd7b11d91948f50,2k5ptit:1233352562207252,Vcl e ơi e ăn ở thế nào vậy e? Toàn sếp,0,-0.5560625243885956,0,TN,False,False,False
+990b866fb4e4ebe099b2cb87,2k5ptit:1233352562207252,"[MENTION] thầy Hùng lạ lắm thầy hỏi mà mình k ngờ tới luôn mà , ncl điểm sẽ k cao dc đâu",0,-0.7645530188025534,0,TN,False,True,False
+9de12a43013d4a6a06da930c,2k5ptit:1233352562207252,[MENTION] xử lý ảnh vs iot hai thầy cho điểm ntn vậy ạ,0,-0.8898751780560715,0,TN,False,True,False
+a1ad3abe76c5dbc58ddeedd5,2k5ptit:1233352562207252,"Toàn người dễ tính, chỉ cần chăm là có thể được B trở lên em nhé",0,-0.37194525191679667,0,TN,False,False,False
+a5f85e93f1bd0f71b1c9d1c7,2k5ptit:1233352562207252,"Thấy ai cũng khó hết, làm gì có sự lựa chọn đâu mà cái cmt ...",0,-0.19122942759977296,0,TN,False,False,False
+a6bc0eb7040f84615718b505,2k5ptit:1233352562207252,[MENTION] này liệm,0,-1.071076351908339,0,TN,False,True,True
+a969eb3f93d1008b6e64b483,2k5ptit:1233352562207252,[MENTION] qlda thì a ko bt Ltm btl e phải làm cái mới độc lạ ms đc cao ko thì auto 4-6Xla thì phải ôn giống trrIot thì cx k thấp lắm,0,-0.28840287772980666,0,TN,True,True,False
+acd732c139caf4fe2135cdea,2k5ptit:1233352562207252,em chúc thầy thượng lộ bình an nhé,0,-0.5850882222274507,0,TN,False,False,False
+aff9a08d95d84b6c71f62b1e,2k5ptit:1233352562207252,[MENTION] thầy cứ lói thế em nó lại khó xử,0,-0.670046520349924,0,TN,False,True,False
+c18818ebc1dc021d67c67de2,2k5ptit:1233352562207252,[MENTION] học chăm nhưng mà điểm thế nào chưa biết,0,-0.5931350743796476,0,TN,True,True,False
+c1ac20b5e53942107d4fcb1d,2k5ptit:1233352562207252,lập trình mạng với pttk là cút r đấy,0,0.04135983014657618,1,FP,False,False,False
+cc63164274b9b61e7f3c9858,2k5ptit:1233352562207252,[MENTION] [MENTION] b review Tài Tuyên đi b,0,-0.971428018662313,0,TN,False,True,False
+d32abb10fb0985fb9a1d3ad1,2k5ptit:1233352562207252,[MENTION] đã được A+ đâu,0,-0.8904095315919172,0,TN,False,True,True
+d6f3350646d664591eb05035,2k5ptit:1233352562207252,[MENTION] cho e hỏi thầy Tuyên vs thầy Ngọc Hùng cho điểm ntn vậy ạ,0,-0.792395622555724,0,TN,False,True,False
+dd2eb8b8c97b79860f96efbe,2k5ptit:1233352562207252,6 môn chết 3 môn r,0,-0.8938744068298022,0,TN,False,False,False
+e7b60f39d1ddb8d7b92b9a28,2k5ptit:1233352562207252,[MENTION] nào ko trêu bạn,0,-1.0259247523648831,0,TN,True,True,True
+ea0ab245e48a071cbe4f134c,2k5ptit:1233352562207252,Ltm với pttk học hành cẩn thận e nha z đpt nữa,0,-0.7183148363830464,0,TN,False,False,False
+09417967d4a31b9aef574a8b,2k5ptit:1244389731103535,a ko thấy mọi ng nói gì vụ này,0,-0.7048210532362428,0,TN,True,False,False
+0f6e4b733b66db7eea256165,2k5ptit:1244389731103535,[MENTION] 2 môn nữa chốt sổ mà chán quá. Xuống vp 1 cửa cô hướng dẫn làm đơn xin hoãn thi.,0,-0.9247969353193632,0,TN,False,True,False
+218f66cc4f8c5ae0daa9366b,2k5ptit:1244389731103535,Đợt này trường thông báo là phải đóng trước ngày thi chứ không chấp nhận đóng ngay trước khi thi r a,0,-0.6874885556367848,0,TN,True,False,False
+267e05ae083ca0c177f99fa2,2k5ptit:1244389731103535,[MENTION] xuống vp 1 cửa đc cô hướng dẫn làm hoãn thi. Vẫn đc thi bổ sung sau. Ít nhất thì cô bảo thế.,0,-0.9271111071855358,0,TN,False,True,False
+37edf4520b229f0a69422ce1,2k5ptit:1244389731103535,"E trước học xuân sát giờ thi nộp vẫn được thi tiếp, vừa kì xuân này xong, có thể tùy thầy cô linh động",0,-0.6951745632736048,0,TN,False,False,False
+382adb48a9f4c682b7086c3f,2k5ptit:1244389731103535,"[MENTION] :))Yêu ""chết"" đi được",0,-0.412875697988315,0,TN,False,True,True
+38af92f3cbb41e9d2cba5e16,2k5ptit:1244389731103535,nay thi lttt đko anh,0,-0.8688583591962673,0,TN,False,False,True
+38d96c094aa90d704f1303b1,2k5ptit:1244389731103535,[MENTION] anh tôi mãi mãi tuổi svien:),0,-0.16893968199606935,0,TN,False,True,False
+40faab1c2fb95a9de833a407,2k5ptit:1244389731103535,"Thăng Nguyễn tsb tụi bây. Đi làm 5,6 năm r chứ ít éo đâu, vẫn là SV ạ.",1,-0.39311454152223285,0,FN,False,False,False
+4329b4d058fb47170e2173f8,2k5ptit:1244389731103535,Khê quá anh của em,0,-0.5136277387903112,0,TN,False,False,True
+587f100e234a83e04becb12a,2k5ptit:1244389731103535,[MENTION] tớ ko biết có vụ này luôn. Hồi tớ mới học còn viết cam kết đc. Sau căng hơn thì có giấy xác nhận vẫn đc thi.,0,-0.7784673618193809,0,TN,True,True,False
+5b63a819ca34804f6dc2e861,2k5ptit:1244389731103535,[MENTION] vlin 27/7 học xong môn cuối ms check học phí phắc,0,-1.0303907774679073,0,TN,False,True,False
+5f1fafa7c09b777e1967d58c,2k5ptit:1244389731103535,Thu xong không cho thi còn Mafia hơn ăn cướp.,0,-0.29602006637424155,0,TN,True,False,False
+6ba8a780284d1d32002cc922,2k5ptit:1244389731103535,"d19 chưa cút đc ah ezai, sau xác định nộp trễ thì làm cái đơn gãy tay chân, ốm đau mua ở phòng khám r lên trình xin hoãn thi trc.",0,-0.13991407184016003,0,TN,True,False,False
+79aaa71a86002719675ef1ba,2k5ptit:1244389731103535,Phải kì hè sau học lại r a ạ,0,-0.7114527118767365,0,TN,False,False,False
+7fd5d963429045dc122393e6,2k5ptit:1244389731103535,"cho e hỏi nếu mà k dc thi, k đóng học phí là kì sau bị cấm học hay sao ạ",0,-0.6465764921912651,0,TN,False,False,False
+b28cc62aa14d74c0536fb2ef,2k5ptit:1244389731103535,Bạn tôi yêu trường thế,0,-0.6833183444947336,0,TN,False,False,True
+b480b4ad8f949cf8fd98d888,2k5ptit:1244389731103535,"ô ezai, a cũng đã ra đâu cu. a tư vấn cho ezai cái hoãn thi mà m nhạy cảm nhể",0,0.3585928757667649,1,FP,False,False,False
+b85166988da4e3ceedb739df,2k5ptit:1244389731103535,Hạn 10/8 của bạn là trường thu đợt 2 rồi broo,0,-0.8799575391730203,0,TN,False,False,False
+c32c90b02cb0d5c18dd18ac7,2k5ptit:1244389731103535,Kì xuân chào mừng e.,0,-0.8032244138191019,0,TN,False,False,True
+ca65844a317385a76cb58368,2k5ptit:1244389731103535,môn gì thế b,0,-0.8991932559667664,0,TN,False,False,True
+cdd17136805417a4d6521310,2k5ptit:1244389731103535,[MENTION] sắp sv năm 8 mọe r,0,-0.6346081196472794,0,TN,False,True,False
+cfa8f12664f9460c8eb72a40,2k5ptit:1244389731103535,"Em hôm r tối trước hôm thi mới đóng mà thế nào lại vẫn trong đánh sách thi và đủ điều kiện cơ,trước khi thi còn định xuống hỏi xin trước tờ xác nhận nộp hp rồi,cô kế toán bảo giờ ko cho kí nx phải sang phòng giáo vụ tầng G ấy.Nhưng mà tóm lại mình lại may",0,-0.9936966210208267,0,TN,True,False,False
+cfd9df8d68732ed656899baf,2k5ptit:1244389731103535,[MENTION] Lý thuyết tt b ạ,0,-0.9166923098290427,0,TN,False,True,False
+d7e8d41bfe4da850fd519a5d,2k5ptit:1244389731103535,anh nop xong se co 1 dot cho thi lai hay sao ay,0,-0.45982202373909287,0,TN,False,False,False
+d9d571ef4defc32d21ee3341,2k5ptit:1244389731103535,[MENTION] thế tốt r. Thôi thì lỡ tập trung ôn code C nốt môn tin 2 vậy.,0,-0.9592576894460929,0,TN,False,True,False
+e0643d2efca2028c7e40b7fe,2k5ptit:1244389731103535,[MENTION] người từng trải nhiều,0,-0.533921550688798,0,TN,False,True,True
+e22705439be4d3cf67237146,2k5ptit:1244389731103535,Em thấy thông báo là trước 31 thì 31 nộp có bị muộn k nhỉ,0,-1.0392542877705364,0,TN,False,False,False
+e8ef0dc6dfb6e00e8729a671,2k5ptit:1244389731103535,[MENTION] nếu muốn hoãn tới 10/8 phải làm đơn hoãn học phí ạ,0,-0.9328673105621763,0,TN,False,True,False
+e90f264f994d3e55765c16ac,2k5ptit:1244389731103535,[MENTION] thế cũng may a ạ. Ơ mà e thấy có tbao trong nhóm học lại các thứ mà nhỉ.,0,-0.7324777791162602,0,TN,False,True,False
+f2774d8497b7bf293a9f7d26,2k5ptit:1244389731103535,[MENTION] cứu a Trường m đi :))),0,-0.4345737160047023,0,TN,False,True,False
+f35cc72ec4765e0dcfcd6c35,2k5ptit:1244389731103535,[MENTION] l giật mình,0,-0.8408341790694102,0,TN,False,True,True
+01bff39913ba183e12d147c7,2k5ptit:1255847259957782,"thật mà, ở phần training C, thì các anh chị rất nhiệt tình trả lời câu hỏi. Vào CLB thì không nhất thiết phải giỏi code, nếu em hòa đồng và tham gia hoạt động của CLB thì vẫn được vào nè. Ngoài phần training thì các anh chị cũng train các em rất tốt phần tổ chức sự kiện nữa",0,-0.3081843751676449,0,TN,True,False,False
+02690c166759badf10594233,2k5ptit:1255847259957782,[MENTION] confirm PGC toàn người hiền lành đáng iu,0,-0.7468322771192575,0,TN,False,True,False
+035213660c161a210dd08f67,2k5ptit:1255847259957782,[MENTION] chị này trông thế nhưng lành lắm nè em,0,-0.3487685122671942,0,TN,False,True,False
+04e88c167cb4e9a60fc8d536,2k5ptit:1255847259957782,[MENTION] nhé emmm,0,-0.7003046887450516,0,TN,False,True,True
+0534a315cb6c45a7ccac9056,2k5ptit:1255847259957782,[MENTION] bá cỡ nào vậy a/c oi,0,-0.4825943144757616,0,TN,False,True,False
+064c7fcbe9a9c8f9ca9c7b12,2k5ptit:1255847259957782,[MENTION] ụa sao mà làm v với em hoài,0,-0.635787709663635,0,TN,False,True,False
+095f4154f4afc07c7c22c177,2k5ptit:1255847259957782,[MENTION] bảo e vào [MENTION] với t là yên bình r,0,-0.6787355750488914,0,TN,False,True,False
+0f137b6533d588656baa6751,2k5ptit:1255847259957782,[MENTION] reccomend mạnh luôn nha em,0,-1.346258128623588,0,TN,False,True,False
+118cd324d5b3dccdbd328128,2k5ptit:1255847259957782,"Vào [MENTION] nha bà, vui lém",0,-0.9042083862137994,0,TN,False,True,False
+14b3ad051dd34d14d19325e4,2k5ptit:1255847259957782,"mình cũng đang tìm một clb để vào trong năm nhất này, hôm bữa mình được một anh tên Nhật siêu dễ thương giới thiệu là [MENTION] sắp tuyển thành viên, mọi người trong clb cực kỳ hòa đồng, các anh chị rất quan tâm tới các em khóa dưới... cậu vô với mình hong",0,-0.9052095536341672,0,TN,False,True,False
+162b5d71b60be59d56dc1169,2k5ptit:1255847259957782,Em cứ mắt ko thấy tai ko nghe là tự khắc an nhiên hưởng thái bình,0,-0.2613300667542358,0,TN,True,False,False
+1855abd9bb1ec24c22a5dd7b,2k5ptit:1255847259957782,[MENTION] đọc tên chị có đc +đ cv ko chị 🫪,0,-1.0064870061269215,0,TN,True,True,False
+197b31eb01a4feab21fcd2d2,2k5ptit:1255847259957782,"Thật sự thì t ghét CPA này lắm nhma t kh dám nói, có quá nhiều drama, ngày nào cũng thấy cãi nhau chửi nhau. Tôi mệt mỏi r tôi muốn đình công. [MENTION]",0,-0.2672048680947979,0,TN,False,True,False
+1c0aa0555459f365266aaf6b,2k5ptit:1255847259957782,[MENTION] gì v,0,-1.1474216513876914,0,TN,False,True,True
+1c9cc4870eca89f860bc975f,2k5ptit:1255847259957782,[MENTION] chị nói thật kh ạ,0,-0.9907507278521418,0,TN,False,True,False
+1ff742ebe2a80c10341c88e9,2k5ptit:1255847259957782,[MENTION] nơi đây siêu cấp thân thiện anh chị siêu siêu vui tính nhé,0,-1.0899597881270409,0,TN,False,True,False
+20d964890d9a8f9464a5ef40,2k5ptit:1255847259957782,em ngành nào thế,0,-0.8535617442355845,0,TN,False,False,True
+218cff8035f0599f29085418,2k5ptit:1255847259957782,"[MENTION] e tham khảo thử xiem nhé, các ac k những tận tình, có chuyên môn về thiết kế và media tốt mà còn hài bựa vui vẻ con ve lắm nha",0,-0.7056234274022191,0,TN,False,True,False
+26cbaaf42f94ee9ef58db5c3,2k5ptit:1255847259957782,cai ni thi ib rieng nheee,0,-0.8155381999278443,0,TN,False,False,False
+292536017b6caf0f4eab394c,2k5ptit:1255847259957782,[MENTION] anh ơi ban mình k có page riêng ạ,0,-1.4387758614686872,0,TN,False,True,False
+2dbb54a5f40ba2210972ced1,2k5ptit:1255847259957782,"Vào đây với mình [MENTION] mọi người trong này chill lắm. Anh em tổ chức show thêm kinh nghiệm sân khấu, không show thì game, trà đá tâm sự với nhau. Chẳng cần phải hợp tính hay không để hoà nhập, mỗi người một màu nhạc khác nhau nhưng mọi người đều lành lắm nè em tham khảo nhaa",0,-0.21578139132723229,0,TN,True,True,False
+2dbbe82bd43edeeeb38ead30,2k5ptit:1255847259957782,[MENTION] thân thiện nhất chắc là e,0,-1.0617281754459706,0,TN,False,True,False
+305f2744e0228824624730e9,2k5ptit:1255847259957782,[MENTION] em thích làm CN thì sao,0,-0.984738734328745,0,TN,False,True,False
+31611110f2c36c9d6c5efb6c,2k5ptit:1255847259957782,[MENTION] trông thế là trông thế lào tôy hiền nhất pê tít r,0,-0.4618606562905137,0,TN,False,True,False
+32af5bfc43604e03f46eeb36,2k5ptit:1255847259957782,"[MENTION] thắc mắc khi nào bên mình tuyển quân vậy ạ, em muốn ứng tuyển làm vocal :00",0,-0.9834962169005437,0,TN,False,True,False
+35c4f713640d97e02c80ee47,2k5ptit:1255847259957782,Em ơi [MENTION] vào thì chill thôi nhé.,0,-0.874099782802279,0,TN,False,True,False
+35e448fef70f2911895821be,2k5ptit:1255847259957782,[MENTION] dạ chị chủ nhiệm ạ,0,-1.2985746679080448,0,TN,False,True,False
+36516d9fcbcc1070c2c6fa3c,2k5ptit:1255847259957782,Nếu em đang tò mò về AI và muốn tìm hiểu thêm thì thử tham gia [MENTION] cùng mọi người nhen,0,-0.6920172325831554,0,TN,False,True,False
+383627bbe974489a88926d7f,2k5ptit:1255847259957782,[MENTION] chuẩn ko cần chỉnh,0,-0.7908345751779825,0,TN,True,True,True
+385e6b1d255ee7cabef82162,2k5ptit:1255847259957782,"Rcm [MENTION] nhíe =))), đúng chuẩn hapi thân thiện hoà đồng , nếu bạn thích vẽ vời hãy đến với Pi Ci Âyyy",0,-0.6486164433004412,0,TN,False,True,False
+3ccb148034623a44a1e9475f,2k5ptit:1255847259957782,"[MENTION] vào chỉ thấy cười với yêu đời thôi, mn rất thân thiện vui vẻ và hoà đồng nhé, a tin chắc 4 năm đhoc gửi gắm vào đây sẽ ko uổng phí đâu",0,-0.841324364656856,0,TN,True,True,False
+3e48a45532b9c951a18cbdc3,2k5ptit:1255847259957782,[MENTION] chạy đi ạ,0,-0.9425905887812926,0,TN,False,True,True
+450fbfb732d855c627aafad4,2k5ptit:1255847259957782,anh nhiệt huyết quá,0,-0.6057463659078997,0,TN,False,False,True
+478384c0e350f306c0552cde,2k5ptit:1255847259957782,Anh [MENTION] [MENTION] cf,0,-1.3457671386634076,0,TN,False,True,True
+48735cb84aced48c9f5ed5eb,2k5ptit:1255847259957782,[MENTION] riêng mấy b tsv chỉ có b chăm sóc đc thou,0,-0.8746262231822672,0,TN,False,True,False
+4e7ec6d8b2a70ea719de35e9,2k5ptit:1255847259957782,[MENTION] toi dong tinh,0,-0.9881509051540933,0,TN,False,True,True
+516207370c628a832b543c7d,2k5ptit:1255847259957782,trường mình vó clb đánh liên quân k ạ,0,-1.0965930588845922,0,TN,False,False,False
+520190236db2d6430230584a,2k5ptit:1255847259957782,[MENTION] vl,0,-0.996376646352161,0,TN,False,True,True
+52b348f342b925498efbe8a7,2k5ptit:1255847259957782,"thân thiện thì auto có [MENTION] em nhé, ngày nào cx bonding vui phết :>",0,-0.9979553400043293,0,TN,False,True,False
+557702773d12db25f2309ee7,2k5ptit:1255847259957782,"Rcm [MENTION] nha, mn siêu thân thiện, siêu dễ thương luôn",0,-0.9435607715155905,0,TN,False,True,False
+5713b3165e0e0a4b13d06270,2k5ptit:1255847259957782,tgia BsK nhé [MENTION] DOCS.GOOGLE.COM ĐƠN ĐĂNG KÝ ỨNG TUYỂN THÀNH VIÊN GEN 18 - CLB VĂN HÓA NGHỆ THUẬT PTIT,0,-0.6574600474161486,0,TN,False,True,False
+5903e52a81bd89a789b82c56,2k5ptit:1255847259957782,[MENTION] còn em thích làm truyền thông thì sao ạ,0,-1.029092053698637,0,TN,False,True,False
+5ea8f42317accfb705f38687,2k5ptit:1255847259957782,em muốn vô clb j mà kỹ thuật chế tạo robot lập trình điện tử các thứ thì có clb ko ai,0,-0.4207740803949967,0,TN,True,False,False
+659582f06ff1df048e02db89,2k5ptit:1255847259957782,"[MENTION] nhá, đi ăn vs chs thôi chứ ko làm j khác",0,-0.7549187190169446,0,TN,True,True,False
+671a6d3875add74fbab83340,2k5ptit:1255847259957782,[MENTION] baoh thi clb mo don tuyen thanh vien vay ah,0,-0.43199319409374914,0,TN,False,True,False
+678916e18192c2a300ba24e4,2k5ptit:1255847259957782,[MENTION] toàn hướng lung tung thui hihi,0,-0.6691317764726936,0,TN,False,True,False
+69cd18ebf4e6e0dc43701895,2k5ptit:1255847259957782,[MENTION] chan chấm mắm muối thế nào đây bạn ơi,0,-0.9462683580686329,0,TN,False,True,False
+6a918e10952c2d72256a4160,2k5ptit:1255847259957782,"[MENTION] chưa biết drama là j, chỉ biết học và chơi thoi:>>>Vô đây vừa đc đi chơi, tâm sự mà còn dc học thêm nhiều tips kím học bổng nữa",0,-0.6840281605040812,0,TN,True,True,False
+6b6edda3d9f99b0f50687808,2k5ptit:1255847259957782,tưởng clb Ae XHCN =)))),0,-0.12782129597730552,0,TN,False,False,True
+7341e15a8be1098b52a0b86d,2k5ptit:1255847259957782,"[MENTION] yes, b apply đi mình tặng quà",0,-1.120474009567054,0,TN,False,True,False
+734494161d1983df93c1d31d,2k5ptit:1255847259957782,[MENTION] achi siu vui vẻ,0,-0.8917515758992012,0,TN,False,True,True
+75cfc503543a9c1c484c205b,2k5ptit:1255847259957782,Em hãy tham khảo thử [MENTION] nhé siêu thân thiện hòa đồng vui vẻ và không có phốt lun,0,-0.7862520682778202,0,TN,True,True,False
+78a195456a0937b32fca5f3c,2k5ptit:1255847259957782,[MENTION] em bổ nhiệm anh làm phó clb nhé,0,-0.9193211006250093,0,TN,False,True,False
+7c77df742e82ac6e8d66ea39,2k5ptit:1255847259957782,[MENTION] cj ơi cj bảo kê em,0,-1.1903224547222209,0,TN,False,True,False
+7c95becc4fcb87d50b286962,2k5ptit:1255847259957782,[MENTION] =))))))))))))))))))))))))) cnxh là tập hợp nhỏ của pi ci ây hoii,0,-0.9235891683636477,0,TN,False,True,False
+8239f313d538f3277d56ab13,2k5ptit:1255847259957782,"[MENTION] đẳng cấp mà ạ, như vua chúa",0,0.32379515191768193,1,FP,False,True,False
+83e7e794b5a551cb6e446ffa,2k5ptit:1255847259957782,Vô [MENTION] nè em ơi siêu vui và hôm nào cũng được chị [MENTION] bao ăn,0,-1.2577006302448608,0,TN,False,True,False
+85c306d84dd913821cffddf6,2k5ptit:1255847259957782,Vô [MENTION] đi vui vỡi luôn ý không có drm luôn đang mở link đăng ký đó,0,-1.1776368523009637,0,TN,True,True,False
+8a891a82f5f9d9cd351e97bd,2k5ptit:1255847259957782,[MENTION] t cũng rất đánh giá e [MENTION] . Đề nghị em tự kiểm điểm lại bản thân,0,-0.8588010791701324,0,TN,False,True,False
+8a8a740ee488d94405b71923,2k5ptit:1255847259957782,"Thế thì phải vào [MENTION] ngay thui, clb đang mở đơn tuyển thành viên đoá em theo dõi page để biết thêm chi tiết nha",0,-0.7092680962922838,0,TN,False,True,False
+8c045419cca4a194b9ff1abc,2k5ptit:1255847259957782,Đội Thanh Niên Vận Động Hiến Máu Học Viện Công Nghệ Bưu Chính Viễn Thông rất rcm với nhu cầu của em,0,-0.7327108291214797,0,TN,False,False,False
+8c89806cbddccb7f050d63fd,2k5ptit:1255847259957782,"ôi thế em phải vào [MENTION] ngay thôi vừa rèn luyện thân thể, môi trường lành mạnh và các thành viên clb cực kỳ thân thiện, em sẽ có trải nghiệm đáng nhớ nè",0,-0.7229383533341516,0,TN,False,True,False
+8daf1f5f910d2f18b9f3d82d,2k5ptit:1255847259957782,[MENTION] thì hết nước chấm luôn nhé,0,-0.9830653969743403,0,TN,False,True,False
+8e55bd92688b8a3e758e1edf,2k5ptit:1255847259957782,[MENTION] bên mình khi nào tuyển quân vậy chị ơiiii,0,-0.6889531981890542,0,TN,False,True,False
+8ea633a2da3eaeabcb68f40c,2k5ptit:1255847259957782,[MENTION] apply với thèm quá,0,-0.4431501002975976,0,TN,False,True,True
+8efd14a3d56177a6e23a2134,2k5ptit:1255847259957782,[MENTION] cf nheeeee,0,-0.49222556548170276,0,TN,False,True,True
+907a3aa50fee0478ca7c75a7,2k5ptit:1255847259957782,[MENTION] miêu tả [MENTION] bằng 3 từ gái xinh - tập thể - hoà đồng sai phần nào bù tiền,0,-0.8586817834429619,0,TN,False,True,False
+91d898380cc977d3f5fc1ab7,2k5ptit:1255847259957782,[MENTION] confirm nha,0,-0.9420318634783272,0,TN,False,True,True
+923a5c6a2c86e001293dcad1,2k5ptit:1255847259957782,[MENTION] kiệm lời dữ,0,-0.9617642971762415,0,TN,False,True,True
+9ab2626d288105aa472536b5,2k5ptit:1255847259957782,[MENTION] that ko v a,0,-0.8890536425275177,0,TN,True,True,True
+9b6bdb0bf16969d591a40fef,2k5ptit:1255847259957782,[MENTION] nhỏ hơn nhưng lầy và nhây hơn =))),0,-0.50961586254186,0,TN,False,True,False
+9b83678fd188cbe3425398e1,2k5ptit:1255847259957782,Vào [MENTION] ko những vui mà còn có quà,0,-0.8974939226273422,0,TN,True,True,False
+9c986afbe66e2c257eca77f8,2k5ptit:1255847259957782,[MENTION] +1 suất gặp siêu nhiều máy gặt hobo,0,-0.38394063896366903,0,TN,False,True,False
+9ddae8eafcf71d7199ee4df0,2k5ptit:1255847259957782,[MENTION] phải vào mới biết đc nha,0,-0.8037021543264676,0,TN,False,True,False
+9f3d37783dc2de0a0d9c55d3,2k5ptit:1255847259957782,[MENTION] thật à đẳng cấp vậy,0,-0.5007172291539793,0,TN,False,True,False
+a242b2a2e9c64582e037c599,2k5ptit:1255847259957782,"Lại tới cái mùa này rồi à? Vậy thì để Nghệ nói cho mà nghe nhié ! Nếu bạn là một người yêu thích mỹ thuật, đam mê hội họa, muốn khám phá bản thân hay chỉ đơn giản là muốn vẽ những thứ dzô , đáng iu, kết nối với những con người tuỵt zời ,... Hãy ghé qua [MENTION] !!!",0,-0.16687697661122514,0,TN,False,True,False
+a3083b51179fa1e926bb392b,2k5ptit:1255847259957782,[MENTION] khó,0,-1.116728647191252,0,TN,False,True,True
+a418cfffed066ddbb8ab2c14,2k5ptit:1255847259957782,"[MENTION] cực kỳ hòa đồng nhe, các anh chị take care khóa mới siu nhiệt tình",0,-0.7924517829816179,0,TN,False,True,False
+a5dedc4c5c58ededb62777e7,2k5ptit:1255847259957782,[MENTION] yẹt sơ,0,-0.5310333625345628,0,TN,False,True,True
+a7bbc85f889fc1b686f46639,2k5ptit:1255847259957782,"Siêu rcm [MENTION] nhe, clb hoà đồng, thân thiện và vui vẻ lắmm, ngoài ra clb còn dạy siu nhiều kĩ năng mềm phục vụ cho ngành học của bạn nữa á:-) nói chung là sieu vui và các anh chị take care siu nhiệt tình nhé",0,-0.3342202266160375,0,TN,False,True,False
+aec389e91ec41d2ed7bf87f0,2k5ptit:1255847259957782,"Có CLB [MENTION] nè bé oiii, clb dễ thương, thương nhau lắm, k có toxic gì hết nha. Toàn các anh chị tự chơi với nhau ngoan lắm kkk",0,-0.5420884092791702,0,TN,False,True,False
+af1aebd8afc845e6e7694799,2k5ptit:1255847259957782,[MENTION] khâu này hãy @ anh [MENTION] e ạ,0,-1.0609394390740992,0,TN,False,True,False
+b15b73fd9eb8658fd5f6a7ed,2k5ptit:1255847259957782,"[MENTION] thì lúc nào cũng vui vẻ nha. vô đây đàn hát, đi show indie cùng mọi người cực vui luôn",0,-0.7827198022639386,0,TN,False,True,False
+b62e283e955270d98c50c2a7,2k5ptit:1255847259957782,rcm CLB về quê nhỉ [MENTION],0,-0.9324544553075212,0,TN,False,True,False
+b910c963f0a2f0aa1f47579d,2k5ptit:1255847259957782,"[MENTION] đuy em, [MENTION] súp pọt em hêt mình, c vào yên bình từ đầu năm đến cuối năm:))))",0,-0.9015459019747598,0,TN,False,True,False
+bec237403925f558677bb1c6,2k5ptit:1255847259957782,[MENTION] còn ban hát thì sao a,0,-0.7476583661447688,0,TN,False,True,False
+c277dc9f3cf7741b8a2a1a9e,2k5ptit:1255847259957782,[MENTION] mãi là anh em,0,0.07617882855549607,1,FP,False,True,True
+c334fa6b8a3c8a50a4dd164e,2k5ptit:1255847259957782,Né ngay 2 clb guitar để k dính vô drama,0,-0.8731567411476027,0,TN,False,False,False
+c3e402fe1229ae76b2acb49e,2k5ptit:1255847259957782,[MENTION] Cứ quá khen Chú em cũng chuẩn bị ở năm thứ 2 rùi còn gì,0,-1.0223724154963574,0,TN,False,True,False
+c40253b9397417ea2184413a,2k5ptit:1255847259957782,có clb thịt chó chỉ tốn tiền đi ăn thôi chứ k ai rảnh để chửi nhau với drama làm gì,0,0.31104617974278626,1,FP,False,False,False
+c494406fb048478ccbe8f216,2k5ptit:1255847259957782,"Nếu em muốn những tháng ngày vui vẻ, hoà đồng cũng như năng động trong cuộc đời sinh viên, em có thể chọn [MENTION] . Nếu em thích sự điệu đà và uyển chuyển thì có thể chọn [MENTION] . Nếu em yêu thích random dance thì chọn [MENTION] . Nếu em thích hóng hớt thì Ban Sự Kiện - CLB VHNT PTIT là số 1 nhé",0,-0.561188674051616,0,TN,False,True,False
+c4e29ebac8f0829c8e5697a5,2k5ptit:1255847259957782,"Nhiều mới vui mới tình cảm, ít quá or kh có thì lại kh gắn kết:)",0,-0.3229192898160948,0,TN,False,False,False
+c55cb8b115b1875dcd7e457f,2k5ptit:1255847259957782,"[MENTION] nha, 2 năm chung tui ở mái nhà mày rùi đó",0,-0.6721891398120061,0,TN,False,True,False
+c7418a30a84039e06fe7d844,2k5ptit:1255847259957782,CPA [MENTION] [MENTION] có nhiều drama ko,0,-1.1835028859111945,0,TN,True,True,False
+c7734ff52f9127450481efc8,2k5ptit:1255847259957782,[MENTION] cf nhóoo,0,-0.4695372213971713,0,TN,False,True,True
+c966bb6f00b3d8c2c1bad2bc,2k5ptit:1255847259957782,[MENTION] clb ăn chơi trá hình,0,-0.7064546835821489,0,TN,False,True,False
+ccd95ad6aa56722a744dc53a,2k5ptit:1255847259957782,"Nếu bạn có đam mê với lập trình, muốn tìm một “mái nhà” để cùng nhau chia sẻ, học tập và tạo ra thật nhiều kỉ niệm đẹp thì [MENTION] (CLB ProPTIT) luôn chào đón bạn nhé ạ",0,-0.7015486037751326,0,TN,False,True,False
+cd82a2952cdecc777fece719,2k5ptit:1255847259957782,[MENTION] vô đây đi em vui lắm,0,-1.2137413631388143,0,TN,False,True,False
+cfb526addb43ebb1f7eb31cd,2k5ptit:1255847259957782,Vào clb mình kiểu j nhỉ,0,-0.5456583736040967,0,TN,False,False,False
+d43d2223d54278816005c60f,2k5ptit:1255847259957782,[MENTION] dyeu ghe ha,0,-0.4984870765490142,0,TN,False,True,True
+d44d14377f01463b7e8af721,2k5ptit:1255847259957782,đề xuất [MENTION] cho e nè,0,-0.9080772961568103,0,TN,False,True,False
+d5bf4f520db7c91e9f5c4033,2k5ptit:1255847259957782,"Nếu em học TMĐT, QTKD hay Logistics thì recommend cho e [MENTION] nhéCác ac siêu thân thiện lại còn toàn là học bá nữa",0,-0.6570825150617833,0,TN,False,True,False
+d7c3891d818e55e004519bc9,2k5ptit:1255847259957782,"[MENTION] nha em, vào đây thì chỉ có tiền mới giới hạn được em thôi á",0,-0.9344713093141903,0,TN,False,True,False
+d921e48159c4affb188679fc,2k5ptit:1255847259957782,[MENTION] có hong chùi,0,-0.6096585275684452,0,TN,False,True,True
+dc44ca383bbd00bae3bb9637,2k5ptit:1255847259957782,Mn ơi cho mình hỏi khi nào thì 2k8 tập trung nhập học vậy ạ,0,-0.7910724621942998,0,TN,False,False,False
+e30988e875ae0e86cfa4b221,2k5ptit:1255847259957782,[MENTION] thân thiện thì có nma thân k dễ,0,-0.7331553678954559,0,TN,False,True,False
+e3f6ca8cab39b15fb0c77857,2k5ptit:1255847259957782,"không thể bỏ qua [MENTION] nhaaaa, vừa học vừa chơi vui phải biếttttt",0,-0.5950878339186977,0,TN,True,True,False
+e5451c76fbab4c22684ed86e,2k5ptit:1255847259957782,riu,0,-0.6690167125505864,0,TN,False,False,True
+ef225510e9ed90bbc8f521bf,2k5ptit:1255847259957782,[MENTION] khổ nỗi ngày nào cx phải về quê,0,-0.8650526851419926,0,TN,False,True,False
+f2a3e790ccec3b289fa082fc,2k5ptit:1255847259957782,Tên Đội đủ dài r a,0,-1.149837503592429,0,TN,False,False,False
+f47ae903e9db2d1d6366182d,2k5ptit:1255847259957782,"[MENTION] thẳng tiến nhé các em ơi. Câu lạc bộ cân từ C++ đến AI, chưa biết gì cũng được đào tạo lại từ số 0. Vừa có hội anh em cày contest chung vừa có đồng bo chạy sự kiện",0,-0.45251331395854166,0,TN,True,True,False
+f7098f2123fd1659fdd6df8e,2k5ptit:1255847259957782,[MENTION] cả nhà thương nhau luôn ấyyyy,0,-0.7070794962544739,0,TN,False,True,False
+f77db25969e246bb1831408a,2k5ptit:1255847259957782,[MENTION] hân hạnh tài trợ ctrinh này nhe,0,-0.8948618439580959,0,TN,False,True,False
+ff68d227836d8dec27775e08,2k5ptit:1255847259957782,anh tư vấn cho em với,0,-0.6658420397801807,0,TN,False,False,False
+00195404b281c8b7795cb236,2k5ptit:645778207631360,[MENTION] ctoi muốn thầy Ngọc còn ko đc đâyy nhỉii [MENTION],0,-1.115800939921768,0,TN,True,True,False
+101d46fc2648211150ee972e,2k5ptit:645778207631360,[MENTION] may hầy,0,-1.1737393599309498,0,TN,False,True,True
+1115f6375e38cd4e752f009c,2k5ptit:645778207631360,[MENTION] thăng đi,0,-0.3744305255023135,0,TN,False,True,True
+19018d7e2cec6755e83719e1,2k5ptit:645778207631360,[MENTION] cậu riviu hay dị,0,-0.9391634575328807,0,TN,False,True,True
+1c8a456ece6be1fddc7d6694,2k5ptit:645778207631360,[MENTION] thầy dễ nà yên tâm đi,0,-0.6007561193112461,0,TN,False,True,False
+21f0bf92af41103402d58ae0,2k5ptit:645778207631360,[MENTION] lời lãi tí tiếng Anh mà cậu...,0,-0.5029927563714801,0,TN,False,True,False
+2680803cbcfd763608d7be81,2k5ptit:645778207631360,"Thầy Ngọc dạy hay, chắc bạn không theo kịp thầy tại thầy giảng nhanh với hay dùng thêm tiếng anh chứ thầy giảng tuyệt vời, dạy kỹ cả lý thuyết và có chữa ví dụ bài tập. Thầy còn tâm huyết với môn nữa cậu ạ.",0,-0.5507896696385514,0,TN,True,False,False
+2b09795f8901ca48d4613270,2k5ptit:645778207631360,Học thầy vui mà,0,-0.9254282264881046,0,TN,False,False,True
+338e85c3b9f078e0247fcd49,2k5ptit:645778207631360,[MENTION] thầy nhớ tên mày rồi,0,-0.782288574926505,0,TN,False,True,False
+3589390e59b2af93b8821096,2k5ptit:645778207631360,[MENTION] het gap thay la het vui,0,-0.4528131120473161,0,TN,False,True,False
+3c49281fcdf27c2da2d9a435,2k5ptit:645778207631360,[MENTION] m post đk,0,-0.4060343700944004,0,TN,False,True,True
+3d1a9f6a8cb2911059cb8a9f,2k5ptit:645778207631360,[MENTION] đáng yêu mà nhờ,0,-0.9069195245936327,0,TN,False,True,True
+3d70b652a7b25c7a25c2df4b,2k5ptit:645778207631360,[MENTION] thầy giảng khiến tu tiên =)),0,-0.609765512297484,0,TN,False,True,False
+3ecd9c7f244a3c5a1c990966,2k5ptit:645778207631360,[MENTION] anh em của t cíu t mà kk nên thầy không biết,0,-0.3839622831085823,0,TN,True,True,False
+3f723e4538841819591830d3,2k5ptit:645778207631360,[MENTION] tư vấn cảm lạnh,0,-1.139295800804224,0,TN,False,True,True
+403c0fc33089f52aea53aacf,2k5ptit:645778207631360,[MENTION] bạn ổn ko,0,-1.2852867459556416,0,TN,True,True,True
+4463282d990ea6df2f72d26d,2k5ptit:645778207631360,[MENTION] review kìa,0,-0.9651200663466829,0,TN,False,True,True
+4811e94fb40bfaf1bbfaf9fd,2k5ptit:645778207631360,Thầy nói như bắn rap,0,-0.2277442565286858,0,TN,False,False,True
+4a2d3d51a5b1499779295aa8,2k5ptit:645778207631360,[MENTION] trả thầy iu về đây =(((,0,-0.985075255817089,0,TN,False,True,False
+4b1c46e05f081622b5c143fd,2k5ptit:645778207631360,[MENTION] ổn lòi :)),0,-0.8882948704431042,0,TN,False,True,True
+4ce8e522f91f02a9db39d447,2k5ptit:645778207631360,[MENTION] phát biểu đi,0,-0.19780262942532445,0,TN,False,True,True
+4ffac37038fddae0e5f40863,2k5ptit:645778207631360,[MENTION] học ok chứ bạn,0,-1.3111669108171977,0,TN,False,True,True
+5713436d132a59387599e68b,2k5ptit:645778207631360,Vui mà b,0,-0.7952583419902237,0,TN,False,False,True
+5caf2bbb3b412eb0de1c7036,2k5ptit:645778207631360,Học vs thầy như học lớp CLC,0,-0.8605787380369325,0,TN,False,False,False
+5ef9dec780737da1b52cb700,2k5ptit:645778207631360,"[MENTION] chết, tuần 13 x4 nhá",0,-0.4294408830747377,0,TN,False,True,False
+640b584fe34937b451ad8e74,2k5ptit:645778207631360,[MENTION] mé m bẫy t,0,-0.08711880480814294,0,TN,False,True,True
+67446b8caea9050c4377fffd,2k5ptit:645778207631360,Đinh Đức Nghĩa phê nhỉ,0,-0.4740675054238477,0,TN,False,False,True
+68a9b79770ab1e5845a8098d,2k5ptit:645778207631360,Cho mot so phai nai nam bo,0,-0.7090045131087999,0,TN,False,False,False
+6be519287d716252dfedc621,2k5ptit:645778207631360,[MENTION] mê thầy kiểu gì mà kì 2 thầy chạy vội thế c,0,-0.7355799746711031,0,TN,False,True,False
+71a312414846bbdd536fa88c,2k5ptit:645778207631360,Trôn ptit,0,-0.7635019829591867,0,TN,False,False,True
+738bd63d6424d958179ebcb4,2k5ptit:645778207631360,[MENTION] thăng luôn mà đang mơ đẹp thầy xuống,0,-0.7918194989618745,0,TN,False,True,False
+7486aef503122f4d7441acd5,2k5ptit:645778207631360,Điểm tp cao mà :))),0,-0.4511390618831528,0,TN,False,False,True
+7706a5f88e931ea3fa7d2d14,2k5ptit:645778207631360,Ktra 1p :((,0,-0.8163710260295605,0,TN,False,False,True
+78b64a68e0c0d7e172ae1ee1,2k5ptit:645778207631360,[MENTION] sao chết đc,0,-1.0207613527956152,0,TN,False,True,True
+7c527abf2c467add9b66c64c,2k5ptit:645778207631360,[MENTION] nhớ trung đội 6 chưa,0,-0.909859352427975,0,TN,True,True,False
+7dfb5aad3a9665878c71f16f,2k5ptit:645778207631360,[MENTION] nghe bạn này bảo học bth lắm,0,-0.9045549366383608,0,TN,False,True,False
+882fc08cb494a881a2a7accc,2k5ptit:645778207631360,[MENTION] trôn vc,0,-0.4386507232875329,0,TN,False,True,True
+8bd49c1b4fdb81da25221f02,2k5ptit:645778207631360,[MENTION] cần a dạy gt bằng inh lích ạ,0,-0.7088834782567422,0,TN,False,True,False
+94fdf2fc798ea886ecf86056,2k5ptit:645778207631360,[MENTION] cả lớp đều 10 hả anh ?,0,-1.1941517584073096,0,TN,False,True,False
+97d8881291d51a5da7450c63,2k5ptit:645778207631360,Học thầy Ngọc còn phàn nàn chứng tỏ bạn gà,0,-0.6429906575584343,0,TN,False,False,False
+99d2787a1fd573e535323bcb,2k5ptit:645778207631360,[MENTION] m đăng à,0,-0.10696712535826647,0,TN,False,True,True
+a0eaee6beb3111665d6eb1ca,2k5ptit:645778207631360,[MENTION] trôn trôn trôn Vn,0,-0.7042013737505463,0,TN,False,True,True
+abe69da5c9efbad293bbe77c,2k5ptit:645778207631360,[MENTION] sợ quá sợ quá,0,-0.8466659926376766,0,TN,False,True,True
+b3a6df47392dde277be550b0,2k5ptit:645778207631360,[MENTION] ngol thế còn gì,0,-0.5828636154892324,0,TN,False,True,True
+b47f525fba8adfcd7432ae3f,2k5ptit:645778207631360,[MENTION] con vợ Hiệp bị trôn luôn =)),0,0.046025508895141454,1,FP,False,True,False
+b54d271f4b78f1879d8f8557,2k5ptit:645778207631360,"[MENTION] khôm, khóc",0,-0.4707694131897482,0,TN,False,True,True
+b69f94ea3afa55e484ddb2b3,2k5ptit:645778207631360,[MENTION] so tiu pit,1,-1.1526846238264332,0,FN,False,True,True
+b94c9c210d521530ff4edf09,2k5ptit:645778207631360,[MENTION] trôn trôn vn,0,-0.749641958845096,0,TN,False,True,True
+bb837de56ba31bea7c5334b3,2k5ptit:645778207631360,Học 2 lần chắc là ok mà bạn,0,-0.46070313832718895,0,TN,False,False,False
+bf253aecf90e381074c8d95c,2k5ptit:645778207631360,[MENTION] fan hâm mộ thầy ngọc,0,-0.8116554706368891,0,TN,False,True,False
+c0a1fec226e77d844784d581,2k5ptit:645778207631360,[MENTION] nhớ vchg,0,-0.7815004206333802,0,TN,False,True,True
+c0baefe2a7151e938b79a9fe,2k5ptit:645778207631360,[MENTION] nhớ thầy ngọc chưa,0,-0.8531764556073267,0,TN,True,True,True
+c5279bc0a6cb15fbcf58fc8f,2k5ptit:645778207631360,[MENTION] ai cho m noi thầy t the,0,-0.38041969663648917,0,TN,False,True,False
+cb239c222f3d833ca4a8acce,2k5ptit:645778207631360,[MENTION] như m vậy,0,0.007451066760535752,1,FP,False,True,True
+cbe7b319de999bf9fcc0257e,2k5ptit:645778207631360,[MENTION] t tu tiên luôn mà =))),0,-0.48387136904237177,0,TN,False,True,False
+cef93bf8615c88003527509b,2k5ptit:645778207631360,[MENTION] điểm giòn vại ò,0,-0.8788534481871197,0,TN,False,True,True
+cfe5dc60cbdb88f74fb9bae4,2k5ptit:645778207631360,[MENTION] khen maaa,0,-0.9875126797056368,0,TN,False,True,True
+d58704837bede15c190207bb,2k5ptit:645778207631360,[MENTION] nhớ cả sơn sấm sét,0,-0.8746918106789718,0,TN,False,True,False
+d5ece64a25b2b6ad7a73bfba,2k5ptit:645778207631360,"Cả điểm thành phần thầy cho cao, khó khăn ban đầu nhưng mà càng về sau học quen rồi thì iêu thầy cực cậu ạ, chill",0,-0.48291198580167316,0,TN,False,False,False
+d64b5b0b0bba183bc7992b2e,2k5ptit:645778207631360,Nhưng là học 1 buổi =))),0,-0.402047248378608,0,TN,False,False,False
+d976b75f9570d248c66792cc,2k5ptit:645778207631360,Nghe nói bạn học giải tích bằng tiếng anh =)))) [MENTION],0,-0.7625402709227144,0,TN,False,True,False
+df837602321bb8e07b31773e,2k5ptit:645778207631360,Học thầy Ngọc mà còn phàn nàn thì vấn đề kĩ năng nặng nề,0,-0.49265316756307087,0,TN,False,False,False
+e47f7564a6dd72181d65b545,2k5ptit:645778207631360,thầy chạy nma tớ cũng chạy theo thầy đó chứ [MENTION],0,-1.2120111741321358,0,TN,False,True,False
+f546f09b9bfebdd38997e314,2k5ptit:645778207631360,[MENTION] chill,0,-1.0489640008480683,0,TN,False,True,True
+f5be534f91e3a0651701e2b6,2k5ptit:645778207631360,[MENTION] hapi hapi hapi,0,-0.4671440910268271,0,TN,False,True,True
+f6f30d8140720777cd2a9f7c,2k5ptit:645778207631360,[MENTION] ok b,0,-0.7600788123840705,0,TN,False,True,True
+f85d7da205619bbe0816a4ac,2k5ptit:645778207631360,[MENTION] biết nói gì nhỉ,0,-0.4832578299847361,0,TN,False,True,True
+fa70e25b425887de57d8b0dc,2k5ptit:645778207631360,"Thầy cho điểm cao mà, full 10, mỗi tội giảng nhanh thôi, thêm quả kiểm tra 1p nữa",0,-0.8711755277658315,0,TN,False,False,False
+fb48199e5179197996dd5a45,2k5ptit:645778207631360,Khổ trc có điểm sướng ngay [MENTION],0,-0.9669235041127482,0,TN,False,True,False
+fc165e4b136ec157ae69597e,2k5ptit:645778207631360,[MENTION] [MENTION] trôn luôn còn gì nữa =)),0,-1.0108167052800936,0,TN,False,True,False
+fd5fa52d77b546b3c33f360e,2k5ptit:645778207631360,[MENTION] Thế m thích thầy PNA à,0,-0.34043093535281793,0,TN,False,True,False
+fdca72d202041e07bc31a83f,2k5ptit:645778207631360,[MENTION] thấy bạn khen thầy dạy hay ),0,-0.8520830459231998,0,TN,False,True,False
+ffd7c5c7fbe72f031f1d284f,2k5ptit:645778207631360,[MENTION] m lừa t :)),0,-0.08379408734197236,0,TN,False,True,True
+086a0b018e577428a638700b,2k5ptit:666849938857520,Ké,0,-0.8645975711594238,0,TN,False,False,True
+0a3b85f5a3f913e78deea362,2k5ptit:666849938857520,[MENTION] sếp vt cái cfs này à sếp=))),0,-0.40761357287789957,0,TN,False,True,False
+0e943e591cf5eb17485ed98a,2k5ptit:666849938857520,C-cũng ấy lắm,0,-0.29221935521619335,0,TN,False,False,True
+158458e1aac1c1462fd950a2,2k5ptit:666849938857520,đợi thông báo thầy cô thôi,0,-0.7327011931976467,0,TN,False,False,False
+170f836c5dd5d491bae57fa5,2k5ptit:666849938857520,em tiến một bước trường tiến một bước:))),0,-0.8054454375751297,0,TN,False,False,False
+2418ba2b44aea54082671070,2k5ptit:666849938857520,[MENTION] 50 thi ok ...,0,-0.6758219276867424,0,TN,False,True,True
+3de3139552e588d89f45815a,2k5ptit:666849938857520,[MENTION] acc clone t ấy :)))),0,-0.7433631910819191,0,TN,False,True,False
+44b3c0a0601818ac08d67eb2,2k5ptit:666849938857520,Này do bên Slink chưa cập nhật xong các minh chứng nên các thầy cô bên Học viện phải lùi ngày đánh giá đrl nhằm đảm bảo tính chính xác cao cho sv.,0,-0.4764890000718899,0,TN,True,False,False
+48726f4a93987a4f976185d0,2k5ptit:666849938857520,[MENTION] cậu bức xúc à,0,-0.6293791712803861,0,TN,False,True,True
+4d03f8a6f1ccb387d0459a47,2k5ptit:666849938857520,Đặng Minh đrl có chưa e,0,-0.6777631196101561,0,TN,True,False,False
+555c8e45c3f10a575f71e2b1,2k5ptit:666849938857520,quen thế nhỉ :))))),0,-0.7328036773574111,0,TN,False,False,True
+581fbd677ae71640691d91bf,2k5ptit:666849938857520,Cái này thì theo thông tin mk bt được thì vẫn còn có lớp chưa xét xong drl cơ nên là ms như vậy đó. Lần gần nhất thông báo là 412 cái đơn minh chứng drl của 3.2 hay 3.3 ý,0,-0.5594562834903632,0,TN,True,False,False
+5b0f3f7a3f706a46a331f576,2k5ptit:666849938857520,Có vẻ mong ngóng nhỉ.Còn lâu lắm nha mn :vv,0,-0.5585654711835153,0,TN,False,False,False
+5bc58c62588be892dc4e0122,2k5ptit:666849938857520,"[MENTION] thật không đé, hay lại dùng acc clone đăng bài :))",0,-0.34230403269460596,0,TN,True,True,False
+6443653482ffb3ff6c811b97,2k5ptit:666849938857520,[MENTION] adu ghê z a zai,0,-0.07530862663963367,0,TN,False,True,False
+76247c0130a70829695fe675,2k5ptit:666849938857520,Tình hình này thì có lẽ còn phải thêm một thời gian nữa,0,-0.28935023473827554,0,TN,False,False,False
+80f94c7477968f44ff7249f6,2k5ptit:666849938857520,[MENTION] khi nào t cho mới được,0,-0.8352673223516062,0,TN,False,True,False
+8c5fe7e153a783aabe09c441,2k5ptit:666849938857520,lên 6/4 rồi =)),0,-0.5576515065867875,0,TN,False,False,True
+93c57f3028347bd720a24435,2k5ptit:666849938857520,[MENTION] ơ kè sao em lại nghĩ tôi yêu trường đến thế,0,-0.8727642435711398,0,TN,False,True,False
+954509fe8d9f4b258c6e16c1,2k5ptit:666849938857520,[MENTION] đừng để anh bựk bội,0,-0.86347439009459,0,TN,True,True,False
+979d991424818eef9272b44d,2k5ptit:666849938857520,uk (ykr),0,-0.8201008705346219,0,TN,False,False,True
+a3980c30cf9ab7a1c692de62,2k5ptit:666849938857520,[MENTION] nhanh t con lay hoc bong,0,-0.10962678440930707,0,TN,False,True,False
+aa3fc4c3cfcede1da7506848,2k5ptit:666849938857520,[MENTION] :)) kia không phải văn của anh mà em,0,-0.3875561965203301,0,TN,True,True,False
+ada0568ad9b1961a406c523f,2k5ptit:666849938857520,[MENTION] trường làm j cx chậm thu tiền là nhanh thôi,0,-0.7335190556117186,0,TN,False,True,False
+b24eff5604836fc9adc73717,2k5ptit:666849938857520,Do các bạn nộp học phí muộn đó,0,-1.026177993455043,0,TN,False,False,False
+bd6d73ea5438d4e03f0229e0,2k5ptit:666849938857520,C cũng thấy trường ảo thật,0,-0.9691130402146013,0,TN,False,False,False
+be80868a9fbb10a11ce069e5,2k5ptit:666849938857520,[MENTION] a Liêm bức xúc vl:)),0,-0.4741893841218718,0,TN,False,True,False
+c00ff237ccfc79af70b941da,2k5ptit:666849938857520,[MENTION] sáng t mới kêu xong :)),0,-0.46797073405005296,0,TN,False,True,False
+c4600fe8dd4d5011909481f8,2k5ptit:666849938857520,[MENTION] sao a,0,-1.328446520525986,0,TN,False,True,True
+dcc0e9d776b32725d8283fe3,2k5ptit:666849938857520,"không, tớ cũng hay vào như bạn này này, nma thấy cũng bình thường =)), thẻ sinh viên tớ còn đợi được cơ mà, mấy cái đrl này đã là gì =))",0,-0.15166621627199917,0,TN,True,False,False
+eb0a5d0797a318e58e5f8ba4,2k5ptit:666849938857520,[MENTION] cho tớ 100 nhé,0,-0.43375821421230476,0,TN,False,True,True
+f1412710bb8037ef35ddde89,2k5ptit:666849938857520,[MENTION] A Liêm :))),0,-0.6267265713322808,0,TN,False,True,True
+002fa27e8ce5706b2636c363,2k5ptit:678762407666273,[MENTION] thật bùn người bạn thân của toi,0,-1.1083991684511185,0,TN,False,True,False
+01b1f82db9807237b8baffb7,2k5ptit:678762407666273,[MENTION] Nhiều người tag r nhưng e vẫn muốn tag:)),0,-0.8195220884179059,0,TN,False,True,False
+01beffaada710ade595bd351,2k5ptit:678762407666273,[MENTION] sao vậy??,0,-0.44257471002122073,0,TN,False,True,True
+04392fd733cee51c9fa63b23,2k5ptit:678762407666273,[MENTION] a nhac e,0,-0.9220951964208852,0,TN,False,True,True
+060dae34e985edb1b5d3fc8c,2k5ptit:678762407666273,[MENTION] dz k trap,0,-0.8992045467314724,0,TN,False,True,True
+062e4f4a60721ae6e8c3e31f,2k5ptit:678762407666273,[MENTION] sao e lỡ lm v,0,-1.087039556240708,0,TN,False,True,False
+09b2976ac77bfd44a91bb3b9,2k5ptit:678762407666273,"[MENTION] anh ơi là anh, đã nghiện lại còn trap",1,-0.47071279616389644,0,FN,False,True,False
+09d092326f445a40064ba558,2k5ptit:678762407666273,[MENTION] ngồi không cũng bị cắm cờ đỏ lên đầu,0,-0.39169515585233095,0,TN,True,True,False
+0b71a38c744b0a346bb821ad,2k5ptit:678762407666273,[MENTION] ít zát diu :))) oăn hăn đờ rớt pơ sen :))) ko những là trap boy còn là zăm boy :))),1,-0.7743259821621109,0,FN,True,True,False
+0d076cc3fccdac9ceb32f775,2k5ptit:678762407666273,[MENTION] bn pk ko,0,-0.9102012507122493,0,TN,True,True,True
+0d278853a59406eee75233c3,2k5ptit:678762407666273,[MENTION] vãi k bày t vài chiêu,0,-0.3422676583677376,0,TN,False,True,False
+0d787ca5e7c2e2bade2b739d,2k5ptit:678762407666273,[MENTION] m đúng khong,0,-0.4685280806054857,0,TN,False,True,True
+0d78892ae91e531944077475,2k5ptit:678762407666273,[MENTION] mang tiếng quá,0,-0.8325761264607647,0,TN,False,True,True
+1078bb692cd1e2ee0189e34b,2k5ptit:678762407666273,[MENTION] may thật,0,-1.4032046800785705,0,TN,False,True,True
+10f83d9d4ce4f70f078dbb42,2k5ptit:678762407666273,[MENTION] chán luôn,0,-0.9877202578339686,0,TN,False,True,True
+1418b3dc48023e21b517917d,2k5ptit:678762407666273,[MENTION] chưa tài đâu,0,-0.9033605394829948,0,TN,True,True,True
+157e7c59dbf62f7f220d6696,2k5ptit:678762407666273,[MENTION] ơ vl???,0,-0.3174994744009792,0,TN,False,True,True
+15a5e309433ce834f74bdcc6,2k5ptit:678762407666273,[MENTION] phải anh k cùng sửa nhé ;))),0,-0.7214093126319756,0,TN,False,True,False
+1630e8c8e00b8fa98580b763,2k5ptit:678762407666273,[MENTION] da xau con trap,1,0.03469606221893573,1,TP,False,True,True
+16571537f34870407a9eded3,2k5ptit:678762407666273,"[MENTION] =)) vl bạn ơi, còn 1ng bạn của bạn nữa đấy",0,-0.7922224520997783,0,TN,False,True,False
+1735d6079934f0eccf795b10,2k5ptit:678762407666273,[MENTION] dz thì nhận còn trap thì không,0,-0.27378705356298383,0,TN,True,True,False
+1941e81d5220b5540e24360c,2k5ptit:678762407666273,[MENTION] e k bt kk,0,-0.847289081560074,0,TN,False,True,True
+19f685c17593ec4b480c8d6c,2k5ptit:678762407666273,[MENTION] nghi ghi,0,-0.7940425038629134,0,TN,False,True,True
+1b055fe0346fdcc4a085ecf5,2k5ptit:678762407666273,[MENTION] tôi nhắc b !,0,-1.0125615849602614,0,TN,False,True,True
+1c23aefadce918a1d79edb1c,2k5ptit:678762407666273,[MENTION] giấu thôi không trap,0,-0.6525541247060279,0,TN,True,True,True
+1cf32e2daad607c7fcf57485,2k5ptit:678762407666273,[MENTION] Đương's nhiên,0,-0.12579054820564106,0,TN,False,True,True
+1d4e80d8fe9ef209ba724c38,2k5ptit:678762407666273,[MENTION] đm :)),0,-0.5555471092837798,0,TN,False,True,True
+1ea7d5661caaf4551552ef07,2k5ptit:678762407666273,[MENTION] :)) adu,0,-0.45722354157635864,0,TN,False,True,True
+1ec11cea22b7ce9b49aac926,2k5ptit:678762407666273,bạn [MENTION] cũng tên Đ cũng là Tra nhưng mà là Trader :))),0,-0.6201876035762512,0,TN,False,True,False
+22abe91ada5ebf50391e5eec,2k5ptit:678762407666273,[MENTION] đz anh nhận nhưng t... thì k,0,-0.49590908040091386,0,TN,False,True,False
+239b08a15bc29563887e0cf7,2k5ptit:678762407666273,[MENTION] đéo tên Đ vẫn tag,0,-0.3082495807327012,0,TN,False,True,False
+27702e17559d0d0ca0db66e4,2k5ptit:678762407666273,[MENTION] hỏi tấm ?,0,-0.86537596529073,0,TN,False,True,True
+27739e7d9eb19bff7894fc8e,2k5ptit:678762407666273,[MENTION] eo ...sống sao bị lôi lên cfs thế ô,0,-0.2845951620640847,0,TN,False,True,False
+27af5cc574f117dfd977531d,2k5ptit:678762407666273,[MENTION] mà ai cũng biết là ai đấy,0,-0.3468375803741767,0,TN,False,True,False
+27f1362d15064b50637fb402,2k5ptit:678762407666273,[MENTION] tiếp tục cái seri này :)),0,-0.3482139674082965,0,TN,False,True,False
+280839ac1be2c794c1081cc6,2k5ptit:678762407666273,[MENTION] tôi cũng chịu bạn rồi,0,-0.9554582465896007,0,TN,False,True,False
+2a59a37675dcc85ad74bc811,2k5ptit:678762407666273,[MENTION] lần sau rút kinh nghiệm b nhé,0,-0.7807796458984526,0,TN,False,True,False
+2a8215f1bf4559bc9ddb229d,2k5ptit:678762407666273,[MENTION] T thấy m càng bảo vệ t càng không yên tâm ấy,0,-0.6602953700582419,0,TN,True,True,False
+2d3274ebeb698be2030c0cee,2k5ptit:678762407666273,[MENTION] bùi quốc đanh,0,-0.397121210111183,0,TN,False,True,True
+2d9a1a2c12fe60078306c85d,2k5ptit:678762407666273,[MENTION] uhh,0,-0.6784909377610516,0,TN,False,True,True
+2f106bb099ab4bd1c809ed64,2k5ptit:678762407666273,[MENTION] thằng nói ác,0,0.0712756399040877,1,FP,False,True,True
+2fdbd578973606407f5fb870,2k5ptit:678762407666273,[MENTION] hỏi bạn ý là đ nào chứ nhỡ đúng m là t đánh giá nha,0,-0.6678324411206389,0,TN,False,True,False
+30148fbc28ea5c271df7563a,2k5ptit:678762407666273,[MENTION] t xin lỗi bạn ấy r,0,-0.8105714530889967,0,TN,False,True,False
+31032dbb0619248d53f49ec7,2k5ptit:678762407666273,[MENTION] :))) thật tốt khi mình ko dz,0,-1.1584663889209963,0,TN,True,True,False
+31eac9726242e2c437c6968a,2k5ptit:678762407666273,Haha,0,-0.8387424523510236,0,TN,False,False,True
+32de87177523ad1322f80c22,2k5ptit:678762407666273,[MENTION] hóng ác:)),0,-1.2227716258902417,0,TN,False,True,True
+32f03877bce54bbc4cc961a0,2k5ptit:678762407666273,[MENTION] vl đẳng cấp v,0,-0.30143853089776934,0,TN,False,True,True
+334dfc5483717ec37c49a55c,2k5ptit:678762407666273,[MENTION] đừng gọi a :))),0,-0.6713252241748814,0,TN,True,True,True
+33aee313ed6cc82ab572f5ae,2k5ptit:678762407666273,Anh [MENTION] ạ,0,-1.2669750901788435,0,TN,False,True,True
+33f3c22d5001c5a42d550b02,2k5ptit:678762407666273,[MENTION] chịu m rồi,0,-0.5782964772378457,0,TN,False,True,True
+34098517cc7343f6d681da57,2k5ptit:678762407666273,[MENTION] ọc ọc ọc ọc,0,-0.8544651385138784,0,TN,False,True,True
+37e83ba5e9005d4bb95d6db3,2k5ptit:678762407666273,[MENTION] khum hỉuu ngta tốt như nàyy,0,-0.5605710751176479,0,TN,True,True,False
+3abc2a670035ea6aaebfabd7,2k5ptit:678762407666273,[MENTION] thân tầm à,0,-0.5637316159610689,0,TN,False,True,True
+3b946df950dd8f65f758df7a,2k5ptit:678762407666273,[MENTION] Ey bậy nha bậy nha,0,-0.9926428449720421,0,TN,False,True,False
+3d106f6444740dcdd5adde5d,2k5ptit:678762407666273,[MENTION] anh cũng k cố ý vậy đâu,0,-0.7400448745905314,0,TN,False,True,False
+3f2690caea612a1869834594,2k5ptit:678762407666273,[MENTION] chẹp chẹp,0,-0.18855502369231536,0,TN,False,True,True
+3f7a3483806be8ec66ae94b8,2k5ptit:678762407666273,[MENTION] trap con nhà ngta để lên page thế này nhục chưa,1,0.15907404012933224,1,TP,True,True,False
+416f83c0c0c116c76b360934,2k5ptit:678762407666273,[MENTION] mang tiếng quá =)))),0,-0.8739160978774689,0,TN,False,True,True
+41ef40f00aeaa8976c87e846,2k5ptit:678762407666273,[MENTION] ủa có dz à :)),1,-0.7249688352911209,0,FN,False,True,False
+42a6ea21fde56fa62ffe0fbd,2k5ptit:678762407666273,"[MENTION] Anh Đê perfect thế mà, đứa nào bốc phốt ra đây combat với t",0,-0.5310649751270266,0,TN,False,True,False
+438e2e23228aa517f99e8757,2k5ptit:678762407666273,[MENTION] không ngờ đạt là như vậy,0,-0.4870415501991968,0,TN,True,True,False
+43dd2d5e05aa5e9b334cedf8,2k5ptit:678762407666273,[MENTION] Thầy của [MENTION] nữa :))),0,-0.9948023061900433,0,TN,False,True,False
+466d34ee737fb61ca2cbc93a,2k5ptit:678762407666273,"[MENTION] không cần, t confirm chắc chắn là nó rồi",0,-0.7069124817509468,0,TN,True,True,False
+488507a5930c2155b652e8c0,2k5ptit:678762407666273,[MENTION] nhận vế đầu thôi vê sau k phải,0,-0.3688783455455069,0,TN,False,True,False
+498304f80f818d8cbfe74c36,2k5ptit:678762407666273,[MENTION] Anh này chắc còn nhiều phốt lắm,0,-0.6531706872500611,0,TN,False,True,False
+4a32ca38963731a408296b27,2k5ptit:678762407666273,[MENTION] nói câu mất quan điểm,0,-0.45083327023407327,0,TN,False,True,False
+4c97b34d0e3315720bb976e1,2k5ptit:678762407666273,tôi kbt gì hết ước đc đi trap:D,0,-0.8948311611978774,0,TN,False,False,False
+4d523ed4f31b4b0153746b43,2k5ptit:678762407666273,[MENTION] vl :)),0,-0.867976793104124,0,TN,False,True,True
+4ee8d4e70053577605adfb7b,2k5ptit:678762407666273,[MENTION] sao cậu làm thế !?,0,-0.7576475092170845,0,TN,False,True,False
+508d0758d0bdb4af0f57e3b9,2k5ptit:678762407666273,chị [MENTION] [MENTION] confirm đi ạ,0,-1.023524364861271,0,TN,False,True,False
+50b3ad4216b474029fef723f,2k5ptit:678762407666273,[MENTION] tệ thế e,0,-0.539642090630423,0,TN,False,True,True
+50df5ad076d7976a70a57616,2k5ptit:678762407666273,[MENTION] haiz,0,-0.3276418103139346,0,TN,False,True,True
+51e6e5f6b55c6bf0cd9c953c,2k5ptit:678762407666273,[MENTION] a à,0,-1.0254886969220207,0,TN,False,True,True
+53bd20f61cc05b70b4979e2b,2k5ptit:678762407666273,"[MENTION] cứ đổ oan thôi, hiền hơn cục đất thì biết trap ai",0,0.2801684563370632,1,FP,False,True,False
+54d26deb660ea8a2e42ec97e,2k5ptit:678762407666273,[MENTION] dạy vài bài cơ bản áp dụng thực tế ngay :)),0,-0.32803225369746186,0,TN,False,True,False
+55fc7d0802397849d4b708ff,2k5ptit:678762407666273,[MENTION] đừng kể ai nhá,0,-0.4475473849554249,0,TN,True,True,True
+5603e891b69c82bc8a0f7989,2k5ptit:678762407666273,ĐST,0,-0.5839036756638829,0,TN,False,False,True
+575d745363c6945eedeede4f,2k5ptit:678762407666273,[MENTION] Ngại dùm,0,-1.0641784382527852,0,TN,False,True,True
+57d0eeed21eeddf4bca37b03,2k5ptit:678762407666273,[MENTION] Anh hãy tin tưởng trình độ combat của em :)))),0,-0.9551583033829874,0,TN,False,True,False
+58450edcafebfd8ca5c31ac5,2k5ptit:678762407666273,[MENTION] T học trò [MENTION] mà,0,-1.1627037929059991,0,TN,False,True,False
+59ed838a93c6dae08d9a799d,2k5ptit:678762407666273,[MENTION] Anh thấy em bảo vệ anh chưa :)))),0,-1.2759401209195866,0,TN,True,True,False
+5c6a1a9980dd63d20e331662,2k5ptit:678762407666273,Bạn [MENTION] đúng k bạn,0,-1.0491728020945252,0,TN,False,True,True
+5cddeb129636caa25ef05b1c,2k5ptit:678762407666273,[MENTION] t nói sai hả :>,0,-0.7993472781683156,0,TN,False,True,False
+5da6ebf267f3844d027b31a1,2k5ptit:678762407666273,[MENTION] mchi mà để ng ta nói rứa,0,-0.6465527689794027,0,TN,False,True,False
+5e86619721534f2e2c9a715f,2k5ptit:678762407666273,Bạn xoá bài được không chứ mang tiếng quá,0,-0.34877583752101216,0,TN,True,False,False
+5fbbcb90be7f41f4025c0439,2k5ptit:678762407666273,[MENTION] cái giề :))))),0,-0.2794385496410835,0,TN,False,True,True
+60e74de45714820b26c8daae,2k5ptit:678762407666273,[MENTION] tao đăng bài đấy,0,-0.4517223151859394,0,TN,False,True,True
+611945404764846bc8564b77,2k5ptit:678762407666273,[MENTION] quá dã man,0,-0.8810182498433785,0,TN,False,True,True
+61e6fce35880eae87ca77849,2k5ptit:678762407666273,[MENTION] tồi.ỷ mình đẹp trai rồi thích làm gì thì làm a,1,-0.14982517716112942,0,FN,False,True,False
+644851b6183fb20a8a9e8572,2k5ptit:678762407666273,vl Đviệt sao m làm v con,0,0.5051321218895986,1,FP,False,False,False
+648342fe85ac77bda750d842,2k5ptit:678762407666273,[MENTION] thực ra là Đung [MENTION] với [MENTION] Đất,0,-0.7362690430005987,0,TN,False,True,False
+659564801145c157bfae8f04,2k5ptit:678762407666273,"[MENTION] a ơi, sống ý thức lên",0,-0.5106297976628867,0,TN,False,True,False
+65e654d80547c696affb899b,2k5ptit:678762407666273,[MENTION] bạn Đ này là Đức An mà,0,-0.44835868613032726,0,TN,False,True,False
+6755596b8ae24298966aca33,2k5ptit:678762407666273,[MENTION] sao lại lm thế,0,-0.7726724435790601,0,TN,False,True,True
+6854c4cf3c895dc22da031f9,2k5ptit:678762407666273,[MENTION] aduu giấu kỹ vcll,0,-0.7376459967229576,0,TN,False,True,True
+69617e911542bb1231186d9a,2k5ptit:678762407666273,[MENTION] vch:)),0,-0.9430310047666602,0,TN,False,True,True
+699d54a5f2989d7f35cc5688,2k5ptit:678762407666273,[MENTION] đổ đốn quá,1,-0.2645977902609065,0,FN,False,True,True
+69c0e2b70ac4672d598f79a1,2k5ptit:678762407666273,[MENTION] T quên đoạn sau,0,-0.9619803401217242,0,TN,False,True,True
+6aa5d42e8162f5f60923a2e0,2k5ptit:678762407666273,[MENTION] đúng đúng cái này đúng này,0,-0.5418899274693147,0,TN,False,True,False
+6cf65fbb8049f09ac76fed88,2k5ptit:678762407666273,[MENTION] m thấy ai có tội mà nhận chưa,0,-0.5595110735266554,0,TN,True,True,False
+6d950294f22ae4354d224175,2k5ptit:678762407666273,[MENTION] a tên Đ,0,-1.0066062457773457,0,TN,False,True,True
+7116c87e28922de4c45ac0ef,2k5ptit:678762407666273,[MENTION] ? Có dz k mà trap,1,-0.2675558790944418,0,FN,False,True,False
+72e39c7e38bb5b13681b26f6,2k5ptit:678762407666273,Ai muốn làm TK ED tiếng anh ib em ạ :)) em làm 5k/1 unit ạ bảo đảm bài test 100% ạ,0,-0.7352301889317941,0,TN,False,False,False
+73a2a192cb547f783be9088b,2k5ptit:678762407666273,[MENTION] not me not me,0,-0.7996475798902193,0,TN,False,True,True
+74598e1794367ff8b5b9effd,2k5ptit:678762407666273,[MENTION] goodboy ko aii bằng nhée,0,-0.7990064429322153,0,TN,True,True,False
+74a202b8f5066f85121157cc,2k5ptit:678762407666273,[MENTION] xin lỗi mà,0,-0.7872644826656322,0,TN,False,True,True
+755c55c7b9494babb936b33a,2k5ptit:678762407666273,[MENTION] vô tội,0,-0.6863998067635223,0,TN,False,True,True
+767174f36d9a032cd000fd51,2k5ptit:678762407666273,[MENTION] có đẹp ko mà mang tiếng,1,-0.35788970798847763,0,FN,True,True,False
+76abc68c22801a31592c36aa,2k5ptit:678762407666273,[MENTION] hồ việt đoàng,0,-0.7224668998900065,0,TN,False,True,True
+76b7f7c34c721810b7b23065,2k5ptit:678762407666273,"[MENTION] Mai lên đây, em dẫn anh đi xin lỗi các bạn:))",0,-0.9796045502408652,0,TN,False,True,False
+76cacfe0fa9bf1acf316daf9,2k5ptit:678762407666273,[MENTION] Ok :))Cameraman [MENTION],0,-0.5393536040032413,0,TN,False,True,True
+786c79a42b69e0a63d57660f,2k5ptit:678762407666273,Chắc là bạn Đ [MENTION],0,-0.5475713171454208,0,TN,False,True,True
+7970561a1ae8d6fd54afe27f,2k5ptit:678762407666273,Mạnh dạn đoán [MENTION],0,-1.0896882755890818,0,TN,False,True,True
+7f31216af6ed43dfdc1d598d,2k5ptit:678762407666273,[MENTION] thì ra t có đẹp zai,0,0.17659136008920384,1,FP,False,True,False
+807840d08bb88b108f7985a1,2k5ptit:678762407666273,Thành Đạt oh em đạt gudboi,0,-0.7567648306808752,0,TN,False,False,False
+8108b7da681250369a00bf33,2k5ptit:678762407666273,[MENTION] có tiếng mà 0 có miếng,0,-0.7147156833909285,0,TN,False,True,False
+81a14673c9a5470ccc26b4a1,2k5ptit:678762407666273,[MENTION] thực ra là th [MENTION] Đất,0,-0.6145292173991675,0,TN,False,True,False
+836b819188dad5ad0f01ee56,2k5ptit:678762407666273,"[MENTION] =))) vl, lộ rồi",0,-0.5015293605355539,0,TN,False,True,True
+836f14fd6d851ad2e361aa1d,2k5ptit:678762407666273,[MENTION] cũng áy náy lắm,0,-0.7183992996551377,0,TN,False,True,True
+83acef114da86d18ba8da488,2k5ptit:678762407666273,[MENTION] cũng là Đ nhưng Đê này lạ lắm,0,-0.6223164595681884,0,TN,False,True,False
+896fdb578d94243b2b1df76e,2k5ptit:678762407666273,[MENTION] t có làm gì đâu mà chết bạn,0,-0.5951604456462404,0,TN,False,True,False
+8a317d538c372c6216aa1412,2k5ptit:678762407666273,Mình có quen ai tên Đ không nhỉ :)))),0,-0.8673279040280231,0,TN,True,False,False
+8aa8803d1716f7a51d6bdc8d,2k5ptit:678762407666273,[MENTION] a [MENTION] ý chứ k phại em,0,-1.3653697409665457,0,TN,False,True,False
+911ea796d0e325c7b6020322,2k5ptit:678762407666273,[MENTION] phải kh ông ha ha,0,-0.6784058135995626,0,TN,False,True,False
+912315b8224681de9e6df562,2k5ptit:678762407666273,[MENTION] Anh Đê 10 điểm ko có nhưng. Đứa nào chê ra đây combat với t,0,-0.5551516718449843,0,TN,True,True,False
+9250b63012fde1efb7caf66a,2k5ptit:678762407666273,[MENTION] ok thành,0,-0.3368827438049485,0,TN,False,True,True
+9403353eb635a3643aa1f3e2,2k5ptit:678762407666273,[MENTION] giè :)),0,-0.9173335174353008,0,TN,False,True,True
+94de89734562f0f7631d055a,2k5ptit:678762407666273,[MENTION] fan MU vô tội,0,-0.5717445350679974,0,TN,False,True,True
+998e5ff6463eda58a5bf2208,2k5ptit:678762407666273,[MENTION] tên m cx chữ Đ mà,0,-0.16486682502189853,0,TN,False,True,False
+9b4fdea5c9f8cda1ff2def22,2k5ptit:678762407666273,[MENTION] Mày,0,-0.5198481617996846,0,TN,False,True,True
+9ce126e9ce4eac435fda3ab3,2k5ptit:678762407666273,[MENTION] m trap b ẩn danh kìa,0,-0.4241227617794839,0,TN,False,True,False
+9d59d4ce1024fb41b823b466,2k5ptit:678762407666273,[MENTION] dã man,0,-0.9176678278813142,0,TN,False,True,True
+9d84ce28b4e94d908f109095,2k5ptit:678762407666273,[MENTION] chắc người ẩn danh là Nhi,0,-0.5485222563104075,0,TN,False,True,False
+9ff5e278af3cec6d7134521c,2k5ptit:678762407666273,[MENTION] thằng [MENTION] lày làm xấu mặt ae kh02 quá :((,0,0.42516552004644037,1,FP,False,True,False
+a1fc64ff775ea71a0821155d,2k5ptit:678762407666273,Đ [MENTION] vs Ð [MENTION] đẹp trai mà chỉ đi trap vs ghost con gái nhà ngta là hỏng r,0,0.7198994498379598,1,FP,False,True,False
+a2326fafebb9fed5c89b92be,2k5ptit:678762407666273,[MENTION] htrc vừa kể mà nay đã lộ rồi,0,-0.6460981915952212,0,TN,False,True,False
+a3db45ee5d563699113f827d,2k5ptit:678762407666273,[MENTION] kho:<,0,-1.3947265583022477,0,TN,False,True,True
+a613aeef773f683d029adeea,2k5ptit:678762407666273,[MENTION] sụyt,0,-1.0483385496265476,0,TN,False,True,True
+a880d5673c49a6466454cc3d,2k5ptit:678762407666273,[MENTION] vua đông anh mà thèm đi trap à,0,-0.13667788650551493,0,TN,False,True,False
+a8a5cd7127ade970b245cf34,2k5ptit:678762407666273,[MENTION] Chó lật mặt,1,0.7815461411843723,1,TP,False,True,True
+a94c5c42d2be54443c2ac41b,2k5ptit:678762407666273,[MENTION] t nghix nỏ phải mi đâu,0,-0.5254928141649,0,TN,False,True,False
+aa9d67c447f049de5baddc68,2k5ptit:678762407666273,[MENTION] m xem t cháp dc ai ko,0,-0.33886042506622355,0,TN,True,True,False
+ab95e752e04097772d2f3c62,2k5ptit:678762407666273,[MENTION] k khéo m tạo acc clone tán nó,0,-0.33024732713977717,0,TN,False,True,False
+aba05f82cc603982c23d1560,2k5ptit:678762407666273,[MENTION] m chết,0,-0.1136886897704229,0,TN,False,True,True
+ae6d376f413e2c02d14c4418,2k5ptit:678762407666273,[MENTION] ờ ờ,0,-1.037828853327189,0,TN,False,True,True
+ae9ba8fe571c10a2d1058c03,2k5ptit:678762407666273,Nói rõ ở khoa nào chứ t thấy [MENTION] có biết trap đâu [MENTION] nhề,0,-1.1068986764605913,0,TN,False,True,False
+b09fbe5796f56c52a2fd5593,2k5ptit:678762407666273,[MENTION] bạn à,0,-1.073984398793012,0,TN,False,True,True
+b2abfc16253dfa109c5666e3,2k5ptit:678762407666273,[MENTION] đã bảo bao lần rồi vừa vừa thôi mấy em nó phốt cho thì lại mang tiếng ae Đông Hưng ra,0,-0.004493169662518004,0,TN,False,True,False
+b2cbf693d2595238944b6b3e,2k5ptit:678762407666273,[MENTION] chị Kim đăng bài đúng ko,0,-0.4293820798200291,0,TN,True,True,False
+b4d89ec0fb57f3c65b1ab3c6,2k5ptit:678762407666273,[MENTION] bi phat hien roi,0,-0.6545476030635103,0,TN,False,True,True
+b4de93c2a9f0f9dfcac8e974,2k5ptit:678762407666273,[MENTION] th cu này,0,-0.4894426729989109,0,TN,False,True,True
+b688bc89ec3683c4ecfd4dbe,2k5ptit:678762407666273,[MENTION] m 0 thấy chữ đẹp trai ở đấy à mà còn tag bạn t vào,1,-0.16946404912204643,0,FN,False,True,False
+b811555d21034206ef8e57e1,2k5ptit:678762407666273,[MENTION] á à thì ra là em rùa,0,-0.5525902553761634,0,TN,False,True,False
+b9180999e63c9807607783b3,2k5ptit:678762407666273,Chắc là Đáck,0,-0.2697657617172095,0,TN,False,False,True
+b9592cfe72059675d0822d4a,2k5ptit:678762407666273,[MENTION] anh tính g.iết người diệt khẩu à,0,-0.3020172452283138,0,TN,False,True,False
+b9d65d29803d26d533b2ceb2,2k5ptit:678762407666273,[MENTION] nói nhỏ thôi không bạn buồn,0,-0.6612684543224953,0,TN,True,True,False
+bc2041f22483a6fb17166bf1,2k5ptit:678762407666273,[MENTION] người đăng còn nguy hiểm hơn nghìn lần,0,-0.23412945927994444,0,TN,False,True,False
+bd6382805f8e2f7c02acdc11,2k5ptit:678762407666273,[MENTION] Đăng :)),0,-0.13166917161146152,0,TN,False,True,True
+bdc59be947617045c911e438,2k5ptit:678762407666273,[MENTION] rác thật,1,-0.6657150562675936,0,FN,False,True,True
+bdff678b679a4a5f010f5a87,2k5ptit:678762407666273,[MENTION] :)) hỏng,0,0.21401804849363237,1,FP,False,True,True
+be25ffcf41e8067bf24fb76c,2k5ptit:678762407666273,B [MENTION] dko ạ,0,-1.2220958504596307,0,TN,False,True,True
+bedbd1f65e4e0a793c68b2bf,2k5ptit:678762407666273,[MENTION] nhận đi còn dc khoan hồng,0,-0.8617207998963206,0,TN,False,True,False
+c0a3f655d63e3a629441fdbd,2k5ptit:678762407666273,[MENTION] vãi ò sáng h toàn ntđ ntđ chung tình lắmm,0,-0.44378708497834857,0,TN,False,True,False
+c36cf43573ea799e31274d62,2k5ptit:678762407666273,[MENTION] cậu đúng hông,0,-0.9025415054336641,0,TN,False,True,True
+c4f4d436dbdeaa78d1b3b8bc,2k5ptit:678762407666273,Ngoc Anh Lê vao xem thang [MENTION] bi phot nay,0,-0.6084012961585047,0,TN,False,True,False
+c540cb3eb20d00273fb8b2e1,2k5ptit:678762407666273,[MENTION] vứt,0,-0.8704622733789008,0,TN,False,True,True
+c5570b40d23d6f23c56d2f3d,2k5ptit:678762407666273,[MENTION] bận nghiên cứu đồ thị r:)),0,-0.805739192732967,0,TN,False,True,False
+c60c52b75fec1a083fb43d4a,2k5ptit:678762407666273,[MENTION] [MENTION] giải cứu với,0,-1.0986442368864622,0,TN,False,True,True
+c62819f1bd44cb9ec4e3802c,2k5ptit:678762407666273,Salted Salmon Đqminh chắc r,0,-0.6965699305874803,0,TN,False,False,True
+c7365b3161f197dff6ae6c66,2k5ptit:678762407666273,[MENTION] Anh ngoài 2 tật kia còn có tật nói xạo,0,-0.5052957047456287,0,TN,False,True,False
+c977f5bcdafce4cf20ca3c3f,2k5ptit:678762407666273,[MENTION] T có dạy m cái gì hả,0,0.13295459659842312,1,FP,False,True,False
+ca78cd31174550732e314a22,2k5ptit:678762407666273,[MENTION] cái djt tôi tuổi l gì mà dc gọi là trap boy:)),0,-0.3079202833556447,0,TN,False,True,False
+cbb30b43fbf642f767f5fa5b,2k5ptit:678762407666273,[MENTION] m làm trò gì,0,-0.15700933829293423,0,TN,False,True,True
+cc1e051370ce6070368be512,2k5ptit:678762407666273,[MENTION] đm lộ hết rồi,0,-0.8525921814493823,0,TN,False,True,True
+cdb9875150492c1d95d458f2,2k5ptit:678762407666273,[MENTION] cuicung ngày này cũng đến : ),0,-0.8528743221694051,0,TN,False,True,False
+ce843b815053f2b735bb5543,2k5ptit:678762407666273,[MENTION] Chúa cứu được t khỏi oan tình này,0,-0.6622489068944776,0,TN,False,True,False
+d05f25ca2880ca6df6b45d53,2k5ptit:678762407666273,[MENTION] chịu cái j hả đạt đẹp tr k mà nói nhiều thế,1,0.5550260471631852,1,TP,False,True,False
+d1985f935bd284e72b60090c,2k5ptit:678762407666273,[MENTION] [MENTION] 1 trong 2 tk m thoi,0,-0.30714086127795925,0,TN,False,True,False
+d25941be737a27d37d861470,2k5ptit:678762407666273,Bạn [MENTION] có đẹp trai đâu bạn:))?,1,-0.2811228140985066,0,FN,False,True,False
+d2eda9256e26aeaaf83e0c9a,2k5ptit:678762407666273,[MENTION] đẹp zai nma good,0,-0.12186633352974163,0,TN,False,True,True
+d315e54aeca15352edc0cce7,2k5ptit:678762407666273,[MENTION] t đã đoán được luôn m sẽ tag t vô đây,0,-1.0217293330550645,0,TN,False,True,False
+d34e102c1b04aa964411b298,2k5ptit:678762407666273,[MENTION] thằng này đúng kh bạn,0,-0.4235137584822898,0,TN,False,True,False
+d5da01671ff97cd9342ad492,2k5ptit:678762407666273,"[MENTION] ô kìa, a bt a đz r nma đâu dám trap ai bao h",0,-0.13840278634329306,0,TN,False,True,False
+d684b37f2f1588436ed254fe,2k5ptit:678762407666273,[MENTION] ko m thì là ai :???,0,0.41173459926194766,1,FP,True,True,False
+d75a83860e21aad33324f5a1,2k5ptit:678762407666273,chắc bóc phốt [MENTION],0,-0.6187980520310828,0,TN,False,True,True
+d7a71408b25252dd36b675f8,2k5ptit:678762407666273,[MENTION] sao e hư thế,0,-0.9795002736962182,0,TN,False,True,True
+d8116f0c5dd0bc887c5168fb,2k5ptit:678762407666273,Xin lỗi cái là xong à,0,0.14632876337026746,1,FP,False,False,False
+d9cb656677920977578d132a,2k5ptit:678762407666273,[MENTION] ai trap vậy,0,-0.7729202609812063,0,TN,False,True,True
+da8cf0d9710b168d7e88276b,2k5ptit:678762407666273,[MENTION] bạn này k bt j hết,0,-1.1934506922981658,0,TN,False,True,False
+dc0bc7b63e908a36b8c5a216,2k5ptit:678762407666273,[MENTION] khả năng khoa đt vt :)),0,-0.8361023379463397,0,TN,False,True,False
+def5a7f30a0a36693b4fc63c,2k5ptit:678762407666273,"chuyển sang yêu trai IT hust mấy bà, vừa đtrai vừa chỉ biết học",0,-0.13408087482334508,0,TN,False,False,False
+df4d67de8912965373d744ab,2k5ptit:678762407666273,wtf :)),0,-0.7572626266615878,0,TN,False,False,True
+e03db72b6f580f5616ebc324,2k5ptit:678762407666273,[MENTION] vừa xấu vừa trap,1,0.11854311542767615,1,TP,False,True,True
+e09385f87708861605d89df3,2k5ptit:678762407666273,[MENTION] nmaf trap thì cx vứt,0,-0.448647625910801,0,TN,False,True,False
+e2913797ce8456d25da68e0e,2k5ptit:678762407666273,[MENTION] m chết m chết,0,0.09546485132694871,1,FP,False,True,True
+e6032cd11fc564dce194271c,2k5ptit:678762407666273,[MENTION] e rùa vô tội,0,-0.520030279716287,0,TN,False,True,True
+e69a190c3cb4a5d598ca5df1,2k5ptit:678762407666273,[MENTION] à tôi đọc thiếu câu cuối,0,-0.769358404718435,0,TN,False,True,False
+e80564a5449dae3cd35932b6,2k5ptit:678762407666273,[MENTION] sao bạn đi trap con nhà nta thế,0,-0.3177221919609062,0,TN,False,True,False
+e844ab6c2959b86bb8fbd921,2k5ptit:678762407666273,[MENTION] trông đụt thế loại ngay từ đầu r,1,0.047163964979370254,1,TP,False,True,False
+e8dc4b12b41b82f1a3e43fa0,2k5ptit:678762407666273,[MENTION] bộ có đz đâu mà tag,1,-0.9061257356408507,0,FN,False,True,False
+e8f252026926182c10709c67,2k5ptit:678762407666273,"[MENTION] Haizzz, t nhờ bạn kia mãi mà bạn ấy không tha",0,0.45180900484701336,1,FP,True,True,False
+e9c3580dba00b8f758b1a0a8,2k5ptit:678762407666273,Mình thấy bạn [MENTION] cũng [MENTION] mà,0,-1.338350315848234,0,TN,False,True,False
+eaf224f860436c9a838430b7,2k5ptit:678762407666273,[MENTION] vãi cả ĐPhi =)),0,-0.8343155176300693,0,TN,False,True,True
+eb5905e08aab9a3ce1e4014c,2k5ptit:678762407666273,[MENTION] :)) trap qq,0,-0.5092602972245097,0,TN,False,True,True
+eb6ac48f7aa35cc4762590fc,2k5ptit:678762407666273,[MENTION] nửa đêm đi chơi gái bị c.an bắt là đủ hiểu rồi,1,-0.5282799926688255,0,FN,False,True,False
+ec6346651401b273f8637c2a,2k5ptit:678762407666273,[MENTION] đcmmm,1,-0.1613050729566372,0,FN,False,True,True
+ed7dbcf4c49bac6cd152aec9,2k5ptit:678762407666273,[MENTION] Dậu chứ Đậu đéo đâu m,0,0.1785567656876743,1,FP,False,True,False
+efe9b1a7ac1d77ebd4ec2365,2k5ptit:678762407666273,Phạm Tuấn Đạt m à,0,0.3576639381759077,1,FP,False,False,True
+f2cdc9fc980136ff8d74965b,2k5ptit:678762407666273,[MENTION] :)))) anh này đk ạ,0,-1.2084759476296272,0,TN,False,True,False
+f2d80c15c6452250437738c3,2k5ptit:678762407666273,[MENTION] không phại đâu,0,-0.4293204624937081,0,TN,True,True,True
+f2f4417084c0bdebd9561a09,2k5ptit:678762407666273,[MENTION] a hả,0,-0.9988718584825858,0,TN,False,True,True
+f32eca92920f166c8af34d7d,2k5ptit:678762407666273,Tớ xin lỗi,0,-0.5546963297820066,0,TN,False,False,True
+f6c39e512f339c806972104e,2k5ptit:678762407666273,[MENTION] m làm j con gái ngta vậy,0,0.30625541987116456,1,FP,False,True,False
+f7c68171c52e9f4d4cc00701,2k5ptit:678762407666273,"[MENTION] thôi không phải giấu, t hiểu mà",0,-0.07328929193742073,0,TN,True,True,False
+f8ea08613729a03069aec2f4,2k5ptit:678762407666273,M đúng không Đâm ơi [MENTION],0,-0.4037206017999702,0,TN,True,True,False
+f9c1fd1925f7ec3e8aa3d08b,2k5ptit:678762407666273,"Nó đẹp, nó có quyền. Nhưng mà cũng thương bạn thật",0,-0.5474651426217819,0,TN,False,False,False
+fba44d747f703d08935caf24,2k5ptit:678762407666273,[MENTION] bn như này ko được r,0,-0.7810958226831636,0,TN,True,True,False
+fd83e1e9e66632008cd9a928,2k5ptit:678762407666273,"thôi, ít ra bạn ấy còn chọn bạn để chơi đùa chứ k phải chọn bạn khác",1,-0.7169605152859552,0,FN,False,False,False
+fe43843cf2cd23e9b1f6c923,2k5ptit:678762407666273,[MENTION] Sao lại có người bốc phốt anh [MENTION],0,-0.5757158854568649,0,TN,False,True,False
+18d742dc30c1c3c64f037af5,2k5ptit:707086134833900,[MENTION] anh chỉ em làm sao được B+ Tiếng Anh đi,0,-0.537721480759531,0,TN,False,True,False
+466c1a2aeae54bc6e07deb00,2k5ptit:707086134833900,[MENTION] nói chung cũng dễ mà là dễ trượt,0,-0.18861953073090088,0,TN,False,True,False
+4bd35e6857baabc3bcc15e0c,2k5ptit:707086134833900,[MENTION] dễ nhỉ,0,-0.7784336337235581,0,TN,False,True,True
+4e297e57dd2a8915015f7ca3,2k5ptit:707086134833900,[MENTION] c hỏi à,0,-0.8620049383012047,0,TN,False,True,True
+5b73b2bd2cf70cd9d0d05a3f,2k5ptit:707086134833900,chăm auto qua,0,-0.9742684583442194,0,TN,False,False,True
+5db8f80037aa8bdfe4cfc229,2k5ptit:707086134833900,may rủi=)),0,-0.942071906751228,0,TN,False,False,True
+5ec48a4475949ec72ccc2a49,2k5ptit:707086134833900,"Chỉ cần chăm, càng chăm càng tốt",0,-0.7235649875659352,0,TN,False,False,False
+5f83fd47b514bf75fefc7fa8,2k5ptit:707086134833900,[MENTION] bn đk thi r nhưng vẫn hoang mang lắm,0,-1.01934140963764,0,TN,False,True,False
+62111dba5edc971762eadb9e,2k5ptit:707086134833900,[MENTION] chó k phải người,1,0.421020681738826,1,TP,False,True,True
+630d5a964f978dcf287da104,2k5ptit:707086134833900,[MENTION] thi nhanh còn kịp,0,-0.6521001603046445,0,TN,False,True,True
+66e3d35508dd62fd12eb2dea,2k5ptit:707086134833900,[MENTION] cho bạn rì viu,0,-0.7394703981486527,0,TN,False,True,True
+72a870cb6fdf7b79779eb016,2k5ptit:707086134833900,[MENTION] m hỏi đk,0,-0.6436258351715447,0,TN,False,True,True
+7463eb6b28f409c53d6b9263,2k5ptit:707086134833900,[MENTION] em Ánh mở cái ẩn danh ra coi,0,-0.6624524300717309,0,TN,False,True,False
+7510987618472d66638d86e5,2k5ptit:707086134833900,[MENTION] điếc luon,0,-0.32014006824166447,0,TN,False,True,True
+797ba61467f8d62b51cfa1d6,2k5ptit:707086134833900,[MENTION] idol,0,-0.941978460905534,0,TN,False,True,True
+7b566f65bb741075496d9150,2k5ptit:707086134833900,Mn ơii,0,-0.5780512111603108,0,TN,False,False,True
+7bbc265bed5aa2b55d5109b8,2k5ptit:707086134833900,[MENTION] idol đổi full A+ rồi cứ đùa,0,-0.9496119048335734,0,TN,False,True,False
+7cd0890b6b395b6d42157d82,2k5ptit:707086134833900,[MENTION] cần người từng trải cho biết gấp,0,-0.3267149638154675,0,TN,False,True,False
+8329a103ab505afe40718d06,2k5ptit:707086134833900,[MENTION] review cho kia,0,-0.8122282699740571,0,TN,False,True,True
+835f72ee51f0fb01b47ff6b9,2k5ptit:707086134833900,Học ỉa,0,-0.02585122740338619,0,TN,False,False,True
+8c489cb3e945c4c33f303f7f,2k5ptit:707086134833900,[MENTION] b cho mình xin review với ạa,0,-1.2759128025563138,0,TN,False,True,False
+8dd21d3409cb88e11bfcf319,2k5ptit:707086134833900,đang tính năm sau thi cho vui,0,-0.8994461734145194,0,TN,False,False,False
+9614b004e775ed7c6e45939d,2k5ptit:707086134833900,[MENTION] VUA,0,-1.114390521880822,0,TN,False,True,True
+a716158d7ff33a7376390063,2k5ptit:707086134833900,[MENTION] thoi B1 review di,0,-0.935367699917262,0,TN,False,True,True
+ac022dc81d32ebf1a56c12f2,2k5ptit:707086134833900,[MENTION] ib thầm kín,0,-1.1637944453088784,0,TN,False,True,True
+ad9441760719460f7dcb965b,2k5ptit:707086134833900,"Đề dễ lắm nhé, B2, C cực kì easy luôn",0,-0.6956804201234894,0,TN,False,False,False
+af0fe5eee17fadb8e87b9691,2k5ptit:707086134833900,[MENTION] sắp tới anh 730+ Toeic rồi thì cần gì B+ nữa,0,-0.49253704898695555,0,TN,False,True,False
+c1a085db593341923f2b423b,2k5ptit:707086134833900,[MENTION] yếu tố may mắn quá cao hahaa,0,-0.8673392264910162,0,TN,False,True,False
+cff115c3083d402dee0287d4,2k5ptit:707086134833900,[MENTION] cần lắm review chân thực từ người đi trước,0,-0.7482878562387085,0,TN,False,True,False
+d623ed34cdc8e4583bd59b4a,2k5ptit:707086134833900,[MENTION] B2 thì rv cho b đi =)),0,-0.4259364944896894,0,TN,False,True,False
+e1d6f383c529017d8683df80,2k5ptit:707086134833900,"Người tham gia ẩn danh chăm lên b, đề ko khó đou",0,-0.6403749567737534,0,TN,True,False,False
+e6a0f70240b51b817786c691,2k5ptit:707086134833900,bây giờ họ làm ngặt rồi đáp án đảo các thứ xg còn liên tục làm mới k có chuyện học 100% trúng đề nch phải có gốc thì đi thi mới đc,0,-0.6785020508669096,0,TN,False,False,False
+09879769f616ed5605bb5253,2k5ptit:903168561892322,có triết k ạ,0,-0.8077474237352025,0,TN,False,False,True
+0b2a1094fc0aac0091ffa786,2k5ptit:903168561892322,[MENTION] ôn tư tưởng đi em,0,-0.6006527236937649,0,TN,False,True,False
+19a4a4ef2cf89e6c30bd0733,2k5ptit:903168561892322,Vipppp,0,-0.7133122312927627,0,TN,False,False,True
+373273b6ec8993024d9c478d,2k5ptit:903168561892322,có ktct k bạn :)))),0,-0.7383676792988287,0,TN,False,False,True
+3b8fcec4e29589a5863176e0,2k5ptit:903168561892322,vẫn là Du Bùi,0,-0.7092297501189372,0,TN,False,False,True
+512eba2e1ce3e35c3e51ce40,2k5ptit:903168561892322,[MENTION] [MENTION] Công đức vô lượng ạ,0,-1.1775045953497565,0,TN,False,True,False
+a515e2c7674106968a53e767,2k5ptit:903168561892322,"iu theeeeee [MENTION] ,",0,-0.7113344324420747,0,TN,False,True,True
+bd2c16d8a9499be5fb6865ff,2k5ptit:903168561892322,Phật sống,0,-0.5006499596331258,0,TN,False,False,True
+bd70f1a875ac8f8eda5e112b,2k5ptit:903168561892322,Ôi phật,0,-0.7810466743693261,0,TN,False,False,True
+03876a283bbd4045be568e1b,2k5ptit:903450815197430,[MENTION] khong b oi...nhưng ôn hết là qua môn b nhé,0,-1.1579963563146316,0,TN,False,True,False
+057d2e6a91596218e8ef24e3,2k5ptit:903450815197430,"Anh này phật sống rồi, cứu vớt cuộc đời biết bao sinh viên",0,-0.20177904628506904,0,TN,False,False,False
+06776715bc12000317f24201,2k5ptit:903450815197430,[MENTION] kiểu điểm gì gì đó á,0,-0.9168355661203063,0,TN,False,True,False
+0beafe35fc4e335cbff0aeff,2k5ptit:903450815197430,"Lên rank sao á a, cày điểm á",0,-0.7093496659258334,0,TN,False,False,False
+0c933c5b2488b4485e33db91,2k5ptit:903450815197430,giá như vdl đẻ sớm 1 năm t đã kphai học dsa 2 lần...,0,-0.7336360307347644,0,TN,False,False,False
+19528eb4e1af1acf21cfa73b,2k5ptit:903450815197430,[MENTION] em bợ anh,0,-0.3643454754053508,0,TN,False,True,True
+1cfe399ae5c1ff06598773e8,2k5ptit:903450815197430,[MENTION] [MENTION] thầy khải AC hết r,0,-1.3804023215701302,0,TN,False,True,False
+243cdeb2e7c830eb0b61b750,2k5ptit:903450815197430,[MENTION] ui :))))),0,-0.7605904339867787,0,TN,False,True,True
+2757b2f861f41739c0045eee,2k5ptit:903450815197430,[MENTION] hêh :DD,0,-0.6763887406174165,0,TN,False,True,True
+27bc2044e8e2ca7c37b2484d,2k5ptit:903450815197430,Vlon tím luôn ạ:),0,-0.2356841481602021,0,TN,False,False,True
+2d2069f33605d74be502d570,2k5ptit:903450815197430,"Tạ ơn chúa, cuối cùng cũng nhìn thấy hy vọng qua môn rồi",0,-0.8405903863832027,0,TN,False,False,False
+2dc7fb881083aefb10d29c13,2k5ptit:903450815197430,"dạ anh, anh là phật à anh",0,-0.5397672360075486,0,TN,False,False,False
+36e072728f9023c2527ab2f8,2k5ptit:903450815197430,"Đã quá PTIT ơi, hú hú",0,-0.6796864469147221,0,TN,False,False,False
+3a82457a780a690d87d05a9d,2k5ptit:903450815197430,[MENTION] học lại để làm tí icpc cx đc bạn,0,-0.3701418005558184,0,TN,False,True,False
+3d8d18e0a12d93b553520a9a,2k5ptit:903450815197430,thắng,0,-0.8716492409213157,0,TN,False,False,True
+3f458bfa835c1cb434ac361f,2k5ptit:903450815197430,"[MENTION] C++ mình ko b ah, lúc đó mình chưa định làm cái này nên cũng kco nguồn bài tập ._.",0,-0.43918304056933233,0,TN,True,True,False
+43e5520b7b13f7a6d792dd62,2k5ptit:903450815197430,[MENTION] tho san hobo con uoc gi nua ._.,0,-0.18494057234845346,0,TN,False,True,False
+446f29c2056c08ec9ad82c9e,2k5ptit:903450815197430,a [MENTION] phát đề có phát vía không a,0,-0.7692051838312388,0,TN,True,True,False
+45d160e26fea8720352872b3,2k5ptit:903450815197430,Anh có share KTCT với KTS ko ạ,0,-0.8530493543054414,0,TN,True,False,False
+4b9dbbb3d3e11fa7d5a3d772,2k5ptit:903450815197430,New CM,0,-0.5799417746366051,0,TN,False,False,True
+4c493804689c5dbaeb50854b,2k5ptit:903450815197430,[MENTION] cày đi em,0,-0.9289278207807425,0,TN,False,True,True
+50d0ce6801e1307683e529ee,2k5ptit:903450815197430,[MENTION] mang A+ ve day,0,-0.6282768407770092,0,TN,False,True,True
+521e7b7815c5a523d88df0d6,2k5ptit:903450815197430,[MENTION] khó nói thật...,0,-0.6897153886149684,0,TN,False,True,True
+55df50ccf40f4cc727aba512,2k5ptit:903450815197430,[MENTION] làm lại cuộc đời,0,-0.41267423935149394,0,TN,False,True,True
+5c9beed84a67908f31e26763,2k5ptit:903450815197430,[MENTION] tí soi cmt biết đâu gặp b í,0,-0.46129036395203893,0,TN,False,True,False
+5df3bd0b5306cc135c8629bd,2k5ptit:903450815197430,[MENTION] mình chưa học mấy môn í luôn b ah :>,0,-1.201856076069811,0,TN,True,True,False
+684722aeac5d2c235af96b6d,2k5ptit:903450815197430,"Sau đó, tham gia group bằng việc nhấn nút Join ở bên phải màn hình. Cuối cùng là lựa chọn chủ đề và làm bài tập thui :DD",0,-0.5814241758359547,0,TN,False,False,False
+73da33e2f55171f0e3d89cb9,2k5ptit:903450815197430,[MENTION] anh có cả của C++ k ạ?,0,-1.0602607605137258,0,TN,False,True,False
+7660135ab83cf50f123f6718,2k5ptit:903450815197430,i love you chụt chụt,0,-0.6464361555256314,0,TN,False,False,True
+7830bfb9e4f11baf4156487f,2k5ptit:903450815197430,:))) môn quỷ,0,-0.8977942305224099,0,TN,False,False,True
+86b71eb9ccc1e161dce5bf83,2k5ptit:903450815197430,đa tạ đa tạ,0,-0.796582844089637,0,TN,False,False,True
+8c323d5ccaf1619065ad1680,2k5ptit:903450815197430,Vì có một số bạn ib hỏi mình nên nình chia sẻ thêm luôn nguồn mình ôn Python lẫn Java - OOP nhé :DDJava - OOP: [MENTION] Python: [MENTION] Python các bạn làm mấy bài xử lý số thực mà WA thì cũng có thể ib mình nhé Chúc các bạn ôn tập vui vẻ và hiệu quả !!!,0,-0.7402955140040732,0,TN,False,True,False
+91581af3e4ce902da2250596,2k5ptit:903450815197430,đội ơn bạn,0,-0.9333322244032077,0,TN,False,False,True
+939092cfef9d5049b09212d2,2k5ptit:903450815197430,"vào đấm G hoặc H thể hiện đẳng cấp là được rồi, màu mè không quan trọng",0,0.3750923718550212,1,FP,True,False,False
+9c68d1b4b54f1fb8dec8792b,2k5ptit:903450815197430,"[MENTION] có nhé, tất cả các bạn đọc đc bài này phải được A+",0,-0.7145840203345328,0,TN,False,True,False
+9cd586ced31ccf2b8bc711a5,2k5ptit:903450815197430,[MENTION] em xin típ lên tím cấp tốc,0,-0.8357289594090525,0,TN,False,True,False
+a139ff0b8f4209be7720fe3e,2k5ptit:903450815197430,Bổ ích quá Long ơi,0,-0.2687002611140589,0,TN,False,False,True
+a19c2902cccb7a7f0affd49a,2k5ptit:903450815197430,Cảm ơn anh em rất yêu anh mỗi tội ngu qhd,0,-0.25582951854316877,0,TN,False,False,False
+a2b79f418064f37775b31b73,2k5ptit:903450815197430,bổ ích quá anh ơi,0,-0.6339958845478523,0,TN,False,False,True
+a3a30ca04b5361887964f888,2k5ptit:903450815197430,[MENTION] ấm luôn :33,0,-1.0711351442162003,0,TN,False,True,True
+a55b0d645ab36901ada58430,2k5ptit:903450815197430,"Đầu tiên, các bạn cần đăng ký tài khoản để có thể làm bài tập bằng việc nhấn Register ở góc trên bên phải.",0,-0.5235597505984637,0,TN,False,False,False
+a5c68a869d02d1aef8d85ef8,2k5ptit:903450815197430,[MENTION] ấm luôn :DD,0,-1.099626022696976,0,TN,False,True,True
+b474bc9e9e5b2ebc2924a3f9,2k5ptit:903450815197430,[MENTION] nhả vía :DD,0,-0.8331525533072436,0,TN,False,True,True
+bce42b26c15f30b74bf02f0b,2k5ptit:903450815197430,[MENTION] ok em bé,0,-0.884120886022436,0,TN,False,True,True
+c2ef5844f4651fed3c40ed85,2k5ptit:903450815197430,Em cũng muốnn,0,-1.0213962609981568,0,TN,False,False,True
+c30bd07214b7bf6e9ffb54ae,2k5ptit:903450815197430,"Mình cũng đã cố gắng trong việc sinh ra bộ test thật mạnh và chuẩn cho các bạn luyện tập, tuy nhiên, nếu có sai sót thì các bạn cứ cmt hoặc ib cho mình để mình sửa lại nhé :DD",0,-0.764806553201182,0,TN,False,False,False
+c5461c66070dac055826e126,2k5ptit:903450815197430,"Người tham gia ẩn danh 823 là sao b nhỉ, mình chưa hiểu lắm",0,-0.4044244085994498,0,TN,True,False,False
+c5ed5e1fc7b5cf8660c95b5b,2k5ptit:903450815197430,[MENTION] Ôn hết có ăn được cúp icpc ko ạ?,0,-0.958881419787387,0,TN,True,True,False
+cdd94b3e3a26ae402d4f06cc,2k5ptit:903450815197430,[MENTION] bro này vừa sir vừa chad,0,-0.772458802713306,0,TN,False,True,False
+cecd2ef673a4730322f09ff8,2k5ptit:903450815197430,công đức vô lượng,0,-0.7366373241019462,0,TN,False,False,True
+d12b7172f3dbe2abd2cef61a,2k5ptit:903450815197430,[MENTION] làm chắc những bài khó và bỏ qua bài dễ,0,-0.6446859194818214,0,TN,False,True,False
+d1f9e9b61c4ebfbaf646ba35,2k5ptit:903450815197430,xin vía lên tím,0,-0.5716707826021408,0,TN,False,False,True
+d34dc99cca4c43a26a4a3e07,2k5ptit:903450815197430,Đỉnh wa a ơi,0,-0.9665892342667597,0,TN,False,False,True
+d5274ffffb3e335d56864de8,2k5ptit:903450815197430,anh ít cũng xứng đáng có 10 ngy,0,-0.965348227710892,0,TN,False,False,False
+d549d3f12c19c0c13fa0f00e,2k5ptit:903450815197430,[MENTION] học tập đi,0,-1.1682979662183643,0,TN,False,True,True
+d978791e5e2de8a9f52c820a,2k5ptit:903450815197430,[MENTION] ừa đrồi bạn,0,-0.9447136690770337,0,TN,False,True,True
+db70e0f6be8c5478818bde67,2k5ptit:903450815197430,Sắp đc cứu r,0,-1.1185368297372007,0,TN,False,False,True
+dd2655c4f762e1bc44f3f02a,2k5ptit:903450815197430,[MENTION] chỉ biết ước,0,-0.5965996402945003,0,TN,False,True,True
+dd99df40707a8f54732a067a,2k5ptit:903450815197430,em cảm ơn anh,0,-1.1196032178605242,0,TN,False,False,True
+e34176a17953c8577195368c,2k5ptit:903450815197430,Chất vler anh ơi,0,-0.8866292220320091,0,TN,False,False,True
+ebf59d6471a86e780731a8a2,2k5ptit:903450815197430,"Người tham gia ẩn danh 823 rank là sao b nhỉ, ý b là rating á ?",0,-0.6079511530377173,0,TN,False,False,False
+ed225f9a8bcd43632c298e70,2k5ptit:903450815197430,uầy đỉnh thế anh ơi,0,-0.9253580376810054,0,TN,False,False,True
+ed5d95e4382311862a82ae88,2k5ptit:903450815197430,[MENTION] kb lm đâu,0,-0.8107374950690771,0,TN,False,True,True
+ef1c2116cafae909d555c523,2k5ptit:903450815197430,[MENTION] khó quá,0,-0.9187684485010288,0,TN,False,True,True
+f42d3162cfc4634f9a9ccc38,2k5ptit:903450815197430,đáp án và cách lm trg blog của bạn đk ?,0,-0.7673776146113765,0,TN,False,False,False
+f7b0f65f61530add79966f2e,2k5ptit:903450815197430,[MENTION] c tin e,0,-1.41441853811989,0,TN,False,True,True
+fead8a2525443881029b5f9c,2k5ptit:903450815197430,Hoàng Phúc,0,-0.7289310923664254,0,TN,False,False,True
+047b06a8d30e645bbdc8e86b,408571091380061:1058229903080840,[MENTION] bao t với,0,-0.8390864895038176,0,TN,False,True,True
+054ab20f3b401d9dabe44e96,408571091380061:1058229903080840,Hấp dẫn v,0,-0.7797209327255408,0,TN,False,False,True
+0e0188f5536a8f6c512f685a,408571091380061:1058229903080840,[MENTION] 3sl địa đạo bch thì kh ddii,0,-0.24153066623334746,0,TN,False,True,False
+24a90c475c60024651f5ebef,408571091380061:1058229903080840,[MENTION] seggssss,0,-0.18005496629463769,0,TN,False,True,True
+2a90fc4d7a7c8edb32213690,408571091380061:1058229903080840,Hoàng Hảo [MENTION] lmao,0,-0.40689560564350113,0,TN,False,True,True
+2f958bc7248f90f94ea8cb13,408571091380061:1058229903080840,"[MENTION] tiền chóa đâu, bao ny t thì t bao =))",0,-0.567160558258329,0,TN,False,True,False
+2fdcbaeda318f99056114be2,408571091380061:1058229903080840,[MENTION] oi malibu-))),0,-0.8914478056073623,0,TN,False,True,True
+38541099b17e7558a31f57d0,408571091380061:1058229903080840,"[MENTION] sao m lại hỏi t, hỏi th tài ấy",0,-0.39729040481519723,0,TN,False,True,False
+3de4ef52a8737e21845a31de,408571091380061:1058229903080840,[MENTION] xem hok nè,0,-1.0522647174561377,0,TN,True,True,True
+3e28d0a8d9207e30f8bfe44c,408571091380061:1058229903080840,[MENTION] bao t đi,0,-0.6543692728407555,0,TN,False,True,True
+3f6428a587cae073d19287d4,408571091380061:1058229903080840,[MENTION] tối mike t học TA r,0,-1.1906584776374067,0,TN,False,True,False
+41ed0a6eae1876886f83ef13,408571091380061:1058229903080840,[MENTION] memories,0,-0.5054057365038194,0,TN,False,True,True
+563f0098b06da26ffab9f5de,408571091380061:1058229903080840,đi thui mn oi,0,-0.5261979695929776,0,TN,False,False,True
+669400d4ab91a6936dabf0ed,408571091380061:1058229903080840,Đi xem liền thui mn ơiii,0,-0.6155029443115924,0,TN,False,False,False
+6e4189aae6f3717174ce15a9,408571091380061:1058229903080840,[MENTION] idol này giàu lắm,0,-0.8870428414729894,0,TN,False,True,True
+8f6a2e22d6c3e594406883c7,408571091380061:1058229903080840,"[MENTION] tư bản vl, 15k =)))",0,-0.3897615460810455,0,TN,False,True,False
+939312ed277453695e03a396,408571091380061:1058229903080840,[MENTION] [MENTION] có muốn xem lại đào phở pianoo khong,0,-0.852446688941313,0,TN,False,True,False
+ace955fd836f6fbe1a3e7cf3,408571091380061:1058229903080840,Người tham gia ẩn danh 932 ik xm thuii bn ey,0,-0.5626351216553523,0,TN,False,False,False
+b39272a52eb2063888be655d,408571091380061:1058229903080840,Kỉ niệm malibu ùa về,0,-0.7365030130845316,0,TN,False,False,True
+c8d0a3ab8dac27ffbfd29868,408571091380061:1058229903080840,anh em nào còn luỵ Mailibu thì đi ngay nàooo,0,-0.33073636914639937,0,TN,False,False,False
+cbdbdac602b69d94805d050a,408571091380061:1058229903080840,[MENTION] leuleu,0,-0.6758268334437759,0,TN,False,True,True
+da2e6d87a01f6113693246e9,408571091380061:1058229903080840,Ai đó đi xem phim với mình đi,0,-0.22837213718406268,0,TN,False,False,False
+e0aff94a11227d12656d6305,408571091380061:1058229903080840,Phim này mà được xem vs ng ấy r ăn bim bim uống trà đào thì hay bt mấy,0,0.12152517812280861,1,FP,False,False,False
+e11d53e856b25964fa2c4f1f,408571091380061:1058229903080840,[MENTION] đi xem bù,0,-0.8189640310118788,0,TN,False,True,True
+e2420b23fe804079bc9620ca,408571091380061:1058229903080840,[MENTION] dẫn t đi xem đi,0,-0.6576725551473837,0,TN,False,True,False
+e709fcd05756073a3c68abe5,408571091380061:1058229903080840,Ai đó dẫn mik đi xem với ạ;),0,-0.6144733011509592,0,TN,False,False,False
+ebb1223776b507c3510e424c,408571091380061:1058229903080840,Ngonn,0,-0.326875288412821,0,TN,False,False,True
+ec6567bd74783ffe053a149d,408571091380061:1058229903080840,Phải dẫn Bồ đi xem ngay thôii,0,-0.7370603113458631,0,TN,False,False,False
+f53230dea5f114a593467221,408571091380061:1058229903080840,[MENTION] mai đi học,0,-1.1127217414853512,0,TN,False,True,True
+fcea897c7a3460b47e6aa379,408571091380061:1058229903080840,[MENTION] tôi với b 1 vé,0,-1.0460879586191236,0,TN,False,True,False
+01528134b3ac36e19664486c,408571091380061:1225030719734090,Có ai đổi S qua XS k ạ,0,-1.0522850649738662,0,TN,False,False,False
+03e841c4c8b6df77d15154bf,408571091380061:1225030719734090,mình pass bộ thể dục màu xanh cũ size 2xl cho nữ,0,-0.5442600598033176,0,TN,False,False,False
+052faafa2de2d3ee6b697ae7,408571091380061:1225030719734090,"em pass 2 bộ thể dục size M,L new còn trong túi",0,-0.8360159096927878,0,TN,False,False,False
+05951694c9be25c596dede2f,408571091380061:1225030719734090,"pass áo thể dục d24, áo khoác gió d24 all size M ạ (áo gió mới tinh chưa giặt). zalo tớ 0901765930",0,-0.5799570526225989,0,TN,True,False,False
+065cdf5495a3e196aeb21355,408571091380061:1225030719734090,"mình pass bomber XL, 2,3XL còn nguyên bọc",0,-0.933251696977752,0,TN,False,False,False
+0c68e07ef165ea90e0c3d049,408571091380061:1225030719734090,"mình pass bomber size M, áo thể dục size S ạ",0,-1.0078586175018642,0,TN,False,False,False
+0cb077917931bf053c0d0314,408571091380061:1225030719734090,Ai pass áo bomber size L ib mình với,0,-0.9570722645390871,0,TN,False,False,False
+11c34c8e419efafe2c8de710,408571091380061:1225030719734090,cần mua áo bomber …,0,-0.8662428670173661,0,TN,False,False,True
+127dce6857ce5d359ff964d6,408571091380061:1225030719734090,"Mình tìm nhân viên gói hàng (gói đồ da dụng) lương 25k/h ở Mỗ Lao ạ, các b nhắn zalo 0845489091 nhé",0,-0.8867514811530841,0,TN,False,False,False
+194a2e6c0082c4976822c7b4,408571091380061:1225030719734090,"pass áo thể size S, quần size M, áo bomber size M do mình không còn học kì 2 tại HV nữa ạ (mình d25 ptit hnoi ạ)",0,-0.9518057105706903,0,TN,True,False,False
+19b8248757710593972778c6,408571091380061:1225030719734090,Đổi áo khoác sz S lấy sz to hơn,0,-0.8366418900719221,0,TN,False,False,False
+1cd8d7e8728696fd939e1dae,408571091380061:1225030719734090,Ai pass áo khoác d25 sz M k ạ,0,-0.5299847269563867,0,TN,False,False,False
+2244d428e8fb7550f409a5f4,408571091380061:1225030719734090,Người tham gia ẩn danh 488 mình ạ mặc 3 lần,0,-0.4278167098132024,0,TN,False,False,False
+22a27cf8de28239077db2d83,408571091380061:1225030719734090,"pass áo bomber size M , quần thể dục size L ( D24)",0,-0.8543584733247434,0,TN,False,False,False
+2372300f404ff9e557dc490c,408571091380061:1225030719734090,"mình pass áo bomber size L ạ, giá cả thương lượng, ai cần thì ib mình nhé. 0868021625",0,-0.8424137965418537,0,TN,False,False,False
+26c857a1b06c883a930cb5d6,408571091380061:1225030719734090,D25 áo khoác gió XL anh em nào share ntin nhé,0,-0.7364835969251604,0,TN,False,False,False
+27b16afe213102d477cf50aa,408571091380061:1225030719734090,[MENTION] t có nè,0,-1.3148863343182389,0,TN,False,True,True
+2986735fd7aa2fe38e4c060e,408571091380061:1225030719734090,Anonymous participant 710 tiện bro có cần pass dây thẻ k nếu có t mua :>,0,-1.1729815318958154,0,TN,False,False,False
+2a58bb017bf7f847fc09eabc,408571091380061:1225030719734090,[MENTION] mình pas áo bb XL ạ,0,-1.3842944799822678,0,TN,False,True,False
+2bb0b80b2585211d6f5a83b9,408571091380061:1225030719734090,[MENTION] ib mình.,0,-1.263147360017315,0,TN,False,True,True
+2df92c103070e436a5167f01,408571091380061:1225030719734090,[MENTION] ngay và luôn,0,-0.7421035372245284,0,TN,False,True,True
+2f5860499166348df50ac8c3,408571091380061:1225030719734090,Ai có áo thể dục size M không ạ,0,-0.3280821052533606,0,TN,True,False,False
+31fc577046563018c3a1001d,408571091380061:1225030719734090,Cần đổi từ quần thể dục size 9 sang size 8 d25 ạ,0,-0.793643176130429,0,TN,False,False,False
+3266421bbb7b94219b87050e,408571091380061:1225030719734090,Có ai pass áo thể dục ko ạ,0,-0.7475894976214671,0,TN,True,False,False
+351e2415137bfab72ed7c5b5,408571091380061:1225030719734090,Anonymous participant 710 cỡ gì đấy bro,0,-1.1908427749983976,0,TN,False,False,False
+36133d31eea4632bab59c85a,408571091380061:1225030719734090,Người tham gia ẩn danh 526 ib e set thể với ạ :((,0,-0.6562875440899915,0,TN,False,False,False
+39612ee418076fd5dae30327,408571091380061:1225030719734090,Có ai pass áo thể dục d24 XL không ạ,0,-0.623819885252594,0,TN,True,False,False
+3b7c2a371590395a27a3d3f4,408571091380061:1225030719734090,E cầm tìm người pass bomber 3-4XL,0,-0.9111053425255298,0,TN,False,False,False
+3be3604a5d122c7dfc46f744,408571091380061:1225030719734090,T có áo bomber size L new 100% chưa bóc luôn,0,-0.6496259051682851,0,TN,True,False,False
+3cf1c0f33dade7965d2d4457,408571091380061:1225030719734090,[MENTION] 135 thôi bạn,0,-0.9824626500273088,0,TN,False,True,True
+3d7648f0d20e36e4c9936b7f,408571091380061:1225030719734090,ai pass áo khoác của d24 k ạ,0,-1.0839653719834883,0,TN,False,False,False
+41724c935d7742354dc0ebcf,408571091380061:1225030719734090,Ai pass áo khoác gió sz L k ạ ?,0,-0.7144917445329472,0,TN,False,False,False
+42414bdefdd6b4feda1c9036,408571091380061:1225030719734090,pass áo bomber XL,0,-1.0146812093194066,0,TN,False,False,True
+43d8dac99981fa0c138f1f9c,408571091380061:1225030719734090,[MENTION] mình ạ áo gió sz M,0,-0.7028753280400973,0,TN,False,True,False
+477768855ca7ee8e0ea96d6b,408571091380061:1225030719734090,Người tham gia ẩn danh 857 ib mình với,0,-0.7664015031659939,0,TN,False,False,False
+4a559270faabe8507bcf5c4c,408571091380061:1225030719734090,ai có áo khoác d25 pass mình size S hoặc M ạ,0,-0.844889815493028,0,TN,False,False,False
+4b4a16da0d41f9a1d9073326,408571091380061:1225030719734090,Em tìm áo gió D24 XL ạ,0,-0.9226414528034724,0,TN,False,False,False
+4e0ddc70388acb6eadadb4ba,408571091380061:1225030719734090,Người tham gia ẩn danh 370 tôi pass size S nè,0,-0.9133959300503686,0,TN,False,False,False
+53c607d71caf4dedde79c337,408571091380061:1225030719734090,mình pass áo polo size xl nhé,0,-1.24041851484797,0,TN,False,False,False
+5874f169168ca456da737f31,408571091380061:1225030719734090,Ai pass áo gió 2xl thì nt e vs ạ,0,-0.6715840008209938,0,TN,False,False,False
+589b8e3662e8ed660c24ec2b,408571091380061:1225030719734090,[MENTION] tìm hộ anh cái bomber a mặc đi nậu,0,-0.21955919745901387,0,TN,False,True,False
+59c853e272eccd6c29d257fe,408571091380061:1225030719734090,Đợi ai đó pass áo khoác cũ d24 :>,0,-1.1505809747775637,0,TN,False,False,False
+5a750bb5f726e856f7a8e1ee,408571091380061:1225030719734090,"pass áo bomber size M, quần thể dục size L ạ",0,-0.8659385776212737,0,TN,False,False,False
+5fb1e9615251a34c7396a895,408571091380061:1225030719734090,em pass quần sz8,0,-1.1435329674526074,0,TN,False,False,True
+611ee603eea2876850ebb1d3,408571091380061:1225030719734090,Người tham gia ẩn danh 526 ib e vs,0,-0.4587864447503897,0,TN,False,False,False
+61cd1f7c06e6528144ac02de,408571091380061:1225030719734090,"Mình cần pass áo bomber size xl, 2xl +new box 100% +bao check ạ!!!!",0,-0.8231659941792588,0,TN,False,False,False
+61e10aa5a4044733453bb3a3,408571091380061:1225030719734090,Người tham gia ẩn danh 411 ib mìn b oi,0,-0.4305059772838622,0,TN,False,False,False
+69344b453b414b75be87c0aa,408571091380061:1225030719734090,pass áo polo size m ạaa,0,-0.7837630589886809,0,TN,False,False,False
+6a8c770deaa8dccdbd529b7d,408571091380061:1225030719734090,tìm áo gió size L ai pass khum ạ khoá nào cũng đc ạ,0,-0.9621262330465815,0,TN,True,False,False
+749e966e5b40dd5396fa998c,408571091380061:1225030719734090,Tìm áo khoác gió d25 size M-L,0,-0.6014896297342988,0,TN,False,False,False
+76b95695202e82a440338f0e,408571091380061:1225030719734090,Ko mặc cậu ạ,0,-0.6608486979487072,0,TN,True,False,True
+79191f6136d6887d42638b38,408571091380061:1225030719734090,E kiếm đp 4xl ạ,0,-1.156205093825289,0,TN,False,False,True
+7ff8e9c76635380fd90a8104,408571091380061:1225030719734090,"[MENTION] bạn ơi, ib mình với",0,-1.293418776148469,0,TN,False,True,False
+81ff30d5f67cdc8c32f28920,408571091380061:1225030719734090,[MENTION] 100k nha c,0,-0.6212286457239193,0,TN,False,True,True
+8335b81c521cca4caddda694,408571091380061:1225030719734090,"Mk pass bomber + áo khoác size 2XL nhá, còn nguyên, chưa mặc lần nào",0,-0.7625201644252604,0,TN,True,False,False
+8674d6af706df3c1c0b707d4,408571091380061:1225030719734090,"Pass áo bomber size M, chưa mặc luôn, chấm mình ib lại",0,-0.8696741588556433,0,TN,True,False,False
+8add259891d2f47e61eefa8e,408571091380061:1225030719734090,Nguyên Ngọc giá bnh ạ,0,-0.7372111044426175,0,TN,False,False,True
+8d7f16815ca453221d6dcd52,408571091380061:1225030719734090,mình pass bomber XL,0,-1.198900549799009,0,TN,False,False,True
+8eca913aaf19c191f7b21db7,408571091380061:1225030719734090,Mình có áo thể dục size S ( ai có nhu cầu có thể để số Z ở dưới để mình chủ động nhắn tin),0,-1.050733609005269,0,TN,False,False,False
+8f2e8630202ae865866a1580,408571091380061:1225030719734090,Cần áo bomber 2xl,0,-0.8049267466695036,0,TN,False,False,True
+8fd1e162dcd173d96993c346,408571091380061:1225030719734090,Người tham gia ẩn danh 526 ib riêng ạ,0,-0.8515583634709291,0,TN,False,False,False
+93a55b1d184bae4c79ee2c73,408571091380061:1225030719734090,Xl bnh ạ,0,-0.9363205441742882,0,TN,False,False,True
+966c04965eacc32c395610b8,408571091380061:1225030719734090,Người tham gia ẩn danh 127 0375320073 ib mình b ơi,0,-0.9606230329293365,0,TN,False,False,False
+9749fe19272f56af218443eb,408571091380061:1225030719734090,tớ có áo khoác cũ d24 size M nha,0,-0.6366764791328337,0,TN,False,False,False
+992d8f90add7736b677bca2d,408571091380061:1225030719734090,Người tham gia ẩn danh 471 còn k bạn :)),0,-0.43175084075782305,0,TN,False,False,False
+9ca90f79614f28683a128b1c,408571091380061:1225030719734090,[MENTION] mai tôi mang đi cho,0,-0.806146282574253,0,TN,False,True,False
+9dc1a22d70dd21ea0d456172,408571091380061:1225030719734090,Có bạn nào pass áo khoác gió D25 kh ạ,0,-0.9820990382246775,0,TN,False,False,False
+9e8c10753014403e15d9d427,408571091380061:1225030719734090,[MENTION] cho tao,0,-0.8561120561617821,0,TN,False,True,True
+9f82476714945b4786980ad9,408571091380061:1225030719734090,Mình pass áo gió sz XL mới mặc 1 lần và bomber sz M nguyên tag chưa mặc lần nào D23,0,-0.4640376748106365,0,TN,True,False,False
+a14b777c9eb48115adc2dc65,408571091380061:1225030719734090,ae nào mua áo hoodie size XL thì ib mình nhé :))),0,-0.959818695289538,0,TN,False,False,False
+a1fb95c6fb226a7d4133957d,408571091380061:1225030719734090,[MENTION] còn set thể nhé b,0,-0.8759753089358435,0,TN,False,True,False
+a40e76b939ea7767dca24e3d,408571091380061:1225030719734090,[MENTION] giá bao nhiêu thế b,0,-0.3817185309767339,0,TN,False,True,False
+a589a64fddb3afaa5a738c73,408571091380061:1225030719734090,[MENTION] check tn e với ạ,0,-0.883332756607305,0,TN,False,True,False
+a695046ef753be7067df198f,408571091380061:1225030719734090,[MENTION] bạn acp fr để mình nhắn nhé,0,-1.3269684948332632,0,TN,False,True,False
+a7a5bd85b31f70d5ed4c40c2,408571091380061:1225030719734090,Người tham gia ẩn danh 536 còn thể ib,0,-0.4049218046590762,0,TN,False,False,False
+a89272aca84e5fc565edfbb9,408571091380061:1225030719734090,"Người tham gia ẩn danh 195 tôi nhé, size S mới tinh nha",0,-0.5716527325530205,0,TN,False,False,False
+a9e1a6d1ebbe0f559a9310a9,408571091380061:1225030719734090,Anonymous participant 470 ib mình được ko b ơi,0,-1.2750250306496755,0,TN,True,False,False
+aa314dded5a2573f4361b3d7,408571091380061:1225030719734090,[MENTION] e chỉ pass thoi￼,0,-1.0117801325912454,0,TN,False,True,True
+ab18c61333a33ddfe45ab7f5,408571091380061:1225030719734090,mình pass áo bomber 2xl chưa mặc lần nào ạ,0,-0.9417503290688349,0,TN,True,False,False
+ac2b7924fe7f7dff75b2d76d,408571091380061:1225030719734090,ai pass áo đp thể dục size L khong ạ,0,-0.74410537472928,0,TN,False,False,False
+ac725be2feef97c46cd1ff5a,408571091380061:1225030719734090,Pass cả bộ thể dục d23 size S ạ,0,-0.988255805086593,0,TN,False,False,False
+afc3b91461146a9e48eb2414,408571091380061:1225030719734090,Mình ạ,0,-1.3306047874677818,0,TN,False,False,True
+aff88a9201590c5986b21f5b,408571091380061:1225030719734090,[MENTION] andanh thì t ib kieu j h:))),0,-0.7494302658685512,0,TN,False,True,False
+b08f4a16f90070ce60b6808b,408571091380061:1225030719734090,em pass áo gió sz M khóa D24 ạ,0,-0.789809337482724,0,TN,False,False,False
+b103c9e61d1fc3cc63af5e9c,408571091380061:1225030719734090,tớ có áo khoác d24 size M ạ. tớ cao m5 vẫn mặc vừa nhé,0,-0.32459058754508174,0,TN,False,False,False
+b3401b068b2cf59e87eee8cd,408571091380061:1225030719734090,Người tham gia ẩn danh 452 đổi sang quần size 9 k bạn,0,-0.8240934870801302,0,TN,False,False,False
+b447b7a432eab78ca4386234,408571091380061:1225030719734090,Người tham gia ẩn danh 526 còn áo gió k bn oi?,0,-0.39409577412877467,0,TN,False,False,False
+b5ac3836e6fbbcbf0aff2979,408571091380061:1225030719734090,Có ai pass áo khoác d25 size M kh ạ,0,-0.7133464220309795,0,TN,False,False,False
+b750330911a4d3261ce4565b,408571091380061:1225030719734090,Cần tìm người pass áo khoác gió cũ 2-3xl,0,-0.7040240790963741,0,TN,False,False,False
+b7b7644dfb986ead0819c067,408571091380061:1225030719734090,Người tham gia ẩn danh 471 ib em với ạ,0,-0.7759708388495411,0,TN,False,False,False
+bae5e43d91fa5712c25a6b87,408571091380061:1225030719734090,[MENTION] còn k b:),0,-0.8774267923432854,0,TN,False,True,True
+bd690b73440c049e5cd3a72c,408571091380061:1225030719734090,[MENTION] xl bnh ạ,0,-1.1357181595481474,0,TN,False,True,True
+be73ea34511b2afafed07128,408571091380061:1225030719734090,Pass bộ bóng chuyền mới mặc 2 lần nha. [MENTION] đưa mà pass luôn chơ để máu chi cho nhục nựa,0,-0.5454546128341403,0,TN,False,True,False
+c0066d3759220094cacd9a5d,408571091380061:1225030719734090,cần áo khoác gió d24 trở lại 2xl hoặc 3xl ạ,0,-0.8892165646849497,0,TN,False,False,False
+c514b16e23d07a181a1556da,408571091380061:1225030719734090,[MENTION] cậu chê trg à,0,-0.8686506190643073,0,TN,False,True,True
+c6cc6dc347d4f30e2575328e,408571091380061:1225030719734090,[MENTION] 200 thì suy nghĩ :)),0,-0.15806460821579166,0,TN,False,True,False
+cb0c08d302ab128268f63795,408571091380061:1225030719734090,Ai pass áo khoác gió size s ko ạ,0,-0.9691304850494766,0,TN,True,False,False
+cb49995360ccc020f354c647,408571091380061:1225030719734090,Còn ai pass áo gió size L ko ạ???,0,-0.4211100895598493,0,TN,True,False,False
+cb7a25153dc23b90723fd7f0,408571091380061:1225030719734090,Người tham gia ẩn danh 195 mình pass size S ạ,0,-1.0511814517952613,0,TN,False,False,False
+cc4e2c4f1ce1edabfaf7709c,408571091380061:1225030719734090,Người tham gia ẩn danh 127 mình có size L mới tinh chưa mặc lần nào bạn còn cần thì bọn mình add nha ạ,0,-0.45535974452147787,0,TN,True,False,False
+cd2fad738e28838dfb8271bc,408571091380061:1225030719734090,Người tham gia ẩn danh 536 pass bnhiu z ạ,0,-0.7980935212172648,0,TN,False,False,False
+cdaeb0eee9abf2ef61a91dce,408571091380061:1225030719734090,[MENTION] áo cũ đúng k bro,0,-1.2327291117080679,0,TN,False,True,False
+ce3090c6a8ced2fe7bde8967,408571091380061:1225030719734090,"[MENTION] bn mặc size bao nhiêu vậy, mk pass nè",0,-0.5387270614978683,0,TN,False,True,False
+d0af0e27f3297f3d93382357,408571091380061:1225030719734090,còn ko ạ,0,-0.9234739737810358,0,TN,True,False,True
+d215ffbe1fad3a38f62bc1e7,408571091380061:1225030719734090,Mk pass 2 áo bomber sz M nguyên tag chưa mặc lần nào,0,-0.5416055364654377,0,TN,True,False,False
+d5f776ce823e3af3c3060ebf,408571091380061:1225030719734090,mình pass áo khoác gió sz XL ạ,0,-1.1367577972749863,0,TN,False,False,False
+d7c16a3934e15dc85fbb2958,408571091380061:1225030719734090,[MENTION] ib anh nha,0,-1.284903634332345,0,TN,False,True,True
+d8dc6c01fc330bef491d7d7e,408571091380061:1225030719734090,[MENTION] mik có sz M ạ,0,-0.72808890993622,0,TN,False,True,False
+d9e6ca53a54844bcab8292c3,408571091380061:1225030719734090,Pass áo polo size M D25 ạ,0,-0.6976163106038133,0,TN,False,False,False
+da2d328e21f6cd5bd6c651d0,408571091380061:1225030719734090,pass áo polo xl ạ,0,-1.1547880709476201,0,TN,False,False,True
+da628a09ee843d0afd9eccfd,408571091380061:1225030719734090,Người tham gia ẩn danh 415 còn set thể d24 với áo hoodie b ơi,0,-0.5328092728737913,0,TN,False,False,False
+db548f250a12ce1fc2596292,408571091380061:1225030719734090,Có ai pass áo đồng phục từ d24 đổ về trước ko ạ,0,-0.6774433566373594,0,TN,True,False,False
+de7cbc3da8cfe85bb41ae6aa,408571091380061:1225030719734090,"pass set thể d24, áo khoác gió d24, hoodie all size L đồng giá 60k (ai mún mua thì cmt ở dưới để mình chủ động nhắn nhé)",0,-0.8050226176571167,0,TN,False,False,False
+e17d8434baf660d80a335906,408571091380061:1225030719734090,[MENTION] khả năng đấy,0,-0.9535197497701953,0,TN,False,True,True
+e2b352af467f912a58c38f53,408571091380061:1225030719734090,"Người tham gia ẩn danh 743 còn quần thể dục size M, áo bomber size M ạ",0,-0.35186887096825,0,TN,False,False,False
+e30a127614c779c24e0acbe0,408571091380061:1225030719734090,E pass quần size 9 ạ,0,-1.3302997430407637,0,TN,False,False,False
+e330296adc5e9ec04e1f59e3,408571091380061:1225030719734090,[MENTION] còn không ạ,0,-0.8689718366279885,0,TN,True,True,True
+ec187cac48f952ce75be345e,408571091380061:1225030719734090,ai co khoác size S khong pass em ạ,0,-1.075486469295536,0,TN,False,False,False
+ed0f58153e10b3494b82d0b9,408571091380061:1225030719734090,tớ có áo thể dục d24 size M ạ,0,-0.37021484076330247,0,TN,False,False,False
+ee117a64a934a3d1c00a4382,408571091380061:1225030719734090,Người tham gia ẩn danh 526 ib ạ,0,-0.6632796273187083,0,TN,False,False,False
+ee22b3e85fef4d98ab38505c,408571091380061:1225030719734090,"Người tham gia ẩn danh 127 mình tìm sđt không ra bạn ạ, bạn thử ib mình 0862398906 ạ",0,-0.6745260921372856,0,TN,True,False,False
+ee6900cb1cecf6b7b33c176b,408571091380061:1225030719734090,Tìm áo gió D24 Xl ạ,0,-0.8161375876446205,0,TN,False,False,False
+f12b144914739b5aefd5fc37,408571091380061:1225030719734090,[MENTION] pass áo kìaaa,0,-1.1852945202888803,0,TN,False,True,True
+f19e7d79aad8b55cc0de91f8,408571091380061:1225030719734090,Người tham gia ẩn danh 526 còn k ạ,0,-0.548380811755221,0,TN,False,False,False
+f222daa2b606cb965096221c,408571091380061:1225030719734090,Mình pass áo bomber 90k nhé ạ 0356172832,0,-1.198842615289804,0,TN,False,False,False
+f5173f817f1c11463268626f,408571091380061:1225030719734090,[MENTION] hết r b ơi,0,-1.4549428829519493,0,TN,False,True,True
+f8998360eee166404f0c4ed7,408571091380061:1225030719734090,Giá như nào,0,-0.6407035728805989,0,TN,False,False,True
+f9c2b4e68de888ddbdefd590,408571091380061:1225030719734090,[MENTION] bn ơi còn ko add mình với,0,-1.1295000374048467,0,TN,True,True,False
+fc0c6aac1aa843eee887b5ea,408571091380061:1225030719734090,"Cần áo thể dục d25 size L, áo khoác gió d24 size XL ạ",0,-0.6136008427252041,0,TN,False,False,False
+fcecb29055bf432433d8b613,408571091380061:1225030719734090,ai pass dây đeo thẻ sinh viên khong ạ,0,-0.8355935959256805,0,TN,False,False,False
+fd036b8e067f9a42a3e65393,408571091380061:1225030719734090,Người tham gia ẩn danh 526 áo thể còn ib ạ,0,-0.5699271640603144,0,TN,False,False,False
+fe5eae20a17f7e8f3e30125d,408571091380061:1225030719734090,Có ai có áo gió và bomber size L không,0,-0.3585763685024962,0,TN,True,False,False
+ffd5222947d8fa4b9a5729a2,408571091380061:1225030719734090,ai pass áo khoác gió size L không ạ,0,-0.721895438129005,0,TN,True,False,False
+0f059967fbb1cbd337528e31,408571091380061:994102516160246,[MENTION] học lấy A+ cấu giải,0,-0.8258645078363733,0,TN,False,True,False
+0ffcc10191d2acda48985fda,408571091380061:994102516160246,Đỉnh quá anh ơi,0,-0.7781121924068598,0,TN,False,False,True
+1f49e1db1a2e8acea87b5c17,408571091380061:994102516160246,Anh này đỉnh quá,0,-0.8127520698632706,0,TN,False,False,True
+2073eb6851cc698c7bc9479f,408571091380061:994102516160246,+1 legit,0,-0.5475933754119059,0,TN,False,False,True
+2716880b725bff6dd93d492d,408571091380061:994102516160246,[MENTION] mở lớp đi a,0,-1.2084837012654799,0,TN,False,True,True
+285b10da7a1c25a0ccee4fe2,408571091380061:994102516160246,Có voucher giảm giá ko,0,-0.6422323765940765,0,TN,True,False,True
+2b219529d853329b75ace3b1,408571091380061:994102516160246,"[MENTION] k, recm cho e Phú th-",0,-0.7860089840147149,0,TN,False,True,False
+34a4dacb432e4806b2b50351,408571091380061:994102516160246,My idol,0,-0.7433638569377352,0,TN,False,False,True
+35118cce36283332d83863c1,408571091380061:994102516160246,[MENTION] xin e,0,-1.6434338833655633,0,TN,False,True,True
+3da45299ba2b4d6c8f6a9cef,408571091380061:994102516160246,[MENTION] gián điệp,0,-0.8238917150422672,0,TN,False,True,True
+40aa157f48156b0db03ed7c0,408571091380061:994102516160246,[MENTION] Căng :))),0,-0.9582401874277879,0,TN,False,True,True
+4dfc6be10536c6767b013295,408571091380061:994102516160246,quen đc giảm hp ko aj!!,0,-1.0482612463641703,0,TN,True,False,False
+57493f05cfc8241f40851888,408571091380061:994102516160246,[MENTION] ko e,0,-1.0929159827148234,0,TN,True,True,True
+5930fdaaa7d59a129190fb1f,408571091380061:994102516160246,[MENTION] share giúp tui phát,0,-1.0473721129449565,0,TN,False,True,True
+625165b388aa8e71b0ee8d57,408571091380061:994102516160246,[MENTION] học đi,0,-1.2073567154099283,0,TN,False,True,True
+6c411d483e32d9491de0c1b2,408571091380061:994102516160246,[MENTION] có ạ,0,-1.5457752342392626,0,TN,False,True,True
+706371554c51db30992693ec,408571091380061:994102516160246,[MENTION] free luôn anh ơi,0,-1.1108453327779053,0,TN,False,True,True
+7c604632546932ccff2be050,408571091380061:994102516160246,[MENTION] em nào cũng được à anh,0,-1.095236264697865,0,TN,False,True,False
+7eb0301cd8345a5e9ebfba69,408571091380061:994102516160246,[MENTION] 2 con vợ này trong đội tuyển à,0,0.0703443117772583,1,FP,False,True,False
+8a9efe6a4dad2b712c667f37,408571091380061:994102516160246,Mạnh v,0,-0.9766906836507693,0,TN,False,False,True
+8b2572f2f6fcaf60e515518e,408571091380061:994102516160246,Trả học phí bằng pi đc ko anh,0,-1.0591925983817725,0,TN,True,False,False
+941cde702240388b14f7d91f,408571091380061:994102516160246,[MENTION] em cũng muốn xin slot,0,-1.5153467887550642,0,TN,False,True,False
+98f35775a71b29021e879a41,408571091380061:994102516160246,"Dữ quá sốp ơi, xin phép đăng ký 480 buổi học",0,-0.7781546224434455,0,TN,False,False,False
+995d924ffe6e6d80423c93a5,408571091380061:994102516160246,Đăng ký thoiiiiiiiiiii,0,-0.6506327620285074,0,TN,False,False,True
+99fa81eade373b21bb630bbb,408571091380061:994102516160246,Nhức nách,0,-0.5940693973695141,0,TN,False,False,True
+9e42d8937974ec274ad900fc,408571091380061:994102516160246,Bump cho a này,0,-0.43832750557822214,0,TN,False,False,True
+a4b610f386c83b10d3504c18,408571091380061:994102516160246,pr em với sếp,0,-0.9213764950731063,0,TN,False,False,True
+afcd3d0a7c9365647a012a5c,408571091380061:994102516160246,[MENTION] mở khoá học tán gái đi anh zai,0,-0.4995113968428032,0,TN,False,True,False
+b1d3d92c389684975ab4dba6,408571091380061:994102516160246,[MENTION] tham khảo :)),0,-1.0572797786640178,0,TN,False,True,True
+b524c785ec97517078c86a94,408571091380061:994102516160246,"[MENTION] vâng, em muốn gì cũng được",0,-1.1425194517480657,0,TN,False,True,False
+be3b7c1a49f06af8be41d516,408571091380061:994102516160246,em xin slot,0,-1.2696393768207925,0,TN,False,False,True
+c3d6d254b8c91b076902edb2,408571091380061:994102516160246,Ước gì biết khoá học anh này sớm hơn,0,-0.851493339762609,0,TN,False,False,False
+d1a35913856ff79fc5fc765a,408571091380061:994102516160246,[MENTION] Năm nay cố lấy cái huy chương regional là tự pr ngon ngay chứ a pr ai thèm nghe,0,-0.5194215067634843,0,TN,False,True,False
+d234abb0b74c39c33f8a90cb,408571091380061:994102516160246,[MENTION] seeding vl =)),0,-0.7320658084537507,0,TN,False,True,True
+da222223a17b7992611be098,408571091380061:994102516160246,Anh có dạy mất gốc không ạ ? ( em là nữ khoa kinh tế ạ ),0,-0.6169567233657056,0,TN,True,False,False
+de805213ebcffaa6ea7f792a,408571091380061:994102516160246,:)) đỉnh,0,-0.813691150061282,0,TN,False,False,True
+053e764b28238e3e76957ab5,584397217391365:1126515419846206,mày bị đao à,1,0.033975075324038206,1,TP,False,False,True
+053ec30d9d6dc95309ebc62b,584397217391365:1126515419846206,Hôm trc mẹ mình chửi mình vì vụ tên này :)))),0,-0.5921664416234969,0,TN,False,False,False
+21422056085e324ffa5d97bc,584397217391365:1126515419846206,[MENTION] đm same :))),0,-0.5708343470586559,0,TN,False,True,True
+2715c11a3a1a0d18a1f76fa6,584397217391365:1126515419846206,Dấu phẩy kìa b ơi đùa,0,-0.9048142189173327,0,TN,False,False,False
+576bf1b227b8eb9cd4f051da,584397217391365:1126515419846206,lần sau cứ nói: Tôi bị ngu là đc nhé,1,0.41144169438028166,1,TP,False,False,False
+59ccbe5a18adcf5236579eb7,584397217391365:1126515419846206,thì có người học lại ?,0,-0.12056015177482349,0,TN,False,False,False
+6152c849d9ca802dd6afa7f6,584397217391365:1126515419846206,Anonymous participant 417 k bro,0,-1.1004748646789726,0,TN,False,False,True
+625069d767fd3d52fd5a717c,584397217391365:1126515419846206,Đầu chắc để mọc tóc thôi chứ bao đời sinh viên chưa có ai như này cả nuôi tốn cả cơm,1,-0.145986463176771,0,FN,True,False,False
+63573cc789781d857cc0aeed,584397217391365:1126515419846206,Sau chắc tính cả điểm Văn vào điểm xét tuyển cho vừa lòng nhau.,0,0.1717975341152208,1,FP,False,False,False
+64fd7d0c7d830f6834dc9b39,584397217391365:1126515419846206,Vào phần qr ghi rõ là học phí hay học lại còn gì,0,-0.24961128679842426,0,TN,False,False,False
+662a33a764406c394868d12c,584397217391365:1126515419846206,"Tôi bt lý do tại sao vì thk bn tôi cx kêu là đây là nộp tiền học lại..., tôi vs nó ms cãi nhau xog :))",0,-0.2774868787985455,0,TN,False,False,False
+73c67c5e8bd94ccaff256468,584397217391365:1126515419846206,[MENTION] đơn giản là đợt này trường thu cả học phí kỳ chính và học phí học lại và tùy vào đối tượng thôi,0,-0.731699808499642,0,TN,False,True,False
+78629164992b4cb57084f84b,584397217391365:1126515419846206,Sau viết đơn gửi lên Liên hợp quốc ấy nhéVào đây khóc lóc ko có tác dụng gì đâu,0,-0.5691785087324756,0,TN,True,False,False
+82f38b2fdbe5e59bb586975a,584397217391365:1126515419846206,Ôh bnhieu tín mà có 15tr thế ạh,0,-0.6173210383183955,0,TN,False,False,False
+83852648c60403450d654839,584397217391365:1126515419846206,Ngu dốt thì nên đi tìm hiểu trước rồi hãy đăng lên,1,0.7524049163374531,1,TP,False,False,False
+8477caed95bce7e2bb00ace7,584397217391365:1126515419846206,Hôm trc mẹ t cx tưởng t học lại kbt nói j luôn:))),0,-0.43757863749897996,0,TN,False,False,False
+8fa3829803510b695b1ad580,584397217391365:1126515419846206,dốt v:)),1,-0.1714619033929844,0,FN,False,False,True
+9283a4a90412e018dac6720e,584397217391365:1126515419846206,"Mình trượt thì trường cho học lại, đâu ai hơi trường rước phiền phức vào người mình đâu em, nguuu dốt",1,-0.37016421696551405,0,FN,False,False,False
+a24b30daa46322a199a696ca,584397217391365:1126515419846206,Nó bị ngu ấy. Dm tới lúc đóng xong cha mẹ chúng mày hỏi học lại thì đéo biết trả lời thế loz nào,1,1.480585421263913,1,TP,False,False,False
+a40a0968bcdc9ea0b6167333,584397217391365:1126515419846206,Tùy người thôi :)))),0,-0.5011040610766601,0,TN,False,False,True
+a7bcd0d01b99f204cef5ddbc,584397217391365:1126515419846206,"bố t tưởng t học lại , k bt nói gì",0,-0.0784455438555941,0,TN,False,False,False
+c2d0a6f83a2e8e77a931984f,584397217391365:1126515419846206,[MENTION] [MENTION] thật là bưu điện,0,-0.9274150823191387,0,TN,False,True,False
+c77ff325743a1d94a37a3b41,584397217391365:1126515419846206,"Có người học lại thì để học lại, học phí chỉ những môn học đúng kì",0,-0.6560761895832138,0,TN,False,False,False
+ccc5bb59b582bfe565d7964b,584397217391365:1126515419846206,trường tồn tại bao năm k cần loại nít ranh mới lớn dạy cách dùng ngôn từ,1,0.022704773614737772,1,TP,False,False,False
+ceacec6884f5fa39698d36e0,584397217391365:1126515419846206,Người tham gia ẩn danh 657 đến lúc bố mẹ m bảo m học lại thì m có giải thích đằng trời,0,0.07505553816259047,1,FP,False,False,False
+d15cd01b50d665373ac78f81,584397217391365:1126515419846206,Dấu phẩy to đùng còn gì nữa em,0,-0.8263989793135991,0,TN,False,False,False
+d48ed89416b1e2b74ee79aa6,584397217391365:1126515419846206,"Có thế mà cũng phải đăng cái post lên. Đợt thu phí có cả thu học phí kỳ chính và phí học lại thì ghi thế đúng mà có sai đâu, thông báo cho toàn sinh viên chứ đâu phải riêng mình đâu? Hay chẳng lẽ như đợt quy đổi điểm thay vì làm một cái thông báo xét miễn học miễn thi, quy đổi điểm, xét đầu ra thì chẳng lẽ đi làm 3 thông báo riêng à? Ngáo v",1,0.10535356029343135,1,TP,True,False,False
+d9a9eae7948239925b5b43af,584397217391365:1126515419846206,[MENTION] có môn nào bị F ko,0,-1.344948559266267,0,TN,True,True,False
+e93ca356b1c667c9d4ee01bf,584397217391365:1126515419846206,tân sinh viên năm nay cứ như bố đời thiên hạ,1,-0.38560512797569857,0,FN,False,False,False
+eab80b44e734f389170485dc,584397217391365:1126515419846206,Ngầu quá vỗ tay,0,-0.7465199145048428,0,TN,False,False,True
+ef5248bb5f2ef18d78b8230f,584397217391365:1126515419846206,[MENTION] vậy là cái tên này là gộp chung tổng số học phí kỳ chính với học phí học lại ?,0,-0.4579608017938733,0,TN,False,True,False
+f2c0b95942778c357e2c3abe,584397217391365:1126515419846206,Xóa bài đi phản cảm quá,0,-0.2444335221428371,0,TN,False,False,False
+f89f56fc66d5aa222a35a3eb,584397217391365:1126515419846206,tài vl thế mà vẫn đỗ dh được =)))),1,-0.2654022919317817,0,FN,False,False,False
+fa67f202820233eea6e65110,584397217391365:1126515419846206,Dễ hiểu nhầm nhắm-)))),0,-0.48229889003222187,0,TN,False,False,True
+0032804cce735b246e6a5540,confessions.ptit:1437943818190115,[MENTION] [MENTION] [MENTION] [MENTION] [MENTION] [MENTION] hóng đi,0,-1.565399139030628,0,TN,False,True,False
+017e45dc914bff53587e41bf,confessions.ptit:1437943818190115,"Mấy đứa tử tế thì chê nhạt, chê không tinh tế,...Quen mấy đứa... thì chịu thôi. Hơn 18 rồi, tự quyết định, tự chịu hậu quả. Trong cảnh này, thương mỗi em bé.",0,0.039112758309570506,1,FP,True,False,False
+01a459dc8a68533f7d2fb49a,confessions.ptit:1437943818190115,Người tham gia ẩn danh chắc lại chuyện xàm l tự nghĩ ra à update phần như film làm cc jUp cụ mặt với tt nó lên đi xem có dám k,1,1.0725411821886637,1,TP,False,False,False
+02f7e0af2a72accb6b82d13c,confessions.ptit:1437943818190115,Mấy thg cc này vô sinh mẹ đi duma,1,1.076018266783515,1,TP,False,False,False
+0383f74aa71c076cd3bcf18b,confessions.ptit:1437943818190115,[MENTION] [MENTION] cm cẩn thận,0,-0.8872544776498081,0,TN,False,True,True
+04075f46305ed0276d41fa46,confessions.ptit:1437943818190115,Hóng hóng,0,-1.0819526475773564,0,TN,False,False,True
+047b94b423c02d6709bee045,confessions.ptit:1437943818190115,Em đừng học hư theo các bạn nhé,0,-1.0795849795325354,0,TN,True,False,False
+04d83433e75c1fde6f9e15f6,confessions.ptit:1437943818190115,[MENTION] oi b oiiii,0,-1.0080732856057841,0,TN,False,True,True
+0586b748b0efad98e16c1fff,confessions.ptit:1437943818190115,[MENTION] chắc chắn là m r,0,-0.5317809452137015,0,TN,False,True,False
+05aa974f5cb460b93cea1cb6,confessions.ptit:1437943818190115,[MENTION] zô hóng nè,0,-1.2142389172988586,0,TN,False,True,True
+05cbec660fbed5347eda7cb7,confessions.ptit:1437943818190115,[MENTION] bounty hunter à =)))),0,-0.6277728872804718,0,TN,False,True,True
+05df6fa99ae6ce3f2eb34711,confessions.ptit:1437943818190115,Sv [MENTION],1,0.3126032053042267,1,TP,False,True,True
+07242f2fa21c46d3eeb35c52,confessions.ptit:1437943818190115,[MENTION] oge Hưng nha,0,-0.7832065903725398,0,TN,False,True,True
+073033f96407e993fa4b3feb,confessions.ptit:1437943818190115,Tuất thế,0,0.6288242994865509,1,FP,False,False,True
+07d7e76110347e2806936817,confessions.ptit:1437943818190115,[MENTION] cc,1,-0.05701185078796378,0,FN,False,True,True
+07da0fd7bc624f5f85bc90a4,confessions.ptit:1437943818190115,[MENTION] sao m lại nói thế vs bạn nữ kia ?,0,-0.1558912521809594,0,TN,False,True,False
+0bb26fc808874d05dac6eab2,confessions.ptit:1437943818190115,[MENTION] tôi không ngờ bạn là con ng như thế đấy,0,-0.06696317942237029,0,TN,True,True,False
+0d579e24c4d5c2c813546ce6,confessions.ptit:1437943818190115,[MENTION] h mà công khai danh tính chắc nghỉ mẹ học luôn. gia nhập hội jack 5 củ,0,-0.12547614264040263,0,TN,False,True,False
+0d6cc244e901b1ef2360ef6b,confessions.ptit:1437943818190115,[MENTION] bố m có con bồng r nhót đê,1,0.10772172813620784,1,TP,False,True,False
+0e89245d3990d05b08b917f0,confessions.ptit:1437943818190115,[MENTION] tư duy trưonfg vjp,0,-0.5738743444470391,0,TN,False,True,True
+0f25ae7d4726238d967daa54,confessions.ptit:1437943818190115,[MENTION] kh ngờ bạn như này,0,-0.5958068839259335,0,TN,False,True,False
+102cd0b32aa0e3ec4d25a21b,confessions.ptit:1437943818190115,but the kid was not [MENTION] 's son,0,-0.8116392080487104,0,TN,False,True,False
+105b2494853d792c120aab62,confessions.ptit:1437943818190115,[MENTION] chắc chắn là m,0,-0.4990435758710445,0,TN,False,True,True
+11108ef3a47ce358467389a1,confessions.ptit:1437943818190115,[MENTION] m làm bố của bao nhiêu đứa rồi ?,0,-0.12941789212085186,0,TN,False,True,False
+11a180ca832d4e63cfabba0a,confessions.ptit:1437943818190115,[MENTION] sao dám mà hậu quả,0,-0.548706728637575,0,TN,False,True,False
+11f04da3d409a8e0d5d91805,confessions.ptit:1437943818190115,[MENTION] đầu dưới hơi nổi loạn tí,0,-0.10637159747089675,0,TN,False,True,False
+1332338255ba1732faa41f18,confessions.ptit:1437943818190115,[MENTION] thấy ngta tag nên cx tag cho bác hóng:)),0,-0.6500640389252766,0,TN,False,True,False
+135cd836675e7236bbeee612,confessions.ptit:1437943818190115,[MENTION] chịu em,0,-0.8906130819644924,0,TN,False,True,True
+1435eaaad8bd60a1c0794c7c,confessions.ptit:1437943818190115,chịu r ko bt nói j [MENTION],0,-0.465157910927935,0,TN,True,True,False
+14f3bcfc373b7e93010f88ec,confessions.ptit:1437943818190115,[MENTION] hóng đc chưa,0,-1.18791513325438,0,TN,True,True,True
+1534742fb4b061d4d532d4c2,confessions.ptit:1437943818190115,[MENTION] M cho anh thông tin thằng này a săn bằng được nó,1,0.15960824850219557,1,TP,False,True,False
+154aad59d2ba8e3586aa4b5a,confessions.ptit:1437943818190115,An Lê nhà anh thế à,0,0.002682968626342652,1,FP,False,False,False
+15a408e0e1f7b3bdf7b02bb7,confessions.ptit:1437943818190115,[MENTION] :)()))),0,-0.9773324680411164,0,TN,False,True,True
+15c78e0b6834fcb11aee302a,confessions.ptit:1437943818190115,A bảo m sao [MENTION] [MENTION],0,-1.087239346541983,0,TN,False,True,False
+171f4e57778a177c1eb09c59,confessions.ptit:1437943818190115,[MENTION] tỉnh về trường đi,0,-0.8741036544027694,0,TN,False,True,True
+1ca510f8584d9a659eeafc36,confessions.ptit:1437943818190115,[MENTION] quả này hỏi Phước,0,-0.9547870687464322,0,TN,False,True,True
+1e15dcd35da0f6cc33045502,confessions.ptit:1437943818190115,[MENTION] tình hình là do hải rồi,0,-0.3833767785766744,0,TN,False,True,False
+1f6fb29fa59c2af914428f1a,confessions.ptit:1437943818190115,[MENTION] tôi chưa bt mùi yêu ai b ơi,0,-0.8651004220553584,0,TN,True,True,False
+1f770692f73a6329cba1c9d9,confessions.ptit:1437943818190115,"haiz , phận con gái phụ nữ có thân mình thì cố mà giữ, đây là người gặp trường hợp xấu nhất đây, chứ để cưới mới đẻ mà gặp loại này thì kiện chet mẹ nó đc r, h tự nguyện rồi mang thai xong nó ko chịu thì bt làm sao h",0,0.6295936268311932,1,FP,True,False,False
+20039e38307917373d148840,confessions.ptit:1437943818190115,[MENTION] ptit kieu gi the ?,0,-1.120109893347794,0,TN,False,True,False
+20630d0b8a6f979688f1c9e2,confessions.ptit:1437943818190115,[MENTION] mb,0,-1.0483385496265476,0,TN,False,True,True
+20ac632f6f7db934cd53de89,confessions.ptit:1437943818190115,[MENTION] vãi lìn anh có nỗi đến vậy đây dim,0,-0.7805538069923725,0,TN,False,True,False
+21243cd963968919fa338540,confessions.ptit:1437943818190115,"Thua svat mỗi cái tên, khéo còn đ bằng svat, public tên, msv đi để bố đi săn thằng đấy dù m ở đâu hà nội bố cũng đến tìm",1,-0.08526613261259952,0,FN,False,False,False
+2204378833c815c4f5828834,confessions.ptit:1437943818190115,[MENTION] vc tuất bưu điện,0,0.24716771253903713,1,FP,False,True,True
+229f7ec3b1d29886eb4b762c,confessions.ptit:1437943818190115,[MENTION] [MENTION] thêm lửa,0,-1.2156006694181447,0,TN,False,True,True
+23809125ac59f2bd7a4e43eb,confessions.ptit:1437943818190115,[MENTION] tất cả tại tk [MENTION],0,-0.4009798406280392,0,TN,False,True,False
+23ce9cbd7eaf39d366664f95,confessions.ptit:1437943818190115,[MENTION] ôi chán chưa ?,0,-0.7151720727657432,0,TN,True,True,True
+25431a0da6988bcc3ec36581,confessions.ptit:1437943818190115,[MENTION] bà à,0,-0.7433007317837766,0,TN,False,True,True
+2763e164eeae0684263fd7e4,confessions.ptit:1437943818190115,[MENTION] hóng hóng,0,-1.214302120350053,0,TN,False,True,True
+27f6469df9576d063b36dac3,confessions.ptit:1437943818190115,[MENTION] trai ptit tồi v sao :)),0,-0.6705062296014546,0,TN,False,True,False
+283861f5c3c0d83aac63cab5,confessions.ptit:1437943818190115,Chán [MENTION] làm mà không chịu nhận hả bạn.Bạn [MENTION] xem thế nào khuyên bạn Thái quay đầu đi vẫn kịp mà.,0,-0.13074630575672175,0,TN,True,True,False
+29441586af769fb418b2f954,confessions.ptit:1437943818190115,[MENTION] m phải k,0,-0.5844232658055947,0,TN,False,True,True
+29965ac0b45c093664f6d984,confessions.ptit:1437943818190115,[MENTION] t bảo m phải chịu trách nhiệm cơ mà,0,-0.40454999036522477,0,TN,False,True,False
+2bd01baeb898443fdb0cec77,confessions.ptit:1437943818190115,[MENTION] anh Đê có chơi k có chịu,0,-0.9689180143706193,0,TN,False,True,False
+2be5b289c171b3f53569a715,confessions.ptit:1437943818190115,[MENTION] not me bro,0,-1.0150793059253662,0,TN,False,True,True
+2c7c773aea7fe0601a29456b,confessions.ptit:1437943818190115,[MENTION] đừng có lông bông,0,0.36664291373584734,1,FP,True,True,True
+2da91deb3aa6c112927a27c4,confessions.ptit:1437943818190115,Toi cân phan 1,0,-0.9086115022581415,0,TN,False,False,True
+2e37de7829c9890f1ab3e7c1,confessions.ptit:1437943818190115,[MENTION] chạy ngay đi,0,-0.7532765352771533,0,TN,False,True,True
+2f0310df7eed31382aa4d929,confessions.ptit:1437943818190115,[MENTION] Đố em biết anh,0,-0.8227023526881883,0,TN,False,True,True
+2f4c63b8094795cd08bdc539,confessions.ptit:1437943818190115,[MENTION] ae cao đẳng công nghệ thế lại hay,0,0.3294518575894959,1,FP,False,True,False
+2f65ce1211463577e998eda3,confessions.ptit:1437943818190115,chắc chắn là bạn của [MENTION],0,-1.0219374605508327,0,TN,False,True,False
+2fca2b3be159bf99d010a6f9,confessions.ptit:1437943818190115,[MENTION] chất k,0,-1.0085571856805466,0,TN,False,True,True
+2fe578cf651cb114246c5da3,confessions.ptit:1437943818190115,[MENTION] chít m,0,0.3996484212244593,1,FP,False,True,True
+3121791b67b457b5817ba52a,confessions.ptit:1437943818190115,Người tham gia ẩn danh 117 ô nàooo ko trêu bạn :))),0,-0.3969333780636272,0,TN,True,False,False
+31d002303f978832958f9cd4,confessions.ptit:1437943818190115,[MENTION] m ơi?,0,-0.5557076094533938,0,TN,False,True,True
+31e651e4dabaaebd7984fc28,confessions.ptit:1437943818190115,[MENTION] đã đây xh rồi giờ hết cứu,0,-1.0755139576001853,0,TN,False,True,False
+3254e00daadb6014889e615d,confessions.ptit:1437943818190115,Thì nó là vậy đó,0,-0.20210923009632692,0,TN,False,False,True
+33da867a775475b58147f918,confessions.ptit:1437943818190115,[MENTION] ôi tag gì mang tiếng vậy :)),0,-0.7811799862459169,0,TN,False,True,False
+35577a8142152a8ce5b386d9,confessions.ptit:1437943818190115,vu j v [MENTION] [MENTION] [MENTION] [MENTION],0,-1.4572572493159055,0,TN,False,True,False
+35dd9973520439f7e6bb1da3,confessions.ptit:1437943818190115,Người tham gia ẩn danh 410 bỏ cái ẩn danh ra,0,-0.13259360259865305,0,TN,False,False,False
+366e489b90d4254dd40d7321,confessions.ptit:1437943818190115,[MENTION] [MENTION] hóng,0,-1.5198426618444738,0,TN,False,True,True
+36e16ec02bd1512b775c9895,confessions.ptit:1437943818190115,"[MENTION] ah rack còn chu cấp 5 củ , vẫn ch chung mâm đc",0,-0.398404649751435,0,TN,False,True,False
+37202aebb36d44f097834a9c,confessions.ptit:1437943818190115,[MENTION] ??? Wtf,0,0.01498736793758404,1,FP,False,True,True
+3804bb13d9fc1d6657413a3a,confessions.ptit:1437943818190115,[MENTION] link đâu hả em,0,-1.0967178942816478,0,TN,False,True,True
+3a2ac210962ae78fabd4d883,confessions.ptit:1437943818190115,[MENTION] lomdom,1,-0.5132433998679491,0,FN,False,True,True
+3a54ec2f5fea3dd38b592c18,confessions.ptit:1437943818190115,[MENTION] m phải chịu trách nhiệm sao lại làm thế hả đạt,0,-0.19630611009650595,0,TN,False,True,False
+3bfc827b9b2af7b3be46d282,confessions.ptit:1437943818190115,[MENTION] bố m biết đó là m mà,0,0.1331338580221828,1,FP,False,True,False
+3c16398a95a4ada5004d531a,confessions.ptit:1437943818190115,Ib anh nuôi,0,-0.8587785689550155,0,TN,False,False,True
+3d882d5d7b8ad97b95765f8f,confessions.ptit:1437943818190115,[MENTION] khả năng r vminh tệ,0,-0.5146187417402353,0,TN,False,True,False
+3f952e0f9a2a3d142d571b17,confessions.ptit:1437943818190115,Bán j nói luôn đm còn chia ra 10 phần,1,-0.1873634049601265,0,FN,False,False,False
+3fc026e0b46f88e5bfc86b37,confessions.ptit:1437943818190115,[MENTION] úi dờ kinh phết,0,-0.8672014496153634,0,TN,False,True,True
+40642a26ad88508d27c700ab,confessions.ptit:1437943818190115,[MENTION] hóng đê,0,-1.2106496144935193,0,TN,False,True,True
+4086e4680adf16cd755528bb,confessions.ptit:1437943818190115,[MENTION] khsao c ơi e còn nguyên tem,0,-0.7747222557987312,0,TN,False,True,False
+41721dba7a0f8a4f816f56e4,confessions.ptit:1437943818190115,[MENTION] [MENTION] vãi bay ơi bay,0,-1.1427174501366757,0,TN,False,True,False
+41bba36717e6fb3dee7952d6,confessions.ptit:1437943818190115,[MENTION] tuất à,0,0.6406225880030687,1,FP,False,True,True
+42281c6910a27ce3bf3a32a7,confessions.ptit:1437943818190115,[MENTION] đấy lưu ý em nhé,0,-1.237572707789325,0,TN,False,True,False
+42d809d03c0c8d7cae7b8fa8,confessions.ptit:1437943818190115,[MENTION] m diênnn rồi,1,-0.39569467348709314,0,FN,False,True,True
+43c9c94515268532f10fdc85,confessions.ptit:1437943818190115,[MENTION] toi chiu b,0,-1.1217979321291003,0,TN,False,True,True
+44677b80774a85ef5831c016,confessions.ptit:1437943818190115,[MENTION] chịu minh sao làm thế,0,-0.4663034786166075,0,TN,False,True,False
+4544fef6648ad3e881f046f1,confessions.ptit:1437943818190115,[MENTION] hack fb nó đi babi,0,-0.12310658271690156,0,TN,False,True,False
+454dd9aa348c9838be5d8159,confessions.ptit:1437943818190115,[MENTION] [MENTION] vào xem Mạnh bị phốt này,0,-1.0413543799290572,0,TN,False,True,False
+45fe2391799764738e564c1c,confessions.ptit:1437943818190115,[MENTION] uầy t còn ch đc nắm tay em mô m ak,0,-1.1556583221398313,0,TN,False,True,False
+46c64039a820efc27b6c3a28,confessions.ptit:1437943818190115,Bổ túc đúc nhân tài,0,-0.31321591375036806,0,TN,False,False,True
+470dee92e013b9dbc0c13e78,confessions.ptit:1437943818190115,[MENTION] [MENTION] [MENTION] may quá gốc Hà Nội đấy,0,-1.4034201068826495,0,TN,False,True,False
+484aab2f2cd0f77b3c30f915,confessions.ptit:1437943818190115,sorry,0,-0.7448973135954102,0,TN,False,False,True
+489315b11892ccf8d49bea76,confessions.ptit:1437943818190115,"Đàn ô mà phát ngôn như cac v nhỉ ,lúc dẫn vào chơi thì deo thấy nói j đâu",1,-0.054490475986854414,0,FN,False,False,False
+4b068684cf9b4e06e42fa49a,confessions.ptit:1437943818190115,[MENTION] anh buồn mày quáa,0,-0.6691072980574133,0,TN,False,True,True
+4ba485b8b92063055ad2969c,confessions.ptit:1437943818190115,ptitệ mà bạn,0,-0.47181646829880575,0,TN,False,False,True
+4c5d9caef8d55f0c0a8a24f7,confessions.ptit:1437943818190115,[MENTION] Chịu hẳn,0,-0.09098138954858315,0,TN,False,True,True
+4c91905aee4a1a0fe553775a,confessions.ptit:1437943818190115,[MENTION] :)))),0,-0.9885061360664932,0,TN,False,True,True
+4d5330f59eca9c71c61c817d,confessions.ptit:1437943818190115,"Người tham gia ẩn danh 587 lý thuyết là thế thôi b ơi, thực tế nó khác",0,-0.35220150196323446,0,TN,False,False,False
+4e3691bebbb2a59400111f37,confessions.ptit:1437943818190115,[MENTION] Con của m cũng là con của tao. T nói thế m tự hiểu,0,0.6662592196079595,1,FP,False,True,False
+4eee011fa402e12316f97c72,confessions.ptit:1437943818190115,[MENTION] a xin loi,0,-1.103162528160071,0,TN,False,True,True
+4ef285a506a1f0d2b1fceef2,confessions.ptit:1437943818190115,[MENTION] hóng đi a long,0,-0.6068589494076754,0,TN,False,True,True
+4f1ab449e2bd58b99ab6f9d2,confessions.ptit:1437943818190115,"[MENTION] vừa thấy hôm qua, [MENTION] thế nào lại ăn không",0,-0.6651008197981446,0,TN,True,True,False
+4f1fadc5ef05e8619d4fcc33,confessions.ptit:1437943818190115,[MENTION] chịu e r,0,-0.6872081010423337,0,TN,False,True,True
+4f414ff40acd2f46e0187812,confessions.ptit:1437943818190115,để công khai fb luôn chứ c ơi,0,-1.007801257065581,0,TN,False,False,False
+4f5dc691c66d455a1b6221e0,confessions.ptit:1437943818190115,[MENTION] [MENTION] [MENTION] [MENTION] hóng tí,0,-1.218663561625063,0,TN,False,True,False
+4f6f8e89bb8e1207694327b4,confessions.ptit:1437943818190115,[MENTION] chó m thế này à ăn xong dell chùi đi luôn,1,0.9128304588947491,1,TP,False,True,False
+4f7bdd575178559ebea7b1b9,confessions.ptit:1437943818190115,[MENTION] sao bạn bỏ con ?,0,-0.15536566035251825,0,TN,False,True,False
+4fe6a307158107534b2a0ec5,confessions.ptit:1437943818190115,[MENTION] trông hay nhỉ,0,-0.4853273644072339,0,TN,False,True,True
+503904cf04dc529a261f2fa7,confessions.ptit:1437943818190115,[MENTION] ôi em đừng có chối,0,-0.6812633339563884,0,TN,True,True,False
+51073a69c0a7ca9277d5a80c,confessions.ptit:1437943818190115,[MENTION] đã bảo đừng có phá rồi,0,-0.8750380738836634,0,TN,True,True,False
+5185540565dd5374512128d0,confessions.ptit:1437943818190115,[MENTION] giang hồ đứt gánh ngay đừng đùa,0,-0.444190149381972,0,TN,True,True,False
+522a45442726c9f9ddc6cdd6,confessions.ptit:1437943818190115,vc,1,-0.2686407149759819,0,FN,False,False,True
+5263e50b910e5340ab992415,confessions.ptit:1437943818190115,[MENTION] p1 đâu,0,-0.8840323576435258,0,TN,False,True,True
+52896895553bcf558b0cc24b,confessions.ptit:1437943818190115,vl hey siri [MENTION] 1 nụ hôn lốc xoáy kiểu pháp hoặc 1 lốc sting,0,-0.4329261775799129,0,TN,False,True,False
+53a5a3521f4ce78f3a0b9443,confessions.ptit:1437943818190115,[MENTION] eoooo:)) cha nào thấy gớm v má,0,-0.9203365013955711,0,TN,False,True,False
+53c15b234113ee688c992a21,confessions.ptit:1437943818190115,"Ôi zồi ôi, đem em gái về, cố bắt nó cưới xong nó ko coi ra gì đâu, cuộc đời coi như bỏ, đem về tự đẻ tự nuôi, nhà kia nghiệp quật tuyệt tự tuyệt tôn luôn,",1,-0.019628840582834872,0,FN,True,False,False
+53ee132b9b09fda3c54245b5,confessions.ptit:1437943818190115,. hóng hớt chút,0,-0.7147185058099718,0,TN,False,False,True
+546bd0c21d285a35afa05f6a,confessions.ptit:1437943818190115,"[MENTION] gốc HN e ơi, nói e đấy e đừng có đổ oan",0,-0.5649817053421398,0,TN,True,True,False
+54bd303e9b2ec981c84de8e4,confessions.ptit:1437943818190115,chịu thằng [MENTION],0,0.07509620477287782,1,FP,False,True,True
+54c1db99876be5ed7e3ac1b0,confessions.ptit:1437943818190115,[MENTION] haizzz,0,0.1430856940363775,1,FP,False,True,True
+550dd1f17eb50e747deb3a2d,confessions.ptit:1437943818190115,Gần giống vụ cháu k70 BKhN Troy,0,-0.8797224669750552,0,TN,False,False,False
+56405e484ea3e2844b1e2b7b,confessions.ptit:1437943818190115,[MENTION] m giả D24 lừa các em à,0,-0.22817779554199918,0,TN,False,True,False
+5667fc89ef1e8736f69470ef,confessions.ptit:1437943818190115,"Phận con gái thiệt lắm, tỉnh táo nhất có thể đi các em, k là như trên đấy",0,-0.26931428924612727,0,TN,False,False,False
+568ca5a7e1a0617c096dea1d,confessions.ptit:1437943818190115,[MENTION] ??? Tay còn chưa nắm bh,0,-0.2536189435597219,0,TN,True,True,False
+577715a7f629117988afab9d,confessions.ptit:1437943818190115,[MENTION] m cút khỏi cái phây búc của tao,1,0.4810558721718452,1,TP,False,True,False
+57ad67cd30743bf01dc31bca,confessions.ptit:1437943818190115,"mm gắn link j thì gắn mẹ đi , nặn mãi dell ra đc 1 bài",0,0.644626493711842,1,FP,False,False,False
+57b5737cb1c99d9a31d0fa06,confessions.ptit:1437943818190115,[MENTION] để nhờ bạn em ở đây để hóng ạ,0,-1.4550819528916321,0,TN,False,True,False
+5808fb22ea813dd16c24ad87,confessions.ptit:1437943818190115,[MENTION] loại này tiêm thuốc,1,-0.03237624462211852,0,FN,False,True,True
+59d368fc79b9443b39663764,confessions.ptit:1437943818190115,[MENTION] m cẩn thận,0,-0.24484486259691185,0,TN,False,True,True
+5ac57d40e81c236b8036e727,confessions.ptit:1437943818190115,[MENTION] tí kêu chatgpt nó làm slide cho dễ đọc,0,-0.14093188676258062,0,TN,False,True,False
+5b5c8b786caa09d456d0895b,confessions.ptit:1437943818190115,"[MENTION] Mặc kệ trai ptit toàn trap, tôi vẫn lựa cho mình 1 chàng ptit",0,-0.8861253823575335,0,TN,False,True,False
+5c03b9cc0be17d5ea211486c,confessions.ptit:1437943818190115,[MENTION] ngôi trường của những content,0,-0.8123472268383983,0,TN,False,True,False
+5c42857120281a6ef70b0e80,confessions.ptit:1437943818190115,[MENTION] hà nội gốc,0,-1.0472069824470251,0,TN,False,True,True
+5d363fcdd48e5a171df02637,confessions.ptit:1437943818190115,[MENTION] khả năng là thật đấy,0,-1.05071232019469,0,TN,False,True,False
+5e4eb46351a7fab4aff1112b,confessions.ptit:1437943818190115,[MENTION] ????,0,0.31112863324456264,1,FP,False,True,True
+5f86206228663874d983c161,confessions.ptit:1437943818190115,thật ra đây là bạn tôi [MENTION],0,-1.1331080739519428,0,TN,False,True,False
+5fd53760fde4f9a6993fe1dc,confessions.ptit:1437943818190115,Hot hot,0,-0.7874609651419384,0,TN,False,False,True
+6081b3c7f1f1915287e04f49,confessions.ptit:1437943818190115,"[MENTION] hóng nè, tìm cho a thông tin thằng D24 này mai a cho nó vào cũi",1,-0.20516772294219687,0,FN,False,True,False
+6189bd55485fb9296f9900dc,confessions.ptit:1437943818190115,[MENTION] ăn ở sao để ngta phốt thế lày,0,-0.3903196311001812,0,TN,False,True,False
+61dc4803cb599c7f2141e930,confessions.ptit:1437943818190115,[MENTION] bạn ơi sao bạn dại dột vậy,0,-0.7244514273209002,0,TN,False,True,False
+65176ff908d553bfd89ae522,confessions.ptit:1437943818190115,[MENTION] cái wtf gì vậy?,0,-0.12002962327635613,0,TN,False,True,True
+6518d7ee83d3a04047b13163,confessions.ptit:1437943818190115,tôi k nhận ng hèn làm ptiter,1,-0.5097778315041073,0,FN,False,False,False
+662ae50bafd3f565e22568a8,confessions.ptit:1437943818190115,[MENTION] ptit trường ta,0,-1.3015471071848426,0,TN,False,True,True
+66f7ab20cc857154fdeeffee,confessions.ptit:1437943818190115,[MENTION] Có thể ngươi biết r : Bạn nam bị phốt trong bài là [MENTION] nhây,0,-0.37269956039493585,0,TN,False,True,False
+67c226a755b4497d37c9b4bf,confessions.ptit:1437943818190115,[MENTION] đã hn gốc lại còn ptit,0,-1.0271236355342197,0,TN,False,True,False
+687edf98fbdf4990f873bf55,confessions.ptit:1437943818190115,[MENTION] [MENTION] hungbui,0,-1.2168998648949179,0,TN,False,True,True
+69829c0b3b640b5985b14391,confessions.ptit:1437943818190115,[MENTION] phần 2,0,-0.48049006041906384,0,TN,False,True,True
+6a3b62a8cd00ae26d209d2b0,confessions.ptit:1437943818190115,[MENTION] [MENTION] ê hóng đi,0,-1.2098643814151604,0,TN,False,True,True
+6c825712e4139600a2213b81,confessions.ptit:1437943818190115,[MENTION] m rác quá,1,0.17014657066660221,1,TP,False,True,True
+6dabafac29444952bc0c99b6,confessions.ptit:1437943818190115,[MENTION] sống thế sống đc à E [MENTION] vs [MENTION] xem b các e ntn,0,-0.7768243247428819,0,TN,False,True,False
+6df256ba8ad1ebd236ec2262,confessions.ptit:1437943818190115,[MENTION] đừng để rơi vào tình trạng đó =)),0,-0.5671087981783571,0,TN,True,True,False
+6e0d534c256436a10476e498,confessions.ptit:1437943818190115,Kết câu cuối @,0,-0.779893198500947,0,TN,False,False,True
+6fa4988caafa207b5a820870,confessions.ptit:1437943818190115,[MENTION] chưa dọn xong hậu quả à:)),0,-0.48050166121338417,0,TN,True,True,False
+70bddbeaaa506c573c8e41c2,confessions.ptit:1437943818190115,"[MENTION] ơi có bán nhà t cũng phải tìm ra m, thằng sv ptit d24 ạ",1,-0.015654470016696398,0,FN,False,True,False
+72aa70bd6131cdaf095e9978,confessions.ptit:1437943818190115,Bựa,0,0.3470660429473289,1,FP,False,False,True
+730df54f52412d427c630f12,confessions.ptit:1437943818190115,"=)))) hiểu nhầm r, đây chỉ là 1 con sâu trong nồi canh th",1,0.1494379429535717,1,TP,False,False,False
+7354bb08b645734dc27f80c4,confessions.ptit:1437943818190115,[MENTION] vc Pờ tít,0,-0.7966191449790754,0,TN,False,True,True
+74143125cda08d8846b046f9,confessions.ptit:1437943818190115,D24 [MENTION] ak,0,-1.095830761914915,0,TN,False,True,True
+76085b565da815d9d8c42b37,confessions.ptit:1437943818190115,Sao e sv vậy [MENTION],1,-0.3670953065955673,0,FN,False,True,True
+774ffa7120100d84cd73c411,confessions.ptit:1437943818190115,show luôn mã sinh viên nó ra cho ae chiêm ngưỡng vs bạn,0,-0.11250143419623104,0,TN,False,False,False
+77baa1df1640c6f176fba283,confessions.ptit:1437943818190115,[MENTION] m hóng phốt còn tốt hơn t,0,-0.816956657330751,0,TN,False,True,False
+79c98217079f915fed4bb193,confessions.ptit:1437943818190115,[MENTION] m vội hơn t nx,0,-0.6671154118176387,0,TN,False,True,False
+7a9152c3b45f200c49ded7b9,confessions.ptit:1437943818190115,[MENTION] để tạm tuất ở đây hóng hộ,0,-0.45835270814483364,0,TN,False,True,False
+7c0b9739ca21faddc9ce7c5d,confessions.ptit:1437943818190115,[MENTION] djt me may song the a?,1,-0.8086784215562732,0,FN,False,True,False
+7c7e0e5edd5ee3a3e559ad38,confessions.ptit:1437943818190115,làm gì mà để ngta lên cả bài thế,0,0.1863903412418607,1,FP,False,False,False
+7c899f4665845142b78dbf33,confessions.ptit:1437943818190115,[MENTION] m gốc hà nội di cư ra thanh hoá đấy đừng có mà chối,0,-0.052137600795259864,0,TN,True,True,False
+7f39926fc66bdeec63191b78,confessions.ptit:1437943818190115,[MENTION] chịu b r,0,-0.8198061188735459,0,TN,False,True,True
+7f67a5d01b52d6a24215a58a,confessions.ptit:1437943818190115,Lý Châu Dương,0,-0.6690456785348965,0,TN,False,False,True
+819046d389343d1ffc0c2921,confessions.ptit:1437943818190115,"[MENTION] m à, bảo sao kì này chốn xa thế",0,-0.36548555729513477,0,TN,False,True,False
+81dc779f94686662b4bb33e5,confessions.ptit:1437943818190115,[MENTION] :))) giống a vl,0,-0.8086837101557862,0,TN,False,True,True
+83740ebf50b9539e2ee259ee,confessions.ptit:1437943818190115,[MENTION] ô pẹ m học lại cùng D24 à,0,-0.2668908647060392,0,TN,False,True,False
+84c127d0638a0398d7441bc0,confessions.ptit:1437943818190115,[MENTION] anh có sống như thế đâu em,0,-0.6435970270082185,0,TN,False,True,False
+8550b11d8260e3be4a98ce24,confessions.ptit:1437943818190115,[MENTION] căng nhể,0,-1.0275844825554983,0,TN,False,True,True
+86160a0e53b34681fbbce965,confessions.ptit:1437943818190115,[MENTION] ptit này,0,-1.1528270469546191,0,TN,False,True,True
+86f456e538697c9059f34b74,confessions.ptit:1437943818190115,[MENTION] hóng từ sáng ròi kkk,0,-1.1801825435810387,0,TN,False,True,False
+87f4eb995a3e70e84a88405c,confessions.ptit:1437943818190115,=))))))))thua ptit r,0,-0.8013669489083042,0,TN,False,False,True
+88ec9326c9144d60eea28a34,confessions.ptit:1437943818190115,[MENTION] chúng ta đang làm gì với cuộc sống vậy,0,-0.4253194275367074,0,TN,False,True,False
+8a18d3a6f19e78d2e8364ed5,confessions.ptit:1437943818190115,[MENTION] cái thk sv này gặp phải t thì khóc,1,0.43504345378280496,1,TP,False,True,False
+8a4587018e9c4deb0921f4f5,confessions.ptit:1437943818190115,[MENTION] ko biết phải làm gì với thông tin này luôn,0,-0.42992801435158645,0,TN,True,True,False
+8afa2639f25fa71b26358f27,confessions.ptit:1437943818190115,[MENTION] tôi chịu ông,0,-0.6682624609719913,0,TN,False,True,True
+8b7c827511f0f452b227b6c1,confessions.ptit:1437943818190115,[MENTION] vl ợ,0,-0.996376646352161,0,TN,False,True,True
+8b8db74f95914577ab3b900e,confessions.ptit:1437943818190115,[MENTION] D24 à,0,-0.7849265546863848,0,TN,False,True,True
+8b9a07b9af3d139986b167c7,confessions.ptit:1437943818190115,[MENTION] thua,0,-0.8350137003516683,0,TN,False,True,True
+8c1b7e7015fbf158e18b29dc,confessions.ptit:1437943818190115,[MENTION] m đổ vỏ à,1,0.5188293212615278,1,TP,False,True,True
+8c474c607def9ebd7bb3d3ee,confessions.ptit:1437943818190115,Này thì P đỏ,0,-0.3044082749183594,0,TN,False,False,True
+8c8d1d906cf22de66f547e64,confessions.ptit:1437943818190115,[MENTION] cái này sẽ làm trường xuống mâm dưới sao </3,0,-0.42030862430192467,0,TN,False,True,False
+8d35a189ce6486e72593e22d,confessions.ptit:1437943818190115,[MENTION] có bằng chứng ko?,0,-1.0524442503807505,0,TN,True,True,True
+8e76cf2a715590566df47d16,confessions.ptit:1437943818190115,bỏ ẩn danh ra dcmmm,1,-0.12288801961398654,0,FN,False,False,True
+8ecee0149adcab514e69dc9f,confessions.ptit:1437943818190115,[MENTION] em hả em cao đẳng bưu điện?,0,0.07143455782375874,1,FP,False,True,False
+8f0772f966709ea52e1aa4f6,confessions.ptit:1437943818190115,Chuẩn bị bán group à,0,-0.34739202793353996,0,TN,False,False,True
+8f868abc09975ff978cfc399,confessions.ptit:1437943818190115,đụ má t còn chưa nắm tay gái lầnn nào,0,-0.45510274117080407,0,TN,True,False,False
+9097960b6529da930f2deb5e,confessions.ptit:1437943818190115,Đàn ô con trai ăn nói như con cat,1,1.142968507585779,1,TP,False,False,False
+951da5bb4b16a81913ae8bd3,confessions.ptit:1437943818190115,"[MENTION] người gốc HN đấy Hiếu, hay là Hiếu giấu",0,-0.6711404594233272,0,TN,False,True,False
+9533da02759001faf89695ce,confessions.ptit:1437943818190115,[MENTION] b bt quá nhiều r,0,-0.5559557937934564,0,TN,False,True,False
+957331af4b39062ad55be6f9,confessions.ptit:1437943818190115,[MENTION] a chịu m đấy,0,-0.4697198217538009,0,TN,False,True,True
+965221fceb698503f9fb6a4f,confessions.ptit:1437943818190115,"[MENTION] thoi thoi, ng đã ch đủ đau hay s (",0,-0.9088927506995992,0,TN,False,True,False
+9666290ccbad855ca5442f5f,confessions.ptit:1437943818190115,Quá nhảm. Chẳng có bằng chứng nào uy tín cả . Cùng lắm đưa cái msv đây . Trung bình clickbait,0,-0.2601097305034457,0,TN,True,False,False
+97805fda8905cf1eb9354889,confessions.ptit:1437943818190115,[MENTION] chưa,0,-0.8934220712998304,0,TN,True,True,True
+99e4622fc5695c0e3c90f7aa,confessions.ptit:1437943818190115,"[MENTION] má, xin lỗi đc chưa",0,-0.798338728535868,0,TN,True,True,False
+9a9ca7aa6f5ba867867fd719,confessions.ptit:1437943818190115,[MENTION] em là thủ phạm đây a,0,-1.143962906041796,0,TN,False,True,False
+9ae44e4dc8e630be1dda24f3,confessions.ptit:1437943818190115,[MENTION] ? tui là tsv ptit,0,-0.5811970796775758,0,TN,False,True,False
+9b10d3ac2eb59b5a79cd77ec,confessions.ptit:1437943818190115,[MENTION] muốn có link để gắn lắm nhưng thật quá kh gắn đc,0,-1.071947471785625,0,TN,False,True,False
+9b14a8d9d23491fe6ed0d986,confessions.ptit:1437943818190115,[MENTION] Lại hóng r,0,-0.8553717396632684,0,TN,False,True,True
+9b836ec5249c7defc081a700,confessions.ptit:1437943818190115,"Đùa nhục nhã mặt đàn ông thật. Vậy mà t bảo cứ cưới xin đàng hoàng, đkkh xong xuôi hãng có bầu, làm gì thì làm thì nhiều người nhẩy đổng lên mắng t là cổ hủ, là ko đi cùng thời đại. Rồi nào là có bầu trước là sướng, chứng tỏ đẻ đc, bố mẹ bạn trai vui mừng nọ kia. T nói thật nếu t có con gái khi con t có bầu trước khi cưới là t éo vui đâu. Biết mặt biết thế éo nào là lòng người, tự dưng mang bầu rồi mình ở kèo dưới, tự mua dây buộc mình. Tỉnh táo, nhớ giữ mình, đang tuổi ăn tuổi học thì tập trung học, làm việc chứ dại dột 1 cái là lỡ dở tương lai. Giờ phải nói chuyện với bố mẹ thôi đừng tự giải quyết, 1 lần phá còn hại cơ thể hơn 1 lần đẻ, mà giữ để nuôi thì vất vả trăm bề. Có cha mẹ thì cứ nói chuyện, bị chửi mắng cũng phải chịu. Coi như bài học xương máu, biết mặt cả họ nhà nó. Chứ sau lấy nó cũng khổ 1 đời.",1,0.6120351370325154,1,TP,True,False,False
+9bd33894873e5cdf24b0e445,confessions.ptit:1437943818190115,[MENTION] m tk nào,0,0.1674384050129244,1,FP,False,True,True
+9bf5c2920b8d019738ee75f8,confessions.ptit:1437943818190115,[MENTION] m hóng kể t,0,-0.5850201938336812,0,TN,False,True,True
+9cf0a8ebc491a4df48a9e618,confessions.ptit:1437943818190115,chưa cưới thì tốt nhất không chịch choạch nhé,0,-0.5243206065920569,0,TN,True,False,False
+9d5a2300dacb3a49ddb86922,confessions.ptit:1437943818190115,"[MENTION] thật thì up full rĐây kiểu bộ flim nhiều tập , nhử đấy",0,-0.6862276622691814,0,TN,False,True,False
+9d66e1f91fadce6c971d0c64,confessions.ptit:1437943818190115,[MENTION] [MENTION] [MENTION] [MENTION] [MENTION] ….,0,-1.615902744090982,0,TN,False,True,False
+9dac1a1e76d390e1d703f232,confessions.ptit:1437943818190115,May là d24 chứ d25 khả năng cao là [MENTION],0,-0.7509633217305235,0,TN,False,True,False
+9fd4a0b2af996efa2a44179c,confessions.ptit:1437943818190115,Đọc cho biết th chứ ko dám đánh giá sợ lật xe ),0,-0.2899328963035502,0,TN,True,False,False
+a26fddcb6bc0a437448dd3e6,confessions.ptit:1437943818190115,[MENTION] no1 ao sen,0,-0.9254211083042785,0,TN,False,True,True
+a28588ebfb6ecd80f4150ca8,confessions.ptit:1437943818190115,[MENTION] đi mưa nhớ mặc áo mưa :)),0,-0.2966017515679509,0,TN,False,True,False
+a34a199b827bc42355cf6821,confessions.ptit:1437943818190115,[MENTION] xưa Trung cũng thế à,0,-0.39599160181434784,0,TN,False,True,False
+a359694605c051e7c5a776f5,confessions.ptit:1437943818190115,Em để lại 2 đứa bạn em [MENTION] [MENTION] i,0,-1.171578170294943,0,TN,False,True,False
+a35d838ddbe5fd8e88801d64,confessions.ptit:1437943818190115,cái j cũng t thôi .,0,-0.11635810031291938,0,TN,False,False,False
+a3f32d43454b23f0c7998aa0,confessions.ptit:1437943818190115,[MENTION] khoanh tay chịu trói đi còn nhận khoan hồng,0,-0.6031179482682143,0,TN,False,True,False
+a444dbe7cc99d083d067d1e8,confessions.ptit:1437943818190115,[MENTION] được,0,-0.9855867989689513,0,TN,False,True,True
+a46fff18f1036c49166a12c8,confessions.ptit:1437943818190115,[MENTION] ông lo cho ông đi,0,-0.3631912156454405,0,TN,False,True,False
+a5dca1022694fc8b873a72b0,confessions.ptit:1437943818190115,[MENTION] chịu,0,-0.6614317295382999,0,TN,False,True,True
+a66c4c03cd225e1add79c273,confessions.ptit:1437943818190115,"[MENTION] làm người cho nó đáng nên người nhé, tôi không đồng ý bạn ntn đâu",1,-0.2807445499794622,0,FN,True,True,False
+a76977cce66781c091d99fd6,confessions.ptit:1437943818190115,[MENTION] đức nhận con đi cho vui cửa vui nhà,0,-0.36548420024933154,0,TN,False,True,False
+a76b6d23f88fa631338c83cc,confessions.ptit:1437943818190115,"Súc lô trai Ptiter , chuyện như cơm bữa thôi",1,-0.05130090327631809,0,FN,False,False,False
+a970147998c49f82b8296319,confessions.ptit:1437943818190115,[MENTION] lỗi m mà,0,0.044215158366144536,1,FP,False,True,True
+a9e16b6b90ede65f6ec4a11d,confessions.ptit:1437943818190115,[MENTION] đừng như này em nhé,0,-0.8334491989329169,0,TN,True,True,False
+aa1426da83978d52c541f150,confessions.ptit:1437943818190115,[MENTION] [MENTION] sv peptit,0,-0.10762738061684685,0,TN,False,True,True
+aaa6d44706feb4a309fcd4fb,confessions.ptit:1437943818190115,[MENTION] sao m lại như thế dc nhỉ?,0,-0.5354860051308772,0,TN,False,True,False
+ab01bf3394a04e574c8183c0,confessions.ptit:1437943818190115,"Chịu rồi, đ có trách nhiệm thì buồi dái đừng bắn lung tung =))",1,0.12189841409575464,1,TP,True,False,False
+ab976caf21a1b6e1ebae2db4,confessions.ptit:1437943818190115,[MENTION] tag linh tinh ăn đòn bâyh,1,-0.9388033856598758,0,FN,False,True,False
+abd0831a21dc08e0066dc9ac,confessions.ptit:1437943818190115,[MENTION] ôi bn ơi,0,-1.1875858237279553,0,TN,False,True,True
+ac6e62d6c6b5f6ca6cfb71d3,confessions.ptit:1437943818190115,[MENTION] 1 nụ hôn lốc xoáy kiểu pháp,0,-0.224806863482222,0,TN,False,True,False
+acce4f6f2c06f4ad02a16ddc,confessions.ptit:1437943818190115,[MENTION] không phải ạ,0,-0.736576264205044,0,TN,True,True,True
+adea47670dabb302e6764d27,confessions.ptit:1437943818190115,"mấy đứa không muốn nhận con sẽ nói là chắc gì đã phải con mình, nhiều bạn tao kể chị ở với nó đến lúc dính bầu lại bảo là chắc gì đã phải có nó",0,0.21996186819246444,1,FP,True,False,False
+ae2e85852d989b4b6cf59b40,confessions.ptit:1437943818190115,[MENTION] haizzz m thấy j chx,0,-0.06115759811880772,0,TN,False,True,False
+ae7dba5a3b78d44dc95b46aa,confessions.ptit:1437943818190115,Bạn nữ học cùng trường mình hở ad,0,-1.0423472657233281,0,TN,False,False,False
+aec09e7ec6c786d4f8776ebd,confessions.ptit:1437943818190115,[MENTION] . một phát,0,-0.4337482472050532,0,TN,False,True,True
+af3f0dd95d6fd5e690e86679,confessions.ptit:1437943818190115,[MENTION] ở 1 mình buồn lắm,0,-1.21097762935235,0,TN,False,True,False
+af406362ac1977387b5c62cc,confessions.ptit:1437943818190115,[MENTION] trai PTIT no vay ha…,0,-0.9004646421769371,0,TN,False,True,False
+afb1bb56cf1ed8d494bce4b6,confessions.ptit:1437943818190115,tuất v,1,0.5279427779173935,1,TP,False,False,True
+aff50d41198fcffba71c7259,confessions.ptit:1437943818190115,[MENTION] em!!,0,-1.3627071192046425,0,TN,False,True,True
+b06649d2f12233b7ae26a0a4,confessions.ptit:1437943818190115,[MENTION] sao m lại thế,0,-0.5442343049437198,0,TN,False,True,True
+b1748f72a90098db2bdcc81c,confessions.ptit:1437943818190115,[MENTION] thằng này nó nhiều e lắm,0,-0.06138680419530984,0,TN,False,True,False
+b17bb68d39bcc33e9ed4b02b,confessions.ptit:1437943818190115,[MENTION] bn @ t lmj:),0,-0.9198872644058775,0,TN,False,True,True
+b206289d373cd0953b08f11c,confessions.ptit:1437943818190115,[MENTION] thằng lon bỏ con,1,0.9814036891775515,1,TP,False,True,True
+b25d2fe6fdf887e402d141a2,confessions.ptit:1437943818190115,[MENTION] của a à,0,-1.0958411621537585,0,TN,False,True,True
+b26218a33f7718585b32fcef,confessions.ptit:1437943818190115,[MENTION] nói t à m,0,-0.055040443363880365,0,TN,False,True,True
+b2aeff6c92b469f152e99d3f,confessions.ptit:1437943818190115,[MENTION] trụ 1,0,-0.8894425881632911,0,TN,False,True,True
+b4e3c6105ceb5df5625851e7,confessions.ptit:1437943818190115,[MENTION] đcmm,1,-0.06350248348464338,0,FN,False,True,True
+b5dfbc778dba597b1ef53fb2,confessions.ptit:1437943818190115,[MENTION] con hoang mày à,1,0.5308681062929088,1,TP,False,True,True
+b7f411456c302f310bd7dbae,confessions.ptit:1437943818190115,để 3 chó nuôi,1,0.08222310613781358,1,TP,False,False,True
+b809f6955436bc39a79d623c,confessions.ptit:1437943818190115,[MENTION] của m à,0,-0.7052418604647291,0,TN,False,True,True
+b8982f98666ca98a88185430,confessions.ptit:1437943818190115,[MENTION] căng đét đèn đẹt,0,-0.9222604815372182,0,TN,False,True,True
+b8cad691cc79e7e170dab363,confessions.ptit:1437943818190115,[MENTION] gì đấy,0,-1.141284910436576,0,TN,False,True,True
+b94f768b66c5662c0a94f6b1,confessions.ptit:1437943818190115,[MENTION] PTIT dữ v bạn,0,-1.1530659494418036,0,TN,False,True,True
+b9b60bc9ce222be0bfdac900,confessions.ptit:1437943818190115,[MENTION] t bao j m ha pminh,0,-0.3704270614266906,0,TN,False,True,False
+b9e679339b728c5a41f7ed54,confessions.ptit:1437943818190115,[MENTION] chị khuyên thật đừng bỏ con nha em,0,-0.3757184443437532,0,TN,True,True,False
+ba545c671a814f069159da69,confessions.ptit:1437943818190115,Thk bn mình hỏi xin video ad ơi =)),0,-0.9616593088010572,0,TN,False,False,False
+bab4d6632ea87ef94f005937,confessions.ptit:1437943818190115,[MENTION] nhà Hà Nội.bome giáo viên đó. May ae mình Thái Bình,0,-0.6295207329090939,0,TN,False,True,False
+bb0835642dc73182acbd4d5c,confessions.ptit:1437943818190115,"[MENTION] cũng vì tình thế bắt buộc, cơm áo gạo tiền em ạ",0,-0.7282403523495653,0,TN,False,True,False
+bbb3fdf7c6e574eb026cb90b,confessions.ptit:1437943818190115,[MENTION] pi tít tôi đó,0,-1.0642128629145762,0,TN,False,True,True
+bc1c883d47f2f1d1abf0000c,confessions.ptit:1437943818190115,[MENTION] m cgi cx đớ mỗi xàm l là hay,1,0.11415647891370895,1,TP,False,True,False
+bcf84a561846c0864e960b54,confessions.ptit:1437943818190115,[MENTION] b d24 từ lúc nào v,0,-1.1969741376850274,0,TN,False,True,False
+be77bc9d7f833c8c36043fed,confessions.ptit:1437943818190115,[MENTION] ??,0,-0.1991351413897306,0,TN,False,True,True
+bf0d7cbbbf1141302521ad6f,confessions.ptit:1437943818190115,[MENTION] de tam con lon ti quay lai,0,0.2730756762942099,1,FP,False,True,False
+bf718f973255efd82a8eecae,confessions.ptit:1437943818190115,[MENTION] ae pơ tít thế mà lại hay,0,-0.4578074091614951,0,TN,False,True,False
+bfdbf50190eaabcbe90af2f0,confessions.ptit:1437943818190115,"[MENTION] t nghi m là tk ở trên đấy, chuyên đi gạ gái nhà lành nhá",0,0.011402699258612592,1,FP,False,True,False
+c153f5e49873c32e2399d394,confessions.ptit:1437943818190115,[MENTION] [MENTION] chắc chắn là 1 trong 2,0,-1.1999916010053255,0,TN,False,True,False
+c60ebce68f3da7deb2732755,confessions.ptit:1437943818190115,[MENTION] gà vl=)))),0,-0.7886710490095883,0,TN,False,True,True
+c73600f0b617f72939479dc3,confessions.ptit:1437943818190115,Xin link p1 với,0,-1.0373101974394063,0,TN,False,False,True
+c7d1a3997055c269035c6b6b,confessions.ptit:1437943818190115,"[MENTION] a bẩu e r hn < hp, người hải phòng a sống tình cảm k ai ntn đâu",0,-0.46245985514587207,0,TN,False,True,False
+c89e95f759450b940630eb35,confessions.ptit:1437943818190115,Ôi ptit tôi yêu,0,-0.9853275111972621,0,TN,False,False,True
+c8f7692f02ab0f378c5486e8,confessions.ptit:1437943818190115,[MENTION] k thể tin được m lại làm con gái ngta nvay,0,0.27479330480991726,1,FP,False,True,False
+c9e4e45305f6157adf40a32d,confessions.ptit:1437943818190115,[MENTION] anh dặn m sao hả đức,0,-0.7872158986061546,0,TN,False,True,False
+ca72957b7f9b050a2aa800c4,confessions.ptit:1437943818190115,[MENTION] mày đừng chối,0,-0.3510374148215948,0,TN,True,True,True
+cad08c9fc7cdf93bd24afc27,confessions.ptit:1437943818190115,[MENTION] vcl nói câu chắc gì phải con tao???? Khê tht,0,0.5274683014945027,1,FP,False,True,False
+cba9df91b398b278f3295be8,confessions.ptit:1437943818190115,[MENTION] bn ni đánh giá bn cao v :)),0,-0.7581860287455349,0,TN,False,True,False
+cc409f410d612b939d3d1db7,confessions.ptit:1437943818190115,[MENTION] haizz chỉ một phút lầm lỡ,0,-0.41894952109080963,0,TN,False,True,False
+cc594818aa92c24e1ace7366,confessions.ptit:1437943818190115,[MENTION] hóng ác,0,-1.2944445593379836,0,TN,False,True,True
+cd4b2f2853c0703a0c3f69ba,confessions.ptit:1437943818190115,[MENTION] vl sao tin nhắn của t bị lộ thế này,0,-1.2034697578002294,0,TN,False,True,False
+cd788d39375d2c2369151ff1,confessions.ptit:1437943818190115,Lót dép [MENTION],0,-0.5689420022194721,0,TN,False,True,True
+cde2009462b139b667d20e30,confessions.ptit:1437943818190115,[MENTION] chịu chết b ơi,0,-0.7854479884545702,0,TN,False,True,True
+ce02fdca3624e7c4fe9817fe,confessions.ptit:1437943818190115,"[MENTION] chắc chắn là [MENTION] theo đạo dụ r, chơi xong ko nhận",0,-0.8841462836897654,0,TN,True,True,False
+ce9b62e14ce0818131a65f95,confessions.ptit:1437943818190115,[MENTION] maybe,0,-0.7833263495500591,0,TN,False,True,True
+d08157992a3a07efb09b1438,confessions.ptit:1437943818190115,[MENTION] là m à,0,-0.17273033310485603,0,TN,False,True,True
+d445bee931c258daf2b9484b,confessions.ptit:1437943818190115,[MENTION] bùn,0,-0.7838733080417771,0,TN,False,True,True
+d4b9fb0fd1e31dbfa96461c1,confessions.ptit:1437943818190115,[MENTION] m bỏ qua cả bước nắm tay để đi mưa luôn,0,-0.7649638862316865,0,TN,False,True,False
+d4e5c69cfebd4cda80f2ff64,confessions.ptit:1437943818190115,[MENTION] tôi đã dặn b đi mưa thì mặc cái áo vào [MENTION],0,-0.3359459127469181,0,TN,False,True,False
+d5f07a874cabd8bd788fa2e1,confessions.ptit:1437943818190115,[MENTION] sống tồi thật,1,-0.5054900920917332,0,FN,False,True,True
+d67959f75701e9498b442021,confessions.ptit:1437943818190115,M đẻ đi t nuôi . Sau con m t dạy làm sát thủ,0,0.6241352976059509,1,FP,False,False,False
+d70a441e4171e5e98c5be541,confessions.ptit:1437943818190115,[MENTION] thằng kia không nuôi được để tao,0,-0.14017388675861497,0,TN,True,True,False
+d83afbe9a47809996d1118c6,confessions.ptit:1437943818190115,[MENTION] e sống kiểu j thế e ơi mất mặt ae hải phòng quá,1,-0.2065920820666548,0,FN,False,True,False
+d895775d5efaa1773d965ceb,confessions.ptit:1437943818190115,Người tham gia ẩn danh Thế nhanh đi bạn đưa mặt nó lên đây,0,0.33810260189143204,1,FP,False,False,False
+d94600e53aecc9b21a6e9474,confessions.ptit:1437943818190115,[MENTION] tân sinh viên vào hóng đi,0,-0.8281956973614137,0,TN,False,True,False
+d98cdfc44b8c684672049ff7,confessions.ptit:1437943818190115,[MENTION] cứ tự hào đi,0,-0.7163884179059954,0,TN,False,True,True
+d9930fb2c53001166f7914f8,confessions.ptit:1437943818190115,[MENTION] hẹn m đúng cầu nguyệt xem cái thai của ai,1,-0.13869571840730965,0,FN,False,True,False
+d99a0bf4aa78d9857326fd44,confessions.ptit:1437943818190115,"Dm cái ngữ lỏng lẻo từ eo, lươn lẹo từ mồm. Sáng ra tốn phước nhưng vẫn phải chửi. Lớn r có phải bé bỏng đ đâu mà k ý thức dc hành động mình làm rồi đ chịu trách nhiệm dc cho cái hậu quả mình gây ra vậy",1,0.5464522610399465,1,TP,False,False,False
+d9e2d967650b72307b7775a0,confessions.ptit:1437943818190115,[MENTION] mat day quen than,1,0.2820865982602524,1,TP,False,True,True
+da5cf57acc66530ed8249dba,confessions.ptit:1437943818190115,[MENTION] [MENTION] [MENTION] [MENTION] gay go to,0,-0.7938905861472014,0,TN,False,True,False
+de6e6648016f50075e65fafa,confessions.ptit:1437943818190115,"Quá sv, những lúc như này mới biết bản lĩnh hay k",1,-0.26306825409144113,0,FN,False,False,False
+de85bbb2064344152b83e3ed,confessions.ptit:1437943818190115,[MENTION] :))),0,-0.8703062649473643,0,TN,False,True,True
+de8ac193f716f8a8eb3528cc,confessions.ptit:1437943818190115,[MENTION] anh ra ptit hà nội có tí mà bấy nhầy lên,0,-0.5350625086967468,0,TN,False,True,False
+e035d9b1d761f9c315ec83cd,confessions.ptit:1437943818190115,[MENTION] sao m lại chối thế hả iem,0,-0.44207306460843887,0,TN,False,True,False
+e0b4812947e8bef010b7e990,confessions.ptit:1437943818190115,[MENTION] drama,0,-1.1614957481823787,0,TN,False,True,True
+e4741b51bd5df0740b516853,confessions.ptit:1437943818190115,thôi giỏi thì nổ mẹ msv công khai Facebook các thứ ra mẹ đi ?? thẩm du cả ngày mới ra được 1 tus xàm loz à ?,1,0.9429975616338873,1,TP,False,False,False
+e5985f510ddde312dca3a6ce,confessions.ptit:1437943818190115,Yêu đương mệt vậy đấy chọn ko yêu đương cho lành ní,0,-0.3680510448895016,0,TN,True,False,False
+e686880aa340424a12949d23,confessions.ptit:1437943818190115,Dat Bui [MENTION] hóng đi =)),0,-0.8187789726017172,0,TN,False,True,False
+e727347aac72c29c2326d6fb,confessions.ptit:1437943818190115,[MENTION] tận cùng của PTIT,0,-1.332118869637771,0,TN,False,True,True
+e779f6ff88606f24e9472688,confessions.ptit:1437943818190115,[MENTION] đúng v em,0,-1.2794838288766308,0,TN,False,True,True
+e986e9fe85818ea15b8f7fbe,confessions.ptit:1437943818190115,Sv phết,1,0.14499243580418153,1,TP,False,False,True
+eab05e6a1aecd8999502f327,confessions.ptit:1437943818190115,[MENTION] chất v,0,-1.01869932271624,0,TN,False,True,True
+eab9ca15570dad24f2a275c7,confessions.ptit:1437943818190115,Xin lửa ae,0,-0.723998010132301,0,TN,False,False,True
+ead5b9d975b1542154b1d9e1,confessions.ptit:1437943818190115,Các cháu vừa nhập học đã có drm hóng,0,-0.842337982982234,0,TN,False,False,False
+eb4524bcf8af2dc30b7a6c6e,confessions.ptit:1437943818190115,[MENTION] trường em sắp thành cao đẳng bưu điện r,0,-0.05518174192724823,0,TN,False,True,False
+ee226537f5848175a6f1b404,confessions.ptit:1437943818190115,[MENTION] hóng biếnn,0,-0.8876468296488855,0,TN,False,True,True
+f011b7327792960e66715b51,confessions.ptit:1437943818190115,Đừng có đánh đồng trai hà nội bọn t đấy xin chúng m t còn đang ế cơ mà :)) ai làm ra nhận dùm :)) má nó nữa,0,-0.020370109309168383,0,TN,True,False,False
+f04a5d69ce699e71a7910d50,confessions.ptit:1437943818190115,[MENTION] này để cho phương hóng để phương bớt tính đào hoa lại,0,-0.9588479914505328,0,TN,False,True,False
+f0f9d3db6d624ac2c8292111,confessions.ptit:1437943818190115,[MENTION] = )),0,-1.012013644959327,0,TN,False,True,True
+f22573ebf692acc5a3cd073f,confessions.ptit:1437943818190115,[MENTION] gốc HN thì chỉ có thg [MENTION] thôi nhà biệt phủ hồ tây,0,-0.13414978955923373,0,TN,False,True,False
+f439b2a4eef7c594b8855892,confessions.ptit:1437943818190115,[MENTION] tró này t chịu m r,1,0.007837255132365106,1,TP,False,True,False
+f54a913f7fc73300910f8291,confessions.ptit:1437943818190115,[MENTION] chất,0,-1.0086858767228106,0,TN,False,True,True
+f658e8013182acbce4355a1b,confessions.ptit:1437943818190115,[MENTION] m làm vậy mà đc à,0,-0.5079142677070296,0,TN,False,True,False
+faeb00a4755fdd03db4d2513,confessions.ptit:1437943818190115,[MENTION] t chịu b đấy,0,-1.0285426005933496,0,TN,False,True,True
+fb7ac1b8e5c782d7975933dd,confessions.ptit:1437943818190115,Sợ luôn,0,-0.9682394234993041,0,TN,False,False,True
+fbad3e35278dbb6d2e7372a7,confessions.ptit:1437943818190115,[MENTION] có phải b nam trong ảnh là [MENTION] không vậy ?,0,-0.6091665107269607,0,TN,True,True,False
+fbaf683331713fcdc51066fc,confessions.ptit:1437943818190115,[MENTION] hóng hớt tí ti,0,-0.9587166497994176,0,TN,False,True,True
+fbe421de81ed0a4215684d7b,confessions.ptit:1437943818190115,[MENTION] s-so chua,0,-0.5537503056760552,0,TN,False,True,True
+fc1e0be8bd138fb747efedea,confessions.ptit:1437943818190115,[MENTION] ko p t đou:)),0,-0.7984727566307083,0,TN,True,True,True
+fcfc567322a8f4ab5aec8a6c,confessions.ptit:1437943818190115,[MENTION] Buồn đếy,0,-0.9899202951889219,0,TN,False,True,True
+fe4f0f04f2d2001099717c99,confessions.ptit:1437943818190115,[MENTION] truyền nhân à,0,-0.13810818231246214,0,TN,False,True,True
+febcb269f3d39c6844e1b740,confessions.ptit:1437943818190115,[MENTION] b nhanh thế,0,-0.6420164274034027,0,TN,False,True,True
+0281f2467cea46202726b772,confessions.ptit:1465060468811783,[MENTION] kìa mài:))),0,-0.8342365745363993,0,TN,False,True,True
+0617e8dfd5efeb4ad46b19c3,confessions.ptit:1465060468811783,Nếu là Femboi thì đúng gu [MENTION] [MENTION],0,-0.74973993804225,0,TN,False,True,False
+06db7c6ca1eb87e094880006,confessions.ptit:1465060468811783,[MENTION] con trai thì húp,0,0.4868780020864676,1,FP,False,True,True
+08934f530e89ea6b63d40de5,confessions.ptit:1465060468811783,Nam Nguyễn trai gai choi tat,0,-0.3300372073207166,0,TN,False,False,False
+166eb12092530fe7b2efd1e9,confessions.ptit:1465060468811783,Nguyễn Tùng e này xinh lắm,0,-0.6333155914863193,0,TN,False,False,False
+196b4a1115b55d2f6c3f46c6,confessions.ptit:1465060468811783,[MENTION] bạn này học giỏi gia thế khủng vừa đẹp trai lại sống tình cảm,0,-0.26265279491288596,0,TN,False,True,False
+1afde0c2a51633462588e8fa,confessions.ptit:1465060468811783,[MENTION] nono hiểu nhầm dồi,0,-0.752994010692667,0,TN,False,True,True
+2497b83810eb5fa32b1010a9,confessions.ptit:1465060468811783,"[MENTION] [MENTION] trời ơi hôm đi sự kiện 2 th bạn tôi cứ bắt tôi xin inf bạn, 2 thằng này cũng là wibu",0,-1.025627044773964,0,TN,False,True,False
+24a435dc1e628cca7600d3bb,confessions.ptit:1465060468811783,[MENTION] con trai thì ib tôi,0,0.12773671332565306,1,FP,False,True,False
+2c8a291968db7680e4c30e3d,confessions.ptit:1465060468811783,[MENTION] ứng kìa,0,-1.0085247359933618,0,TN,False,True,True
+2ff6b92e4008fc4ba8f10625,confessions.ptit:1465060468811783,[MENTION] bạn này vừa có tiền vừa có quyền muốn được ứng cử,0,-0.9864318955344322,0,TN,False,True,False
+30e22297f4e233d0c7bb95a3,confessions.ptit:1465060468811783,[MENTION] m k ứng thì ai z,0,-0.24669031796498547,0,TN,False,True,False
+32c8011978257cf08714cd9b,confessions.ptit:1465060468811783,[MENTION] bump vội,0,-0.7116625034720884,0,TN,False,True,True
+363797669baabed694f672ce,confessions.ptit:1465060468811783,[MENTION] ứng tuyển vị trí bot,0,-0.7640141697865586,0,TN,False,True,False
+40c4f1cc48a20e0ffe161486,confessions.ptit:1465060468811783,[MENTION] ai cũng đc,0,-1.0912717462647046,0,TN,False,True,True
+43112480bac8cbecc7ce73c7,confessions.ptit:1465060468811783,[MENTION] wi cái thg bố m,1,1.231174984475076,1,TP,False,True,False
+43ba23398a1e1174db5c8f7b,confessions.ptit:1465060468811783,"v thi ngay mai mk hen luon cho nong, mk o ngay trg bn ne",0,-0.7679969278313361,0,TN,False,False,False
+44612c96ef2b3c5544e1fbeb,confessions.ptit:1465060468811783,Chịu bạn rồi :))),0,-0.4531974483428804,0,TN,False,False,True
+47436b7ef0e74c4a7415eca1,confessions.ptit:1465060468811783,[MENTION] bạn này,0,-1.2102136154807084,0,TN,False,True,True
+49c1f38f4430d0c4a4ad5e20,confessions.ptit:1465060468811783,trường H đỏ đc k,0,-0.7545352377669581,0,TN,False,False,True
+4cc993f8ffa4a15a50bfebd9,confessions.ptit:1465060468811783,Vũ Quân gay,0,-0.5302410649939863,0,TN,False,False,True
+56e2c61aeb1eb50b50c2000c,confessions.ptit:1465060468811783,[MENTION] kẻ mạnh ko phàn nàn về giới tính,0,-0.9304374220890612,0,TN,True,True,False
+5eaf04cfd42fb55557f174fb,confessions.ptit:1465060468811783,[MENTION] nhường a này:) [MENTION],0,-0.7569950361549884,0,TN,False,True,True
+6141cb87cc25026689ebd45a,confessions.ptit:1465060468811783,[MENTION] ku có hứng thú ko =)))),0,-0.6307227047378421,0,TN,True,True,False
+61d75713d1811e573fca1c5b,confessions.ptit:1465060468811783,[MENTION] không phải đâu anh ơi AI cả đấy,0,-0.7083727130171351,0,TN,True,True,False
+65a0c6fbdcf1acad2f8e9399,confessions.ptit:1465060468811783,J đấy minh ơi,0,-0.8812936792330388,0,TN,False,False,True
+6923a9513d29ccb886ee46b3,confessions.ptit:1465060468811783,[MENTION] trai gai choi tat,0,-0.4846677959074951,0,TN,False,True,True
+6cc2d809b05f8ad01bde02e2,confessions.ptit:1465060468811783,[MENTION] vã lắm roi thì nói,0,-0.3507937964340683,0,TN,False,True,False
+6dce508448c6370eb6011fb7,confessions.ptit:1465060468811783,choi gay k b,0,-0.3633110824777421,0,TN,False,False,True
+75806890c014d5ecadca6f2b,confessions.ptit:1465060468811783,[MENTION] gay,0,-0.5504146775985945,0,TN,False,True,True
+772a5925edf20f01fe562de8,confessions.ptit:1465060468811783,bn co choi gei khom ?,0,-0.5085341052051912,0,TN,False,False,False
+812b2fbaaa20aee3153a1eae,confessions.ptit:1465060468811783,[MENTION] bú,0,-0.4103287250537,0,TN,False,True,True
+82695483afb74f9d0c7c5904,confessions.ptit:1465060468811783,tìm top ib [MENTION] nhé,0,-1.1333382524394324,0,TN,False,True,True
+832687b8c9d58e6784c6e19c,confessions.ptit:1465060468811783,[MENTION] b t ứng tuyển,0,-1.0698847074888291,0,TN,False,True,True
+8ac87c87e8a461f4d246f5b6,confessions.ptit:1465060468811783,Tôi,0,-0.9586680711728963,0,TN,False,False,True
+8aee013d7909948d82d20c24,confessions.ptit:1465060468811783,"[MENTION] that's our comrade, habibi",0,-0.28848340530886823,0,TN,False,True,True
+8ba24161b7a98cf6822f54e7,confessions.ptit:1465060468811783,"Huh, tưởng có ny r",0,-0.4043778008415291,0,TN,False,False,True
+923dbdb89014928210602b6a,confessions.ptit:1465060468811783,[MENTION] sybau,1,-0.8428446259708993,0,FN,False,True,True
+9518e76249a3bace447f0cb2,confessions.ptit:1465060468811783,[MENTION] a xin m,0,-0.9686185750991438,0,TN,False,True,True
+a1d143a0ac9f5d53687b6143,confessions.ptit:1465060468811783,"[MENTION] căng,căng đảo",0,-0.9623080213426691,0,TN,False,True,True
+a3cc47eae2816b452732da8e,confessions.ptit:1465060468811783,Con trai thì ib,0,0.4643130811286853,1,FP,False,False,True
+b00d5441f5b946e4d69ca42c,confessions.ptit:1465060468811783,[MENTION] nhà nuôi 10 con mèo thì cân nhắc nhé,0,-0.11810742183565448,0,TN,False,True,False
+b3df35964bdf9db7d8a5c4da,confessions.ptit:1465060468811783,Bạn tìm con trai hay con gái,0,0.6440564951185701,1,FP,False,False,False
+b594c86da8c26b2b8fb87310,confessions.ptit:1465060468811783,chuyen xuong ptithcm r cho 36 cre maimai,0,-0.08231870006833375,0,TN,False,False,False
+b68982849831cd06d2427db7,confessions.ptit:1465060468811783,[MENTION] vkl chịu r minh hoàng ơi,0,-0.7642601654870569,0,TN,False,True,False
+b9455daa782162217613174c,confessions.ptit:1465060468811783,[MENTION] t là trai á,0,-0.6289768034189213,0,TN,False,True,True
+bacae97b2723d4b4e7a6b3b8,confessions.ptit:1465060468811783,[MENTION] làm pirelli r,0,-0.8343247058918708,0,TN,False,True,True
+bd0361008e5804f7f3f0f2f8,confessions.ptit:1465060468811783,"[MENTION] thôi bạn hoàng có cây láp r ko cần thêm nx, nhường bạn khánh duy:))",0,-0.6686851222171659,0,TN,True,True,False
+bdadb329ee7041e559a3889f,confessions.ptit:1465060468811783,[MENTION] 1 tiếng nx xóa,0,-0.8832191993697031,0,TN,False,True,True
+cc0d261317bbabddbf6bc14b,confessions.ptit:1465060468811783,[MENTION] [MENTION] [MENTION] [MENTION] bạn e ứng tuyển,0,-1.4379636027295029,0,TN,False,True,False
+cf6d75422d81c889206dd55c,confessions.ptit:1465060468811783,Mùa Hạ Năm Ấy t la con trai,0,0.2650606859553981,1,FP,False,False,False
+d056c4f1cd7995e3a46cc135,confessions.ptit:1465060468811783,[MENTION] anh nhà tôi xin ứng,0,-1.2482289671887887,0,TN,False,True,False
+d0f434e20a454686920554b4,confessions.ptit:1465060468811783,[MENTION] con trai thi ib,0,0.12790489352162382,1,FP,False,True,True
+d11be7f5cbf30c02d89c0b30,confessions.ptit:1465060468811783,[MENTION] meow,0,-0.7497450870311752,0,TN,False,True,True
+d142e5519eabf75b2878d7f5,confessions.ptit:1465060468811783,[MENTION] bạn tôi cứ đòi xin inf bn từ hôm gặp tới h có j bạn ib nó nhé,0,-0.8351686835474444,0,TN,False,True,False
+d1e890218bc7a9f237ab28c3,confessions.ptit:1465060468811783,[MENTION] thầy là wi chúa đừng có nhét chữ bọn e,0,-0.11542846894976,0,TN,True,True,False
+d84be90a227c43f7bfc30449,confessions.ptit:1465060468811783,[MENTION] đây em nhé vua tsa,0,-0.8346088689375617,0,TN,False,True,False
+dd16d2d6394915e5e230b4b3,confessions.ptit:1465060468811783,nhìn kĩ thì tưởng con gái chú ý thêm xíu nữa thì vẫn là gái nma tâm hồn con gái thể xác con troai :)),0,0.6033712182526461,1,FP,False,False,False
+e335ab296f5ec495382b0ed2,confessions.ptit:1465060468811783,[MENTION] để tranh váy với mình à,0,-0.7038117459926557,0,TN,False,True,False
+e588d71a3ea89736fca8aaad,confessions.ptit:1465060468811783,hi lol [MENTION],0,-0.4610454164016697,0,TN,False,True,True
+e5cedcaf46571981bf0c084b,confessions.ptit:1465060468811783,Gay ib,0,-0.5315033016594729,0,TN,False,False,True
+eabd61b43aa5c652e36fc9a2,confessions.ptit:1465060468811783,[MENTION] trai thì ib,0,-0.6240490753847645,0,TN,False,True,True
+ed89e3f23df72c620d23dcae,confessions.ptit:1465060468811783,Vcl fembi gu bn [MENTION],0,-0.48720230738572357,0,TN,False,True,True
+f196a69c3a94ac724239c182,confessions.ptit:1465060468811783,[MENTION] vl gay đấy,0,-0.6180813842966822,0,TN,False,True,True
+f405b188cd25f0ef395d183c,confessions.ptit:1465060468811783,[MENTION] take your chance habibi wallahi,0,-0.4582877014912436,0,TN,False,True,False
+fab1c2dbda62bde3cb634d18,confessions.ptit:1465060468811783,[MENTION] gái roblox cơ,0,-0.7555683243624283,0,TN,False,True,True
+ff2130b34aed5136421b1be9,confessions.ptit:1465060468811783,[MENTION] a này ứng tuyển,0,-0.7944522178494362,0,TN,False,True,True

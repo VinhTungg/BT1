@@ -1,0 +1,183 @@
+{
+  "created_at_utc": "2026-11-01T01:07:12.868542+00:00",
+  "mode": "full",
+  "seed": 42,
+  "versions": {
+    "python": "3.14.7",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.1.0",
+    "numpy": "2.5.4",
+    "joblib": "1.6.0"
+  },
+  "best_baseline_on_validation": "tfidf_svm",
+  "train": {
+    "path": "D:\\Kì 1 Năm 4\\Phân tích và khai phá dữ liệu văn bản\\BTL\\BT1\\data\\experiments\\resplit_v1\\train.csv",
+    "sha256": "349122f38dbe83e36606043d7c8a7aaeebd86390df56407e32ae6553da43c646",
+    "rows": 6000,
+    "posts": 70,
+    "labels": {
+      "0": 5606,
+      "1": 394
+    }
+  },
+  "validation": {
+    "path": "D:\\Kì 1 Năm 4\\Phân tích và khai phá dữ liệu văn bản\\BTL\\BT1\\data\\experiments\\resplit_v1\\val.csv",
+    "sha256": "150077176e8ee903db4e8357eb508f7872026c935f4350f3899ef560382e51db",
+    "rows": 1277,
+    "posts": 16,
+    "labels": {
+      "0": 1194,
+      "1": 83
+    }
+  },
+  "text_column": "text_tokenized",
+  "label_mapping": {
+    "0": "non-toxic",
+    "1": "toxic"
+  },
+  "selection_rule": "Highest validation macro_f1, then f1_toxic, then recall_toxic; exact ties keep first trial.",
+  "inference_input": "Iterable of Vietnamese strings segmented like text_tokenized; vectorizer lowercases and splits on whitespace.",
+  "fit_policy": "All artifacts fitted on train only. Validation selects configurations. No refit on train+val. Test is never read.",
+  "models": [
+    {
+      "model": "bow_nb",
+      "artifact": "D:\\Kì 1 Năm 4\\Phân tích và khai phá dữ liệu văn bản\\BTL\\BT1\\models\\resplit_v1\\baselines\\bow_nb.joblib",
+      "sha256": "ee011f80d911dfa7b07c30d55e4491e01484fcddba9beedca6fd9db1db8d9d49",
+      "params": {
+        "classifier__alpha": 0.1,
+        "vectorizer__min_df": 1,
+        "vectorizer__ngram_range": [
+          1,
+          1
+        ]
+      },
+      "selected_trial": 1,
+      "configurations_tried": 12,
+      "validation_metrics": {
+        "accuracy": 0.9318715740015662,
+        "precision_toxic": 0.45652173913043476,
+        "recall_toxic": 0.25301204819277107,
+        "f1_toxic": 0.32558139534883723,
+        "macro_f1": 0.6448525533445217,
+        "tn": 1169,
+        "fp": 25,
+        "fn": 62,
+        "tp": 21,
+        "predicted_toxic": 46
+      },
+      "reload_verified": true,
+      "vocabulary_size": 8424
+    },
+    {
+      "model": "bow_svm",
+      "artifact": "D:\\Kì 1 Năm 4\\Phân tích và khai phá dữ liệu văn bản\\BTL\\BT1\\models\\resplit_v1\\baselines\\bow_svm.joblib",
+      "sha256": "35c706549c97c00700ea87f48b9d3e5b7eed212cc6d8394f0b74adb03f571b1f",
+      "params": {
+        "classifier__C": 1.0,
+        "classifier__class_weight": "balanced",
+        "vectorizer__min_df": 1,
+        "vectorizer__ngram_range": [
+          1,
+          1
+        ]
+      },
+      "selected_trial": 13,
+      "configurations_tried": 24,
+      "validation_metrics": {
+        "accuracy": 0.9263899765074393,
+        "precision_toxic": 0.4153846153846154,
+        "recall_toxic": 0.3253012048192771,
+        "f1_toxic": 0.36486486486486486,
+        "macro_f1": 0.6628979353418256,
+        "tn": 1156,
+        "fp": 38,
+        "fn": 56,
+        "tp": 27,
+        "predicted_toxic": 65
+      },
+      "reload_verified": true,
+      "vocabulary_size": 8424
+    },
+    {
+      "model": "tfidf_nb",
+      "artifact": "D:\\Kì 1 Năm 4\\Phân tích và khai phá dữ liệu văn bản\\BTL\\BT1\\models\\resplit_v1\\baselines\\tfidf_nb.joblib",
+      "sha256": "a9ef07d6242a33ec4d9dfae5b2888c647334f8ce64c8929b6d73402ef01d2b65",
+      "params": {
+        "classifier__alpha": 0.1,
+        "vectorizer__min_df": 1,
+        "vectorizer__ngram_range": [
+          1,
+          2
+        ]
+      },
+      "selected_trial": 2,
+      "configurations_tried": 12,
+      "validation_metrics": {
+        "accuracy": 0.9350039154267815,
+        "precision_toxic": 0.5,
+        "recall_toxic": 0.012048192771084338,
+        "f1_toxic": 0.023529411764705882,
+        "macro_f1": 0.4949562814190075,
+        "tn": 1193,
+        "fp": 1,
+        "fn": 82,
+        "tp": 1,
+        "predicted_toxic": 2
+      },
+      "reload_verified": true,
+      "vocabulary_size": 52141
+    },
+    {
+      "model": "tfidf_svm",
+      "artifact": "D:\\Kì 1 Năm 4\\Phân tích và khai phá dữ liệu văn bản\\BTL\\BT1\\models\\resplit_v1\\baselines\\tfidf_svm.joblib",
+      "sha256": "3a804af2515561c23ba44b90bd52aff2c66be96c1a501018dc133f55c65a2d8f",
+      "params": {
+        "classifier__C": 0.1,
+        "classifier__class_weight": "balanced",
+        "vectorizer__min_df": 1,
+        "vectorizer__ngram_range": [
+          1,
+          1
+        ]
+      },
+      "selected_trial": 5,
+      "configurations_tried": 24,
+      "validation_metrics": {
+        "accuracy": 0.894283476898982,
+        "precision_toxic": 0.31690140845070425,
+        "recall_toxic": 0.5421686746987951,
+        "f1_toxic": 0.4,
+        "macro_f1": 0.6710176041219408,
+        "tn": 1097,
+        "fp": 97,
+        "fn": 38,
+        "tp": 45,
+        "predicted_toxic": 142
+      },
+      "reload_verified": true,
+      "vocabulary_size": 8424
+    },
+    {
+      "model": "dummy",
+      "artifact": "D:\\Kì 1 Năm 4\\Phân tích và khai phá dữ liệu văn bản\\BTL\\BT1\\models\\resplit_v1\\baselines\\dummy.joblib",
+      "sha256": "206efbd7e5cc229ffb1b7b77caa2750534764d98de56c20753ea772b7d383e43",
+      "params": {},
+      "selected_trial": 1,
+      "configurations_tried": 1,
+      "validation_metrics": {
+        "accuracy": 0.9350039154267815,
+        "precision_toxic": 0.0,
+        "recall_toxic": 0.0,
+        "f1_toxic": 0.0,
+        "macro_f1": 0.4832051800890328,
+        "tn": 1194,
+        "fp": 0,
+        "fn": 83,
+        "tp": 0,
+        "predicted_toxic": 0
+      },
+      "reload_verified": true,
+      "vocabulary_size": 0
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "run_id": "steps23_v1",
+  "dataset_id": "resplit_v1",
+  "status": "validation_selected",
+  "dataset_manifest": "data/clean/manifest.json",
+  "dataset_manifest_sha256": "4cfb81639ccaf5f50726bc613c29868ed3ebddf7efb6d7540befe45400c188ed",
+  "train_path": "data/clean/train.csv",
+  "train_sha256": "349122f38dbe83e36606043d7c8a7aaeebd86390df56407e32ae6553da43c646",
+  "val_sha256": "150077176e8ee903db4e8357eb508f7872026c935f4350f3899ef560382e51db",
+  "train_samples": 6000,
+  "validation_samples": 1277,
+  "best_on_validation": "slang_word_char_svm",
+  "validation_metrics": {
+    "accuracy": 0.9162098668754894,
+    "precision_toxic": 0.38,
+    "recall_toxic": 0.4578313253012048,
+    "f1_toxic": 0.41530054644808745,
+    "macro_f1": 0.685085954371239,
+    "tn": 1132,
+    "fp": 62,
+    "fn": 45,
+    "tp": 38,
+    "predicted_toxic": 100
+  },
+  "models": [
+    {
+      "model": "preserve_bow_nb",
+      "profile": "preserve",
+      "family": "bow_nb",
+      "validation_metrics": {
+        "accuracy": 0.93265465935787,
+        "precision_toxic": 0.47368421052631576,
+        "recall_toxic": 0.3253012048192771,
+        "f1_toxic": 0.38571428571428573,
+        "macro_f1": 0.6750443839507634,
+        "tn": 1164,
+        "fp": 30,
+        "fn": 56,
+        "tp": 27,
+        "predicted_toxic": 57
+      },
+      "feature_params": {
+        "kind": "bow",
+        "ngram_range": [
+          1,
+          2
+        ],
+        "min_df": 2
+      },
+      "classifier_params": {
+        "alpha": 0.1
+      },
+      "path": "models/resplit_v1/steps23_v1/preserve_bow_nb.joblib",
+      "sha256": "57d6495b61a3e09596d8314c9e33c7ca3541aa9a8b3cd006ff6c0f5185fca40e",
+      "input_contract": "raw_text",
+      "reload_verified": true,
+      "validation_features": {
+        "features": 11597,
+        "zero_vectors": 12,
+        "word_features": 11597,
+        "oov_tokens": 7577,
+        "total_tokens": 20029,
+        "oov_fraction": 0.3783014628788257
+      }
+    },
+    {
+      "model": "preserve_bow_svm",
+      "profile": "preserve",
+      "family": "bow_svm",
+      "validation_metrics": {
+        "accuracy": 0.9122944400939702,
+        "precision_toxic": 0.3669724770642202,
+        "recall_toxic": 0.4819277108433735,
+        "f1_toxic": 0.4166666666666667,
+        "macro_f1": 0.68462461191081,
+        "tn": 1125,
+        "fp": 69,
+        "fn": 43,
+        "tp": 40,
+        "predicted_toxic": 109
+      },
+      "feature_params": {
+        "kind": "bow",
+        "ngram_range": [
+          1,
+          1
+        ],
+        "min_df": 2
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      },
+      "path": "models/resplit_v1/steps23_v1/preserve_bow_svm.joblib",
+      "sha256": "aa2818ffab88f22a0fddc884391bc8abe865befbdab64c5349402af656bb25b8",
+      "input_contract": "raw_text",
+      "reload_verified": true,
+      "validation_features": {
+        "features": 3246,
+        "zero_vectors": 12,
+        "word_features": 3246,
+        "oov_tokens": 1191,
+        "total_tokens": 10653,
+        "oov_fraction": 0.11179949310053507
+      }
+    },
+    {
+      "model": "preserve_tfidf_nb",
+      "profile": "preserve",
+      "family": "tfidf_nb",
+      "validation_metrics": {
+        "accuracy": 0.9373531714956931,
+        "precision_toxic": 0.8,
+        "recall_toxic": 0.04819277108433735,
+        "f1_toxic": 0.09090909090909091,
+        "macro_f1": 0.5292339452923395,
+        "tn": 1193,
+        "fp": 1,
+        "fn": 79,
+        "tp": 4,
+        "predicted_toxic": 5
+      },
+      "feature_params": {
+        "kind": "tfidf",
+        "ngram_range": [
+          1,
+          2
+        ],
+        "min_df": 2
+      },
+      "classifier_params": {
+        "alpha": 0.1
+      },
+      "path": "models/resplit_v1/steps23_v1/preserve_tfidf_nb.joblib",
+      "sha256": "e459306b6faa52bb6d04b1518a8675e3a8667342b801212059b9b25de1f7e154",
+      "input_contract": "raw_text",
+      "reload_verified": true,
+      "validation_features": {
+        "features": 11597,
+        "zero_vectors": 12,
+        "word_features": 11597,
+        "oov_tokens": 7577,
+        "total_tokens": 20029,
+        "oov_fraction": 0.3783014628788257
+      }
+    },
+    {
+      "model": "preserve_tfidf_svm",
+      "profile": "preserve",
+      "family": "tfidf_svm",
+      "validation_metrics": {
+        "accuracy": 0.9193422083007048,
+        "precision_toxic": 0.391304347826087,
+        "recall_toxic": 0.43373493975903615,
+        "f1_toxic": 0.4114285714285714,
+        "macro_f1": 0.6840665345583379,
+        "tn": 1138,
+        "fp": 56,
+        "fn": 47,
+        "tp": 36,
+        "predicted_toxic": 92
+      },
+      "feature_params": {
+        "kind": "tfidf",
+        "ngram_range": [
+          1,
+          1
+        ],
+        "min_df": 1
+      },
+      "classifier_params": {
+        "C": 1.0,
+        "class_weight": "balanced"
+      },
+      "path": "models/resplit_v1/steps23_v1/preserve_tfidf_svm.joblib",
+      "sha256": "a68ebc14b31aa74ae0a874c133b28040a07ee864f98a9aa17e1ad7ab08fd1abb",
+      "input_contract": "raw_text",
+      "reload_verified": true,
+      "validation_features": {
+        "features": 7956,
+        "zero_vectors": 9,
+        "word_features": 7956,
+        "oov_tokens": 910,
+        "total_tokens": 10653,
+        "oov_fraction": 0.08542194686942645
+      }
+    },
+    {
+      "model": "preserve_char_svm",
+      "profile": "preserve",
+      "family": "char_svm",
+      "validation_metrics": {
+        "accuracy": 0.9138606108065779,
+        "precision_toxic": 0.35789473684210527,
+        "recall_toxic": 0.40963855421686746,
+        "f1_toxic": 0.38202247191011235,
+        "macro_f1": 0.6678630878069081,
+        "tn": 1133,
+        "fp": 61,
+        "fn": 49,
+        "tp": 34,
+        "predicted_toxic": 95
+      },
+      "feature_params": {
+        "kind": "char",
+        "char_range": [
+          3,
+          5
+        ],
+        "min_df": 2
+      },
+      "classifier_params": {
+        "C": 1.0,
+        "class_weight": "balanced"
+      },
+      "path": "models/resplit_v1/steps23_v1/preserve_char_svm.joblib",
+      "sha256": "c7154643907321df769a5f7b9c8287385759b6c5caad7b0244ae100c885bef6b",
+      "input_contract": "raw_text",
+      "reload_verified": true,
+      "validation_features": {
+        "features": 17183,
+        "zero_vectors": 0
+      }
+    },
+    {
+      "model": "preserve_word_char_svm",
+      "profile": "preserve",
+      "family": "word_char_svm",
+      "validation_metrics": {
+        "accuracy": 0.9154267815191856,
+        "precision_toxic": 0.37373737373737376,
+        "recall_toxic": 0.4457831325301205,
+        "f1_toxic": 0.4065934065934066,
+        "macro_f1": 0.6805311046457758,
+        "tn": 1132,
+        "fp": 62,
+        "fn": 46,
+        "tp": 37,
+        "predicted_toxic": 99
+      },
+      "feature_params": {
+        "kind": "word_char",
+        "ngram_range": [
+          1,
+          2
+        ],
+        "min_df": 2,
+        "char_weight": 1.0
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      },
+      "path": "models/resplit_v1/steps23_v1/preserve_word_char_svm.joblib",
+      "sha256": "a3362aee9f50c83b1b501c5328c7684a1c0fd5d87a100c57194629a970374706",
+      "input_contract": "raw_text",
+      "reload_verified": true,
+      "validation_features": {
+        "features": 28780,
+        "zero_vectors": 0,
+        "word_features": 11597,
+        "oov_tokens": 7577,
+        "total_tokens": 20029,
+        "oov_fraction": 0.3783014628788257
+      }
+    },
+    {
+      "model": "slang_bow_nb",
+      "profile": "slang",
+      "family": "bow_nb",
+      "validation_metrics": {
+        "accuracy": 0.9342208300704777,
+        "precision_toxic": 0.49122807017543857,
+        "recall_toxic": 0.3373493975903614,
+        "f1_toxic": 0.4,
+        "macro_f1": 0.6826014913007457,
+        "tn": 1165,
+        "fp": 29,
+        "fn": 55,
+        "tp": 28,
+        "predicted_toxic": 57
+      },
+      "feature_params": {
+        "kind": "bow",
+        "ngram_range": [
+          1,
+          2
+        ],
+        "min_df": 2
+      },
+      "classifier_params": {
+        "alpha": 0.1
+      },
+      "path": "models/resplit_v1/steps23_v1/slang_bow_nb.joblib",
+      "sha256": "911aefd96a576cda11a9bf9ac793c4ba17af40bfc1ea6df5e264de07a97cfcb0",
+      "input_contract": "raw_text",
+      "reload_verified": true,
+      "validation_features": {
+        "features": 11583,
+        "zero_vectors": 12,
+        "word_features": 11583,
+        "oov_tokens": 7512,
+        "total_tokens": 20047,
+        "oov_fraction": 0.37471940938793835
+      }
+    },
+    {
+      "model": "slang_bow_svm",
+      "profile": "slang",
+      "family": "bow_svm",
+      "validation_metrics": {
+        "accuracy": 0.9107282693813625,
+        "precision_toxic": 0.3577981651376147,
+        "recall_toxic": 0.46987951807228917,
+        "f1_toxic": 0.40625,
+        "macro_f1": 0.6789929085520745,
+        "tn": 1124,
+        "fp": 70,
+        "fn": 44,
+        "tp": 39,
+        "predicted_toxic": 109
+      },
+      "feature_params": {
+        "kind": "bow",
+        "ngram_range": [
+          1,
+          1
+        ],
+        "min_df": 2
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      },
+      "path": "models/resplit_v1/steps23_v1/slang_bow_svm.joblib",
+      "sha256": "a9320e7073c428acb0642290ff01c1dbb167e0c223d5d67593397b61ff13e055",
+      "input_contract": "raw_text",
+      "reload_verified": true,
+      "validation_features": {
+        "features": 3237,
+        "zero_vectors": 12,
+        "word_features": 3237,
+        "oov_tokens": 1178,
+        "total_tokens": 10662,
+        "oov_fraction": 0.11048583755392985
+      }
+    },
+    {
+      "model": "slang_tfidf_nb",
+      "profile": "slang",
+      "family": "tfidf_nb",
+      "validation_metrics": {
+        "accuracy": 0.9373531714956931,
+        "precision_toxic": 0.8,
+        "recall_toxic": 0.04819277108433735,
+        "f1_toxic": 0.09090909090909091,
+        "macro_f1": 0.5292339452923395,
+        "tn": 1193,
+        "fp": 1,
+        "fn": 79,
+        "tp": 4,
+        "predicted_toxic": 5
+      },
+      "feature_params": {
+        "kind": "tfidf",
+        "ngram_range": [
+          1,
+          2
+        ],
+        "min_df": 2
+      },
+      "classifier_params": {
+        "alpha": 0.1
+      },
+      "path": "models/resplit_v1/steps23_v1/slang_tfidf_nb.joblib",
+      "sha256": "1c344272a54d10cf459453910a6937728e0bb285a49e0dde863ee03ec83a2cf2",
+      "input_contract": "raw_text",
+      "reload_verified": true,
+      "validation_features": {
+        "features": 11583,
+        "zero_vectors": 12,
+        "word_features": 11583,
+        "oov_tokens": 7512,
+        "total_tokens": 20047,
+        "oov_fraction": 0.37471940938793835
+      }
+    },
+    {
+      "model": "slang_tfidf_svm",
+      "profile": "slang",
+      "family": "tfidf_svm",
+      "validation_metrics": {
+        "accuracy": 0.8981989036805011,
+        "precision_toxic": 0.3333333333333333,
+        "recall_toxic": 0.5662650602409639,
+        "f1_toxic": 0.41964285714285715,
+        "macro_f1": 0.6819244328632741,
+        "tn": 1100,
+        "fp": 94,
+        "fn": 36,
+        "tp": 47,
+        "predicted_toxic": 141
+      },
+      "feature_params": {
+        "kind": "tfidf",
+        "ngram_range": [
+          1,
+          1
+        ],
+        "min_df": 1
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      },
+      "path": "models/resplit_v1/steps23_v1/slang_tfidf_svm.joblib",
+      "sha256": "8a8b64c4ba8cfe48e109e31bc0de98259f737836f511f65292a4f85342dc10bb",
+      "input_contract": "raw_text",
+      "reload_verified": true,
+      "validation_features": {
+        "features": 7902,
+        "zero_vectors": 9,
+        "word_features": 7902,
+        "oov_tokens": 897,
+        "total_tokens": 10662,
+        "oov_fraction": 0.08413055711873944
+      }
+    },
+    {
+      "model": "slang_char_svm",
+      "profile": "slang",
+      "family": "char_svm",
+      "validation_metrics": {
+        "accuracy": 0.8958496476115897,
+        "precision_toxic": 0.3106060606060606,
+        "recall_toxic": 0.4939759036144578,
+        "f1_toxic": 0.3813953488372093,
+        "macro_f1": 0.6622667210197163,
+        "tn": 1103,
+        "fp": 91,
+        "fn": 42,
+        "tp": 41,
+        "predicted_toxic": 132
+      },
+      "feature_params": {
+        "kind": "char",
+        "char_range": [
+          2,
+          5
+        ],
+        "min_df": 2
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      },
+      "path": "models/resplit_v1/steps23_v1/slang_char_svm.joblib",
+      "sha256": "6b591a35c4c621a7ae55247d4af8473ff5dd2b676251a54c73be33bf03fd7399",
+      "input_contract": "raw_text",
+      "reload_verified": true,
+      "validation_features": {
+        "features": 19381,
+        "zero_vectors": 0
+      }
+    },
+    {
+      "model": "slang_word_char_svm",
+      "profile": "slang",
+      "family": "word_char_svm",
+      "validation_metrics": {
+        "accuracy": 0.9162098668754894,
+        "precision_toxic": 0.38,
+        "recall_toxic": 0.4578313253012048,
+        "f1_toxic": 0.41530054644808745,
+        "macro_f1": 0.685085954371239,
+        "tn": 1132,
+        "fp": 62,
+        "fn": 45,
+        "tp": 38,
+        "predicted_toxic": 100
+      },
+      "feature_params": {
+        "kind": "word_char",
+        "ngram_range": [
+          1,
+          2
+        ],
+        "min_df": 2,
+        "char_weight": 1.0
+      },
+      "classifier_params": {
+        "C": 0.1,
+        "class_weight": "balanced"
+      },
+      "path": "models/resplit_v1/steps23_v1/slang_word_char_svm.joblib",
+      "sha256": "99636b9e7c3b1534a3708b9cb5b3dd99827eb9a1a844be5d1c28d2b3328b20aa",
+      "input_contract": "raw_text",
+      "reload_verified": true,
+      "validation_features": {
+        "features": 28731,
+        "zero_vectors": 0,
+        "word_features": 11583,
+        "oov_tokens": 7512,
+        "total_tokens": 20047,
+        "oov_fraction": 0.37471940938793835
+      }
+    }
+  ],
+  "test_evaluated": false,
+  "label_policy": "Dataset labels accepted and finalized by the group on 2026-11-02.",
+  "feature_optimization_manifest": "models/resplit_v1/steps23_v1/manifest.json",
+  "validation_report": "reports/resplit_v1/steps23_v1/REPORT.md"
+}

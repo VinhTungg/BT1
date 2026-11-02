@@ -43,6 +43,11 @@ class TestUnicodeNfc(unittest.TestCase):
 
 
 class TestWhitespace(unittest.TestCase):
+    def test_adjacent_words_separated_only_by_controls(self):
+        for separator in ("\n", "\t", "\r\n", "\v", "\f"):
+            with self.subTest(separator=repr(separator)):
+                self.assertEqual(preprocessing.clean_text("không" + separator + "ngu"), "không ngu")
+
     def test_collapses_multiple_spaces_tabs_newlines(self):
         self.assertEqual(
             preprocessing.clean_text("  Sinh   viên \t đang \n học  "),
@@ -68,6 +73,16 @@ class TestCleaning(unittest.TestCase):
 
     def test_emoji_preserved(self):
         self.assertEqual(preprocessing.clean_text("Hay :)) 😂"), "Hay :)) 😂")
+
+    def test_joined_emoji_preserved_in_cleaning_and_segmentation(self):
+        for emoji in ("👨‍👩‍👧‍👦", "👩🏽‍💻", "🏳️‍🌈", "❤️‍🔥"):
+            with self.subTest(emoji=emoji):
+                text = f"Hay {emoji} quá!"
+                self.assertEqual(preprocessing.clean_text(text), text)
+                self.assertIn(emoji, preprocessing.segment_vietnamese(text).split())
+
+    def test_unicode_recomposed_after_invisible_character_removal(self):
+        self.assertEqual(preprocessing.clean_text("e\u200b\u0301"), "é")
 
     def test_url_preserved(self):
         url = "https://example.com/a?b=1"

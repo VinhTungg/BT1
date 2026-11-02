@@ -1,0 +1,13 @@
+﻿split,flag,value,samples,tp,fn,fp,tn,recall_toxic
+train_oof_calibration,has_negation,False,5121,128,178,242,4573,0.41830065359477125
+train_oof_calibration,has_negation,True,879,31,57,84,707,0.3522727272727273
+train_oof_calibration,has_mention,False,2207,105,94,196,1812,0.5276381909547738
+train_oof_calibration,has_mention,True,3793,54,141,130,3468,0.27692307692307694
+train_oof_calibration,short_comment,False,4147,145,200,271,3531,0.42028985507246375
+train_oof_calibration,short_comment,True,1853,14,35,55,1749,0.2857142857142857
+validation,has_negation,False,1112,35,39,58,980,0.47297297297297297
+validation,has_negation,True,165,5,4,8,148,0.5555555555555556
+validation,has_mention,False,403,18,15,27,343,0.5454545454545454
+validation,has_mention,True,874,22,28,39,785,0.44
+validation,short_comment,False,770,26,28,45,671,0.48148148148148145
+validation,short_comment,True,507,14,15,21,457,0.4827586206896552

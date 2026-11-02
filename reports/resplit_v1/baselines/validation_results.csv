@@ -1,0 +1,6 @@
+﻿model,accuracy,precision_toxic,recall_toxic,f1_toxic,macro_f1,tn,fp,fn,tp,predicted_toxic,selected_trial,params
+bow_nb,0.9318715740015662,0.45652173913043476,0.25301204819277107,0.32558139534883723,0.6448525533445217,1169,25,62,21,46,1,"{""classifier__alpha"": 0.1, ""vectorizer__min_df"": 1, ""vectorizer__ngram_range"": [1, 1]}"
+bow_svm,0.9263899765074393,0.4153846153846154,0.3253012048192771,0.36486486486486486,0.6628979353418256,1156,38,56,27,65,13,"{""classifier__C"": 1.0, ""classifier__class_weight"": ""balanced"", ""vectorizer__min_df"": 1, ""vectorizer__ngram_range"": [1, 1]}"
+tfidf_nb,0.9350039154267815,0.5,0.012048192771084338,0.023529411764705882,0.4949562814190075,1193,1,82,1,2,2,"{""classifier__alpha"": 0.1, ""vectorizer__min_df"": 1, ""vectorizer__ngram_range"": [1, 2]}"
+tfidf_svm,0.894283476898982,0.31690140845070425,0.5421686746987951,0.4,0.6710176041219408,1097,97,38,45,142,5,"{""classifier__C"": 0.1, ""classifier__class_weight"": ""balanced"", ""vectorizer__min_df"": 1, ""vectorizer__ngram_range"": [1, 1]}"
+dummy,0.9350039154267815,0.0,0.0,0.0,0.4832051800890328,1194,0,83,0,0,1,{}

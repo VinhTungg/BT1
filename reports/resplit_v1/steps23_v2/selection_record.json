@@ -1,0 +1,38 @@
+{
+  "selected_at_utc": "2026-11-02T16:16:55.629249+00:00",
+  "selected_model": "slang_ng3_stop_oof",
+  "basis": "Validation Macro-F1, then F1-toxic, then Recall-toxic; first on exact ties.",
+  "previous_model": "slang_word_char_svm",
+  "previous_metrics": {
+    "accuracy": 0.9162098668754894,
+    "precision_toxic": 0.38,
+    "recall_toxic": 0.4578313253012048,
+    "f1_toxic": 0.41530054644808745,
+    "macro_f1": 0.685085954371239,
+    "tn": 1132,
+    "fp": 62,
+    "fn": 45,
+    "tp": 38,
+    "predicted_toxic": 100
+  },
+  "selected_metrics": {
+    "accuracy": 0.9146436961628818,
+    "precision_toxic": 0.37735849056603776,
+    "recall_toxic": 0.4819277108433735,
+    "f1_toxic": 0.42328042328042326,
+    "macro_f1": 0.6885958141772095,
+    "tn": 1128,
+    "fp": 66,
+    "fn": 43,
+    "tp": 40,
+    "predicted_toxic": 106
+  },
+  "test_evaluated": false,
+  "archive": "archive/before_steps23_v2_selection_20261102_161655",
+  "model_manifest_sha256": "058d229274b61ac327c6a4ca5ba73a5428245747eb635c22e13c65e4375e24ec",
+  "source_hashes": {
+    "src/text_features.py": "23191cf120bd0b57b2335f3ed903ee6f3c96d65ed0cf2606a527de17bc2e1407",
+    "src/decision_threshold.py": "88bb0c57d31bb25c5b28eb3be6c56bfa28f6d9dd657cc507976af41c1b2afc77",
+    "scripts/refine_text_models.py": "b49baf19a31e2b48df2c15715f49127123c36d527252bdfcb3a27f9b0109c261"
+  }
+}

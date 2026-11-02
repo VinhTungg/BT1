@@ -1,0 +1,10 @@
+# Dataset/model manifests include source fingerprints; preserve exact bytes.
+*.csv -text
+*.json -text
+*.joblib binary
+*.png binary
+*.py -text
+*.md text eol=lf
+*.txt text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

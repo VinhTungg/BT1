@@ -1,0 +1,11 @@
+{
+  "dataset_id": "resplit_v1",
+  "manifest": "data/clean/manifest.json",
+  "manifest_sha256": "4cfb81639ccaf5f50726bc613c29868ed3ebddf7efb6d7540befe45400c188ed",
+  "outputs": {
+    "baseline_models": "models/resplit_v1/baselines",
+    "baseline_reports": "reports/resplit_v1/baselines",
+    "improved_models": "models/resplit_v1/improvements",
+    "improved_reports": "reports/resplit_v1/improvements"
+  }
+}

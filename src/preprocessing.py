@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import argparse
 import logging
+import re
 import sys
 import unicodedata
 from pathlib import Path
@@ -31,6 +32,10 @@ from underthesea import word_tokenize
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 logger = logging.getLogger("preprocessing")
+
+# Keep joined emoji intact without preserving stray joiners inside ordinary words.
+_EMOJI_PART = r"[\U0001f000-\U0001faff\u2300-\u23ff\u2600-\u27bf][\ufe0e\ufe0f]?[\U0001f3fb-\U0001f3ff]?"
+_JOINED_EMOJI = re.compile(rf"{_EMOJI_PART}(?:\u200d{_EMOJI_PART})+")
 
 # Ký tự zero-width/invisible thường sinh rác khi thu thập từ web.
 _INVISIBLE_CHARS = (
@@ -67,18 +72,25 @@ def normalize_unicode_nfc(text: str) -> str:
 def remove_invisible_chars(text: str) -> str:
     """Loại ký tự điều khiển và zero-width không mang nội dung.
 
-    Giữ ``\\t`` và ``\\n`` (được quy về space ở bước normalize_whitespace).
-    Không loại dấu câu, emoji, ký tự tiếng Việt.
+    Đổi ký tự khoảng trắng thành space trước khi loại ký tự điều khiển.
+    Giữ ký tự nối trong emoji ghép; loại joiner rời trong văn bản thường.
     """
     cleaned_chars: list[str] = []
-    for ch in text:
-        if ch in _INVISIBLE_CHARS:
-            continue
-        if ch in _SPECIAL_SPACES:
+    emoji_joiners = {
+        index for match in _JOINED_EMOJI.finditer(text)
+        for index in range(match.start(), match.end()) if text[index] == "\u200d"
+    }
+    for index, ch in enumerate(text):
+        if ch.isspace() or ch in _SPECIAL_SPACES:
             cleaned_chars.append(" ")
             continue
+        if index in emoji_joiners:
+            cleaned_chars.append(ch)
+            continue
+        if ch in _INVISIBLE_CHARS:
+            continue
         if unicodedata.category(ch) == "Cc":
-            continue  # control char (bao gồm \r, không mang nội dung)
+            continue
         cleaned_chars.append(ch)
     return "".join(cleaned_chars)
 
@@ -103,7 +115,7 @@ def clean_text(text: str) -> str:
     """
     if not isinstance(text, str):
         raise TypeError(f"Văn bản đầu vào phải là str, nhận {type(text).__name__}")
-    return normalize_whitespace(remove_invisible_chars(normalize_unicode_nfc(text)))
+    return normalize_unicode_nfc(normalize_whitespace(remove_invisible_chars(text)))
 
 
 def segment_vietnamese(text: str) -> str:
@@ -125,6 +137,19 @@ def segment_vietnamese(text: str) -> str:
     if not normalized:
         return ""
     try:
+        if _JOINED_EMOJI.search(normalized):
+            pieces = []
+            start = 0
+            for match in _JOINED_EMOJI.finditer(normalized):
+                prefix = normalized[start:match.start()].strip()
+                if prefix:
+                    pieces.append(word_tokenize(prefix, format="text"))
+                pieces.append(match.group())
+                start = match.end()
+            suffix = normalized[start:].strip()
+            if suffix:
+                pieces.append(word_tokenize(suffix, format="text"))
+            return normalize_whitespace(" ".join(pieces))
         return word_tokenize(normalized, format="text")
     except Exception:  # noqa: BLE001 - tokenizer có thể lỗi với input dị format
         logger.warning(
@@ -164,11 +189,7 @@ def preprocess_dataframe(df: pd.DataFrame, text_col: str = "text") -> pd.DataFra
     """
     created_col = "_preprocess_tmp_clean"
     token_col = "_preprocess_tmp_token"
-    try:
-        cleaned, tokenized = preprocess_texts(df[text_col].astype("string").fillna(""))
-    except Exception:
-        df.drop(columns=[created_col, token_col], errors="ignore", inplace=True)
-        raise
+    cleaned, tokenized = preprocess_texts(df[text_col].astype("string").fillna(""))
 
     working = df.copy()
     working[created_col] = cleaned

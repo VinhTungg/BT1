@@ -1,0 +1,18 @@
+{
+  "tests": 135,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "date": "2026-11-02",
+  "active_dataset": "resplit_v1",
+  "active_model": "slang_ng3_stop_oof",
+  "dataset_integrity_check": true,
+  "active_artifacts_hash_verified": 22,
+  "source_hashes_verified": true,
+  "baseline_refinement_manifest_chain_verified": true,
+  "clean_staged_export_verified": true,
+  "current_prediction_smoke_verified": true,
+  "test_evaluation_performed": false,
+  "credential_pattern_scan_matches": 0,
+  "local_history_and_browser_profiles_excluded": true
+}
