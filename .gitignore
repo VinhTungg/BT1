@@ -5,5 +5,8 @@ __pycache__/
 .runtime-temp/
 .cache/
 tmp/
+*.zip
+*.safetensors
+*.bin
 /archive/*
 !/archive/README.md
