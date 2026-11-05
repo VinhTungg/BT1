@@ -1,10 +1,11 @@
 {
     "model_name": "vinai/phobert-base-v2",
-    "best_epoch": 2,
-    "macro_f1": 0.6721374923359902,
-    "f1_toxic": 0.4017857142857143,
-    "recall_toxic": 0.5421686746987951,
-    "precision_toxic": 0.3191489361702128,
-    "accuracy": 0.8950665622552858,
-    "val_loss": 0.5203303849324584
+    "best_epoch": 4,
+    "optimal_threshold": 0.9,
+    "macro_f1": 0.788782183116643,
+    "f1_toxic": 0.6055045871559633,
+    "recall_toxic": 0.6111111111111112,
+    "precision_toxic": 0.6,
+    "accuracy": 0.9478155339805825,
+    "val_loss": 0.715655290736602
 }

@@ -1,0 +1,825 @@
+﻿id,post_id,text,text_tokenized,label,prediction,outcome
+03fa774cc9a7f706f087f6da,2k5ptit:1152531783622664,[MENTION] tệ quá,[ MENTION ]_tệ quá,0,0,TN
+04473b7587217cc85a706986,2k5ptit:1152531783622664,Lỗi t hết,Lỗi t hết,0,0,TN
+0530e82c78e42ce202ed5f5e,2k5ptit:1152531783622664,thay mặt T(Minh) Đ(Hải) mình chân thành cực kì gửi lời xin lỗi vô cùng nhất tới bạn chủ tus nói riêng và các nạn nhân khác nói chung [MENTION],thay_mặt T ( Minh ) Đ ( Hải ) mình chân_thành cực_kì gửi lời xin_lỗi vô_cùng nhất tới bạn chủ_tus nói_riêng và các nạn_nhân khác nói_chung [_MENTION ],0,0,TN
+067bb7df4b16c1efde9540d6,2k5ptit:1152531783622664,[MENTION] 100% b này,[ MENTION_] 100 % b này,0,0,TN
+0f966577dfe22b8a93d1be9a,2k5ptit:1152531783622664,[MENTION] TĐ k5 thì chỉ có a này,[ MENTION_] TĐ_k5 thì chỉ có a này,0,0,TN
+11338c3fb2ba42398382e754,2k5ptit:1152531783622664,Thay mặt [MENTION] xin lỗi các b nữ,Thay_mặt [_MENTION ] xin_lỗi các b nữ,0,0,TN
+113f4c3a0078131192e179ad,2k5ptit:1152531783622664,"[MENTION] t đang không biết tình cảm là cái gì, có ăn được không. m quen biết ai thì nhắn họ ib t nhé, t đang muốn được bị lừa ""tình cảm"", trai gái k quan trọng nhé :))","[ MENTION ]_t đang không biết tình_cảm là cái gì , có ăn được không . m quen_biết ai thì nhắn họ ib t nhé , t đang muốn được bị lừa "" tình_cảm "" , trai_gái k quan_trọng nhé :))",0,0,TN
+1765d8de53f625d11e022bb1,2k5ptit:1152531783622664,??? Lộ r [MENTION],? ? ?_Lộ r [_MENTION ],0,0,TN
+1b7c951d5cba77bb19e4d4e3,2k5ptit:1152531783622664,Anonymous participant [MENTION] tự tin r,Anonymous participant [ MENTION_] tự_tin r,0,0,TN
+1bf8907bfd3c7f2fbb42c6f1,2k5ptit:1152531783622664,"HUHU ANH TẠ ĐẠT ƠIII tại saooo anh thích ""không mặc áo mưa"" ?!?!!! thử lòng cái thai th mà anh lộ bản chất một người bố tuyệt vờiiiii! anh sẽ có đứa con ten smg và hiv tốt đẹp giống anh @nêu bật","HUHU_ANH TẠ ĐẠT_ƠIII tại saooo anh thích "" không mặc áo_mưa "" ? ! ? ! ! ! thử_lòng cái thai th mà anh lộ bản_chất một người bố tuyệt_vờiiiii ! anh sẽ có đứa con ten smg và hiv tốt_đẹp giống anh @ nêu bật",1,0,FN
+1d019a49e0d2768ff3424165,2k5ptit:1152531783622664,[MENTION] Aya ms 3 e thôi từ để tạo nick ms,[ MENTION_] Aya ms 3 e thôi từ để tạo nick ms,0,0,TN
+1f98bef07b49c28c9fa9ac61,2k5ptit:1152531783622664,làm sao giờ ảnh nhân cơ hội quá,làm_sao giờ ảnh_nhân cơ_hội quá,0,0,TN
+210ae3f2ada188b33f5fd562,2k5ptit:1152531783622664,đùa t à,đùa t à,0,0,TN
+21ed39dda5b48ed38b214abb,2k5ptit:1152531783622664,Người tham gia ẩn danh 184dat 09,Người tham_gia ẩn_danh 184 dat 09,0,0,TN
+253b8841600c39cfe6f45283,2k5ptit:1152531783622664,[MENTION] thành đạt à,[ MENTION_] thành_đạt à,0,0,TN
+26207e97023409b18d9e15ab,2k5ptit:1152531783622664,[MENTION] Tất cả đều đúng trừ đoạn 09 nhé An,[ MENTION_] Tất_cả đều đúng trừ đoạn 09 nhé An,0,0,TN
+28a1702c324044ed1e32033a,2k5ptit:1152531783622664,[MENTION] T.Đ chứ ko p TĐĐ à,[ MENTION ]_T.Đ chứ ko p TĐĐ à,0,0,TN
+2c2ea272388dd393c298e9e0,2k5ptit:1152531783622664,a rất thất vọng về e [MENTION],a rất thất_vọng về e_[ MENTION ],0,0,TN
+2c6beae47e91dbf9a9322fd6,2k5ptit:1152531783622664,[MENTION] ui ui không phải e e ngoan lắm,[ MENTION_] ui ui không phải e e_ngoan lắm,0,0,TN
+2d0ad3f23e35a697d536f4a0,2k5ptit:1152531783622664,"Xời, đăng lên xin inf thì chả vui quá","Xời , đăng lên xin inf thì chả vui quá",0,0,TN
+2dfaaaf7b719b2a1d1ee5f52,2k5ptit:1152531783622664,[MENTION] đọc xong cũng cũng có ý mà,[ MENTION_] đọc xong cũng cũng có ý mà,0,0,TN
+2f67706f2ff2dd37c280ae8d,2k5ptit:1152531783622664,[MENTION] tớ có bằng chứng đấy,[ MENTION ]_tớ có bằng_chứng đấy,0,0,TN
+30314ad0b7a314dd391b04d7,2k5ptit:1152531783622664,[MENTION] ko ngờ trường này đi khoe mà có tiếng v =))),[ MENTION ] ko ngờ_trường này đi khoe mà có tiếng v =))),0,0,TN
+305ff5a78dd53734e071a275,2k5ptit:1152531783622664,Lướt đt chx đc 5p đã gặp 2 bài phốt r:)),Lướt đt chx đc 5 p đã gặp 2 bài phốt_r :)),0,0,TN
+307ee306c524e729d662e661,2k5ptit:1152531783622664,[MENTION] ơ sao vừa hqua quen mà nay laii bị phốt r,[ MENTION ]_ơ sao vừa hqua quen mà nay laii bị phốt r,0,0,TN
+35035025e2927d19b14baefb,2k5ptit:1152531783622664,Người tham gia ẩn danh 837 nó đó vụ mới chưa chừa,Người tham_gia ẩn_danh 837 nó đó vụ mới chưa chừa,0,0,TN
+365f52234fc59a1b5ef2afeb,2k5ptit:1152531783622664,[MENTION] [MENTION] trường t rất nhiều drama tình cảm:))),[ MENTION_] [_MENTION ]_trường t rất nhiều drama tình_cảm :))),0,0,TN
+3b4c5c8329a1b35d4926160e,2k5ptit:1152531783622664,[MENTION] bạn đùa tôi à :)),[ MENTION ] bạn đùa tôi à :)),0,0,TN
+3b5e6f774a6fbafe1a8bd2f2,2k5ptit:1152531783622664,Người tham gia ẩn danh 829 chơi gái ch 18,Người tham_gia ẩn_danh 829 chơi gái ch 18,0,0,TN
+3dbd7cc500f888421a03f9a3,2k5ptit:1152531783622664,[MENTION] uây ô ơii,[ MENTION_] uây ô ơii,0,0,TN
+434c77ed556f70c002b0dc0c,2k5ptit:1152531783622664,[MENTION] trai truong P day,[ MENTION ]_trai truong P day,0,0,TN
+4a08a311e5f57492da26fba2,2k5ptit:1152531783622664,Thằng này bắn đi cho đỡ jack việc,Thằng này bắn đi cho đỡ jack việc,1,1,TP
+4bed76fe641b989dbd130ec7,2k5ptit:1152531783622664,[MENTION] T.Đ mà còn Hà Nội nữa chắc k sai đc,[ MENTION ]_T.Đ mà_còn Hà_Nội nữa chắc k sai đc,0,0,TN
+4dca3bd903c9deb95ff04ac6,2k5ptit:1152531783622664,[MENTION] a xin loi em a,[ MENTION ]_a xin loi em a,0,0,TN
+5070a44c8ee053d67d48b7ef,2k5ptit:1152531783622664,"[MENTION] alo ô, ko chối nhớ","[ MENTION_] alo_ô , ko chối nhớ",0,0,TN
+511ca32165b3db3b72fe7bc5,2k5ptit:1152531783622664,[MENTION] ảnh hỏng phải ng như zạy đou,[ MENTION ]_ảnh hỏng phải ng như zạy đou,0,0,TN
+52e2c2f50333167b6ef91be2,2k5ptit:1152531783622664,Người tham gia ẩn danh 977 bạn là ai,Người tham_gia ẩn_danh 977 bạn là ai,0,0,TN
+5525e0627f011e217b0178aa,2k5ptit:1152531783622664,[MENTION] m mới tệ ấy mi,[ MENTION ] m mới tệ ấy mi,1,0,FN
+56b6515edb059c26e4c04567,2k5ptit:1152531783622664,[MENTION] ô bạn à,[ MENTION ]_ô bạn à,0,0,TN
+5999453c692ae20a3651ff96,2k5ptit:1152531783622664,[MENTION] hmm is that you,[ MENTION ] hmm is that you,0,0,TN
+5abe624531e9507d8799f8f2,2k5ptit:1152531783622664,Tk em này hả tk em này có dàn harem chất lượng còn đi bênh cơ mà,Tk em này hả tk em này có dàn harem chất_lượng còn đi bênh_cơ mà,0,0,TN
+5b55ffa4698d8fccce6da401,2k5ptit:1152531783622664,[MENTION] a T.Đ này chết dở,[ MENTION_] a_T.Đ này chết dở,0,0,TN
+5bc3decc9f837924462f51a4,2k5ptit:1152531783622664,[MENTION] đúng T.Đ r,[ MENTION_] đúng T.Đ_r,0,0,TN
+5dda5f19dfb0edefb4087974,2k5ptit:1152531783622664,[MENTION] k5 mà cu:),[ MENTION ]_k5 mà cu :),0,0,TN
+61c60668c46a1c609730efeb,2k5ptit:1152531783622664,Người tham gia ẩn danh 859 thôi đừng,Người tham_gia ẩn_danh 859 thôi đừng,0,0,TN
+6446be2937d50d5c15db577e,2k5ptit:1152531783622664,[MENTION] m cần a giới thiệu cho không khổ thế nhề,[ MENTION ] m cần a giới_thiệu cho không khổ_thế nhề,0,0,TN
+647dae8f8c66d4a3c35778fc,2k5ptit:1152531783622664,xin link đi [MENTION],xin link đi [_MENTION ],0,0,TN
+67bd84e0f2fc626c42450e71,2k5ptit:1152531783622664,Vc nho :)) tha trai trường P đi sống bẩn thì sống mình thôi,Vc nho :))_tha trai trường P đi sống bẩn thì sống mình thôi,1,1,TP
+6a13db14619066feb7b758a0,2k5ptit:1152531783622664,[MENTION] t biết m luôn tệ mà,[ MENTION_] t biết m luôn tệ mà,1,0,FN
+6aac74b367c8734a1ecd072c,2k5ptit:1152531783622664,Vãi ò oan tôi bạn ơi :VVV,Vãi ò oan tôi bạn ơi : VVV,0,0,TN
+6be1fd39c5d8232fb75d35cd,2k5ptit:1152531783622664,Coi trọng mik quá,Coi_trọng mik quá,0,0,TN
+6fe8dbfc38caa34db4cdd428,2k5ptit:1152531783622664,[MENTION] có vẻ tai tiếng hơn trường U,[ MENTION_] có_vẻ tai_tiếng hơn trường U,0,0,TN
+70d0305ce6a55439fd3b812d,2k5ptit:1152531783622664,[MENTION] A không phải ng như vậy e ơi,[ MENTION ]_A không phải ng như_vậy e ơi,0,0,TN
+70f7eccbfb7fb7af49d433ba,2k5ptit:1152531783622664,Lừa đc mấy bé nhỏ nhỏ thôi,Lừa đc mấy bé nhỏ_nhỏ thôi,0,0,TN
+739b9d664d77db3ee3cab407,2k5ptit:1152531783622664,hai,hai,0,0,TN
+7487fafc56d156ce8fb019d6,2k5ptit:1152531783622664,Người tham gia ẩn danh 673 ô cái djt mẹ thk sv này=)))) m cắn anh hơi nhiều nhá,Người tham_gia ẩn_danh 673 ô cái djt mẹ thk sv này =)))) m cắn anh hơi nhiều nhá,1,1,TP
+77ea37325534ea921812f4a1,2k5ptit:1152531783622664,[MENTION] tầm m không ai thèm phốt đâu,[ MENTION ] tầm m không ai thèm phốt đâu,1,0,FN
+7b156a15bf8f5074ebf51bdf,2k5ptit:1152531783622664,Tạ Đạt đúng ko nè,Tạ_Đạt đúng ko nè,0,0,TN
+7b325473f52dd07b74d1ef43,2k5ptit:1152531783622664,[MENTION] sao biết t,[ MENTION_] sao biết t,0,0,TN
+7ec438728dba954d0aaf5bbe,2k5ptit:1152531783622664,Thay mặt bạn [MENTION] xin lỗi bạn ạ,Thay_mặt bạn [ MENTION_] xin_lỗi bạn ạ,0,0,TN
+8130e61b958e81dafb48fa98,2k5ptit:1152531783622664,Tôi gửi bạn [MENTION] [MENTION] ở đây để xin lỗi bạn ạ,Tôi gửi bạn [_MENTION ]_[ MENTION_] ở đây để xin_lỗi bạn ạ,0,0,TN
+854da3fea12aa49cecfb08f9,2k5ptit:1152531783622664,TĐ à ủa nhớ là có cú hít năm nào r mà 2024 hay 2023 á hay nhớ nhầm nhỉ,TĐ à ủa nhớ là có cú hít năm nào r mà 2024 hay 2023 á hay nhớ nhầm nhỉ,0,0,TN
+8697d164a8345fd9c409b950,2k5ptit:1152531783622664,"bạn này cũng tự mãn việc không thiếu gái mn ạ, tại vì quẹt mòn vân tay trên app đốm lửa thì chả thừa + thêm bị người ta đá nhưng lại kể mình đá người ta dứt khoát [MENTION]","bạn này cũng tự mãn việc không thiếu gái mn ạ , tại vì quẹt mòn vân tay_trên app đốm lửa thì chả thừa + thêm bị người ta đá nhưng lại kể mình đá người ta dứt_khoát [_MENTION ]",0,0,TN
+8796f1fd3e88a37b0eb56773,2k5ptit:1152531783622664,[MENTION] quen quen,[ MENTION_] quen quen,0,0,TN
+8a1d2f8096c3d94ef96800f9,2k5ptit:1152531783622664,[MENTION] Sợ luôn,[ MENTION ]_Sợ luôn,0,0,TN
+8a644c036fba5d597bcd5da9,2k5ptit:1152531783622664,[MENTION] buồn trai PTIT bạn à,[ MENTION_] buồn_trai PTIT bạn à,0,0,TN
+8c5b8def2a5fd6e08f7bfc28,2k5ptit:1152531783622664,[MENTION] tệ vậy à,[ MENTION ]_tệ vậy à,0,0,TN
+93ee3a9148d9ce9671f57582,2k5ptit:1152531783622664,[MENTION] bảo r sắp tới mấy bữa thấy chno đăng mặt Khoa lên thì vui lắm,[ MENTION_] bảo r sắp tới mấy bữa thấy chno đăng_mặt Khoa lên thì vui lắm,0,0,TN
+94c4d4c3151267494d4e9d60,2k5ptit:1152531783622664,thay mặt bạn [MENTION] mình xin lỗi bạn từ h mình sẽ triệt bỏ công cụ gây án nó cho,thay_mặt bạn [_MENTION ] mình xin_lỗi bạn từ h mình sẽ triệt_bỏ công_cụ gây án nó cho,1,0,FN
+9513b6e62857f74e9b0499bf,2k5ptit:1152531783622664,Chắc lại là em lập Acc clone chăn dắt đúng ko [MENTION],Chắc lại là em lập Acc_clone chăn dắt đúng ko [_MENTION ],0,0,TN
+96640ee220deceb030dc4b9d,2k5ptit:1152531783622664,[MENTION] đây rồi còn j,[ MENTION ] đây rồi còn j,0,0,TN
+97dfa04849b5efee5416dcb0,2k5ptit:1152531783622664,Thay mặt [MENTION] mình xin lỗi tất cả nạn nhân đen đủi khi dính phải tg này,Thay_mặt [_MENTION ] mình xin_lỗi tất_cả nạn_nhân đen_đủi khi dính phải tg này,0,0,TN
+989d39b3e767f8cdbf49362a,2k5ptit:1152531783622664,[MENTION] thg dau buoi nay,[ MENTION ] thg dau buoi nay,1,0,FN
+996d9e7fea5f2b038bca0a7e,2k5ptit:1152531783622664,[MENTION] TĐ khả năng là Thanh Độ,[ MENTION ]_TĐ khả_năng là Thanh_Độ,0,0,TN
+9a87baf671ed311d98bfcc2f,2k5ptit:1152531783622664,[MENTION] sống cho tử tế vào suốt ngày bị phốt,[ MENTION ] sống cho tử_tế vào suốt ngày bị phốt,0,0,TN
+9a8936bd72168fdd44911246,2k5ptit:1152531783622664,[MENTION] làm đủ trò xong mới đi đức à ông chú,[ MENTION_] làm đủ trò xong mới đi đức à ông chú,0,0,TN
+9bbb7d04e462123b36a61413,2k5ptit:1152531783622664,thôi xong [MENTION] ông làm gì để ngta bế lên thế này,thôi xong [ MENTION_] ông làm gì để ngta bế lên thế_này,0,0,TN
+9f6c2ac3a62b565e6646fabb,2k5ptit:1152531783622664,"thằng này tôi biết nhé [MENTION] đây là facebook nó nhé mn , thay mặt ae VN xin lỗi b","thằng này tôi biết nhé [_MENTION ] đây là facebook nó nhé_mn , thay_mặt ae VN xin_lỗi b",0,0,TN
+a0a9ac78e777eb9775510cdd,2k5ptit:1152531783622664,[MENTION] gọi là ông ba bị vì chuyên ăn thịt trẻ con,[ MENTION_] gọi_là ông ba bị vì chuyên_ăn thịt trẻ_con,1,0,FN
+a10e203d1db1dc985e2a7049,2k5ptit:1152531783622664,[MENTION] thấy bm quán bia suốt có đi làm đâu mà bảo đi làm,[ MENTION ] thấy bm quán bia suốt có đi làm đâu mà bảo đi làm,0,0,TN
+a40b162a9b8f600397cb2bb0,2k5ptit:1152531783622664,[MENTION] m có luôn điểm A à,[ MENTION ] m có luôn điểm A à,0,0,TN
+a7a5f203bb8cf4732b83e42e,2k5ptit:1152531783622664,Má ptit lắm phốt v mình tốt v mà chẳng thấy ai tán,Má ptit lắm phốt v mình tốt v mà chẳng thấy ai tán,0,0,TN
+a938384c9afee0ab3b47047e,2k5ptit:1152531783622664,"sao các chị em cứ var vào mấy anh tồi thế nhỉ, khong ai var phải mìn","sao các chị_em cứ var vào mấy anh tồi_thế nhỉ , khong ai var phải mìn",0,0,TN
+aee3a70e0d0a82c1d7e7cdc8,2k5ptit:1152531783622664,[MENTION] nghi lắmmm,[ MENTION ]_nghi lắmmm,0,0,TN
+af7f4786c19cb6bc725c9aee,2k5ptit:1152531783622664,[MENTION] có nha baby,[ MENTION_] có nha baby,0,0,TN
+b19455b18512cf108cd2bc7e,2k5ptit:1152531783622664,[MENTION] chán lắm,[ MENTION ]_chán lắm,0,0,TN
+b57ac44617c5afd949a741ad,2k5ptit:1152531783622664,[MENTION] anh mà phải như thế à,[ MENTION_] anh mà phải như_thế à,0,0,TN
+b59da6f5f34fcf5fa993a16b,2k5ptit:1152531783622664,là ai thì nói rõ ra để còn né nào,là ai thì nói rõ ra để còn né nào,0,0,TN
+b707f04dfa9ecae94d3d1597,2k5ptit:1152531783622664,Hy vọng là thg này ko học CNTT chứ dạo nào ae bị mang tiếng quá r,Hy_vọng là thg này ko_học CNTT chứ dạo nào ae bị mang_tiếng quá r,0,0,TN
+b713641fa8672160ed2532f6,2k5ptit:1152531783622664,[MENTION] là tôi nhé Tuấn ĐHưng,[ MENTION_] là tôi nhé_Tuấn ĐHưng,0,0,TN
+bf891965e22a53d89f4781d9,2k5ptit:1152531783622664,[MENTION] đang tưởng khứa lớp mk,[ MENTION_] đang tưởng khứa lớp mk,0,0,TN
+c062feaab21fb34afd52a186,2k5ptit:1152531783622664,fakephake,fakephake,0,0,TN
+c2151f1aa82259c74e38b43d,2k5ptit:1152531783622664,Người tham gia ẩn danh 829 Đạt 09,Người tham_gia ẩn_danh 829 Đạt 09,0,0,TN
+c23c8df03f6492ac572b3fa4,2k5ptit:1152531783622664,09 là gì thía,09 là gì thía,0,0,TN
+c3e45142730a647a32dc7c84,2k5ptit:1152531783622664,[MENTION] T.Đ a m đã giật mình r còn thêm k5 nữa sốc thật sự. Xong nhận ra a m làm j có mối nào :))),[ MENTION_] T.Đ a m đã giật_mình r còn thêm k5 nữa sốc thật_sự . Xong nhận ra a m làm j có mối nào :))),0,0,TN
+c5ec62c3c2c6ae094ce9b5c4,2k5ptit:1152531783622664,Trần Đình bn ê bt ngay mà,Trần_Đình_bn ê_bt ngay mà,0,0,TN
+c7c73c6ed5bbfcde5d5c9c8d,2k5ptit:1152531783622664,[MENTION] không còn j để nói,[ MENTION_] không còn j để nói,0,0,TN
+c9b2a8f20f8e89ac3a3999e1,2k5ptit:1152531783622664,[MENTION] nãy cũng đọc bài phốt về zai ptit mà k wow bằng bài này,[ MENTION ]_nãy cũng đọc bài phốt về zai_ptit mà k wow bằng bài này,0,0,TN
+c9f54e6790b28b18e86273b7,2k5ptit:1152531783622664,ối,ối,0,0,TN
+cff467df3a0eb57c5017c50c,2k5ptit:1152531783622664,"Nãy mới thấy phốt bạn M.T mà giờ có bạn mới rồi à, 2 đứa dắt tay nhau ra khỏi trường nhé.","Nãy mới thấy phốt bạn M.T mà giờ có bạn mới rồi à , 2 đứa dắt tay nhau ra khỏi trường nhé .",0,0,TN
+d039e946e3a02d3ed405f6b7,2k5ptit:1152531783622664,Chịu [MENTION] 09,Chịu [_MENTION ] 09,0,0,TN
+d0c3b7f43b12957118aa11df,2k5ptit:1152531783622664,[MENTION] a xin e đấy,[ MENTION ]_a xin e đấy,0,0,TN
+d24d5bcff3f6c0c7de62341d,2k5ptit:1152531783622664,Gomenlasai,Gomenlasai,0,0,TN
+d5b7e592e05dedb46fdea5bc,2k5ptit:1152531783622664,[MENTION] Ôi ngày gì lắm phốt gê,[ MENTION_] Ôi ngày gì lắm phốt gê,0,0,TN
+d88ec7dfdecedb57e2ad49ec,2k5ptit:1152531783622664,[MENTION] khổ thân e,[ MENTION_] khổ_thân e,0,0,TN
+d90c62ef6256498fdeaa0e17,2k5ptit:1152531783622664,Người tham gia ẩn danh @nêu bật,Người tham_gia ẩn_danh @ nêu bật,0,0,TN
+db01bb1ffdfb4057383abd66,2k5ptit:1152531783622664,[MENTION] sao vậy đạt ét,[ MENTION_] sao vậy đạt ét,0,0,TN
+dcd98dcd5c20fff1edf0da0f,2k5ptit:1152531783622664,[MENTION] dạo này trai trg t bị làm thao íiii,[ MENTION ]_dạo này trai trg t bị làm thao_íiii,0,0,TN
+dcfc3796fc428d67158fc25f,2k5ptit:1152531783622664,"[MENTION] không pk tao , t còn chx có tình đầu","[ MENTION_] không pk tao , t còn chx có tình_đầu",0,0,TN
+dfebe1550592c980b9fb5cd4,2k5ptit:1152531783622664,[MENTION] thương bé,[ MENTION ]_thương bé,0,0,TN
+e107ffe20fa61fad56a4dfda,2k5ptit:1152531783622664,Phạm Tuấn Đạt đẹp mặt chưa,Phạm_Tuấn_Đạt đẹp mặt chưa,1,0,FN
+e38dde857a171f8a0d7f1cf7,2k5ptit:1152531783622664,[MENTION] chắc là k pk người quen đâu...,[ MENTION_] chắc là k pk người quen đâu ...,0,0,TN
+e6d95c8d90e1c31eaae16f60,2k5ptit:1152531783622664,[MENTION] [MENTION] [MENTION] [MENTION] [MENTION] [MENTION] chắc ko phải toi đâu ha mấy bạn,[ MENTION_] [_MENTION ]_[ MENTION_] [_MENTION ]_[ MENTION_] [_MENTION ] chắc ko phải toi đâu ha mấy bạn,0,0,TN
+f465bf95f53fcd0db8b66081,2k5ptit:1152531783622664,[MENTION] ai hỏi mà bộ trưởng tự khai,[ MENTION_] ai hỏi mà bộ_trưởng tự khai,0,0,TN
+f4fe56453f2f69e94f469455,2k5ptit:1152531783622664,[MENTION] không từ thủ đoạn,[ MENTION_] không từ thủ_đoạn,0,0,TN
+f533172673a7be88ac336e77,2k5ptit:1152531783622664,[MENTION] rảnh,[ MENTION_] rảnh,0,0,TN
+f6dbbab061fbdee72ee1f75d,2k5ptit:1152531783622664,[MENTION] a còn chưa tới lượt. Em xếp hàng sau chờ đi,[ MENTION ]_a còn chưa tới lượt . Em xếp_hàng sau chờ đi,0,0,TN
+f7b08762a4d0c52846ff0bd9,2k5ptit:1152531783622664,[MENTION] vl nay nhiều phốt thế ?,[ MENTION_] vl nay nhiều phốt_thế ?,0,0,TN
+f87ffbdadb17af032160eedc,2k5ptit:1152531783622664,[MENTION] xin lỗi tất cả các b,[ MENTION_] xin_lỗi tất_cả các b,0,0,TN
+f8fe99f92eed3dccc44232d5,2k5ptit:1152531783622664,[MENTION] phải đây không bạn ơi,[ MENTION_] phải đây không bạn ơi,0,0,TN
+f9fc63ac673b4ddac69d95f3,2k5ptit:1152531783622664,Nãy h đọc thấy lắm bài phốt trai trg P v,Nãy_h đọc thấy lắm bài phốt_trai trg P v,0,0,TN
+fc38137b596ade0948338204,2k5ptit:1152531783622664,Mình thì ế vcl ra,Mình thì ế vcl ra,0,0,TN
+feb3e9e3db3630949d2714f3,2k5ptit:1152531783622664,Người tham gia ẩn danh 525 lắm nick vậy =)),Người tham_gia ẩn_danh 525 lắm nick vậy =)),0,0,TN
+fee228749a99a5e7dc2e74ad,2k5ptit:1152531783622664,anh [MENTION] chứ gì,anh [ MENTION_] chứ gì,0,0,TN
+0169f48fbbafd2176034143e,2k5ptit:1233352562207252,Khó cho thầy rồi,Khó cho thầy rồi,0,0,TN
+0d18acb972d92351a569baf5,2k5ptit:1233352562207252,"[MENTION] a này toàn A+ có khác, nhận xét nghe nó tín","[ MENTION ]_a này toàn A_+ có khác , nhận_xét nghe nó tín",0,0,TN
+1e2aa0a3a647bc2db3bfdf28,2k5ptit:1233352562207252,Khó lói r e,Khó lói r e,0,0,TN
+290968291f3ab7bc88099c44,2k5ptit:1233352562207252,tưởng đăng ký cho vui còn lịch có r,tưởng đăng_ký cho vui còn lịch có r,0,0,TN
+2a75b999f09c30a6e6624681,2k5ptit:1233352562207252,"[MENTION] thầy mà đc hb alo em nhé, em dk cho đi thi cấp qg","[ MENTION ] thầy mà đc hb alo em nhé , em dk cho đi thi cấp qg",0,0,TN
+2e1f9f29d933788155acf44c,2k5ptit:1233352562207252,[MENTION] thầy Tuyên best nhé,[ MENTION ] thầy Tuyên_best nhé,0,0,TN
+32aa3a4cb64de8ebbd1ab25d,2k5ptit:1233352562207252,[MENTION] khả năng mấy A+ hả a,[ MENTION_] khả_năng mấy A + hả a,0,0,TN
+3910c13efc743a99a86631e9,2k5ptit:1233352562207252,Hay thôi mình trùng sinh chứ thấy khó quá à :(((,Hay thôi mình trùng_sinh chứ thấy khó quá à : ( ( (,0,0,TN
+44bea9316daba64c850af285,2k5ptit:1233352562207252,[MENTION] thầy thì nằm dọc trong góc nhìn của tk nằm ngang,[ MENTION ] thầy thì nằm dọc trong góc nhìn của tk nằm ngang,0,0,TN
+4869af0adeec4117c16e7519,2k5ptit:1233352562207252,[MENTION] thầy Hoá với thầy Hùng ạNhưng hai môn chỉ có 2 thầy này ạ,[ MENTION ] thầy Hóa với thầy Hùng ạNhưng hai môn chỉ có 2 thầy này ạ,0,0,TN
+4b0a69a5fa1a1941f3c5c5c9,2k5ptit:1233352562207252,[MENTION] khác năm ngoái,[ MENTION_] khác năm_ngoái,0,0,TN
+4d9a21648176a1d52b3c2ee3,2k5ptit:1233352562207252,[MENTION] doanh tưởng an trò yêu thầy nmh,[ MENTION ]_doanh_tưởng an_trò yêu thầy nmh,0,0,TN
+573ce44a8c9942edf4bbcb08,2k5ptit:1233352562207252,đăng kí k tạch thầy H nào luôn mà =)),đăng_kí k tạch thầy H nào luôn mà =)),0,0,TN
+6a9819602132c171c8759931,2k5ptit:1233352562207252,[MENTION] này nằm ngang luôn ấy thầy,[ MENTION_] này nằm ngang luôn ấy thầy,0,0,TN
+6aa39ffa0341715430cd1a6e,2k5ptit:1233352562207252,[MENTION] em thì sao thầy:)),[ MENTION_] em thì sao thầy :)),0,0,TN
+859e7a155dd7b11d91948f50,2k5ptit:1233352562207252,Vcl e ơi e ăn ở thế nào vậy e? Toàn sếp,Vcl e ơi e ăn_ở thế_nào vậy e ?_Toàn sếp,0,0,TN
+990b866fb4e4ebe099b2cb87,2k5ptit:1233352562207252,"[MENTION] thầy Hùng lạ lắm thầy hỏi mà mình k ngờ tới luôn mà , ncl điểm sẽ k cao dc đâu","[ MENTION ]_thầy Hùng lạ lắm thầy hỏi mà mình k ngờ tới luôn mà , ncl_điểm sẽ k cao dc đâu",0,0,TN
+9de12a43013d4a6a06da930c,2k5ptit:1233352562207252,[MENTION] xử lý ảnh vs iot hai thầy cho điểm ntn vậy ạ,[ MENTION_] xử_lý ảnh vs iot hai thầy cho điểm ntn vậy ạ,0,0,TN
+a1ad3abe76c5dbc58ddeedd5,2k5ptit:1233352562207252,"Toàn người dễ tính, chỉ cần chăm là có thể được B trở lên em nhé","Toàn người dễ_tính , chỉ cần chăm là có_thể được B trở lên em nhé",0,0,TN
+a5f85e93f1bd0f71b1c9d1c7,2k5ptit:1233352562207252,"Thấy ai cũng khó hết, làm gì có sự lựa chọn đâu mà cái cmt ...","Thấy ai cũng khó hết , làm gì có sự lựa_chọn đâu mà cái cmt ...",0,0,TN
+a6bc0eb7040f84615718b505,2k5ptit:1233352562207252,[MENTION] này liệm,[ MENTION_] này liệm,0,0,TN
+a969eb3f93d1008b6e64b483,2k5ptit:1233352562207252,[MENTION] qlda thì a ko bt Ltm btl e phải làm cái mới độc lạ ms đc cao ko thì auto 4-6Xla thì phải ôn giống trrIot thì cx k thấp lắm,[ MENTION ]_qlda thì a_ko bt Ltm btl e phải làm cái mới độc_lạ ms đc cao_ko thì auto 4-6_Xla thì phải ôn giống trrIot thì cx k thấp lắm,0,0,TN
+acd732c139caf4fe2135cdea,2k5ptit:1233352562207252,em chúc thầy thượng lộ bình an nhé,em chúc thầy thượng_lộ bình_an nhé,0,0,TN
+aff9a08d95d84b6c71f62b1e,2k5ptit:1233352562207252,[MENTION] thầy cứ lói thế em nó lại khó xử,[ MENTION ]_thầy cứ lói_thế em nó lại khó xử,0,0,TN
+c18818ebc1dc021d67c67de2,2k5ptit:1233352562207252,[MENTION] học chăm nhưng mà điểm thế nào chưa biết,[ MENTION ]_học chăm nhưng_mà điểm thế_nào chưa biết,0,0,TN
+c1ac20b5e53942107d4fcb1d,2k5ptit:1233352562207252,lập trình mạng với pttk là cút r đấy,lập_trình mạng với pttk là cút r đấy,0,1,FP
+cc63164274b9b61e7f3c9858,2k5ptit:1233352562207252,[MENTION] [MENTION] b review Tài Tuyên đi b,[ MENTION_] [_MENTION ] b review_Tài Tuyên đi b,0,0,TN
+d32abb10fb0985fb9a1d3ad1,2k5ptit:1233352562207252,[MENTION] đã được A+ đâu,[ MENTION_] đã được A_+ đâu,0,0,TN
+d6f3350646d664591eb05035,2k5ptit:1233352562207252,[MENTION] cho e hỏi thầy Tuyên vs thầy Ngọc Hùng cho điểm ntn vậy ạ,[ MENTION_] cho e hỏi thầy Tuyên_vs thầy Ngọc_Hùng cho điểm ntn vậy ạ,0,0,TN
+dd2eb8b8c97b79860f96efbe,2k5ptit:1233352562207252,6 môn chết 3 môn r,6 môn chết 3 môn r,0,0,TN
+e7b60f39d1ddb8d7b92b9a28,2k5ptit:1233352562207252,[MENTION] nào ko trêu bạn,[ MENTION_] nào ko trêu bạn,0,0,TN
+ea0ab245e48a071cbe4f134c,2k5ptit:1233352562207252,Ltm với pttk học hành cẩn thận e nha z đpt nữa,Ltm với pttk học_hành cẩn_thận e_nha z đpt nữa,0,0,TN
+02c04eb7bf9acab0b04e5e5b,2k5ptit:1252360216973153,Cái bảo hiểm toàn diện ko bắt buộc đâu,Cái bảo_hiểm toàn_diện ko bắt_buộc đâu,0,0,TN
+08f893fb347e642051cbd956,2k5ptit:1252360216973153,Người tham gia ẩn danh đc,Người tham_gia ẩn_danh đc,0,0,TN
+0c1ddf149bff86bd3ce15178,2k5ptit:1252360216973153,Tầm 10 củ,Tầm 10 củ,0,0,TN
+0eea6a065fbe348e60a5200a,2k5ptit:1252360216973153,Người tham gia ẩn danh bn học ở ptit miền nam hả,Người tham_gia ẩn_danh bn học ở ptit miền nam hả,0,0,TN
+120a41c7471b460097753b35,2k5ptit:1252360216973153,"tiền học qs từ năm sau hình như đc miễn r mà, đợt t7 c đi thầy trong sota có bảo có công văn r","tiền học qs từ năm sau hình_như đc miễn_r mà , đợt t7 c đi thầy trong sota có bảo có công_văn r",0,0,TN
+1517c2d543d1d122a7ff3b34,2k5ptit:1252360216973153,Người tham gia ẩn danh tui cũng ở nam nè bạn,Người tham_gia ẩn_danh tui cũng ở nam nè bạn,0,0,TN
+1627914fa8794df2fe643a2d,2k5ptit:1252360216973153,[MENTION] cho e xin fb chị vs,[ MENTION_] cho e xin fb chị vs,0,0,TN
+1bb0090ea8e0fb0c33754d2c,2k5ptit:1252360216973153,quả học phí 1 kì bằng 4 năm học hồi xưa,quả học_phí 1 kì bằng 4 năm_học hồi xưa,0,0,TN
+1e7c40bc24c9f01561db2df2,2k5ptit:1252360216973153,Người tham gia ẩn danh bn ghi sơ yếu lí lịch chưa cho tui tham khảo với có mấy chỗ tui chưa biết viết,Người tham_gia ẩn_danh bn ghi sơ_yếu_lí_lịch chưa cho tui tham_khảo với có mấy chỗ tui chưa biết viết,0,0,TN
+278008c68c7684eaf8fc1ebd,2k5ptit:1252360216973153,Người tham gia ẩn danh bn để ẩn danh tui ko ấy đc,Người tham_gia ẩn_danh bn để ẩn_danh tui ko ấy đc,0,0,TN
+28d29ff2ffe28cc3f6882881,2k5ptit:1252360216973153,"[MENTION] cho e hỏi chút là IE của e đc cấp từ tháng 11/2025. Vậy nếu đc miễn TA thì e đc miễn hết course 1,2,3 ko ạ","[ MENTION_] cho e hỏi chút là IE của e_đc cấp từ tháng 11/2025 . Vậy nếu đc miễn TA thì e_đc miễn hết course 1,2,3 ko ạ",0,0,TN
+2b332847839288c51fe686dd,2k5ptit:1252360216973153,Người tham gia ẩn danh 226 hình như là c1 đc A còn c2 là B+ sao ấy đc 8,Người tham_gia ẩn_danh 226 hình_như là c1 đc_A còn c2 là B + sao ấy đc 8,0,0,TN
+30c888f843bfe562e5eaca0c,2k5ptit:1252360216973153,Gần 40 triệu = 4 tháng lương ở quê của bố mẹ,Gần 40 triệu = 4 tháng lương ở quê của bố_mẹ,0,0,TN
+37037e1f402cfc16586874e6,2k5ptit:1252360216973153,"So với năm ngoái bọn chị là cao thật, nhưng tuy nhiên các tài khoản ed hay là thi tiếng anh đầu vào, học phí hk 1 có tiếng anh mà em đã có chứng chỉ tiếng anh em pass qua nó rồi thì tiền đó sẽ được tự động trừ vào học kì 2 của em. Tiền này vẫn chưa có tiền quân sự hay sao ấy, em cứ tính thử số tín xem rồi chia ra. Khuyên thật các em nếu học clc thì nên có chứng chỉ tiếng anh để pass nhé. Không nhất thiết phải là ielts đâu em có thể đổi bằng các chứng chỉ tiếng anh khác nhé như toelf,…. Mà tiếng anh pass là các em phải đóng 30% số tín mà các em phải học tiếng anh nhé","So với năm_ngoái bọn chị là cao thật , nhưng tuy_nhiên các tài_khoản ed hay_là thi tiếng anh đầu_vào , học_phí hk 1 có tiếng anh mà em đã có chứng_chỉ tiếng anh_em pass qua nó rồi thì tiền đó sẽ được tự_động trừ vào học_kì 2 của em . Tiền này vẫn chưa có tiền quân_sự hay sao ấy , em cứ tính thử số tín xem rồi chia ra . Khuyên thật các em nếu học clc thì nên có chứng_chỉ tiếng anh để pass nhé . Không nhất_thiết phải là ielts đâu em có_thể đổi bằng các chứng_chỉ tiếng anh khác nhé như toelf , … . Mà tiếng anh pass là các em phải đóng 30 % số tín mà các em phải học tiếng anh nhé",0,0,TN
+375f09160e09a67542d53bb7,2k5ptit:1252360216973153,[MENTION] sao á,[ MENTION_] sao á,0,0,TN
+39e44adf2e12b1696c2fe220,2k5ptit:1252360216973153,V 1 kỳ gần 40 củ thế 1 năm phải gần 80 củ chứ ít gì đâu,V 1 kỳ gần 40 củ thế 1 năm phải gần 80 củ chứ ít gì đâu,0,0,TN
+3a6f06803f6a896a69c2d8c0,2k5ptit:1252360216973153,[MENTION] b hc ở bắc hay năm á b,[ MENTION_] b hc ở bắc hay năm á_b,0,0,TN
+3aca2c9f0948d6c532fff76e,2k5ptit:1252360216973153,[MENTION] năm ngoái là chờ quyết định miễn từ nhà nước bạn ơi,[ MENTION_] năm_ngoái là chờ quyết_định miễn từ nhà_nước bạn ơi,0,0,TN
+3f8a35794e98540bf7d46c92,2k5ptit:1252360216973153,Đổi tiếng anh đi em do clc có 8 tín tiếng anh nên mới cao thế ấy.,Đổi tiếng anh đi em do clc có 8 tín_tiếng anh nên mới cao_thế ấy .,0,0,TN
+4888ac086456dcefd803f438,2k5ptit:1252360216973153,"Mới khúc dạo đầu thôi em,còn nhiều khoản phí khác nữa","Mới khúc dạo đầu thôi em , còn nhiều khoản phí khác nữa",0,0,TN
+4bc7ece4fc4ad40addffd3a8,2k5ptit:1252360216973153,[MENTION] dạ em có IELTS 5.5 cấp từ tháng 3/2025 thì miễn được bao nhiêu thế ạ,[ MENTION_]_dạ em có IELTS_5.5 cấp từ tháng 3/2025 thì miễn được bao_nhiêu thế ạ,0,0,TN
+4c4a1eb2d15f663b382f0731,2k5ptit:1252360216973153,Người tham gia ẩn danh bn chắc học ở bắc hả,Người tham_gia ẩn_danh bn chắc_học ở bắc hả,0,0,TN
+4dab22975aba919083f2b68f,2k5ptit:1252360216973153,Học phí kiểu,Học_phí kiểu,0,0,TN
+4f65080850f38886fb62626b,2k5ptit:1252360216973153,[MENTION] b học ở bắc hay nam á,[ MENTION_] b học ở bắc hay nam á,0,0,TN
+4ff38bb82596fb332a0ee7f8,2k5ptit:1252360216973153,"1 kì học thôi mà 38 triệu, học cả năm thì gần 70tr à??? thật hả trường, còn khủng bố hơn cả học phí ueb nữa","1 kì_học thôi mà 38 triệu , học cả năm thì gần 70 tr à ? ? ? thật hả_trường , còn khủng_bố hơn cả học_phí ueb nữa",0,0,TN
+564d4c1b78972266b16c8188,2k5ptit:1252360216973153,thôi giờ khuyên em là rút hồ sơ xin sang trường khác học chứ hphi còn tăng nhiều nữa clc hphi đã cao rồi mỗi năm tăng 10% nữa thì...,thôi giờ khuyên em là rút hồ_sơ xin sang trường khác học chứ hphi còn tăng nhiều nữa clc hphi đã cao rồi mỗi năm tăng 10 % nữa thì ...,0,0,TN
+596f7d780686d38efcdc8145,2k5ptit:1252360216973153,Quá dã man cái trường thì top dưới mà nộp tiền top trên,Quá dã_man cái trường thì top dưới mà nộp tiền top trên,0,0,TN
+5cb383b0cf0e6be2c170c1de,2k5ptit:1252360216973153,Người tham gia ẩn danh bn ơi ib bạn chỗ nào v,Người tham_gia ẩn_danh bn ơi ib bạn chỗ nào v,0,0,TN
+5cf83fe2962913878c7c012a,2k5ptit:1252360216973153,Tui cũng giống bn nè hp gần 40 tr xem xong mà hoảng,Tui cũng giống bn nè hp gần 40 tr xem xong mà hoảng,0,0,TN
+5d4dc2198a5432754a6738b7,2k5ptit:1252360216973153,Ib c di chị chia sẻ hết cho,Ib c di_chị chia_sẻ hết cho,0,0,TN
+5d9f81818ff147515861e551,2k5ptit:1252360216973153,"Địt cụ cái trường chó rách đổi điểm TA mà nó vẫn bắt đóng 30% phí.Đúng con tuất tìm mọi cách moi móc tiền svien, các trường khác thì ngta đổi điểm free hỗ trợ svien, đây mang danh ""Học viện Hoàng gia"" Lol mẹ nó","Địt cụ cái trường chó rách đổi điểm TA mà nó vẫn bắt đóng 30 % phí . Đúng con tuất tìm mọi cách moi_móc tiền svien , các trường khác thì ngta đổi điểm free hỗ_trợ svien , đây mang danh "" Học_viện Hoàng_gia "" Lol mẹ nó",1,1,TP
+60b1df79cf3e789cdeda410c,2k5ptit:1252360216973153,Người tham gia ẩn danh minh hoc Nam ban,Người tham_gia ẩn_danh_minh hoc Nam_ban,0,0,TN
+6ac50b0b5b97d06944af3045,2k5ptit:1252360216973153,"Này là bao gồm tiền tín chỉ quân sự rồi nhé bạn, nhưng tới lúc học quân sự sẽ phát sinh thêm phí ăn uống, tiền điện nước trong khi quân sự nữa nhé, kì đầu như vậy kì sau sẽ tầm 28-29 củ nhé, ban tranh thủ đi thi cc tiếng anh như aptis để miễn học av đi tiết kiệm đc khối tiền đấy.","Này là bao_gồm tiền_tín chỉ quân_sự rồi nhé bạn , nhưng tới lúc học quân_sự sẽ phát_sinh thêm phí ăn_uống , tiền điện nước trong khi quân_sự nữa nhé , kì_đầu như_vậy kì sau sẽ tầm 28-29 củ nhé , ban tranh_thủ đi thi cc tiếng anh như aptis để miễn_học av đi tiết_kiệm đc khối tiền đấy .",0,0,TN
+6ace0e5779973c7db6a0ec7f,2k5ptit:1252360216973153,này là chưa tính 6tr6 tiền hphi quân sự cộng với 2tr tiền ăn trong quân sự đâu nhé em,này là chưa tính 6 tr6 tiền hphi quân_sự cộng với 2 tr tiền ăn trong quân_sự đâu nhé em,0,0,TN
+728f7c69f163dd3ce6bb29cd,2k5ptit:1252360216973153,[MENTION] b hc ngành gì á,[ MENTION_] b hc ngành gì á,0,0,TN
+72a41baa33c13f3e7b27c156,2k5ptit:1252360216973153,"Người tham gia ẩn danh 329 mình d25 , năm ngoái đóng học kỳ1/ 17,860 , cuối kỳ 2 , đi QS mới đóng tiếp 6tt600","Người tham_gia ẩn_danh 329 mình d25 , năm_ngoái đóng học kỳ1 / 17,860 , cuối kỳ 2 , đi QS mới đóng tiếp 6 tt600",0,0,TN
+7620106aec740e5908e23661,2k5ptit:1252360216973153,Người tham gia ẩn danh thấp nhất hình như 5.5 hay sao ấy chị ko nhớ,Người tham_gia ẩn_danh thấp nhất hình_như 5.5 hay sao ấy chị ko nhớ,0,0,TN
+7ce20858d0d5778165a8ae11,2k5ptit:1252360216973153,[MENTION] t học ở nam á,[ MENTION_] t_học ở nam á,0,0,TN
+82f6f4c647fa358ec1af7be7,2k5ptit:1252360216973153,Chắc có r á,Chắc có r á,0,0,TN
+83c4eb840496cddd5b396dc6,2k5ptit:1252360216973153,[MENTION] bạn có nhớ năm ngoái nhà nước có thông báo miễn học phí quân sự không nhưng mà nó chưa có thông báo chính thức nên trường chưa thu từ kỳ 1 mà chờ văn bản chính thức. Đến bây giờ đã có văn bản chính thức là đến năm học 2027-2028 mới miễn nên bạn mới phải đóng tiền quân sự ở kỳ 2. Chứ các năm trước nhập học là đã đóng tiền quân sự rồi,[ MENTION ] bạn có nhớ năm_ngoái nhà_nước có thông_báo miễn học_phí quân_sự không nhưng_mà nó chưa có thông_báo chính_thức nên trường chưa thu từ kỳ 1 mà chờ văn_bản chính_thức . Đến bây_giờ đã có văn_bản chính_thức là đến năm_học 2027 - 2028 mới miễn nên bạn mới phải đóng tiền quân_sự ở kỳ 2 . Chứ các năm trước nhập_học là đã đóng tiền quân_sự rồi,0,0,TN
+83da3caf40b25ecb32c7cef1,2k5ptit:1252360216973153,"mình d25 , năm ngoái đóng học kỳ1/ 17,860 , cuối kỳ 2 , đi QS mới đóng tiếp 6tr600","mình d25 , năm_ngoái đóng học kỳ1 / 17,860 , cuối kỳ 2 , đi QS mới đóng tiếp 6 tr600",0,0,TN
+8427f9b89d68b4b4dac9d0a9,2k5ptit:1252360216973153,[MENTION] cờ lờ cờ cao quá,[ MENTION ]_cờ lờ_cờ cao quá,0,0,TN
+8a0ff8d37876e0ab8c276bb3,2k5ptit:1252360216973153,[MENTION] thí dụ gia đình mà có mỗi mẹ hoặc bố mà nhà k khá giả thì đúng nghĩa làm cả năm chỉ vừa đủ để đóng tiền học. quá kinh khủng,[ MENTION_] thí_dụ gia_đình mà có mỗi mẹ hoặc bố mà nhà_k khá_giả thì đúng nghĩa làm cả năm chỉ vừa đủ để đóng tiền học . quá kinh_khủng,0,0,TN
+8b23d3476889e20d85f1503f,2k5ptit:1252360216973153,Còn hỏi là còn chưa tỉnh :)) Xác định trước là chắc chắn chỉ có tăng k có giảm hay giữ nguyên nhá e,Còn hỏi là còn chưa tỉnh :)) Xác_định trước là chắc_chắn chỉ có tăng k có giảm hay giữ nguyên nhá e,0,0,TN
+8cd2eec445ca0dc00eee2823,2k5ptit:1252360216973153,Nguyễn Tus tui học clc á b,Nguyễn_Tus tui học clc á_b,0,0,TN
+8edf5abdb09d65faadd19cc8,2k5ptit:1252360216973153,Vl [MENTION] =)) trường rách mad gần 40 củ Kỳ,Vl [ MENTION_] =))_trường rách_mad gần 40 củ Kỳ,0,0,TN
+93dd4969147b880a01b6bc61,2k5ptit:1252360216973153,"[MENTION] ko đủ c3 sao ấy em ạ, tại c3 em học kì 1 năm 2","[ MENTION_] ko đủ c3_sao ấy em ạ , tại c3 em học_kì 1 năm 2",0,0,TN
+948346e339fe816f27b53dfe,2k5ptit:1252360216973153,[MENTION] 6 nào? 4 ông ơi,[ MENTION_] 6 nào ? 4 ông ơi,0,0,TN
+9517df71f2d7d4e9830bb32c,2k5ptit:1252360216973153,Người tham gia ẩn danh Tui học cntt á,Người tham_gia ẩn_danh Tui học cntt á,0,0,TN
+96f3c080cac2e1e06f6855c3,2k5ptit:1252360216973153,ko sao ban minh cntt clc..gan dau 4 luon,ko sao ban_minh cntt_clc .. gan dau 4 luon,0,0,TN
+97e0ee3c3609b14af05943bb,2k5ptit:1252360216973153,"[MENTION] có rồi á bạn, mình hỏi ac khoá trên của trg r á","[ MENTION_] có rồi á_bạn , mình hỏi ac khóa trên của trg r á",0,0,TN
+9b204048e29deafeeff196a7,2k5ptit:1252360216973153,Bạn ở hcm ạ,Bạn ở hcm ạ,0,0,TN
+9b785d9e6053fa59f6025abb,2k5ptit:1252360216973153,"Tiền giờ lạm phát quá, không hiểu sao 1 kỳ thôi mà sinh viên phải đóng xấp xỉ ngưỡng 39tr, đúng là ác mộng thật.","Tiền giờ lạm_phát quá , không hiểu sao 1 kỳ thôi mà sinh_viên phải đóng xấp_xỉ ngưỡng 39 tr , đúng là ác_mộng thật .",0,0,TN
+9bb9b878f90e19b838fcf7bc,2k5ptit:1252360216973153,Anonymous participant 364 trên link của trường đăng trên page á b,Anonymous participant 364 trên link của trường đăng trên page á_b,0,0,TN
+9d5661b516be20b823c1658c,2k5ptit:1252360216973153,[MENTION] e có IELTS đc cấp từ 3/2025 thì miễn được bao nhiêu thế ạ,[ MENTION ]_e có IELTS đc cấp từ 3/2025 thì miễn được bao_nhiêu thế ạ,0,0,TN
+9d8d48dc09c1c328162da65c,2k5ptit:1252360216973153,"Người tham gia ẩn danh 329 làm gì có bạn ơi, chưa tính vào đâu","Người tham_gia ẩn_danh 329 làm_gì có bạn ơi , chưa tính vào đâu",0,0,TN
+9dc733991dfb7d4b8cd3f5e3,2k5ptit:1252360216973153,Người tham gia ẩn danh 329 thêm 2 củ tiền ăn nữa chưa kể sinh hoạt b,Người tham_gia ẩn_danh 329 thêm 2 củ tiền ăn nữa chưa kể sinh_hoạt b,0,0,TN
+a05e56e8098c07e01dbdc489,2k5ptit:1252360216973153,[MENTION] e có ielts 5.5 đc k á c,[ MENTION ]_e có ielts 5.5 đc k á_c,0,0,TN
+a068021b39409ee6eacd2cb2,2k5ptit:1252360216973153,Tiến là gọi là RMIT Hà Đông,Tiến là gọi_là RMIT_Hà_Đông,0,0,TN
+a0696fad38a71e4033fabbd5,2k5ptit:1252360216973153,Bằng 1 năm của D19,Bằng 1 năm của D19,0,0,TN
+aa74140e36769544297dff24,2k5ptit:1252360216973153,[MENTION] chưa bạn nhé,[ MENTION_] chưa bạn nhé,0,0,TN
+aad0b79504aff64c66a7083a,2k5ptit:1252360216973153,Tự mở chương trình học lên lấy số tiền 1 tín nhân với số môn nếu còn dư ra thì đã tính cả quân sự,Tự mở chương_trình học lên lấy số tiền 1 tín_nhân với số môn nếu còn dư ra thì đã tính cả quân_sự,0,0,TN
+acf619c7b30191a04285c472,2k5ptit:1252360216973153,"Người tham gia ẩn danh nam tăng v á bạn, cùng ngành mà miền bắc là 17tr , còn tui là 24tr","Người tham_gia ẩn_danh nam tăng v á_bạn , cùng ngành mà miền bắc là 17 tr , còn tui là 24 tr",0,0,TN
+b49752fd04421ea33cf936cf,2k5ptit:1252360216973153,Xem ở đâu vậy ạ,Xem ở đâu vậy ạ,0,0,TN
+bb327864a140231f574593d9,2k5ptit:1252360216973153,Học chất lượng thấp cho nó chất lượng. Chất lượng cao nuôi chất lượng thấp,Học chất_lượng thấp cho nó chất_lượng . Chất_lượng cao nuôi chất_lượng thấp,0,0,TN
+bea1077aabaa67b173eee2d6,2k5ptit:1252360216973153,"[MENTION] thì e k bik e ms hỏi mắc gì a/c lại ns câu “còn hỏi là còn chưa tỉnh” - ms vô đh tân sinh viên mà ạ, sao e bik đc?","[ MENTION_] thì e_k bik e_ms hỏi mắc gì a / c lại ns câu “ còn hỏi là còn chưa tỉnh ” - ms vô đh tân sinh_viên mà ạ , sao e bik đc ?",0,0,TN
+c183a00794dfd27dfa76ee06,2k5ptit:1252360216973153,Người tham gia ẩn danh Bạn ơi cho tui hỏi bn cái này đc ko,Người tham_gia ẩn_danh Bạn ơi cho tui hỏi bn cái này đc ko,0,0,TN
+c4e1c15804e275774d34eefe,2k5ptit:1252360216973153,Anonymous participant 329 dạ cho e hỏi phí quân sự là bnhiu ạ (tại e thấy tăng giá quá e bị hoảng ),Anonymous participant 329 dạ cho e hỏi_phí quân_sự là bnhiu ạ ( tại e thấy tăng_giá quá e bị hoảng ),0,0,TN
+c8c497e0548573ec60d3ad65,2k5ptit:1252360216973153,Có ai in được lý lịch chuea ak,Có ai in được lý_lịch chuea ak,0,0,TN
+caeefa1b7674bb06d126d695,2k5ptit:1252360216973153,Có học phí quân sự rồi đấy e ơi,Có học_phí quân_sự rồi đấy e ơi,0,0,TN
+cbd1619e1b705f4bafb273e0,2k5ptit:1252360216973153,tiền cho tín chỉ quân sự thì là rùi í còn tiền để ăn uống khoảng mấy triệu nữa thì trong quân sự sẽ đóng thêm í huhu còn e muốn chắc thì e có thể gọi lên phòng để hỏi nha e bé,tiền cho tín_chỉ quân_sự thì là rùi í còn tiền để ăn_uống khoảng mấy triệu nữa thì trong quân_sự sẽ đóng thêm í huhu còn e muốn chắc thì e có_thể gọi lên phòng để hỏi nha e bé,0,0,TN
+d41ccdaaccf19575f0c3d976,2k5ptit:1252360216973153,[MENTION] tui cx học ở nam nè,[ MENTION_] tui cx_học ở nam nè,0,0,TN
+d9b9e1ea0a698cc18911a5db,2k5ptit:1252360216973153,"tất cả chỉ mới bắt đầu thôi em ạ, mỗi năm tăng hp 1 lần","tất_cả chỉ mới bắt_đầu thôi em ạ , mỗi năm tăng hp 1 lần",0,0,TN
+d9fbe6a8ed376df8f2ec829c,2k5ptit:1252360216973153,Gồm thể chất quốc phòng r nha chị PTIT nam chung ngành năm trước đóng giống v á,Gồm thể_chất quốc_phòng r_nha chị PTIT_nam chung ngành năm trước đóng giống v á,0,0,TN
+e017b81a2bc9ac35d5dbe6c5,2k5ptit:1252360216973153,Dạ cho e hỏi học clc thì ielts thấp nhất cần bnhiu v ạ,Dạ cho e hỏi học clc thì ielts thấp nhất cần bnhiu v ạ,0,0,TN
+e108d7f71740e8569283cf05,2k5ptit:1252360216973153,mình nghe bảo hk1 có quân sự rồi á,mình nghe bảo_hk1 có quân_sự rồi á,0,0,TN
+e433a2b8acd02eb6293d9029,2k5ptit:1252360216973153,Hp đã đắt còn thêm clc nữa thì hủy diệt luôn,Hp đã đắt còn thêm clc nữa thì hủy diệt luôn,0,0,TN
+e529d9c41c96078521077b66,2k5ptit:1252360216973153,Người tham gia ẩn danh 329 năm ngoái học cũng tưởng tính rồi nhưng về sau vẫn phải đóng mà,Người tham_gia ẩn_danh 329 năm_ngoái học cũng tưởng tính rồi nhưng về sau vẫn phải đóng mà,0,0,TN
+e5411f1d85a21e16ac115ef7,2k5ptit:1252360216973153,mình tưởng năm sau được miễn phí học quân sự nhỉ,mình tưởng năm sau được miễn_phí học quân_sự nhỉ,0,0,TN
+e98c6a4894abd2a1b712b30c,2k5ptit:1252360216973153,[MENTION] vkl mẹ bằng cả năm,[ MENTION_] vkl mẹ bằng cả năm,0,0,TN
+eba09ee6c5cbd5b2d968ca5a,2k5ptit:1252360216973153,[MENTION] vkl cậu đóng phát 39 củ kì 1,[ MENTION ]_vkl cậu đóng phát 39 củ_kì 1,0,0,TN
+ec22a8a7b23a24b178aaf8a1,2k5ptit:1252360216973153,"[MENTION] tui ghi r á, b cần hỏi cái nào á, b có thể ib tui nha","[ MENTION_] tui ghi r á , b cần hỏi cái nào á , b có_thể ib tui nha",0,0,TN
+ed1cea6f8053138a406ef61b,2k5ptit:1252360216973153,Chắc dát vàng vào chữ ms đắt như này,Chắc dát vàng vào chữ ms đắt như này,0,0,TN
+efa381bca7f1e20709095b54,2k5ptit:1252360216973153,2015 t học cả năm học có 13-15tr giờ 40tr đm :))),2015 t_học cả năm_học có 13-15_tr giờ 40 tr đm :))),0,0,TN
+f120946ff45a77931cc3a84f,2k5ptit:1252360216973153,"Người tham gia ẩn danh 880.000*7,5=6.600.000 nhé","Người tham_gia ẩn_danh 880.000 * 7,5 = 6.600.000 nhé",0,0,TN
+f8bcd95c6b89b6fd17d99061,2k5ptit:1252360216973153,[MENTION] dạ clc chứng chỉ ielts thấp nhất là cần bnhiu v chị,[ MENTION_]_dạ clc chứng_chỉ ielts thấp nhất là cần bnhiu v chị,0,0,TN
+00321d509d9ad59925fcff5a,2k5ptit:918926513649860,Thổi túi phồng ra thôi có gì đâu,Thổi túi phồng ra thôi có gì đâu,0,0,TN
+0147f1908378b7596c9b333d,2k5ptit:918926513649860,[MENTION] ê ăn quán này chưa,[ MENTION_] ê_ăn quán này chưa,0,0,TN
+06ebcbd39742a47110fb81e8,2k5ptit:918926513649860,[MENTION] [MENTION] ngậy,[ MENTION_] [_MENTION ] ngậy,0,0,TN
+0dad5a1de1784c5c2e65ba33,2k5ptit:918926513649860,[MENTION] hetcuu,[ MENTION ] hetcuu,0,0,TN
+116b1a538af4b0740f4f08aa,2k5ptit:918926513649860,Đối thủ của chủ tus à hay gì,Đối_thủ của chủ tus à hay gì,0,0,TN
+12708e38a24457b951a53b25,2k5ptit:918926513649860,mới ăn có lần,mới ăn có lần,0,0,TN
+1778019418a144f7bc3a6baa,2k5ptit:918926513649860,gấp đôi canxi,gấp đôi canxi,0,0,TN
+23d72540f2ec70a03f343e9a,2k5ptit:918926513649860,ko sao đâu e ah có thak b [MENTION] ngộ độc ngõ 2 và anh bạn Nguyễn Giang húp ngay 2 con gián ngõ 3 =)),ko sao đâu e_ah có thak b [_MENTION ]_ngộ_độc ngõ 2 và anh bạn Nguyễn_Giang_húp ngay 2 con gián_ngõ 3 =)),0,0,TN
+25c70f7b8f719b2822bf9bad,2k5ptit:918926513649860,"Haha xác định ăn ngoài là phải chịu nguy cơ bẩn rùi, không có quán nào sạch sẽ tuyệt đối được. Mắt không nhìn thì tim sẽ không đau","Haha xác_định ăn ngoài là phải chịu nguy_cơ bẩn rùi , không có quán nào sạch_sẽ tuyệt_đối được . Mắt không nhìn thì tim sẽ không đau",0,0,TN
+2795677acec95922d7c2c061,2k5ptit:918926513649860,Người ta làm hàng như vậy bạn đừng đăng bậy bạ phá quán của người ta,Người ta làm hàng như_vậy bạn đừng đăng bậy_bạ phá_quán của người ta,0,0,TN
+27bfbf14a054dc8c7a0e39a1,2k5ptit:918926513649860,Chắc hiêu lam j kg t nghi chắc họ thôi túi bóng để đừng gia vị gói mang về,Chắc hiêu lam_j kg t_nghi chắc họ thôi túi bóng để đừng gia_vị gói mang về,0,0,TN
+344419accc0ce4ec57a740e5,2k5ptit:918926513649860,[MENTION] thôi ăn bẩn sống lâu,[ MENTION_] thôi ăn bẩn sống lâu,0,0,TN
+37624332a0388733e2d73b0c,2k5ptit:918926513649860,[MENTION] [MENTION] món tủ của 2 daika này,[ MENTION_] [_MENTION ] món tủ của 2 daika này,0,0,TN
+39e608b413a76c32072e5017,2k5ptit:918926513649860,"[MENTION] lúc đầu m cũng tưởng vậy, sau nhìn kỹ ngta nhổ hết ngta còn khạc thêm ý","[ MENTION_] lúc đầu m cũng tưởng vậy , sau nhìn kỹ_ngta nhổ hết ngta còn khạc thêm ý",0,0,TN
+4095dc5af234666c702cb26f,2k5ptit:918926513649860,[MENTION] Chac ko sao dau,[ MENTION_] Chac_ko sao dau,0,0,TN
+4124d232c75de19b034fec29,2k5ptit:918926513649860,"[MENTION] cx O Sen, nma vid ngta thổi phồng cái túi để cho bột ớt vào chứ có gì đâu tr:)))","[ MENTION ]_cx O_Sen , nma vid_ngta thổi_phồng cái túi để cho bột ớt vào chứ có gì đâu tr :)))",0,0,TN
+474a442e16e8a539b29bee81,2k5ptit:918926513649860,[MENTION] t buồn đấy,[ MENTION ]_t buồn đấy,0,0,TN
+48f4f6ed736c00200a37c971,2k5ptit:918926513649860,"Người tham gia ẩn danh 702 phá gì m fai chớp mắt 3 lần, nhìn lại mấy lần thấy tởm quả mới đăng lên đấy, cô ý nhổ hết nc bọt trong mồm còn khạc thêm để nhổ vào nên m thấy sốc quá mới quay lại đấy","Người tham_gia ẩn_danh 702 phá gì m fai chớp_mắt 3 lần , nhìn lại mấy lần thấy tởm_quả mới đăng lên đấy , cô ý nhổ hết nc_bọt trong mồm còn khạc thêm để nhổ vào nên m thấy sốc quá mới quay lại đấy",0,0,TN
+4d8b6726ebbc330c4f8c6b9a,2k5ptit:918926513649860,Hình như bác ý thổi phồng túi rồi cho ớt vào túi thôi mà,Hình_như bác_ý thổi phồng túi rồi cho ớt vào túi thôi mà,0,0,TN
+50e8552232f1c7a9bda8d311,2k5ptit:918926513649860,[MENTION] [MENTION] mới ăn hqua mà:)),[ MENTION_] [ MENTION_] mới ăn_hqua mà :)),0,0,TN
+52309354ffe74e93483624a9,2k5ptit:918926513649860,[MENTION] chắc topping ngon nên mới ăn nhiều:)),[ MENTION ] chắc topping ngon nên mới ăn nhiều :)),0,0,TN
+5319bbfcccf6340455bf4e7d,2k5ptit:918926513649860,[MENTION] kk Nhà thẩm định ẩm thực ô,[ MENTION ]_kk Nhà thẩm_định ẩm_thực_ô,0,0,TN
+586042e80cafb29989087430,2k5ptit:918926513649860,[MENTION] gì đây mom quán mới ngồi htrc :))),[ MENTION_] gì đây mom quán mới ngồi htrc :))),0,0,TN
+6098eab93643c8d0580135b1,2k5ptit:918926513649860,[MENTION] [MENTION] thấy quen quen,[ MENTION_] [_MENTION ] thấy quen quen,0,0,TN
+62c1946216b91d307f069fd0,2k5ptit:918926513649860,[MENTION] kinh deo,[ MENTION_] kinh_deo,0,0,TN
+6516e842ae20a3a3389416f3,2k5ptit:918926513649860,"[MENTION] bún bò o phương của t dính phốt r, từ h k ăn nữa","[ MENTION_] bún_bò o_phương của t dính phốt_r , từ h k ăn nữa",0,0,TN
+65f6d93d263d75d3691fc737,2k5ptit:918926513649860,Tốt nhất về nhà ăn cho lành ae:)),Tốt nhất về nhà_ăn cho lành_ae :)),0,0,TN
+662448f149c8f980052d02ec,2k5ptit:918926513649860,[MENTION] tưởng quán bữa mình ăn :)))0,[ MENTION ]_tưởng quán bữa mình ăn_:))) 0,0,0,TN
+6d042abc18cd86e1b68ea0ac,2k5ptit:918926513649860,Ma bả làm j vậy sao tui ko hiu,Ma_bả làm j vậy sao tui ko hiu,0,0,TN
+6d391514e856988b6e1a2982,2k5ptit:918926513649860,[MENTION] đêm xem này mới đúng xem múc bang bb chi bay,[ MENTION ] đêm xem này mới đúng xem múc_bang bb chi bay,0,0,TN
+6fb815bce38773a03b8a6626,2k5ptit:918926513649860,[MENTION] vcl t ăn suốt,[ MENTION_] vcl t ăn suốt,0,0,TN
+708ccba735711a86090c3d3f,2k5ptit:918926513649860,[MENTION] hết rồi ko còn gì để mất mai ra ăn tạm 1 bát chia tay vậy,[ MENTION ] hết rồi ko còn gì để mất mai ra ăn tạm 1 bát chia_tay vậy,0,0,TN
+76a18fd9dd0b4033cd231f0e,2k5ptit:918926513649860,[MENTION] âu nâu =)))))) quán quen,[ MENTION ] âu_nâu =))))))_quán quen,0,0,TN
+76b1b0b94808de34790f694c,2k5ptit:918926513649860,[MENTION] bonus thêm nụ cười của em gái mưa,[ MENTION ]_bonus thêm nụ cười của em_gái mưa,0,0,TN
+76dd950a93b972cd4c3d70c1,2k5ptit:918926513649860,Về nhà ăn bún mẹ nấu đi cho đảm bảo :))),Về nhà ăn_bún mẹ nấu đi cho đảm_bảo :))),0,1,FP
+86712e1d974285b67c324e69,2k5ptit:918926513649860,Ăn 1 lần k có lần 2 luôn=))),Ăn 1 lần k có lần 2 luôn =))),0,0,TN
+87f133bcd7cee35a79a86df9,2k5ptit:918926513649860,Người tham gia ẩn danh 774 Ăn xong cất poster sau ăn tiếp,Người tham_gia ẩn_danh 774 Ăn xong cất_poster sau ăn tiếp,0,0,TN
+8aaacd294ea9d8ab81370388,2k5ptit:918926513649860,Người tham gia ẩn danh 932 ngon=),Người tham_gia ẩn_danh 932 ngon_= ),0,0,TN
+8b783d53941b55eb1abba2cf,2k5ptit:918926513649860,[MENTION] tk nào bảo thèm bún bò,[ MENTION ]_tk nào bảo thèm bún bò,0,0,TN
+8f97128b7a82bb756d0b1e9e,2k5ptit:918926513649860,[MENTION] như nào đấy e ơi,[ MENTION_] như nào đấy e ơi,0,0,TN
+960337b9649225c82b097ca1,2k5ptit:918926513649860,[MENTION] quán đối diện quán này:),[ MENTION_] quán đối_diện quán này :),0,0,TN
+99ccec36c747ed20e2ba9fbc,2k5ptit:918926513649860,[MENTION] vãi lon,[ MENTION ]_vãi lon,0,0,TN
+9ad5cd59776436eeff8c9151,2k5ptit:918926513649860,[MENTION] chưa ăn:),[ MENTION_] chưa ăn :),0,0,TN
+9cd32c1dff60cbe340d97634,2k5ptit:918926513649860,[MENTION] [MENTION] one champ bún bò kìa,[ MENTION_] [_MENTION ] one champ bún_bò kìa,0,0,TN
+a33e13aeb361b19abff2e679,2k5ptit:918926513649860,[MENTION] m chỉ sợ quán bị hiểu lầm thoi . Thấy trong vid cô cũng chỉ thổi cái túi lên để bỏ nước chấm vô ( túi bình thường nó dít nên mới vậy đó ),[ MENTION ] m chỉ sợ quán bị hiểu lầm_thoi . Thấy trong vid cô cũng chỉ thổi cái túi lên để bỏ nước chấm vô ( túi bình_thường nó dít nên mới vậy đó ),0,0,TN
+a3a71e15ebec25d60c3adff1,2k5ptit:918926513649860,[MENTION] bữa ăn quán nào v anh :))),[ MENTION_] bữa ăn quán nào v anh :))),0,0,TN
+a9f47b7e2a6c2bd992520e4a,2k5ptit:918926513649860,"Người tham gia ẩn danh 702 lúc đầu m cũng nghĩ vậy, m fai nhìn đến 3 lần luôn mới quay đó","Người tham_gia ẩn_danh 702 lúc đầu m cũng nghĩ vậy , m fai nhìn đến 3 lần luôn mới quay đó",0,1,FP
+af6959df1d14d9f864c6f9e8,2k5ptit:918926513649860,[MENTION] ông bn này đời v,[ MENTION_] ông bn này đời v,0,0,TN
+b195587a15d9fe8fa746735a,2k5ptit:918926513649860,[MENTION] cmmm,[ MENTION ] cmmm,1,0,FN
+b725db042927740d3b31aff9,2k5ptit:918926513649860,[MENTION] bún bò topping này hơi lạ,[ MENTION ]_bún bò topping này hơi lạ,0,0,TN
+be140be5f11dd4c43fe45220,2k5ptit:918926513649860,[MENTION] =))) cgi thé,[ MENTION_] =))) cgi thé,0,0,TN
+c04e6fe03133306c1304e049,2k5ptit:918926513649860,:)) gòi xoggg,:)) gòi xoggg,0,0,TN
+c1fbd169a3b88be0f3bf401a,2k5ptit:918926513649860,[MENTION] ngậy tuyệt đối :)),[ MENTION ]_ngậy tuyệt_đối :)),0,0,TN
+c39352d842d3e6777c31b601,2k5ptit:918926513649860,[MENTION] [MENTION] vl,[ MENTION_] [_MENTION ] vl,0,0,TN
+c64d3a190c4c7f6e168a2d0c,2k5ptit:918926513649860,[MENTION] [MENTION] k lẽ chia tay từ đây,[ MENTION_] [_MENTION ] k_lẽ chia_tay từ đây,0,0,TN
+c7b97f21fe7a3d1ebc6902fc,2k5ptit:918926513649860,[MENTION] [MENTION] Luu Van Phuc đớp vội đi kìa,[ MENTION_] [ MENTION_] Luu_Van Phuc_đớp vội đi kìa,0,0,TN
+cd578a29d281985a72481751,2k5ptit:918926513649860,[MENTION] a hiểu r,[ MENTION ]_a hiểu r,0,0,TN
+cfb463d7c9163c3d9d037dc4,2k5ptit:918926513649860,là sao,là sao,0,0,TN
+d01d19da364766c6e0476b41,2k5ptit:918926513649860,[MENTION] quán guột dạo này nhiều bê bối quá,[ MENTION_] quán guột dạo này nhiều bê_bối quá,0,0,TN
+d0f7657b3f6989c8e8970dfb,2k5ptit:918926513649860,Người ta thổi túi zíp cho nó phồng lên thôi .. đừng câu like mà huỷ hoại cả quán người ta như vậy .. người ta buôn bán hàng ăn ko ai làm trò mèo đấy để cho các bố các mẹ ngồi chụp dc để mà lên đây vùi dập quán người ta đâu .. cuộc sống đôi khi khó khăn lên đừng vì cái like mà làm người khác phải khổ bạn ạ,Người ta thổi túi zíp cho nó phồng lên thôi .. đừng câu like mà hủy_hoại cả quán người ta như_vậy .. người ta buôn_bán hàng ăn ko ai làm trò mèo đấy để cho các bố các mẹ ngồi chụp dc để mà lên đây vùi_dập quán người ta đâu .. cuộc_sống đôi_khi khó_khăn lên đừng vì cái like mà làm người khác phải khổ bạn ạ,0,0,TN
+d735d35578beacdeea161cd8,2k5ptit:918926513649860,[MENTION] chết dở,[ MENTION_] chết dở,0,0,TN
+d75bdace9b9de650505bbe81,2k5ptit:918926513649860,[MENTION] béo ngậy,[ MENTION ]_béo ngậy,0,0,TN
+d92ea88928c3e4a3c056e7bc,2k5ptit:918926513649860,[MENTION] we ate here once,[ MENTION ] we ate here once,0,0,TN
+db073f9e8d23cd90198c74e6,2k5ptit:918926513649860,[MENTION] thấm chưa,[ MENTION_] thấm chưa,0,0,TN
+f06aaf4c45baa9bc7abfcbee,2k5ptit:918926513649860,[MENTION] [MENTION] [MENTION] ngậy tuyệt đối,[ MENTION_] [ MENTION_] [_MENTION ]_ngậy tuyệt_đối,0,0,TN
+f4617388bc715ad2fe2c44eb,2k5ptit:918926513649860,[MENTION] a có bh ăn bbh ở đây đâu:))) hnhu có mỗi m với e đức,[ MENTION ]_a có bh ăn_bbh ở đây đâu :)))_hnhu có mỗi m với e_đức,0,0,TN
+f5b344d1b682eef8f64702bf,2k5ptit:918926513649860,[MENTION] 1 đầy đủ + 5k quẩy,[ MENTION_] 1 đầy_đủ + 5 k quẩy,0,0,TN
+fb52bb0ce64fdb512ee4cebd,2k5ptit:918926513649860,Người ta thổi cái túi phồng ra để dễ cho đồ vào thôi mà,Người_ta thổi cái túi phồng ra để dễ cho đồ vào thôi mà,0,0,TN
+01d1c36e76f6e281404f0441,408571091380061:1004676621769502,[MENTION] hả,[ MENTION_] hả,0,0,TN
+020a9c49f62d21611fa84f60,408571091380061:1004676621769502,[MENTION] [MENTION] is that true :)),[ MENTION_] [_MENTION ] is that true :)),0,0,TN
+026b5bd9afeaf4a71f223667,408571091380061:1004676621769502,[MENTION] sao kh phốt sớm hơn,[ MENTION_] sao kh phốt sớm hơn,0,0,TN
+05a50763468bcc560cff2425,408571091380061:1004676621769502,[MENTION] m mua của quán này à,[ MENTION ] m mua của quán này à,0,0,TN
+068a807026ea9294d4aa8f6b,408571091380061:1004676621769502,Khương Thị Liên quán lẩu j cơ,Khương_Thị_Liên_quán lẩu j cơ,0,0,TN
+09cfe46dd3e54a3326102c9e,408571091380061:1004676621769502,[MENTION] ăn bún đậu nma bún đậu nước mắm nên ko lo,[ MENTION ]_ăn bún_đậu nma bún_đậu nước_mắm nên ko lo,0,0,TN
+0e150a1b8a89960f545cb90f,408571091380061:1004676621769502,"Ê chuẩn nha, tối hôm t7 t đi ăn hôm cn đau bụng đi ngoài nghi bị ngộ độc lần đầu ăn mà bị zay","Ê chuẩn_nha , tối hôm t7_t đi ăn hôm cn đau bụng đi ngoài nghi bị ngộ_độc lần đầu ăn mà bị zay",0,0,TN
+115ddb14bcd0cf60958090f1,408571091380061:1004676621769502,[MENTION] dính bh ch ku,[ MENTION_] dính bh ch ku,0,0,TN
+146ab5deb96bfc1e069cba3e,408571091380061:1004676621769502,Bún Đậu Giangbeo cứ tưởng quá mình hay ăn kk,Bún Đậu_Giangbeo cứ tưởng quá mình hay ăn kk,0,0,TN
+16f704f37a777b87dff64bc2,408571091380061:1004676621769502,[MENTION] =)) quán m chỉ đấy đkh,[ MENTION_] =)) quán m chỉ đấy đkh,0,0,TN
+1acd6c77051abde08fc7d784,408571091380061:1004676621769502,[MENTION] vãi l dm,[ MENTION ]_vãi l dm,0,0,TN
+20ff1d6085aa4b00263d67c7,408571091380061:1004676621769502,[MENTION] m còn muốn ăn bún đậu mt k,[ MENTION ] m còn muốn ăn bún_đậu mt k,0,0,TN
+21db781640b5e1e83c8cc8b8,408571091380061:1004676621769502,[MENTION] [MENTION] làm tí protein nhỉ,[ MENTION_] [ MENTION_] làm tí protein nhỉ,0,0,TN
+2381420918ea6ebf9dd1862a,408571091380061:1004676621769502,[MENTION] cgi vậy,[ MENTION_] cgi vậy,0,0,TN
+249f209d12d80ca6582f5fa1,408571091380061:1004676621769502,[MENTION] ê t với m ăn quán nào v :)))),[ MENTION_] ê_t với m ăn quán nào v :)))),0,0,TN
+250eca04fd0dafd51777bfe9,408571091380061:1004676621769502,[MENTION] [MENTION] ê nha,[ MENTION_] [_MENTION ] ê_nha,0,0,TN
+27cb335edb50a3e0a34779e7,408571091380061:1004676621769502,Bún đậu nc mắm thì k lo:)),Bún đậu nc mắm thì k lo :)),0,0,TN
+27dbe42e4bdb32ff6e6d7f42,408571091380061:1004676621769502,[MENTION] chưa biết phomai dòi cũng là món đặc sản àThêm ngậy thôi,[ MENTION_] chưa biết phomai_dòi cũng là món đặc_sản àThêm ngậy thôi,0,0,TN
+2a3eaaadb4c8ad4d7c43b3dd,408571091380061:1004676621769502,[MENTION] trưa nay ăn bún đậu hợp này,[ MENTION_] trưa nay ăn_bún đậu_hợp này,0,0,TN
+2da463cd5dd378eed297f152,408571091380061:1004676621769502,Duong Linh [MENTION],Duong Linh_[ MENTION ],0,0,TN
+336064ef36fb5fe276f1cce6,408571091380061:1004676621769502,Quán đấy trc dính phốt chính nhân viên cũ phốt mà quán GB dko b,Quán đấy trc dính phốt_chính nhân_viên cũ phốt mà quán GB dko b,0,0,TN
+36c06c6dcabc525467cd31a9,408571091380061:1004676621769502,[MENTION] yepp,[ MENTION ] yepp,0,0,TN
+39982d92ec697df26efc7913,408571091380061:1004676621769502,[MENTION] may chưa đi ăn bún đậu bao giờ:)),[_MENTION ]_may chưa đi ăn bún_đậu bao_giờ :)),0,0,TN
+3d93a05a153c8a2b58a130e0,408571091380061:1004676621769502,[MENTION] may quá ăn bún bò vs bún chả ko ăn bún đậu,[_MENTION ]_may quá ăn bún_bò vs bún_chả ko ăn bún_đậu,0,0,TN
+429e8d5dc7a972d81226306e,408571091380061:1004676621769502,may ăn bún chả fulltime ngõ 2,may ăn bún_chả fulltime ngõ 2,0,0,TN
+44083e1530251d56a4ce7111,408571091380061:1004676621769502,Bún Đậu Giangbeo rep ib e vs,Bún_Đậu Giangbeo rep ib e vs,0,0,TN
+48905ee25b1b67ef4bb62896,408571091380061:1004676621769502,[MENTION] nm bún đậu ngon,[ MENTION ]_nm bún đậu ngon,0,0,TN
+4e0afabbfe29221486360f07,408571091380061:1004676621769502,may mà mình không đi,may mà mình không đi,0,0,TN
+4f449a5941b3e6d9f88c072e,408571091380061:1004676621769502,Trong bài phốt lại có 1 bài pr :)) mùi mùi,Trong bài phốt lại có 1 bài pr :)) mùi mùi,0,0,TN
+4f8bb771bdae28fc7f648e61,408571091380061:1004676621769502,[MENTION] khổ,[ MENTION ] khổ,0,0,TN
+515ec7a03d01d5af1be1a348,408571091380061:1004676621769502,[MENTION] m cứ ăn bún đậu đi =)))))),[ MENTION ] m cứ ăn_bún đậu đi =)))))),0,0,TN
+52f5c2061b17ca3745873b64,408571091380061:1004676621769502,"ko biết phải quán đó ko nma trc mình cũng bị y hệt z, mỗi cái là ko để ý mắm tôm có dòi ko:)) từ lần ý là né luôn","ko biết phải quán đó ko nma trc mình cũng bị y_hệt z , mỗi cái là ko để_ý mắm_tôm có dòi ko :)) từ lần ý là né luôn",0,0,TN
+56ebba9c1bc2d99f4b799266,408571091380061:1004676621769502,[MENTION] mới ăn 2 lần nên k sao =)),[ MENTION_] mới ăn 2 lần nên k sao =)),0,0,TN
+57cc9fedc43e3405047228a5,408571091380061:1004676621769502,[MENTION] xin vội một ít protein,[ MENTION_] xin vội một_ít protein,0,0,TN
+59448e6ea36f8d0f38a32202,408571091380061:1004676621769502,[MENTION] [MENTION] [MENTION] chừa,[ MENTION_] [ MENTION_] [_MENTION ] chừa,0,0,TN
+59d5265c8f33e9304b1faa28,408571091380061:1004676621769502,[MENTION] sau ăn quán bên cạnh ha,[ MENTION_] sau ăn_quán bên cạnh ha,0,0,TN
+5c778600352d7491bfbdab32,408571091380061:1004676621769502,Khổ thân hh,Khổ_thân hh,0,0,TN
+5fd3bfbdb8b9ed20dc6b7cfc,408571091380061:1004676621769502,[MENTION] may htrc từ chối,[_MENTION ]_may htrc từ_chối,0,0,TN
+6113cd052a862df7b55f8dc0,408571091380061:1004676621769502,[MENTION] n [MENTION] n:)),[ MENTION ]_n [_MENTION ]_n :)),0,0,TN
+63f9c47ccf8a5383c2953500,408571091380061:1004676621769502,Dòi ko xấu như bạn nghĩ đâu,Dòi ko xấu như bạn nghĩ đâu,0,1,FP
+657796cbcf5495239d1f8d4e,408571091380061:1004676621769502,Có quán ở giữa ngõ 3 hay ngõ 4 gì đấy chả cốm còn chua thiu cơ :)) ăn 2 lần vẫn dính ạ,Có quán ở giữa ngõ 3 hay ngõ 4 gì đấy chả cốm còn chua_thiu cơ_:)) ăn 2 lần vẫn dính ạ,0,0,TN
+6697db753d2d347634ed1877,408571091380061:1004676621769502,[MENTION] cuối là hà vi k phải giang béo,[ MENTION_] cuối là hà_vi_k phải giang_béo,0,0,TN
+67794957236f6571adf030b3,408571091380061:1004676621769502,[MENTION] =)))) phải t cạch tới già,[ MENTION ]_=)))) phải t_cạch tới già,0,0,TN
+6f6a11ec778aafc076285adf,408571091380061:1004676621769502,[MENTION] quán tôi quán khác cơ,[ MENTION_] quán tôi quán khác cơ,0,0,TN
+76a1755bc093f693989d1983,408571091380061:1004676621769502,Bún đậu cứ ngõ 2 quán có cup bắn cung,Bún đậu cứ ngõ 2 quán có cup bắn cung,0,0,TN
+78c75e00d508b539b0cc5d41,408571091380061:1004676621769502,[MENTION] thêm protein tuyệt,[ MENTION_] thêm protein tuyệt,0,0,TN
+7ad3546b4ad20c45664ebbcd,408571091380061:1004676621769502,[MENTION] ô vậy ạ em xin nhỗi nha thôi ăn mấy lần ở shop chả sao cũng hơi lo,[ MENTION ]_ô vậy ạ em xin nhỗi_nha thôi ăn mấy lần ở shop chả sao cũng hơi lo,0,0,TN
+7c97fa92c82460fef0b60949,408571091380061:1004676621769502,[MENTION] chắc là bạn đó sốc lắm,[ MENTION_] chắc là bạn đó sốc lắm,0,0,TN
+7e558c6ec93faa2757b8a044,408571091380061:1004676621769502,mat ko thay tim ko dau,mat ko thay tim ko dau,0,0,TN
+7eb4bffa5f8bac17bc4b4ccd,408571091380061:1004676621769502,[MENTION] tởm,[ MENTION_] tởm,0,0,TN
+80f2364da850905a8aad27e7,408571091380061:1004676621769502,[MENTION] quán t là bún đậu Lê Gia mà th loz,[ MENTION_] quán t là bún_đậu Lê_Gia_mà th loz,1,0,FN
+817ba344b07c286a31572a15,408571091380061:1004676621769502,[MENTION] ew gì thử cho biết mùi,[ MENTION ]_ew gì thử cho biết mùi,0,0,TN
+83032c2f3f502a579713a2c0,408571091380061:1004676621769502,[MENTION] ewwwwww,[ MENTION ] ewwwwww,0,0,TN
+83faffaa9d2ee527f78ca200,408571091380061:1004676621769502,[MENTION] rat tot,[ MENTION ] rat tot,0,0,TN
+84f152087fe1ce4616ae5e09,408571091380061:1004676621769502,[MENTION] bún bo huế s1,[ MENTION_] bún_bo huế s1,0,0,TN
+85445edfcdddbfcc7ef7f2be,408571091380061:1004676621769502,"Không chỉ có quán đó làm bẩn đâu, Ao Sen nhiều quán bẩn lắm nên nghỉ ăn được mấy tháng r =)) đói cũng nhịn tí rồi đi xa hơn để ăn quán khác","Không_chỉ có quán đó làm bẩn đâu , Ao_Sen nhiều quán bẩn lắm nên nghỉ ăn được mấy tháng r =)) đói cũng nhịn_tí rồi đi xa hơn để ăn_quán khác",0,1,FP
+85faf8d9e460e442cd6ff79c,408571091380061:1004676621769502,[MENTION] note,[ MENTION ] note,0,0,TN
+8801dbb5ba59f05e8c1cc8fa,408571091380061:1004676621769502,[MENTION] van an day thoi,[ MENTION ]_van an_day thoi,0,0,TN
+88915ec0ab690716f1d9a718,408571091380061:1004676621769502,[MENTION] :)) quán nào,[ MENTION_] :))_quán nào,0,0,TN
+8e16699da668432aa9dc2590,408571091380061:1004676621769502,[MENTION] lên t bao,[ MENTION_] lên t bao,0,0,TN
+8fe4b9dc84e6b1b0142a6d72,408571091380061:1004676621769502,[MENTION] 1 bên giang béo . 1 bên hà vy nị. mà giang béo hẹp ngang nên cx dễ nhầm,[ MENTION_] 1 bên giang_béo . 1 bên hà vy nị . mà giang_béo hẹp ngang nên cx dễ nhầm,0,0,TN
+90d5990aace6eceaa8bf4ffa,408571091380061:1004676621769502,[MENTION] giàu protein,[ MENTION_] giàu protein,0,0,TN
+9270bfad657bdb48200971dd,408571091380061:1004676621769502,[MENTION] may k thèm bún đậu,[_MENTION ]_may k thèm bún đậu,0,0,TN
+9288be4c59f665006946e51c,408571091380061:1004676621769502,[MENTION] phải t thì t tìm quán khác vì món này mê,[ MENTION_] phải t thì t tìm quán khác vì món này mê,0,0,TN
+93865aa1d0be7873be5ed6dc,408571091380061:1004676621769502,"[MENTION] [MENTION] [MENTION] [MENTION] chớ, đang phot mà ko có bằng chứng gì","[ MENTION_] [_MENTION ]_[ MENTION_] [_MENTION ]_chớ , đang phot mà ko có bằng_chứng gì",0,0,TN
+985937ddec8b1dea59c415b5,408571091380061:1004676621769502,[MENTION] dc hoan tra 5%,[ MENTION ] dc hoan_tra 5 %,0,0,TN
+9ca04d931366caa71fe09376,408571091380061:1004676621769502,[MENTION] t có ăn bún đậu as đâu,[ MENTION ]_t có ăn bún_đậu as đâu,0,0,TN
+9d21046b53268e7316dcd082,408571091380061:1004676621769502,[MENTION] protein,[ MENTION_] protein,0,0,TN
+9e780246bfcdce8faf18b361,408571091380061:1004676621769502,[MENTION] né,[ MENTION_] né,0,0,TN
+a1dcac8372b43ebfc02d2b51,408571091380061:1004676621769502,[MENTION] chê :)) còn bẩn hơn,[ MENTION ]_chê :)) còn bẩn hơn,0,0,TN
+a21be542f8e71fbe37e48b60,408571091380061:1004676621769502,[MENTION] sợ quá đi ăn cho bớt sợ,[ MENTION ]_sợ quá đi ăn cho bớt sợ,0,0,TN
+a4566f41960b564140d3f783,408571091380061:1004676621769502,[MENTION] nma người ta nghĩ 2 quán là 1 ý cu,[ MENTION ]_nma người ta nghĩ 2 quán là 1 ý cu,0,0,TN
+a6ca081c9aed0b9afbd7d6de,408571091380061:1004676621769502,[MENTION] chiếc bụng này thích nghi vs mọi loại dòi [MENTION],[ MENTION ] chiếc bụng này thích_nghi vs mọi loại dòi [_MENTION ],0,0,TN
+a8999998d7b591273ec7248e,408571091380061:1004676621769502,[MENTION] không ngon lắm,[ MENTION_] không ngon lắm,0,0,TN
+a8b50f3b7c80df20b0eef1b0,408571091380061:1004676621769502,bổ sung protein thế còn j,bổ_sung protein thế còn j,0,0,TN
+aa54e2f8d56223fd035963ec,408571091380061:1004676621769502,"[MENTION] ^^ ừm nhé , e bảo mà a Khanh không nghe","[ MENTION_] ^ ^ ừm nhé , e bảo mà a_Khanh không nghe",0,0,TN
+acbf4ff40f51a280b7c3210f,408571091380061:1004676621769502,Cho xin cái tên đi mẹ:)),Cho xin cái tên đi mẹ :)),0,0,TN
+adc804a59b6043617bdeca65,408571091380061:1004676621769502,[MENTION] vừa đọc xong chơ mà qán tủ của t ở ngõ 2 cơ,[ MENTION_] vừa đọc xong chơ mà qán tủ của t ở ngõ 2 cơ,0,0,TN
+ae1c5eb9d16e53aa96da6a0f,408571091380061:1004676621769502,[MENTION] nao đi thử extra protein không =)) t biết quán này,[ MENTION ]_nao đi thử extra protein không =))_t biết quán này,0,0,TN
+b2f871f1db277359e1fb1770,408571091380061:1004676621769502,[MENTION] bảo ăn bún bò thì k nghe cơ,[ MENTION_] bảo ăn bún_bò thì k nghe cơ,0,0,TN
+b4ec43c8d1b816a45461046d,408571091380061:1004676621769502,ăn ít thôi,ăn ít thôi,0,0,TN
+b80bb2932af5ed91515758f0,408571091380061:1004676621769502,Chụp lại k b,Chụp lại k b,0,0,TN
+b950760d442f39860bbf2480,408571091380061:1004676621769502,[MENTION] bún đậu ngõ 3 này :)),[ MENTION_] bún đậu ngõ 3 này :)),0,0,TN
+bb65cddac9c5c69249e79eb6,408571091380061:1004676621769502,[MENTION] lam ti,[ MENTION ]_lam_ti,0,0,TN
+bcbe1a9b6a86bc2eb67de7fd,408571091380061:1004676621769502,[MENTION] cuối cơ mà. gần cuối thì k sao,[ MENTION_] cuối cơ_mà . gần cuối thì k sao,0,0,TN
+c07c06d32403012e49c40f47,408571091380061:1004676621769502,"Mình share lộ trình C 28tech giúp A A+ môn tin 2 nha, chỉ vài chục, được kiểm tra trước nha mng.","Mình share lộ_trình C 28 tech giúp A_A + môn tin 2 nha , chỉ vài chục , được kiểm_tra trước nha mng .",0,0,TN
+c524dd9beede80f7217d5f27,408571091380061:1004676621769502,Có 2 quán cạnh nhau mà phốt thì ghi đúng tên quán nhé bạn không người ta nhầm,Có 2 quán cạnh nhau mà phốt thì ghi đúng tên quán nhé bạn không người ta nhầm,0,0,TN
+c60e7ff6db8b83409a69c598,408571091380061:1004676621769502,[MENTION] gay love this,[ MENTION ] gay_love this,0,0,TN
+ccb6ee6e0ff4d1ba2d14e19d,408571091380061:1004676621769502,"[MENTION] mình ăn đầu ngõ mà, k p flo","[ MENTION_] mình ăn đầu_ngõ mà , k p flo",0,0,TN
+cce2b4f8d06311092e59db28,408571091380061:1004676621769502,[MENTION] quán rọt mình ngõ 2 mà,[ MENTION_] quán rọt mình ngõ 2 mà,0,0,TN
+cd196539d2a8c9a9aef7530f,408571091380061:1004676621769502,[MENTION] ê nghe quen quen mày ê,[ MENTION_] ê nghe quen_quen mày ê,0,0,TN
+d5d31734d7c00f008d3aa3cc,408571091380061:1004676621769502,[MENTION] check var,[ MENTION ] check var,0,0,TN
+d71b954e046610844b46410b,408571091380061:1004676621769502,[MENTION] ăn bảo bún đậu là chân ái em nhé,[ MENTION_] ăn bảo_bún đậu là chân_ái em nhé,0,0,TN
+d8b769851e800b2ff069e2a6,408571091380061:1004676621769502,[MENTION] :)) tôi thấy bạn bảo mới ăn hôm nọ,[ MENTION_] :)) tôi thấy bạn bảo mới ăn_hôm nọ,0,0,TN
+d946af3d5596256b2c877c31,408571091380061:1004676621769502,[MENTION] quen vl,[ MENTION ] quen vl,0,0,TN
+d9ae48f544e370471f4abb0e,408571091380061:1004676621769502,[MENTION] này thì 4 năm ăn sập ao sen,[ MENTION_] này thì 4 năm ăn sập ao sen,0,0,TN
+df5dde8ad55d4cedc85f8059,408571091380061:1004676621769502,Salted Salmon chưa có lần đầu nhưng là lần cuối,Salted Salmon chưa có lần đầu nhưng là lần cuối,0,0,TN
+e24f686584977894391dc37e,408571091380061:1004676621769502,cứ nghèo như t lại sướng,cứ nghèo như t lại sướng,0,0,TN
+e377a06f3bcfcc18326803ae,408571091380061:1004676621769502,[MENTION] =)) k đỡ dc,[ MENTION_] =))_k đỡ dc,0,0,TN
+e54fa2753cbc58ad7e25e9ac,408571091380061:1004676621769502,[MENTION] đỗi ngõ 2,[ MENTION ]_đỗi ngõ 2,0,0,TN
+eb361f3f40aa1473aa16196f,408571091380061:1004676621769502,Có ảnh kh :)),Có ảnh kh :)),0,0,TN
+edc8e9bcad09f8b4844ffb6b,408571091380061:1004676621769502,[MENTION] toi làm gì đâu,[ MENTION ]_toi làm gì đâu,0,0,TN
+ee7674d100906ea723c8e1aa,408571091380061:1004676621769502,[MENTION] ăn 2 lần rồi k biết,[ MENTION ] ăn 2 lần rồi k biết,0,0,TN
+f667cbac3fe25ec361dcfa75,408571091380061:1004676621769502,"Bạn qua số 10a ngõ 3ao sen ăn thử,mỳ cay,bún đậu,ném nướng siêu ngon","Bạn qua số 10 a_ngõ 3 ao sen ăn thử , mỳ_cay , bún_đậu , ném nướng siêu ngon",0,0,TN
+f779f638f8d18e177ba32558,408571091380061:1004676621769502,Bún Đậu Giangbeo bao nhiu tiền 1 set chị,Bún Đậu_Giangbeo bao nhiu tiền 1 set chị,0,0,TN
+f798ca921b7a50737bf03087,408571091380061:1004676621769502,[MENTION] giang béo,[ MENTION ]_giang béo,0,0,TN
+fb4c7bde9c36b2e380dd6adb,408571091380061:1004676621769502,[MENTION] vl =))) may ngày trc ăn ko bị sao,[ MENTION ]_vl =)))_may ngày trc ăn_ko bị sao,0,0,TN
+fd0810d0125fe30a484e313f,408571091380061:1004676621769502,[MENTION] co anh bat co con gian co duoc tien 0,[ MENTION_] co anh bat co con gian co duoc tien 0,0,0,TN
+1444f719a7b8d81e5db68389,408571091380061:1132006719036491,Người tham gia ẩn danh 133 đây nhé,Người tham_gia ẩn_danh 133 đây nhé,0,0,TN
+17999a74d143a1fec8828fca,408571091380061:1132006719036491,Người tham gia ẩn danh 609 6.5 nhé em,Người tham_gia ẩn_danh 609 6.5 nhé em,0,0,TN
+2303814d792c6f500e90cb74,408571091380061:1132006719036491,Người tham gia ẩn danh 736 trượt do điểm thấp thì đổi đc nhé em,Người tham_gia ẩn_danh 736 trượt do điểm thấp thì đổi đc nhé em,0,0,TN
+281c39457dbc0b30a04876d3,408571091380061:1132006719036491,C ơi nếu bây h e có 6.0 ielts còn hạn đến cuối tháng 10 2026 thì có được mhmt tiếng anh từ năm 1 đến năm 4 không hay chỉ năm 1 th ạ,C ơi nếu bây_h e có 6.0_ielts còn hạn đến cuối tháng 10 2026 thì có được mhmt tiếng anh từ năm 1 đến năm 4 không hay chỉ năm 1 th ạ,0,0,TN
+3187a6eb44d53334c0d66019,408571091380061:1132006719036491,bao giờ trường mình tổ chức thi toeic lại vậy mn,bao_giờ trường mình tổ_chức thi_toeic lại vậy mn,0,0,TN
+361c5644c2712a111b8c241b,408571091380061:1132006719036491,[MENTION] course 1 học kì 2 mới học,[ MENTION ]_course 1 học_kì 2 mới học,0,0,TN
+3627f25f33f4e03b7be0f281,408571091380061:1132006719036491,Bao nhiêu TOEIC thì miễn tadv nhỉ,Bao_nhiêu TOEIC thì miễn tadv nhỉ,0,0,TN
+368d0b0fd65415f85630ece4,408571091380061:1132006719036491,Khánh An thi lại thì em vẫn đc miễn tiếp học phần sau nha,Khánh_An_thi lại thì em vẫn đc_miễn tiếp_học phần sau nha,0,0,TN
+3c12b029d6920b69d6b32dfd,408571091380061:1132006719036491,"Người tham gia ẩn danh 842 Nếu đã mhmt rồi thì điểm của em mặc định theo bảng quy đổi em nhé, mhmt thì sẽ khong đc đổi điểm nữa. Vế 2 chị chưa hiểu câu hỏi của em lắm","Người tham_gia ẩn_danh 842 Nếu đã mhmt rồi thì điểm của em mặc_định theo bảng quy_đổi em nhé , mhmt thì sẽ khong đc đổi điểm nữa . Vế 2 chị chưa hiểu câu hỏi của em lắm",0,0,TN
+3e105b170f2e268e74b77f60,408571091380061:1132006719036491,cho e hỏi là D25 bằng tới giữa t12 thì có kịp miễn course 1 k ạ,cho e_hỏi là D25 bằng tới giữa t12 thì có kịp miễn_course 1 k ạ,0,0,TN
+45314f48d5ab2d68260c0db8,408571091380061:1132006719036491,"Chị ơi ở mục 1 lưu ý đỏ em vẫn chưa rõ ạ , chị giải thích thêm được không ạ","Chị ơi ở mục 1 lưu_ý đỏ em vẫn chưa rõ ạ , chị giải_thích thêm được không ạ",0,0,TN
+46ca2e32a20fd1d9cbeb2390,408571091380061:1132006719036491,Em học CLC mà muốn miễn học miễn thi course 1 thì cần chứng chỉ gì ạ?,Em học CLC mà muốn miễn_học miễn thi course 1 thì cần chứng_chỉ gì ạ ?,0,0,TN
+4df239b3c8417f2696ec77c2,408571091380061:1132006719036491,[MENTION] e cảm ơn ạ,[ MENTION ]_e cảm_ơn ạ,0,0,TN
+4e31ae9613daa898db819658,408571091380061:1132006719036491,@mọi người Giải ngố tiếng anh PTIT,@ mọi người Giải_ngố tiếng anh PTIT,0,0,TN
+574d3009605991c086373a62,408571091380061:1132006719036491,"Người tham gia ẩn danh 451 Giả sử đến thời gian mhmt c1, em có chứng chỉ toeic 550 và em đăng kí mhmt học phần này, thì mặc định học phần này của em sẽ đc 9 và nếu sau có chứng chỉ toeic cao hơn giả sử là 730 thì sẽ không đc đổi lên 10 nữa nhé.","Người tham_gia ẩn_danh 451 Giả_sử đến thời_gian mhmt_c1 , em có chứng_chỉ toeic 550 và em đăng_kí mhmt học phần này , thì mặc_định học phần này của em sẽ đc 9 và nếu sau có chứng_chỉ toeic cao hơn giả_sử là 730 thì sẽ không đc đổi lên 10 nữa nhé .",0,0,TN
+5a8f886ff64aa93b355bd064,408571091380061:1132006719036491,Người tham gia ẩn danh 736 nếu đi thi đầy đủ thì đổi được,Người tham_gia ẩn_danh 736 nếu đi thi đầy_đủ thì đổi được,0,0,TN
+5e17f9c92ee0890015238de4,408571091380061:1132006719036491,"Bùi Nguyên Thoại 1 học phần chỉ được mhmt 1 lần em nha, còn đổi điểm thì được nhiều lần","Bùi_Nguyên_Thoại 1 học phần chỉ được mhmt 1 lần em nha , còn đổi điểm thì được nhiều lần",0,0,TN
+7a21b31293eb3fe2aa3f472b,408571091380061:1132006719036491,"Người tham gia ẩn danh 693 nếu mình mhmt tiếng anh kì nào, thì kì đó nếu xét hobo thì sẽ ko xét điểm tanh, chỉ xét mấy môn còn lại thôi nha","Người tham_gia ẩn_danh 693 nếu mình mhmt tiếng anh kì nào , thì kì đó nếu xét hobo thì sẽ ko xét điểm tanh , chỉ xét mấy môn còn lại thôi nha",0,0,TN
+7a94329e249efeefef617ee5,408571091380061:1132006719036491,[MENTION] miễn full học phần thì 730 toeic 2kn nhé,[ MENTION ]_miễn full học phần thì 730 toeic 2 kn nhé,0,0,TN
+7f39e887719c45eea7d21b66,408571091380061:1132006719036491,course 1 e bị F vì 0đ cuối kỳ v e dc đổi điểm hay mhmt C1 v ạ,course 1 e bị F vì 0 đ cuối kỳ v e_dc đổi điểm hay mhmt C1 v ạ,0,0,TN
+80eae11571ac7097000ee4f1,408571091380061:1132006719036491,Chi phí của vc học c0 là bn cho hệ clc v ậ,Chi_phí của vc học c0 là bn cho hệ clc v ậ,0,0,TN
+856cd52ecf91e4440a22b8d1,408571091380061:1132006719036491,"em học clc ạ thì thi đầu vào toefl đạt là bao nhiêu ạ và có phải kì thi có lis rea vs gram ko nhỉ chị nhỉ , và có phải đạt ngưỡng đầu vào thì mình sẽ vẫn học tiếng anh như là trên web nhà trường là mấy tín kia đúng ko chị","em học clc ạ thì thi đầu_vào toefl đạt là bao_nhiêu ạ và có phải kì thi có lis rea vs gram ko nhỉ chị nhỉ , và có phải đạt ngưỡng đầu_vào thì mình sẽ vẫn học tiếng anh như là trên web nhà_trường là mấy tín_kia đúng ko chị",0,0,TN
+87b5ae5a9f5e1b87f022ba04,408571091380061:1132006719036491,cho e hỏi điểm thi course 1 ở trường có mấy đầu điểm thi cuối kì thế ạ,cho e hỏi điểm thi course 1 ở trường có mấy đầu điểm thi cuối kì thế ạ,0,0,TN
+87fa990271a2d06b1be1ee27,408571091380061:1132006719036491,"""Đã mhmt thì không được chuyển đổi điểm về sau nữa"" tức là ntn ạ",""" Đã mhmt thì không được chuyển_đổi điểm về sau nữa "" tức_là ntn ạ",0,0,TN
+88e2b7338ad7922d2721e40f,408571091380061:1132006719036491,"Anh chị ơi, em học hệ chất lượng cao thì cần chứng chỉ gì để được miễn tiếng anh cơ bản ạ","Anh_chị ơi , em học_hệ chất_lượng cao thì cần chứng_chỉ gì để được miễn tiếng anh cơ_bản ạ",0,0,TN
+89b89de9a80dddd8e90b434d,408571091380061:1132006719036491,Ielts mấy chấm thì đc miễn học và thi của hệ clc ạ,Ielts mấy chấm thì đc miễn_học và thi của hệ clc ạ,0,0,TN
+8e49eb52fcc75782899900a9,408571091380061:1132006719036491,Em chưa có chứng chỉ và dự định thi trong năm tới nhưng học kì này em có học phần TA course 2 thì em ko đăng kí có được không ạ? (Em chờ sau khi thi cc xong sẽ quy đổi ạ),Em chưa có chứng_chỉ và dự_định thi trong năm tới nhưng học_kì này em có_học phần TA course 2 thì em ko đăng_kí có được không ạ ? ( Em chờ sau khi thi cc xong sẽ quy_đổi ạ ),0,0,TN
+9101d3a702a183851452ba58,408571091380061:1132006719036491,"cho mình hỏi cái course 3 plus thì có bắt buộc đăng ký tài khoản TOEIC OLPC hay ko? Mình chưa học mấy cái course này bao giờ, không rõ học-thi thế nào (trước học A21, A22, B11, thiếu B12 giờ thành course 3 plus)","cho mình hỏi cái course 3 plus thì có bắt_buộc đăng_ký tài_khoản TOEIC_OLPC hay ko ?_Mình chưa học mấy cái course này bao_giờ , không rõ học-thi thế_nào ( trước học A21 , A22 , B11 , thiếu B12 giờ thành course 3 plus )",0,0,TN
+949fe45cb1f79737b0acc35f,408571091380061:1132006719036491,đợt sắp tới là tháng 7 đúng ko ạ ? với cho em hỏi là quy trình nộp bằng có cần phải lên trường ko hay nộp online ạ??,đợt sắp tới là tháng 7 đúng ko ạ ? với cho em hỏi là quy_trình nộp bằng có cần phải lên trường ko hay nộp online ạ ? ?,0,0,TN
+94afb4adcdbe5efeac29423d,408571091380061:1132006719036491,"[MENTION] tầm t7 hoặc t8, mình nộp onl nhé em","[ MENTION ] tầm t7 hoặc t8 , mình nộp onl nhé em",0,0,TN
+95cf6dd67a899e683e6627af,408571091380061:1132006719036491,"[MENTION] c ơi chỗ ""k tính điểm xét hobo kỳ"" là sao v ạ?","[ MENTION_] c ơi chỗ "" k tính điểm xét hobo_kỳ "" là sao v ạ ?",0,0,TN
+95cfdd74a36f4a87a04d4d8a,408571091380061:1132006719036491,[MENTION] dạ là khi em có chứng chỉ mới thì có được cập nhật lại để đổi cho course em đã đăng ký không í ạ,[ MENTION_]_dạ là khi em có chứng_chỉ mới thì có được cập_nhật lại để đổi cho course em đã đăng_ký không í ạ,0,0,TN
+9773fa608ee1157f37e0c249,408571091380061:1132006719036491,[MENTION] đổi chuẩn đầu ra là 450 toeic 2kn nha em,[ MENTION_] đổi chuẩn đầu_ra là 450 toeic 2 kn nha em,0,0,TN
+9b24ca6f68b00b3f6d5ca9a6,408571091380061:1132006719036491,Nếu e thi trượt tiếng anh 1 thì đổi điểm toeic có được không ạ hay vẫn phải thi lại mới đổi được ạ,Nếu e thi trượt tiếng anh 1 thì đổi điểm toeic có được không ạ hay vẫn phải thi lại mới đổi được ạ,0,0,TN
+9ed651e876e206d290ba7118,408571091380061:1132006719036491,Người tham gia ẩn danh 713 em học hệ nào thế,Người tham_gia ẩn_danh 713 em học_hệ nào thế,0,0,TN
+a270887ada466c21abd306e9,408571091380061:1132006719036491,Em có bằng toeic có thời hạn tới 16/06/2027 thì được miễn mấy course ạ?,Em có bằng toeic có thời_hạn tới 16/06/2027 thì được miễn mấy course ạ ?,0,0,TN
+a2b55295048bfead55cec11e,408571091380061:1132006719036491,"Ở phần đăng kí thì em chỉ điền phần mhmt mà ko điền phần quy đổi điểm có đc đổi luôn ko ạ, với cả nếu giờ em đi học và thi lại toeic thì có được cập nhật lại ko ạ","Ở phần đăng_kí thì em chỉ điền_phần mhmt mà ko_điền phần quy_đổi điểm có đc đổi luôn ko ạ , với cả nếu giờ em đi học và thi lại toeic thì có được cập_nhật lại ko ạ",0,0,TN
+a4c15e0266bc73b03d6ecfd8,408571091380061:1132006719036491,[MENTION] chị ơi cho e hỏi e thi toeic cuối tháng 10 liệu có kịp xét miễn học miễn thi k ạ,[ MENTION_] chị ơi cho e hỏi e thi toeic cuối tháng 10 liệu có kịp xét miễn_học miễn thi k ạ,0,0,TN
+a65fcb5536af235d85a465b7,408571091380061:1132006719036491,"Người tham gia ẩn danh 842 Mhmt thì không được em nha, còn học phần em đã học và thi ở trường, em có cc để đổi điểm lần 1 nhưng chưa cao, sau em có chứng chỉ cao hơn thì mình có thể đổi lần 2 nha. MHMT thì chỉ được 1 lần còn đổi điểm thì bao nhiêu lần cũng đc em nha","Người tham_gia ẩn_danh 842 Mhmt thì không được em nha , còn học phần em đã học và thi ở trường , em có cc để đổi điểm lần 1 nhưng chưa cao , sau em có chứng_chỉ cao hơn thì mình có_thể đổi lần 2 nha . MHMT thì chỉ được 1 lần còn đổi điểm thì bao_nhiêu lần cũng đc em nha",0,0,TN
+b1e8dc30e59ea87843cf43b8,408571091380061:1132006719036491,[MENTION] úi em cảm ơn chị nhiều ạa,[ MENTION ]_úi em cảm_ơn chị nhiều ạa,0,0,TN
+b3aacb3c0da5592629bdd1e0,408571091380061:1132006719036491,"Em có thể miễn mỗi học TA trên trường, nhưng ko miễn thi được ko ạ? Tại điểm toeic của em vừa thi T6 kia hơi thấp, chưa đc A+. Nếu làm thế thì, cuối kì em vẫn phải đi thi, nếu điểm thi cuối kì thấp sau em có thể đổi được ko ạ?Tức là đến đợt đổi điểm tiếp theo khoảng tháng 5, thì em thi lại Toeic, rồi có thể đổi điểm thi đó trên trường ko ạ?","Em có_thể miễn mỗi học TA trên trường , nhưng ko miễn thi được ko ạ ? Tại điểm toeic của em vừa thi T6 kia hơi thấp , chưa đc A_+ . Nếu làm thế thì , cuối_kì em vẫn phải đi thi , nếu điểm thi cuối kì thấp sau em có_thể đổi được ko ạ ? Tức_là đến đợt đổi điểm tiếp_theo khoảng tháng 5 , thì em thi lại Toeic , rồi có_thể đổi điểm thi đó trên trường ko ạ ?",0,0,TN
+b7d70f170a302814b764d05c,408571091380061:1132006719036491,Người tham gia ẩn danh 660 450 nha,Người tham_gia ẩn_danh 660 450 nha,0,0,TN
+b9f099fe4a4e91defb871116,408571091380061:1132006719036491,[MENTION] điểm em là 7.9 nhé,[ MENTION ]_điểm em là 7.9 nhé,0,0,TN
+bee361b8f016d7bcf477ace3,408571091380061:1132006719036491,Chị ơi thế yêu cầu để nhận hobo từng học kỳ là gì ạ,Chị ơi_thế yêu_cầu để nhận hobo từng học_kỳ là gì ạ,0,0,TN
+c26c7962703947e88f19f261,408571091380061:1132006719036491,"ac ơi cho e hỏi chỗ ""không tính vào điểm xét học bổng học kì"" tức là nếu quy đổi điểm ie ≈ điểm tín thì e k đc xét học bổng của kì đó nữa ạ??","ac ơi cho e_hỏi chỗ "" không tính vào điểm xét học_bổng học_kì "" tức_là nếu quy_đổi điểm ie ≈_điểm tín thì e_k đc xét học_bổng của kì đó nữa ạ ? ?",0,0,TN
+c6e92917469c59616d49f47b,408571091380061:1132006719036491,"ví dụ tadv k qua thì học lại đúng k ạ. Nếu trong năm nhất mình đạt kqua ielts, toeic oke thì trong 3 năm tiếp được miễn học ta dc k ạ","ví_dụ tadv k qua thì học lại đúng k ạ . Nếu trong năm nhất mình đạt kqua ielts , toeic oke thì trong 3 năm tiếp được miễn_học ta dc k ạ",0,0,TN
+c71bf35b8334f3656db22caa,408571091380061:1132006719036491,"Người tham gia ẩn danh 105 ko qua tadv, mình phải học thêm lớp bổ trợ course 0, toeic 730+/ ietls 6.0 thì đc miễn full nhé","Người tham_gia ẩn_danh 105 ko qua tadv , mình phải học thêm lớp bổ_trợ course 0 , toeic 730 + / ietls 6.0 thì đc miễn full nhé",0,0,TN
+c746983bf8aa6f27c645a3a1,408571091380061:1132006719036491,"[MENTION] cj ơi đăng ký mỗi miễn học thì đăng ký kiểu j ạ, cc của e hơi thấp nên muốn đổi điểm lại sau","[ MENTION_] cj ơi đăng_ký mỗi miễn_học thì đăng_ký kiểu j ạ , cc của e_hơi thấp nên muốn đổi điểm lại sau",0,0,TN
+c9e163ff2b44557d4d0d5bc1,408571091380061:1132006719036491,Người tham gia ẩn danh 522 đầu vào là 360 em nha,Người tham_gia ẩn_danh 522 đầu_vào là 360 em nha,0,0,TN
+d37616c32081a632e5323b2e,408571091380061:1132006719036491,Chị oi chị có bảng quy đổi điểm từng course của các chứng chỉ khum ạ,Chị oi chị có bảng quy_đổi điểm từng course của các chứng_chỉ khum ạ,0,0,TN
+d75ba5a40033d038211ccfa4,408571091380061:1132006719036491,Cho em hỏi bằng ielts của em đến tháng 6 2026 là hết hạn thì chỉ đc mhmt đến hết lúc đó thôi đúng ko ạ. Và nếu em có thi lại ielts tiếp thì có đc mhmt tiếp ko ạ,Cho em hỏi bằng ielts của em đến tháng 6 2026 là hết hạn thì chỉ đc mhmt đến hết lúc đó thôi đúng ko ạ . Và nếu em có thi lại ielts tiếp thì có đc mhmt tiếp ko ạ,0,0,TN
+d8ba1238fb784b37be494683,408571091380061:1132006719036491,Mhmt có bị giới hạn số lần k ạ?,Mhmt có bị giới_hạn số lần k ạ ?,0,0,TN
+e047eb310d03048a468849bb,408571091380061:1132006719036491,"C ơi cho em hỏi, nếu như vào năm em thi toeic được điểm ổn, thì em có được chọn vừa quy đổi thành điểm course và vừa miễn học được không ạ ? Rồi đến khi thi course em được điểm thấp hơn thì trường sẽ lấy điểm em quy đổi trước đó hay lấy điểm em thi ạ ?","C ơi cho em hỏi , nếu_như vào năm em thi_toeic được điểm ổn , thì em có được chọn vừa quy_đổi thành điểm course và vừa miễn_học được không ạ ? Rồi đến khi thi course em được điểm thấp hơn thì trường sẽ lấy điểm em quy_đổi trước đó hay lấy điểm em thi ạ ?",0,0,TN
+e229cad1d27ad5af10c4f22d,408571091380061:1132006719036491,Người tham gia ẩn danh 460 6 tín course 0,Người tham_gia ẩn_danh 460 6 tín_course 0,0,0,TN
+e35e4624e3fcad8e3d5ab6a3,408571091380061:1132006719036491,Trường mình yêu cầu chứng chỉ toeic bao nhiêu kĩ năng vậy ạ?,Trường mình yêu_cầu chứng_chỉ toeic bao_nhiêu kĩ_năng vậy ạ ?,0,0,TN
+e3ca1810ae1c448136d61584,408571091380061:1132006719036491,[MENTION] 1 thui,[ MENTION_] 1 thui,0,0,TN
+e9daae120afd5ad581965b28,408571091380061:1132006719036491,"Người tham gia ẩn danh 333 tài khoản ed 6 tháng c1 giả sử là 800k, tk ed 6 tháng của c2 sẽ khác nhau sẽ đắt hơn, học phần càng cao là chi phí càng nhỉnh hơn nhé em","Người tham_gia ẩn_danh 333 tài_khoản ed 6 tháng c1 giả_sử là 800 k , tk ed 6 tháng của c2 sẽ khác nhau sẽ đắt hơn , học phần càng cao là chi_phí càng nhỉnh hơn nhé em",0,0,TN
+ea0615317abd06e2460a48fa,408571091380061:1132006719036491,Người tốt v tr,Người tốt v tr,0,0,TN
+ea8a37886df7721c7baaba17,408571091380061:1132006719036491,[MENTION] dạ thế lùi sang 2031 đổi kịp kh ạ,[ MENTION_]_dạ thế lùi sang 2031 đổi kịp kh ạ,0,0,TN
+ec36660551e5d98775c9f787,408571091380061:1132006719036491,Người tham gia ẩn danh 591 tầm tháng 11 nha,Người tham_gia ẩn_danh 591 tầm tháng 11 nha,0,0,TN
+f005e0bd1344586e555cf96c,408571091380061:1132006719036491,"Người tham gia ẩn danh 451 Giả sử em học course 1 trên trường, tổng kết môn của em đc 6, nếu em có chứng chỉ 550 thì em sẽ đổi đc lên 9, sau em thi lại em đc 730 thì mình vẫn đc đổi học phần này tiếp nhé và sẽ đc 10","Người tham_gia ẩn_danh 451 Giả_sử em học course 1 trên trường , tổng_kết_môn của em đc 6 , nếu em có chứng_chỉ 550 thì em sẽ đổi đc lên 9 , sau em thi lại em đc 730 thì mình vẫn đc_đổi học phần này tiếp nhé và sẽ đc 10",0,0,TN
+f2e39ddd0ca975e57416b517,408571091380061:1132006719036491,"[MENTION] thế 1 điểm như này là xong r đúng ko ạ, tại em coi trên slink nó chia hai điểm nên e lại nghĩ còn 1 điểm nữa","[ MENTION ]_thế 1 điểm như này là xong r đúng ko ạ , tại em coi trên slink nó chia hai điểm nên e lại nghĩ còn 1 điểm nữa",0,0,TN
+f9793d9a76db2c8dec655c76,408571091380061:1132006719036491,[MENTION] còn miễn học miễn thi thì bao nhiêu kĩ năng ạ?,[ MENTION_] còn miễn_học miễn_thi thì bao_nhiêu kĩ_năng ạ ?,0,0,TN
+f9fa589fb36048df1eb746fe,408571091380061:1132006719036491,học phần tiếng anh nào quá tháng 10/2026 thì k đc đổi,học phần tiếng anh nào quá tháng 10/2026 thì k đc đổi,0,0,TN
+fb3a0ab456565dc1aa67780e,408571091380061:1132006719036491,"Người tham gia ẩn danh 150 không được em nha, miễn học miễn thi phải đúng theo tiến trình. Nếu em chưa có chứng chỉ thì em học tiếng anh ở trường nhé, nếu không thì sẽ tính là nợ môn, sau vẫn phải học trả chứ không đc miễn em nha","Người tham_gia ẩn_danh 150 không được em nha , miễn_học miễn_thi phải đúng theo tiến_trình . Nếu em chưa có chứng_chỉ thì em học tiếng anh ở trường nhé , nếu không thì sẽ tính là nợ môn , sau vẫn phải học trả chứ không đc miễn em nha",0,0,TN
+fcdb557fe82719464b1d6d0b,408571091380061:1132006719036491,Người tham gia ẩn danh 614 đki học thi đầy đủ nhưng mà tiếng anh 1 trượt có đổi được k,Người tham_gia ẩn_danh 614 đki học thi đầy_đủ nhưng_mà tiếng anh 1 trượt có đổi được k,0,0,TN
+043d4f316bb83a4d1d41d5fd,408571091380061:1187775363459626,[MENTION] mất cả bàn,[ MENTION_] mất cả bàn,0,0,TN
+0a51f3c20804db8a6c1c086a,408571091380061:1187775363459626,[MENTION] t lấy cái ví của m chứ lấy cái bàn đâu,[ MENTION ]_t lấy cái ví của m chứ lấy cái bàn đâu,0,0,TN
+0fcd48d11d7083a8034d5657,408571091380061:1187775363459626,[MENTION] không có tiền gửi xe,[ MENTION_] không có tiền gửi xe,0,0,TN
+16c44ba17fd2af9c3570a7e0,408571091380061:1187775363459626,Menu quán. Mong chờ được hậu tạ quá các em ơi :”),Menu quán . Mong_chờ được hậu_tạ quá các em ơi : ” ),0,0,TN
+1b1815710b8ecfa7f2018006,408571091380061:1187775363459626,[MENTION] cầm cả bàn về,[ MENTION ]_cầm cả bàn về,0,0,TN
+1c493ec0245ea9bca7831e25,408571091380061:1187775363459626,"Chị mời các em có trong dách chỉ điểm và bị chỉ điểm qua quán ngồi chơi , chill chill, thẩm đồ quán nhé :"") :"") .","Chị mời các em có trong dách chỉ_điểm và bị chỉ_điểm qua quán ngồi chơi , chill_chill , thẩm_đồ quán nhé : "" ) : "" ) .",0,0,TN
+2786b459951b43f971d218d4,408571091380061:1187775363459626,[MENTION] anh nói v khác nào vả thẳng mặt thằng [MENTION],[ MENTION_] anh nói v khác nào_vả thẳng mặt thằng [ MENTION ],0,0,TN
+27bd63df646734fc5e64b890,408571091380061:1187775363459626,[MENTION] trả ngta,[ MENTION ] trả ngta,0,0,TN
+2b7097deab22cf0d81328488,408571091380061:1187775363459626,[MENTION] đem trả ngta đi ngta cho nước,[ MENTION_] đem trả ngta đi ngta cho nước,0,0,TN
+2c442126d4a7fec3cf52f21c,408571091380061:1187775363459626,[MENTION] m chôm mà lại đổ cho a,[ MENTION ] m chôm mà_lại đổ cho a,0,0,TN
+2dd6db5e7406f251062c5bf2,408571091380061:1187775363459626,[MENTION] t có phải tk T hok hust đâu,[ MENTION ]_t có phải tk T hok hust đâu,0,0,TN
+2fdc81be327301145f41d4d0,408571091380061:1187775363459626,[MENTION] thằng này nó nhai mất rồi chị ơi sắt vẫn còn dính răng,[ MENTION ] thằng này nó nhai mất rồi chị ơi sắt vẫn còn dính răng,0,0,TN
+3734e9e588f4f0cc37dcde85,408571091380061:1187775363459626,[MENTION] ô lộ rồi,[ MENTION ] ô_lộ rồi,0,0,TN
+40ffd03fb1ca50ccf42ebe42,408571091380061:1187775363459626,"Chịu các bố thật, thua lắm ra dại thật","Chịu các bố thật , thua lắm ra dại thật",0,0,TN
+452d0d8f23b32d72230eb7b6,408571091380061:1187775363459626,khéo mai tháo ra để được hậu tạ cốc nước =)),khéo mai_tháo ra để được hậu tạ_cốc nước =)),0,0,TN
+493761a45394ea7669072ce6,408571091380061:1187775363459626,"[MENTION] dm m có trả bàn cho ngta ko, ngta phốt m kìa","[ MENTION ] dm m có trả bàn cho ngta ko , ngta phốt m kìa",1,0,FN
+51e6191a2a07d55c3f5d0664,408571091380061:1187775363459626,Nhảy cả bàn nx chịu r,Nhảy cả bàn_nx chịu r,0,0,TN
+53dd0fe0903df1d6dfaf15ff,408571091380061:1187775363459626,[MENTION] trả bàn ngay,[ MENTION_] trả bàn ngay,0,0,TN
+55c72fb79d1bf81a0ab4120f,408571091380061:1187775363459626,[MENTION] lấy lên phòng r à,[ MENTION_] lấy lên phòng r à,0,0,TN
+60052fe1f97fc686cd1b34ab,408571091380061:1187775363459626,suỵt,suỵt,0,0,TN
+62be60ce90ce632bfe1fdbc0,408571091380061:1187775363459626,[MENTION] [MENTION] ăn cả bàn à,[ MENTION_] [_MENTION ]_ăn cả bàn à,0,0,TN
+65053ec8364f5f43b25fc755,408571091380061:1187775363459626,[MENTION] phòng có bàn mà s p làm thế e,[ MENTION ]_phòng có bàn mà s_p làm thế e,0,0,TN
+6556cb5049298acec3f618e6,408571091380061:1187775363459626,[MENTION] thg 2 ngón trả người ta đi,[ MENTION ]_thg 2 ngón trả người ta đi,0,0,TN
+79a55a24e1d9df16046ef493,408571091380061:1187775363459626,[MENTION] Tôi thấy bạn cầm 1 bàn mà,[ MENTION_] Tôi thấy bạn cầm 1 bàn mà,0,0,TN
+7a873c854041dc54d41ee602,408571091380061:1187775363459626,[MENTION] k có bàn học à em,[ MENTION ]_k có bàn_học à em,0,0,TN
+8be894e340b3900e090d1ee0,408571091380061:1187775363459626,[MENTION] trả lại bàn cho cô đi thầy=)),[ MENTION_] trả lại bàn cho cô đi thầy =)),0,0,TN
+8e1769b0b98e099b63fa2372,408571091380061:1187775363459626,[MENTION] trả cho người ta đi b,[ MENTION ] trả cho người ta đi b,0,0,TN
+938bbedfd8f00d682a203229,408571091380061:1187775363459626,"[MENTION] nhả bàn ra trả ngta đi, ăn cả bàn","[ MENTION ]_nhả bàn ra trả ngta đi , ăn cả bàn",0,0,TN
+97ae89e94605a83f5b3cdd48,408571091380061:1187775363459626,"[MENTION] qua t ms thấy m với Xuân xách về trọ mà, sao lại lôi t vào","[ MENTION_] qua t ms thấy m với Xuân_xách về trọ mà , sao lại lôi_t vào",0,0,TN
+a23051db62fb9f5361605de7,408571091380061:1187775363459626,"Hoạ Sĩ Người Áo [MENTION] 1 trong 2 tk cm trả lại cho ngta đi kìa, có cái bàn để uống nước cx đem đi cắm","Họa_Sĩ_Người Áo_[ MENTION_] 1 trong 2 tk cm trả lại cho ngta đi kìa , có cái bàn để uống nước cx đem đi cắm",0,0,TN
+ab34a8807857200e3095885b,408571091380061:1187775363459626,[MENTION] bảo là lấy 1 cái r thôi mà,[ MENTION_] bảo là lấy 1 cái r thôi mà,0,0,TN
+ba57cdbc51b012ffe3a060bd,408571091380061:1187775363459626,[MENTION] bao giờ bỏ thói này hả thảo,[ MENTION_] bao_giờ bỏ thói này hả_thảo,0,0,TN
+bb21a3669127d2deb078d993,408571091380061:1187775363459626,"[MENTION] t k lấy đâu, m trả ngta đi =₫)","[ MENTION_] t k lấy đâu , m trả ngta đi = ₫ )",0,0,TN
+bed16de0a9f1614e334b1078,408571091380061:1187775363459626,[MENTION] trả ngta đê,[ MENTION ] trả ngta đê,0,0,TN
+c147f7f419f1abfa1dce688f,408571091380061:1187775363459626,"Em nghi mấy thằng đánh bóng lắm á chị, check cam xem thử, chứ cái đội bóng chuyền là nghi lắm, bán bàn mua bóng rồi nên","Em nghi mấy thằng đánh bóng lắm á chị , check cam xem thử , chứ cái đội bóng_chuyền là nghi lắm , bán bàn mua bóng rồi nên",0,0,TN
+c9073b65fa46e1bdf538c7c9,408571091380061:1187775363459626,[MENTION] nào đừng học theo thế,[ MENTION_] nào đừng học theo thế,0,0,TN
+ceb9386392d235465f303125,408571091380061:1187775363459626,"[MENTION] Mang trả đi, được nước đó =))","[ MENTION_] Mang trả đi , được nước đó =))",0,0,TN
+da446cad5ec17436d7060346,408571091380061:1187775363459626,[MENTION] vl có cái bàn mà ah cũm lấy hở,[ MENTION ]_vl có cái bàn mà ah cũm lấy hở,0,0,TN
+e62bbb548904ad892d5aad8b,408571091380061:1187775363459626,[MENTION] [MENTION] [MENTION] trả ngay cho ngta,[ MENTION_] [ MENTION_] [_MENTION ] trả ngay cho ngta,0,0,TN
+e9b3f6de236fc1697728135a,408571091380061:1187775363459626,[MENTION] sao biết,[ MENTION_] sao biết,0,0,TN
+f00e7c8f64ef79470ad69d3e,408571091380061:1187775363459626,[MENTION] bàn đấy mà đem bán có khi còn bị mắng đấy em :)),[ MENTION_] bàn đấy mà đem bán có_khi còn bị mắng đấy em :)),0,0,TN
+f0a972eea9d1e22664dbf56f,408571091380061:1187775363459626,[MENTION] hôm qua thấy th Xuân vs th Tuân bê lên xe mà,[ MENTION_] hôm_qua thấy th Xuân_vs th Tuân_bê lên xe mà,0,0,TN
+0360512edcc4d2cc43a83f42,408571091380061:645470827690085,[MENTION] [MENTION] [MENTION] nhìn trg xịn quá khum quen,[ MENTION_] [_MENTION ]_[ MENTION_] nhìn trg xịn quá khum quen,0,0,TN
+119c5ee4990ce235ab0d97f5,408571091380061:645470827690085,Đẹpp,Đẹpp,0,0,TN
+11cf07bf5119d8ff54630ee2,408571091380061:645470827690085,[MENTION] nay bạn k lên nhận lớp à,[ MENTION ] nay bạn k lên nhận lớp à,0,0,TN
+16cc84ee43d80f2bdfef0fac,408571091380061:645470827690085,[MENTION] Tôi còn lớp nào nữa đâu,[ MENTION_] Tôi còn lớp nào nữa đâu,0,0,TN
+17e3f9d43898ac95028d34d3,408571091380061:645470827690085,[MENTION] tí t đi t rv,[ MENTION_] tí t đi t rv,0,0,TN
+28f274227d384753836de696,408571091380061:645470827690085,Trần Ngà skill issue thôi chị,Trần_Ngà_skill issue thôi chị,0,0,TN
+3008980de9d430339eebe493,408571091380061:645470827690085,vl trường nào đây [MENTION] [MENTION],vl trường nào đây [ MENTION_] [_MENTION ],0,0,TN
+3477fef288081a3e180a3619,408571091380061:645470827690085,Trang Ngô flop tương tác :)),Trang Ngô_flop tương_tác :)),0,0,TN
+36993cda5a6800a865710a29,408571091380061:645470827690085,[MENTION] người k phải cổ đông như t cũng khóc,[ MENTION_] người k phải cổ_đông như t cũng khóc,0,0,TN
+3787843e402e1c249a4489f0,408571091380061:645470827690085,[MENTION] s ngta chụp thế này mà m chụp t không hình dung ra gì luôn ý,[ MENTION ] s ngta chụp thế_này mà m chụp t không hình_dung ra gì luôn ý,0,0,TN
+3a9796d2dc6a8896abc910a2,408571091380061:645470827690085,[MENTION] [MENTION] trường xịn thế =))))))),[ MENTION_] [_MENTION ]_trường xịn_thế =))))))),0,0,TN
+40642243683a698517ef999b,408571091380061:645470827690085,"[MENTION] Thu Thương nay thấy các em đi học nhộn nhịp lắm bây ơi, tối đi đổ rác phía sau nhà thấy có sân cho mấy anh đang tập thể hình mlememe","[ MENTION ]_Thu_Thương nay thấy các em đi học nhộn_nhịp lắm bây ơi , tối đi đổ rác phía sau nhà thấy có sân cho mấy anh đang tập_thể hình_mlememe",0,0,TN
+41d187efa41c8a5686eaa549,408571091380061:645470827690085,[MENTION] xưa mình học ở RPTIT ỏ,[ MENTION_] xưa mình học ở RPTIT ỏ,0,0,TN
+43a8e91ede4f59ec775c214a,408571091380061:645470827690085,[MENTION] phông bạt đc cái sảnh th :))),[ MENTION_] phông bạt đc cái sảnh th :))),0,0,TN
+44fd76bfdfbea789b803a7f1,408571091380061:645470827690085,[MENTION] :)))) lừa,[ MENTION_] :)))) lừa,0,0,TN
+4803c080fb36c1b7179ffd79,408571091380061:645470827690085,[MENTION] tự nhiên em lại thấy nhớ ptit cũ hơn,[ MENTION_] tự_nhiên em lại thấy nhớ ptit cũ hơn,0,0,TN
+4aa0205dcd87a5f7151886e9,408571091380061:645470827690085,[MENTION] thế phải về trường thôi :))),[ MENTION ]_thế phải về trường thôi :))),0,0,TN
+508a8b59c68bb0cdc363491e,408571091380061:645470827690085,Trường học phí của e là 3 củ rưỡi 1 môn,Trường học_phí của e là 3 củ rưỡi 1 môn,0,0,TN
+5195e5469b7d4b6574dbadb7,408571091380061:645470827690085,[MENTION] sang,[ MENTION_] sang,0,0,TN
+5401c543fb0c437c1ea5d674,408571091380061:645470827690085,[MENTION] [MENTION] ra trường chụp ảnh,[ MENTION_] [_MENTION ] ra trường chụp ảnh,0,0,TN
+5a76eae95b635dc8d581a50b,408571091380061:645470827690085,[MENTION] nhìn tưởng trung tâm nghiên cứu thí nghiệm gì í,[ MENTION_] nhìn tưởng trung_tâm nghiên_cứu thí_nghiệm gì í,0,0,TN
+5c2304a0d33a36a098ae914e,408571091380061:645470827690085,[MENTION] ghê gớm hầy,[ MENTION_] ghê_gớm hầy,0,0,TN
+5c6daeb10a56620d11b65c64,408571091380061:645470827690085,[MENTION] chọn ngày đẹp rồi sang,[ MENTION_] chọn ngày đẹp rồi sang,0,0,TN
+5e89389527d44d95bf5e104d,408571091380061:645470827690085,Nổi hơn admin đăng,Nổi hơn admin đăng,0,0,TN
+5ffb72ce0a30574ce1c79491,408571091380061:645470827690085,[MENTION] xịn hơn TMU r,[ MENTION_] xịn hơn TMU r,0,0,TN
+649cd702f08348ea24618b5f,408571091380061:645470827690085,[MENTION] rtit,[ MENTION ] rtit,0,0,TN
+67ddae58ad50523d1ad0efc0,408571091380061:645470827690085,[MENTION] theo hướng ấy rồi flex trường thui,[ MENTION_] theo hướng ấy rồi flex trường thui,0,0,TN
+68f99bd68abd87393c857278,408571091380061:645470827690085,[MENTION] bạn ơi đấy mới là nghê thuậtt,[ MENTION ] bạn ơi đấy mới là nghê thuậtt,0,0,TN
+69f56d813081fdd692ffe5e8,408571091380061:645470827690085,"Trường quá xịn, cap quá chuẩn [MENTION] yêu trường","Trường quá xịn , cap quá chuẩn_[ MENTION_] yêu trường",0,0,TN
+6c1a5b0c7e6a81a72d1e37e5,408571091380061:645470827690085,[MENTION] gr ptit mà đăng trường nào thế m,[ MENTION ] gr ptit mà đăng_trường nào thế m,0,0,TN
+6d8b62e69da35c973ea94f1e,408571091380061:645470827690085,Trường nào đây vậy,Trường nào đây vậy,0,0,TN
+705c8594c4e51fce9726af02,408571091380061:645470827690085,[MENTION] vc :))) ôi học phí đẹp ghê,[ MENTION ]_vc :)))_ôi học_phí đẹp ghê,0,0,TN
+7411b6db1abd07ae3400f93f,408571091380061:645470827690085,[MENTION] thêm thằng viên gia đình thêm vui,[ MENTION_] thêm thằng_viên gia_đình thêm vui,0,0,TN
+74e793ad2346b1bfd6088d41,408571091380061:645470827690085,[MENTION] đúng mong ước học viện hoàng gia nhé cu :))),[ MENTION_] đúng mong_ước học_viện hoàng_gia nhé cu :))),0,0,TN
+812e463275faff5f689d74ca,408571091380061:645470827690085,[MENTION] gia đình đã đủ ng,[ MENTION_] gia_đình đã đủ ng,0,0,TN
+85b75c7aee764daeccd378ad,408571091380061:645470827690085,Bảo sao:)),Bảo_sao :)),0,0,TN
+8e24191510479df37835f2f3,408571091380061:645470827690085,[MENTION] thế này lúc tốt nghiệp ma thít,[ MENTION ] thế_này lúc tốt_nghiệp ma thít,0,0,TN
+949b29826dd00b0c136d63e0,408571091380061:645470827690085,[MENTION] háo hức hân hoan hồ hởi phấn khởi chờ ngày được đi học trở lại,[ MENTION_] háo_hức hân_hoan hồ_hởi phấn_khởi chờ ngày được đi học trở_lại,0,0,TN
+9beb5d1e951130813baf766f,408571091380061:645470827690085,Sang ngày mưa ý mới thấy những giọt nước mắt của cổ đông,Sang ngày mưa_ý mới thấy những giọt nước_mắt của cổ_đông,0,0,TN
+a1e38828fed07adbb480e3cd,408571091380061:645470827690085,XẤU,XẤU,0,1,FP
+b1ec5eef1a6546473191d1d3,408571091380061:645470827690085,[MENTION] nhanh trí tuyển làm admin,[ MENTION_] nhanh_trí tuyển làm admin,0,0,TN
+baf8e6165ee049ada63828d7,408571091380061:645470827690085,Á đù trg h đẹp thế:))),Á đù trg h đẹp thế :))),0,0,TN
+bbf99ea78ae4409ef9ab456f,408571091380061:645470827690085,[MENTION] t trả thấy nó khác gì,[ MENTION_] t trả thấy nó khác gì,0,0,TN
+c1834fde4effeca7985259ef,408571091380061:645470827690085,Wow bất ngờ chưa kì tới có 1 môn học ở G-A2,Wow bất_ngờ chưa kì tới có 1 môn_học ở G-A2,0,0,TN
+c23a96abd2baee96226783b2,408571091380061:645470827690085,Nguyễn Thùy Linh k phải ptit đou,Nguyễn_Thùy_Linh k phải ptit đou,0,0,TN
+c2ea8f5338c30d0b30ae6312,408571091380061:645470827690085,[MENTION] [MENTION] [MENTION] [MENTION] trường mình lạ quá ae ạ,[ MENTION_] [_MENTION ]_[ MENTION_] [_MENTION ]_trường mình lạ quá ae ạ,0,0,TN
+c7cfa68df59d00eba64ef9bc,408571091380061:645470827690085,đẹp thiệc luôn ý,đẹp thiệc luôn ý,0,0,TN
+cbe71e861a7b93f012cb6118,408571091380061:645470827690085,[MENTION] công t đi phụ quét vôi bao hôm,[ MENTION_] công_t đi phụ_quét vôi bao hôm,0,0,TN
+cf1cb0cee8bcb35277790d50,408571091380061:645470827690085,[MENTION] mai đi học thôi nà,[ MENTION ]_mai đi học thôi nà,0,0,TN
+cf5b594326a42a57d5adf993,408571091380061:645470827690085,"Trường bjp vc, sơn mỗi tầng 1,2 mấy tầng nhìn thấy","Trường bjp vc , sơn mỗi tầng 1,2 mấy tầng nhìn thấy",0,0,TN
+d25753101b8d6825d458b0a2,408571091380061:645470827690085,[MENTION] nhìn royal thế còn gì :)),[ MENTION_] nhìn royal_thế còn gì :)),0,0,TN
+db36fa44407b71a33836fd49,408571091380061:645470827690085,[MENTION] ra khỏi cái là xịn đét,[ MENTION_] ra khỏi cái là xịn đét,0,0,TN
+dd460c2b43656ac4b1cdd967,408571091380061:645470827690085,[MENTION] trong chán ngoài thèm b à,[ MENTION_] trong chán ngoài thèm b à,0,0,TN
+ddd1cb90fc95aacea3e716fd,408571091380061:645470827690085,[MENTION] nhìn như trung tâm nghiên cứu ấy nhở,[ MENTION_] nhìn như trung_tâm nghiên_cứu ấy_nhở,0,0,TN
+e921f9a7c51b6c062dcf8de2,408571091380061:645470827690085,Tăng như nào z ạ,Tăng như nào z ạ,0,0,TN
+eec16d950ff550ec274371d8,408571091380061:645470827690085,[MENTION] cũng chát =))),[ MENTION_] cũng chát =))),0,0,TN
+f09009b9401fd56c4b1fecd1,408571091380061:645470827690085,[MENTION] nè bé,[ MENTION_] nè bé,0,0,TN
+f392b849279281e663a1a38b,408571091380061:645470827690085,[MENTION] sang đi t đón đi tham quan rtit,[ MENTION_] sang đi t đón đi tham_quan rtit,0,0,TN
+f8d23ec5b3ce0b938763e8eb,408571091380061:645470827690085,[MENTION] hahaa thôi trường thả chúng em đi là đội ơn trường chứ k muốn làm cổ đông xây dựng trường nữa,[ MENTION ]_hahaa thôi trường thả chúng_em đi là đội ơn_trường chứ k muốn làm cổ_đông xây_dựng trường nữa,0,0,TN
+0407695100bdd75fd5600dc6,408571091380061:649939233909911,[MENTION] vừa khen xong,[ MENTION_] vừa khen xong,0,0,TN
+04bcaeace1ab5283d7f5ca16,408571091380061:649939233909911,"[MENTION] bạn không có người yêu mở cửa hộ, không sao, vì Ptit k có cửa","[ MENTION ] bạn không có người_yêu mở_cửa hộ , không sao , vì Ptit_k có cửa",0,0,TN
+05dedbe30cb741fe90ba8a88,408571091380061:649939233909911,[MENTION] vc,[ MENTION ] vc,0,1,FP
+0656e290807879206b38ab2d,408571091380061:649939233909911,Học phí tan vỡ thế hả học phí ơiii,Học_phí tan_vỡ thế hả học_phí ơiii,0,0,TN
+07ca7723e3f4e6d054d0dfb5,408571091380061:649939233909911,[MENTION] hảo cửa [MENTION] t bảo mà,[ MENTION_] hảo_cửa [_MENTION ]_t bảo mà,0,0,TN
+1188aa20aa001408291ea5ec,408571091380061:649939233909911,[MENTION] lại có th nữa đâm vào à hh,[ MENTION_] lại có th nữa đâm vào à hh,0,0,TN
+122c127eeeeaa956d9e462ea,408571091380061:649939233909911,ẩu rồi,ẩu rồi,0,0,TN
+14c909545ba0d92662e48fd6,408571091380061:649939233909911,"Đang say rượu mà trường vẫn bắt đi học chả thế , cho học ít đi","Đang say rượu mà trường vẫn bắt đi học chả_thế , cho học ít đi",0,0,TN
+15b16e11dfab089d8aea5f98,408571091380061:649939233909911,[MENTION] kính xịn cx phải vỡ thôi,[ MENTION ] kính xịn cx phải vỡ thôi,0,0,TN
+169f0862b9adf0d5ae3609a5,408571091380061:649939233909911,[MENTION] [MENTION] cửa chạy đc 1 tuần đã vỡ,[ MENTION_] [_MENTION ] cửa chạy đc 1 tuần đã vỡ,0,0,TN
+18daa9c76511b76f1bd72835,408571091380061:649939233909911,[MENTION] ông cháu Tài dạo này sống hơi vội,[ MENTION_] ông cháu Tài_dạo này sống hơi vội,0,0,TN
+1a12864507606d2ea5787244,408571091380061:649939233909911,trường ơi,trường ơi,0,0,TN
+1b933488e85ad7ede33526ee,408571091380061:649939233909911,Vừa lắp xong đã vỡ,Vừa lắp xong đã vỡ,0,0,TN
+27f0ad5e196cda89661122fc,408571091380061:649939233909911,[MENTION] học phí rơi nhiều wuas,[ MENTION_] học_phí rơi nhiều wuas,0,0,TN
+29da4ab253763257f401409a,408571091380061:649939233909911,[MENTION] háo hức điểm quá tự dưng lại thành báo con r :))))))),[ MENTION_] háo_hức điểm quá tự_dưng lại thành báo con r :))))))),0,0,TN
+2e5e6fdbcf30c9424beba92b,408571091380061:649939233909911,Vừa chiều nay gặp e ấy mà ...,Vừa chiều nay gặp e ấy mà ...,0,0,TN
+3c4b4a1276ad9bd5b51b6f71,408571091380061:649939233909911,[MENTION] nghịch lắm,[ MENTION ]_nghịch lắm,0,0,TN
+4f8a05bbef85d384883cea5e,408571091380061:649939233909911,=))) ơ,=))) ơ,0,0,TN
+5014106d4d6f9c2bad528e52,408571091380061:649939233909911,Cao Văn Cường vc :)),Cao_Văn_Cường vc :)),0,1,FP
+5926782a16c943099592b24f,408571091380061:649939233909911,[MENTION] đi rồi,[ MENTION_] đi rồi,0,0,TN
+59d92a6aa6465cdad3279896,408571091380061:649939233909911,[MENTION] điểm m thấp quá nên m lao đầu vào đây tự tử à,[ MENTION ] điểm m thấp quá nên m lao đầu_vào đây tự_tử à,1,0,FN
+61d869fba97e0eee9f079545,408571091380061:649939233909911,[MENTION] sửa cái cửa để lùa gà mà chưa gì đã vỡ =)))))),[ MENTION_] sửa cái cửa để lùa gà mà chưa gì đã vỡ =)))))),0,0,TN
+65eadada2dac5a5024dd0cd9,408571091380061:649939233909911,Bảo sao tăng học phí,Bảo_sao tăng học_phí,0,0,TN
+6a34a8248faa861751315994,408571091380061:649939233909911,[MENTION] Quả này thì t chịu :((,[ MENTION ]_Quả này thì t chịu : ( (,0,0,TN
+6f85aad7cba99f72f003ecb1,408571091380061:649939233909911,Lại thêm tiền rồi,Lại thêm tiền rồi,0,0,TN
+72f68d8a42e7bf7916daafb6,408571091380061:649939233909911,[MENTION] trường bịp,[ MENTION ]_trường bịp,0,0,TN
+7dc7eb52326012290f905a9e,408571091380061:649939233909911,[MENTION] k lẽ,[ MENTION_] k_lẽ,0,0,TN
+819ab0a8896a5c315feefc02,408571091380061:649939233909911,Cửa tự động mới chạy được hơn tuần,Cửa tự_động mới chạy được hơn tuần,0,0,TN
+89d73db14ea58d22c38bd12c,408571091380061:649939233909911,v ò,v ò,0,0,TN
+8bc58ea518f5db99a428c7e7,408571091380061:649939233909911,[MENTION] [MENTION] [MENTION] ảo ma,[ MENTION_] [ MENTION_] [_MENTION ]_ảo ma,0,0,TN
+8ec6f97c273300bbafe74a8f,408571091380061:649939233909911,Học Phí ơiiii t thấy mày rồi nè,Học_Phí ơiiii t thấy mày rồi nè,0,0,TN
+90c745f8035ea81af3be5727,408571091380061:649939233909911,[MENTION] nhót,[ MENTION ]_nhót,0,0,TN
+91d88406308580a3465d9631,408571091380061:649939233909911,Lúc trưa ngồi kia thấy có bạn va vào cửa là thấy điềm r =))),Lúc trưa ngồi kia thấy có bạn va vào cửa là thấy điềm_r =))),0,0,TN
+9a9725404c1865bca341a0bf,408571091380061:649939233909911,[MENTION] vừa thay đc hơn tuần =)),[ MENTION_] vừa thay đc hơn tuần =)),0,0,TN
+9b31d7ca0599c50b0c0103d1,408571091380061:649939233909911,Ủa alo,Ủa alo,0,0,TN
+a2363bced6a515390b0489c1,408571091380061:649939233909911,Tăng,Tăng,0,0,TN
+a74adcf5126fad44d32f1756,408571091380061:649939233909911,[MENTION] [MENTION] [MENTION] [MENTION] [MENTION] cửa =))),[ MENTION_] [_MENTION ]_[ MENTION_] [_MENTION ] [_MENTION ] cửa =))),0,0,TN
+a80be075f1aae36caae5f6c3,408571091380061:649939233909911,[MENTION] các cô lau sáng quá,[ MENTION_] các cô lau sáng quá,0,0,TN
+a89d838df27d2809cce9ba70,408571091380061:649939233909911,"[MENTION] à k, t nhớ là cánh bên kia mà","[ MENTION_] à_k , t nhớ là cánh bên kia mà",0,0,TN
+ae0d49ed1673c1b71cb5f187,408571091380061:649939233909911,[MENTION] ơ thế cửa sịn đâu ròi,[ MENTION_] ơ_thế cửa sịn đâu_ròi,0,0,TN
+be052b2e8d76ffbc7e5e4b8e,408571091380061:649939233909911,chắc em 2k5 nào đó háo hức vào trường quá nên vô ý làm vỡ cửa :)))),chắc em 2 k5 nào đó háo_hức vào trường quá nên vô_ý làm vỡ cửa :)))),0,0,TN
+bf2d9c429f58a47243945bc9,408571091380061:649939233909911,[MENTION] hề,[ MENTION_] hề,0,0,TN
+c881cf0ba710644ab0d4f7e1,408571091380061:649939233909911,[MENTION] đen thế,[ MENTION_] đen thế,0,0,TN
+d865dc3fc377025604dd3dfe,408571091380061:649939233909911,tăng học phí nhé,tăng học_phí nhé,0,0,TN
+dd9cd883f8fae09f3f036a7c,408571091380061:649939233909911,[MENTION] khả năng tạch thêm vài môn để ủng hộ cửa mới,[ MENTION_] khả_năng tạch thêm vài môn để ủng_hộ cửa mới,0,0,TN
+e1fce09663fd88b74afe2db0,408571091380061:649939233909911,"[MENTION] bước vô coi chân trái chân phải với nè, chứ t k đỡ nổi đâu","[ MENTION_] bước vô coi chân trái chân phải với nè , chứ t k đỡ nổi đâu",0,0,TN
+f2be4453735f3b829552967c,408571091380061:649939233909911,[MENTION] học phí lại cbi tăng để tu sửa kính mới rồi,[ MENTION_] học_phí lại cbi tăng để tu_sửa kính mới rồi,0,0,TN
+f796224bcbe08546576cbccd,408571091380061:649939233909911,Huyền Trangg đau tim ghê,Huyền_Trangg đau tim ghê,0,0,TN
+fc4169776c2d2a5bd2f5a8ea,408571091380061:649939233909911,[MENTION] đại cổ đông không chịu được áp lực à,[ MENTION ]_đại cổ_đông không chịu được áp_lực à,0,0,TN
+052301bc35134218a171802d,408571091380061:654460896791078,Trường trả tiền để pr à,Trường trả tiền để pr à,0,0,TN
+2660dc01a96c15e31c17df4f,408571091380061:654460896791078,Các anh chị khoá trước đọc chỉ biết cười thôi là sao,Các anh_chị khóa trước đọc chỉ biết cười thôi là sao,0,0,TN
+2f696cb9b25b35b07e0da865,408571091380061:654460896791078,Văn vở quá,Văn_vở quá,0,0,TN
+3474070a207969df4419ca17,408571091380061:654460896791078,Cái này anh Chung viết à Đề nghị anh sau dấu . phải có dấu cách nhá,Cái này anh Chung viết à Đề_nghị anh sau dấu . phải có dấu cách nhá,0,0,TN
+4be4b054e12d04b45bc0fe1b,408571091380061:654460896791078,Tỉnh dậy đi em ơi... Không là không ai cứu được em đâu,Tỉnh dậy đi em ơi ... Không là không ai cứu được em đâu,0,0,TN
+4ce50e583fd2f1a0cece014a,408571091380061:654460896791078,Kịch bản ấy đẹp anh ạ :))),Kịch_bản ấy đẹp anh ạ :))),0,0,TN
+5a8c279780539e11aba45292,408571091380061:654460896791078,Em cũng ạ anh luôn,Em cũng ạ anh luôn,0,0,TN
+6158508f18b9452c1778c130,408571091380061:654460896791078,"Kịch bản ấy đẹp, tiếc là ... :))","Kịch_bản ấy đẹp , tiếc là ... :))",0,0,TN
+66b3a7f5e4e4336ad9305757,408571091380061:654460896791078,"cũng muốn lắm a , học phí đang ngăn cản e làm điều đó :)))","cũng muốn lắm a , học_phí đang ngăn_cản e làm điều đó :)))",0,0,TN
+7e96c244a3c8da40207d60af,408571091380061:654460896791078,Anh ta phớt lờ emAnh không phớt lờ emAnh ta follow emĐể Anh Block giùm em,Anh ta phớt_lờ_emAnh không phớt_lờ emAnh ta follow emĐể_Anh Block giùm em,0,0,TN
+b343cda0d60de5a1ad7d7eb8,408571091380061:654460896791078,Thiếu cái cùng nhau đạt học bổng nữa anh ơi,Thiếu cái cùng nhau đạt học_bổng nữa anh ơi,0,0,TN
+bbee6ceb16e7cb5bc67a5c1d,408571091380061:654460896791078,Chờ ê chê,Chờ ê_chê,0,0,TN
+de290db468dcc54e236d198f,408571091380061:654460896791078,Cùng nhau xem chốt ở Cổng trường,Cùng nhau xem chốt ở Cổng_trường,0,0,TN
+ec3606f6eab39f40d39ffd44,408571091380061:654460896791078,Anh này được trường trả tiền đúng khum zị,Anh này được trường trả tiền đúng khum zị,0,0,TN
+f28cc6ff1e1c0b7e87aeeb35,408571091380061:654460896791078,C bị bán bò mổ trâu lấy xèng đóng họ thôi là vừa,C bị bán bò mổ trâu lấy xèng đóng họ thôi là vừa,0,0,TN
+f34c3a4c05e2f1c8d575b5d4,408571091380061:654460896791078,"Úi tuyệt quá , phải mơ tiếp thôi","Úi tuyệt quá , phải mơ tiếp thôi",0,0,TN
+fc1c7f2d4f0eecd6d209ce5d,408571091380061:654460896791078,Z sao a ch có,Z sao a_ch có,0,0,TN
+053e764b28238e3e76957ab5,584397217391365:1126515419846206,mày bị đao à,mày bị đao à,1,1,TP
+053ec30d9d6dc95309ebc62b,584397217391365:1126515419846206,Hôm trc mẹ mình chửi mình vì vụ tên này :)))),Hôm trc mẹ mình chửi mình vì vụ tên này :)))),0,0,TN
+21422056085e324ffa5d97bc,584397217391365:1126515419846206,[MENTION] đm same :))),[ MENTION ] đm same :))),0,0,TN
+2715c11a3a1a0d18a1f76fa6,584397217391365:1126515419846206,Dấu phẩy kìa b ơi đùa,Dấu phẩy kìa b ơi đùa,0,0,TN
+576bf1b227b8eb9cd4f051da,584397217391365:1126515419846206,lần sau cứ nói: Tôi bị ngu là đc nhé,lần sau cứ nói : Tôi bị ngu là đc nhé,1,1,TP
+59ccbe5a18adcf5236579eb7,584397217391365:1126515419846206,thì có người học lại ?,thì có người học lại ?,0,0,TN
+6152c849d9ca802dd6afa7f6,584397217391365:1126515419846206,Anonymous participant 417 k bro,Anonymous participant 417 k bro,0,0,TN
+625069d767fd3d52fd5a717c,584397217391365:1126515419846206,Đầu chắc để mọc tóc thôi chứ bao đời sinh viên chưa có ai như này cả nuôi tốn cả cơm,Đầu chắc để mọc tóc thôi chứ bao đời sinh_viên chưa có ai như này cả nuôi tốn cả cơm,1,0,FN
+63573cc789781d857cc0aeed,584397217391365:1126515419846206,Sau chắc tính cả điểm Văn vào điểm xét tuyển cho vừa lòng nhau.,Sau chắc_tính cả điểm_Văn vào điểm xét_tuyển cho vừa lòng nhau .,0,0,TN
+64fd7d0c7d830f6834dc9b39,584397217391365:1126515419846206,Vào phần qr ghi rõ là học phí hay học lại còn gì,Vào phần qr ghi rõ là học_phí hay học lại còn gì,0,0,TN
+662a33a764406c394868d12c,584397217391365:1126515419846206,"Tôi bt lý do tại sao vì thk bn tôi cx kêu là đây là nộp tiền học lại..., tôi vs nó ms cãi nhau xog :))","Tôi bt lý_do tại_sao vì thk bn tôi cx kêu là đây là nộp tiền học lại ... , tôi vs nó ms cãi nhau xog :))",0,0,TN
+73c67c5e8bd94ccaff256468,584397217391365:1126515419846206,[MENTION] đơn giản là đợt này trường thu cả học phí kỳ chính và học phí học lại và tùy vào đối tượng thôi,[ MENTION_] đơn_giản là đợt này trường thu cả học_phí kỳ_chính và học_phí học lại và tùy vào đối_tượng thôi,0,0,TN
+78629164992b4cb57084f84b,584397217391365:1126515419846206,Sau viết đơn gửi lên Liên hợp quốc ấy nhéVào đây khóc lóc ko có tác dụng gì đâu,Sau viết đơn gửi lên Liên_hợp_quốc ấy nhéVào đây khóc lóc_ko có tác_dụng gì đâu,0,0,TN
+82f38b2fdbe5e59bb586975a,584397217391365:1126515419846206,Ôh bnhieu tín mà có 15tr thế ạh,Ôh bnhieu_tín mà có 15 tr thế ạh,0,0,TN
+83852648c60403450d654839,584397217391365:1126515419846206,Ngu dốt thì nên đi tìm hiểu trước rồi hãy đăng lên,Ngu dốt thì nên đi tìm_hiểu trước rồi hãy đăng lên,1,1,TP
+8477caed95bce7e2bb00ace7,584397217391365:1126515419846206,Hôm trc mẹ t cx tưởng t học lại kbt nói j luôn:))),Hôm trc mẹ t cx_tưởng t_học lại kbt nói j luôn :))),0,0,TN
+8fa3829803510b695b1ad580,584397217391365:1126515419846206,dốt v:)),dốt v :)),1,0,FN
+9283a4a90412e018dac6720e,584397217391365:1126515419846206,"Mình trượt thì trường cho học lại, đâu ai hơi trường rước phiền phức vào người mình đâu em, nguuu dốt","Mình trượt thì trường cho học lại , đâu ai hơi trường rước phiền_phức vào người mình đâu em , nguuu dốt",1,0,FN
+a24b30daa46322a199a696ca,584397217391365:1126515419846206,Nó bị ngu ấy. Dm tới lúc đóng xong cha mẹ chúng mày hỏi học lại thì đéo biết trả lời thế loz nào,Nó bị ngu ấy . Dm tới lúc đóng xong cha_mẹ chúng_mày hỏi học lại thì đéo biết trả_lời thế_loz nào,1,1,TP
+a40a0968bcdc9ea0b6167333,584397217391365:1126515419846206,Tùy người thôi :)))),Tùy người thôi :)))),0,0,TN
+a7bcd0d01b99f204cef5ddbc,584397217391365:1126515419846206,"bố t tưởng t học lại , k bt nói gì","bố t_tưởng t_học lại , k_bt nói gì",0,0,TN
+c2d0a6f83a2e8e77a931984f,584397217391365:1126515419846206,[MENTION] [MENTION] thật là bưu điện,[ MENTION_] [ MENTION_] thật là bưu_điện,0,0,TN
+c77ff325743a1d94a37a3b41,584397217391365:1126515419846206,"Có người học lại thì để học lại, học phí chỉ những môn học đúng kì","Có người học lại thì để học lại , học_phí chỉ những môn_học đúng kì",0,0,TN
+ccc5bb59b582bfe565d7964b,584397217391365:1126515419846206,trường tồn tại bao năm k cần loại nít ranh mới lớn dạy cách dùng ngôn từ,trường tồn_tại bao năm k cần loại_nít ranh mới lớn dạy cách dùng_ngôn từ,1,0,FN
+ceacec6884f5fa39698d36e0,584397217391365:1126515419846206,Người tham gia ẩn danh 657 đến lúc bố mẹ m bảo m học lại thì m có giải thích đằng trời,Người tham_gia ẩn_danh 657 đến lúc bố_mẹ m bảo m học lại thì m có giải_thích đằng trời,0,0,TN
+d15cd01b50d665373ac78f81,584397217391365:1126515419846206,Dấu phẩy to đùng còn gì nữa em,Dấu_phẩy to_đùng còn gì nữa em,0,0,TN
+d48ed89416b1e2b74ee79aa6,584397217391365:1126515419846206,"Có thế mà cũng phải đăng cái post lên. Đợt thu phí có cả thu học phí kỳ chính và phí học lại thì ghi thế đúng mà có sai đâu, thông báo cho toàn sinh viên chứ đâu phải riêng mình đâu? Hay chẳng lẽ như đợt quy đổi điểm thay vì làm một cái thông báo xét miễn học miễn thi, quy đổi điểm, xét đầu ra thì chẳng lẽ đi làm 3 thông báo riêng à? Ngáo v","Có thế mà cũng phải đăng cái post lên . Đợt thu phí có cả thu học_phí kỳ_chính và phí học lại thì ghi thế đúng mà có sai đâu , thông_báo cho toàn sinh_viên chứ đâu phải riêng mình đâu ?_Hay chẳng_lẽ như đợt quy_đổi điểm thay_vì làm một cái thông_báo xét miễn_học miễn_thi , quy_đổi điểm , xét đầu_ra thì chẳng_lẽ đi làm 3 thông_báo riêng à ?_Ngáo v",1,0,FN
+d9a9eae7948239925b5b43af,584397217391365:1126515419846206,[MENTION] có môn nào bị F ko,[ MENTION_] có môn nào bị F ko,0,0,TN
+e93ca356b1c667c9d4ee01bf,584397217391365:1126515419846206,tân sinh viên năm nay cứ như bố đời thiên hạ,tân sinh_viên năm nay cứ như bố đời thiên_hạ,1,0,FN
+eab80b44e734f389170485dc,584397217391365:1126515419846206,Ngầu quá vỗ tay,Ngầu quá vỗ_tay,0,0,TN
+ef5248bb5f2ef18d78b8230f,584397217391365:1126515419846206,[MENTION] vậy là cái tên này là gộp chung tổng số học phí kỳ chính với học phí học lại ?,[ MENTION_] vậy là cái tên này là gộp chung tổng_số học_phí kỳ_chính với học_phí học lại ?,0,0,TN
+f2c0b95942778c357e2c3abe,584397217391365:1126515419846206,Xóa bài đi phản cảm quá,Xóa bài đi phản_cảm quá,0,0,TN
+f89f56fc66d5aa222a35a3eb,584397217391365:1126515419846206,tài vl thế mà vẫn đỗ dh được =)))),tài vl thế mà vẫn đỗ dh được =)))),1,0,FN
+fa67f202820233eea6e65110,584397217391365:1126515419846206,Dễ hiểu nhầm nhắm-)))),Dễ hiểu nhầm nhắm - ) ) ) ),0,0,TN
+02b4678d83d76ebb6646f93c,confessions.ptit:1388003359850828,[MENTION] phù hợp nma có đến lượt mik k thì k bt,[ MENTION_] phù_hợp nma có đến lượt mik_k thì k bt,0,0,TN
+051d00741bcee0ce2399d3c5,confessions.ptit:1388003359850828,[MENTION] ngta timf 2k7 b 2k6 thi kho,[ MENTION ] ngta timf 2 k7 b 2 k6 thi kho,0,0,TN
+2025b20f42a311aef809fd0f,confessions.ptit:1388003359850828,[MENTION] mơi e,[ MENTION ]_mơi e,0,0,TN
+2496282a88fd938f7c12feb9,confessions.ptit:1388003359850828,"uây liên hệ ngay cậu ptit [MENTION] (chắc đang làm bài audio) chăm chỉ tốt tính funny biết lái xe, dạo này còn chơi đá","uây liên_hệ ngay cậu ptit [ MENTION_] ( chắc đang làm bài audio ) chăm_chỉ tốt tính funny biết lái_xe , dạo này còn chơi đá",0,0,TN
+25def4f7894c05b599443506,confessions.ptit:1388003359850828,b này thì lại chuẩn bài rồi [MENTION],b này thì lại chuẩn bài rồi [_MENTION ],0,0,TN
+280f89097f62589cb16e0987,confessions.ptit:1388003359850828,[MENTION] kèo ngon kìa húp đi,[ MENTION ]_kèo ngon_kìa húp đi,0,0,TN
+2b26d3f1510fa064c5a0936f,confessions.ptit:1388003359850828,Người tham gia ẩn danh 970 vạch ra dài hơn thì khê,Người tham_gia ẩn_danh 970 vạch ra dài hơn thì khê,0,0,TN
+3b55a67b5037a8bf2ce3d6f6,confessions.ptit:1388003359850828,"Tôi xin ứng cử anh [MENTION] đẹp trai, học giỏi","Tôi xin ứng_cử anh [ MENTION_] đẹp_trai , học giỏi",0,0,TN
+3bed1e8fc355e46679675e60,confessions.ptit:1388003359850828,[MENTION] la gi an dc k,[ MENTION ]_la gi an_dc k,0,0,TN
+463a1e639e08c74585c9fabe,confessions.ptit:1388003359850828,[MENTION] có b này đtrai học giỏi nè,[ MENTION_] có b này đtrai học giỏi nè,0,0,TN
+539b7a7201287a289a4a11d1,confessions.ptit:1388003359850828,Đcm sao nó lại có thể phù hợp đến mức này hả emiu :>,Đcm sao nó lại có_thể phù_hợp đến mức này hả emiu : >,0,0,TN
+53d997ffdb40fd33c4840f6e,confessions.ptit:1388003359850828,[MENTION] im lang nao co be,[ MENTION_] im_lang_nao co_be,0,0,TN
+744153f231055b2050dec710,confessions.ptit:1388003359850828,t biết bài này bait nhưng t ko chứng minh đc,t biết bài này bait nhưng t ko chứng_minh đc,0,0,TN
+7f84480c9a68407bed499fc8,confessions.ptit:1388003359850828,Em zai nào ứng tuyển đi nhá. Cơ mà bạn có rủ đi học tiếng anh cùng thì đừng đi nha,Em zai nào ứng_tuyển đi nhá . Cơ mà bạn có rủ đi học tiếng anh cùng thì đừng đi nha,0,0,TN
+85adab59a11ae3eb71a397e9,confessions.ptit:1388003359850828,Ác,Ác,0,0,TN
+891f422174faeb8462a47c88,confessions.ptit:1388003359850828,[MENTION] khê toàn c với d gt với đs thì sao gia sư toán cho b được,[ MENTION ]_khê toàn c với d gt với đs thì sao gia_sư_toán cho b được,0,0,TN
+9948674944dc861e333476da,confessions.ptit:1388003359850828,[MENTION] xin link,[ MENTION_] xin link,0,0,TN
+aaff7327cf04b3f5800a4c44,confessions.ptit:1388003359850828,05 trượt bánh à,05 trượt bánh à,0,0,TN
+b04825859b1a66e2a1a10bc2,confessions.ptit:1388003359850828,[MENTION] mong là có sớm=>>>,[ MENTION ]_mong là có sớm => >>,0,0,TN
+c515c22cd5e84b72200a94c6,confessions.ptit:1388003359850828,"Ơ đc bạn ơi , nhu cầu tìm thì ib mình mình nhiều bạn lắm ví dụ như [MENTION] [MENTION]","Ơ_đc bạn ơi , nhu_cầu tìm thì ib mình mình nhiều bạn lắm ví_dụ như [_MENTION ]_[ MENTION ]",0,0,TN
+ceffc8e7a5c18311152cda5e,confessions.ptit:1388003359850828,[MENTION] b này 4.0 gpa,[ MENTION ]_b này 4.0 gpa,0,0,TN
+d011562e3942c21289159f87,confessions.ptit:1388003359850828,"[MENTION] nghịch ngợm thật, thik hanu mai dắt sang kp bàn","[ MENTION ]_nghịch ngợm thật , thik hanu mai dắt sang kp bàn",0,0,TN
+da360e885bcfad1f716343ed,confessions.ptit:1388003359850828,Nghiêm túc inb tớ đây acc clone tớ lấy acc chính add lại,Nghiêm_túc inb tớ đây acc clone tớ lấy acc chính add lại,0,0,TN
+dab22de34ec62949d41a7755,confessions.ptit:1388003359850828,[MENTION] m chỉ thiếu bước lên giảng cho bọn t về giải tích thôi đấy :))0,[ MENTION ] m chỉ thiếu bước lên giảng cho bọn t về giải_tích thôi đấy :)) 0,0,0,TN
+e3f28c2a727c99760a6a39fa,confessions.ptit:1388003359850828,[MENTION] :> Òm thôi thân phận pờ tít,[ MENTION_] : > Òm thôi thân_phận pờ tít,0,0,TN
+e8697e48efc21c80ad4efdbf,confessions.ptit:1388003359850828,[MENTION] bạn này trùm giải tích kèm thêm cả code luôn,[ MENTION ] bạn này trùm giải_tích kèm thêm cả code luôn,0,0,TN
+eddd415a817cd1be928615dc,confessions.ptit:1388003359850828,[MENTION] sap co r con j,[ MENTION ]_sap co_r con j,0,1,FP
+fa7be106b59562c1522dddba,confessions.ptit:1388003359850828,"[MENTION] nma ch có bằng xe máy, này ko chở đi vi vu quanh hồ đc đâu nhé=)))))))))","[ MENTION_] nma ch có bằng xe_máy , này ko chở đi vi_vu quanh hồ đc đâu nhé =)))))))))",0,0,TN
+009feea436ff2cb9443e07d8,confessions.ptit:1403510521633445,Ib anh,Ib anh,0,0,TN
+0278c959344c37dc02502ac8,confessions.ptit:1403510521633445,khả năng nọ theo anh 7 về bồ rồi nha :)),khả_năng nọ theo anh 7 về bồ rồi nha :)),0,0,TN
+0460d1d5c9b5c8a93f7adf76,confessions.ptit:1403510521633445,[MENTION] giấu kĩ thế r m vẫn biết à,[ MENTION ]_giấu kĩ_thế r m vẫn biết à,0,0,TN
+06375f228176f029c1e25ee7,confessions.ptit:1403510521633445,năm nhất sao vay đc vậy chỉ với,năm nhất sao vay đc vậy chỉ với,0,0,TN
+0b25f217e6a08e626d3e658e,confessions.ptit:1403510521633445,lại bắt đầu nhảm nhí,lại bắt_đầu nhảm nhí,0,0,TN
+0c535019a81b114dfe1ceb8e,confessions.ptit:1403510521633445,Sướng cái lol mù con mắt. Đồ n g uuu,Sướng cái lol mù con mắt . Đồ n g uuu,1,1,TP
+10760c85f4376b7ad585d1de,confessions.ptit:1403510521633445,"Í là có ý đồ gì hong mà thấy trường kia cũng có bài đăng i chang vậy, kh khác gì, mn cảnh giác","Í là có ý_đồ gì hong mà thấy trường kia cũng có bài đăng i chang vậy , kh khác gì , mn cảnh_giác",0,0,TN
+10bf767601d53a617e76ff04,confessions.ptit:1403510521633445,dume ăn ăn cứt hay ăn cơm mà em khôn thế?,dume ăn ăn_cứt hay ăn cơm mà em khôn_thế ?,1,0,FN
+13a44aaaaea103a942b998d8,confessions.ptit:1403510521633445,40tr cho 1 bài học thì quá rẻ =)),40 tr cho 1 bài_học thì quá rẻ =)),0,0,TN
+167fdcaa4c15fda26bb99e38,confessions.ptit:1403510521633445,Ngu thì chết khóc lóc cl (2),Ngu thì chết khóc lóc_cl ( 2 ),1,1,TP
+16806c88bd7a64f396f4f416,confessions.ptit:1403510521633445,Stk đi bạn,Stk đi bạn,0,0,TN
+16956ba7d270063f8cea64e8,confessions.ptit:1403510521633445,Toàn bọn đăng bài câu like thôi,Toàn bọn đăng bài câu like thôi,0,0,TN
+1773424abb87b1b65e77de8f,confessions.ptit:1403510521633445,mình có thằng bạn [MENTION] chuyên trả nợ thuê.Nếu bạn ko chê thì ib nó,mình có thằng bạn [_MENTION ] chuyên trả nợ thuê . Nếu bạn ko chê thì ib nó,0,0,TN
+19bfbff22b64f82efbec75a7,confessions.ptit:1403510521633445,âu shit,âu_shit,0,0,TN
+1aa4ce032872300b1cd40a9a,confessions.ptit:1403510521633445,Dám chơi dám chịu khóc lóc cdb gì,Dám chơi dám chịu khóc lóc_cdb gì,1,0,FN
+1e8a0525b12354229fd371e4,confessions.ptit:1403510521633445,Ngu,Ngu,1,1,TP
+223af0a03ad2ad806eaf4792,confessions.ptit:1403510521633445,"bà có gắn link gì thì gắn đi tui mua ủng hộ cho, chứ nếu là thật thì lại khổ thân quá","bà có gắn link gì thì gắn đi tui mua ủng_hộ cho , chứ nếu là thật thì lại khổ_thân quá",0,0,TN
+238d6ec3b1670641c17576dc,confessions.ptit:1403510521633445,ngu thì chết kêu cái đéo gì,ngu thì chết kêu cái đéo gì,1,1,TP
+243ab475d2ae51dd035dfff4,confessions.ptit:1403510521633445,Bố con ngơ ngu thì chít khóc lóc cl gì,Bố_con ngơ_ngu thì_chít khóc lóc_cl gì,1,0,FN
+27ed6866bf6fbf84aaeb19ef,confessions.ptit:1403510521633445,[MENTION] cứ chê trai ptit tồi roi đi yêu boi phố mấy ảnh đánh cbm thì mấy mà tài đâu:)),[ MENTION_] cứ chê_trai ptit tồi_roi đi yêu boi phố mấy ảnh đánh_cbm thì mấy mà tài đâu :)),0,0,TN
+29d4703da0bdec4025495718,confessions.ptit:1403510521633445,Phí vào đời ~30tr còn rẻ chán nhể,Phí vào đời ~ 30 tr còn rẻ chán nhể,0,0,TN
+2a91534b3d8067123c7889f2,confessions.ptit:1403510521633445,Quen nhau lâu chưa mà pé dám đứng ra vay??,Quen nhau lâu chưa mà pé dám đứng ra vay ? ?,0,0,TN
+2b82677ae68f015e5f9afe73,confessions.ptit:1403510521633445,[MENTION] ngta kh giải quyết đâu b à.,[ MENTION ] ngta kh giải_quyết đâu b à .,0,0,TN
+2d80a5a741d4c7a0157004b3,confessions.ptit:1403510521633445,World Cup vẫn còn vẫn kịp,World_Cup vẫn còn vẫn kịp,0,0,TN
+2dfffce8a364970c6caa4445,confessions.ptit:1403510521633445,[MENTION] lộ r sao,[ MENTION ]_lộ r sao,0,0,TN
+2ede38843d89aef6adb42690,confessions.ptit:1403510521633445,Ny bạn fan anh7 rồi,Ny bạn fan anh7 rồi,0,0,TN
+382d8b0b5a06a92f2417cc9c,confessions.ptit:1403510521633445,A xử lý đc khoản nợ này nhé. Bốc máy 0966348386. Khu vực Kiến trúc - Bưu chính.,A xử_lý đc khoản nợ này nhé . Bốc máy 0966348386 . Khu_vực Kiến_trúc - Bưu_chính .,0,0,TN
+383f22d2bdc7ca534dab9165,confessions.ptit:1403510521633445,nghe buồn nma đúng là vậy,nghe buồn nma đúng là vậy,0,0,TN
+3996080b0ef516c4cbaacc15,confessions.ptit:1403510521633445,Thôi chịu thg [MENTION],Thôi chịu thg [_MENTION ],0,0,TN
+3a91f96da4bd1b0cb279c57f,confessions.ptit:1403510521633445,nọ theo anh 7 giờ chủ nợ dí quá,nọ theo anh 7 giờ chủ_nợ dí quá,0,0,TN
+4060ae87e8162a8ea9b6c2a1,confessions.ptit:1403510521633445,[MENTION] xin loi ban nhe thang ban minh ho do lam,[ MENTION_] xin loi ban nhe_thang ban minh_ho do lam,0,0,TN
+420e85ba61e66f6ca7d85586,confessions.ptit:1403510521633445,"tối nay bạn theo thằng pháp cho tôi, vừa trả đc nợ lại có khi a ny còn quay lại yêu b hona","tối nay bạn theo thằng pháp cho tôi , vừa trả đc nợ lại có_khi a_ny còn quay lại yêu b hona",0,0,TN
+455d9fd972e29dae6407f19b,confessions.ptit:1403510521633445,"Rực rỡ anh ta sẽ come back, đợi đi em haha","Rực_rỡ anh ta sẽ come_back , đợi đi em haha",0,0,TN
+4831dd23a6f71cb06d7e1782,confessions.ptit:1403510521633445,[MENTION] ca này cíu ntn,[ MENTION ]_ca này cíu ntn,0,0,TN
+485f2a41afb19e5184819623,confessions.ptit:1403510521633445,Mọi người bị lừa hết rồi. Em này đang ở bên Campuchia đấy.,Mọi người bị lừa hết rồi . Em này đang ở bên Campuchia đấy .,0,0,TN
+4b5595164c755160daf2a686,confessions.ptit:1403510521633445,ngu :)),ngu :)),1,1,TP
+4bd99a2079e6aa2c1812ef7e,confessions.ptit:1403510521633445,[MENTION] khôn hết phần thiên hạ,[_MENTION ]_khôn hết phần thiên_hạ,0,0,TN
+4c24ac22699d6928b9475890,confessions.ptit:1403510521633445,Báo bố mẹ mà trả đi còn j nữa . Càng ngại càng chậm thì càng nhót,Báo bố_mẹ mà trả đi còn j nữa . Càng_ngại càng chậm thì càng nhót,0,0,TN
+4dbc54ddcc489f1737c25ea3,confessions.ptit:1403510521633445,[MENTION] kiếm đâu ra ny năm nhất có 40tr cho vay bây giờ,[ MENTION_] kiếm đâu ra ny năm nhất có 40 tr cho vay bây_giờ,0,0,TN
+4e6d2bf780e6aea103bf9caf,confessions.ptit:1403510521633445,"Ở đời có 4 cái nguLàm mai, lãnh nợ, gác cu, cầm chầu","Ở đời có 4 cái nguLàm_mai , lãnh_nợ , gác cu , cầm chầu",0,0,TN
+4ff84fd5c2afff09689b725a,confessions.ptit:1403510521633445,Báo người nhà mình vs nhà bạn nam kia thôi nếu nhà nam có tình ng thì người ta sẽ trả còn không thì đành để bố mẹ gánh hộ coi như bài học,Báo người_nhà mình vs nhà bạn nam kia thôi nếu nhà nam có tình_ng thì người ta sẽ trả còn không thì đành để bố_mẹ gánh hộ coi như bài_học,0,0,TN
+5246556bff2a70f178ee7711,confessions.ptit:1403510521633445,"Gọi gia đình anh ấy lên mà giải quyết, chậm tiền lãi lên cao gia đình kia bùng luôn thì xác định ăn loz bạn ak","Gọi gia_đình anh ấy lên mà giải_quyết , chậm tiền lãi lên cao gia_đình kia bùng luôn thì xác_định ăn loz bạn ak",0,0,TN
+5387f751fc79d54b6c2fd069,confessions.ptit:1403510521633445,"[MENTION] anh cá là e được rất nhiều bn nam theo đuổi, nhiwng thôi chốt trai thú vị thì chịu ik e","[ MENTION ] anh cá là e được rất nhiều bn nam theo_đuổi , nhiwng thôi chốt trai thú_vị thì chịu ik e",0,0,TN
+5518596856e289d05a9e5016,confessions.ptit:1403510521633445,ảnh pin thì k tin đc khả năng content,ảnh pin thì k tin đc khả_năng content,0,0,TN
+57a02490f6610e71b6506e75,confessions.ptit:1403510521633445,[MENTION] rảnh quá à e,[ MENTION ]_rảnh quá à e,0,0,TN
+59f40ec8c0abf6fc45c9f99e,confessions.ptit:1403510521633445,hai vl,hai vl,0,0,TN
+5af93cce9e124c42b92ace6d,confessions.ptit:1403510521633445,Đừng bao giờ và đừng làm cái gì liên quan đến tiền bạc với người iu của mình:)) sự thật mất lòng yêu đương để cùng nhau phát triển chứ đừng yêu vì lợi dụng nhau,Đừng bao_giờ và đừng làm cái gì liên_quan đến tiền_bạc với người iu của mình :)) sự_thật mất_lòng yêu_đương để cùng nhau phát_triển chứ đừng yêu vì lợi_dụng nhau,0,0,TN
+5b513db9234a6455d7949a61,confessions.ptit:1403510521633445,[MENTION] trốn khoảng 1 năm sẽ quay lại,[ MENTION_] trốn khoảng 1 năm sẽ quay lại,0,0,TN
+5c82482a8c75d964043798d2,confessions.ptit:1403510521633445,"Vừa đc ụ còn vừa có tiền nữa , này chắc rẻ hơn four luôn hả ae","Vừa đc ụ còn vừa có tiền nữa , này chắc rẻ hơn four luôn hả ae",1,0,FN
+5d003118ad53426dba07c082,confessions.ptit:1403510521633445,"Nợ xấu thôi có j mà lo, Cho dù đây là content thì ở đâu đó cũng có thật, khuyên mấy bà mấy ông k phải rối loạn làm j cho mệt,","Nợ xấu thôi có j mà lo , Cho_dù đây là content thì ở đâu_đó cũng có thật , khuyên mấy bà mấy ông k phải rối_loạn làm j cho mệt ,",0,1,FP
+5edc01eb9ab0c876cac577d4,confessions.ptit:1403510521633445,[MENTION] cái này hay nè,[ MENTION_] cái này hay nè,0,0,TN
+602ddfbfde32ea3143986adf,confessions.ptit:1403510521633445,Ngu thì chịu,Ngu thì chịu,1,1,TP
+6300b52e0aba4373a029b770,confessions.ptit:1403510521633445,Bớt xạo lol lạy. Cầu mong tai ương ập hết vô đầu mày thật luôn,Bớt xạo lol_lạy . Cầu_mong tai_ương ập hết vô_đầu mày thật luôn,1,0,FN
+6391f4a4864167f5895b06ef,confessions.ptit:1403510521633445,Sugaar,Sugaar,0,0,TN
+63ec18700389d99a18ef5164,confessions.ptit:1403510521633445,Recommend cày hết clip của lạnh vcl :)),Recommend cày hết clip của lạnh vcl :)),0,0,TN
+6441d9d7ccaf84b4d8ecffe2,confessions.ptit:1403510521633445,40tr mà tưởng đâu 4 tỉ ko á mới 18 thôi đời còn dài cày mấy tháng là hết nợ ngay,40 tr mà tưởng đâu 4 tỉ ko á mới 18 thôi đời còn dài cày mấy tháng là hết nợ ngay,0,0,TN
+6839485b36b0d72c97285e4a,confessions.ptit:1403510521633445,"Vay qua app thì thuê bao ko trả, thằng ny cho nó cút","Vay qua app thì thuê bao ko trả , thằng ny cho nó cút",0,1,FP
+6a4203f96cd2e396a60432b6,confessions.ptit:1403510521633445,tuất ngu,tuất ngu,1,1,TP
+6befeaecbd06dd1b4e7f4f93,confessions.ptit:1403510521633445,"Đăng trên đây cũng khó có người giúp tận tình dc, thôi thì chúc em may mắn, lần sau nhìn người cho tốt nhé","Đăng trên đây cũng khó có người giúp tận_tình dc , thôi_thì chúc em may_mắn , lần sau nhìn người cho tốt nhé",0,0,TN
+6d920de93b82141df2ad4e4e,confessions.ptit:1403510521633445,Vừa ngu vừa đần,Vừa ngu vừa đần,1,1,TP
+703d3c19603ac863d92aee5d,confessions.ptit:1403510521633445,Nhi Yến khả năng là gọi vốn,Nhi_Yến khả_năng là gọi vốn,0,0,TN
+716511f8ade1e77aaeaeea9d,confessions.ptit:1403510521633445,Hết cứu ae nào chủ động tìm não cho cô ấy đi,Hết cứu ae nào chủ_động tìm não cho cô ấy đi,1,0,FN
+78b9ebaed9a7d6b1f95cc8f3,confessions.ptit:1403510521633445,"Sv năm 1 ko lo học lo yêu đương nhăng cuội , còn vay tiền nữa ngu vừa thôi . Đi học ko lo học lo yêu , sinh giờ nào mà ngu vậy con, nát đời cg sau này ko những mất tiền còn vô sinh nữa ko chừng. Bớt ngu đi","Sv năm 1 ko lo học lo yêu đương_nhăng cuội , còn vay tiền nữa ngu vừa thôi . Đi học ko lo học lo_yêu , sinh giờ nào mà ngu vậy con , nát đời cg sau_này ko những mất tiền còn vô_sinh nữa ko_chừng . Bớt ngu đi",1,1,TP
+7d5a0fa2ebb0e2d8a0ab1686,confessions.ptit:1403510521633445,"Là lo kiếm tiền trả đi than cái gì , đứng tên mượn chịu","Là lo kiếm tiền trả đi than cái gì , đứng_tên mượn chịu",0,0,TN
+7f6857c475b69bfe33e288a9,confessions.ptit:1403510521633445,[MENTION] ib anh,[ MENTION_] ib anh,0,0,TN
+8202abb8c5980e1c50bc58dd,confessions.ptit:1403510521633445,[MENTION] em tệ lắm,[ MENTION_] em tệ lắm,1,0,FN
+8564380cef866bf9d7a5a0d2,confessions.ptit:1403510521633445,Bán gì nói luôn mệt bà quá,Bán gì nói luôn mệt bà quá,0,0,TN
+863002357b6b4545cd8c64f9,confessions.ptit:1403510521633445,quá tào lao =))),quá tào_lao =))),0,0,TN
+8c927f44aceb500efdcbe7ec,confessions.ptit:1403510521633445,anh 7 đã mang a ấy đi,anh 7 đã mang a ấy đi,0,0,TN
+8d6c23b0c8ede5408e25b445,confessions.ptit:1403510521633445,Cần thì liên hệ a trả. Thỏa thuận,Cần thì liên_hệ a_trả . Thỏa_thuận,0,0,TN
+8e2fa75c34c65d8e39acca1c,confessions.ptit:1403510521633445,Chúc mừng+1 điểm trưởng thành,Chúc_mừng + 1 điểm trưởng_thành,0,0,TN
+9014d55d76754cc3e40b5c8e,confessions.ptit:1403510521633445,[MENTION] nó còn chửi cho ấy bác ạ,[ MENTION_] nó còn chửi cho ấy bác ạ,0,1,FP
+90a04df4227a192ac65071cf,confessions.ptit:1403510521633445,"anh bảo em này. em thử luộc cái con gà lên để nguội, không cần chặt, 2 vợ chồng xé, và những đứa con nhỏ không ăn được thì xé đút cho các cháu, gà xé trên mâm các em ăn sẽ cảm thấy ngon và thú vị như thế nào. Anh chỉ nói với em như thế thôi. Còn có những lúc trong túi anh chả có nghìn nào. Nhưng Ra đường anh vẫn ngậm tăm không ai biết là mình đói em ạ.","anh bảo em này . em thử luộc cái con gà lên để nguội , không cần chặt , 2 vợ_chồng xé , và những đứa con_nhỏ không ăn được thì xé đút cho các cháu , gà_xé trên mâm các em ăn sẽ cảm_thấy ngon và thú_vị như_thế_nào . Anh chỉ nói với em như_thế thôi . Còn có những lúc trong túi anh chả có nghìn nào . Nhưng Ra đường anh vẫn ngậm_tăm không ai biết là mình đói em ạ .",0,1,FP
+92dc55f30f119a56cd1883c7,confessions.ptit:1403510521633445,Ông bà ta thường nói trên đời có 4 cái ngu. Làm mai lãnh nợ gác cu cầm chầu. Em là vướng cái ngu thứ 2. Lãnh nợ. Ngta mất tích thì em cũng thay sim đt thôi em. Có gì đâu mà lo. Ngân hàng gọi chừng vài tháng là tự động ngân hàng im ru thôi. Ko phải lo ngân hàng hâm doạ đâu em. Bạn anh vay cả trăm triệu nó còn im lặng được mà. Nhiêu đó ăn thua gì,Ông_bà ta thường nói trên đời có 4 cái ngu . Làm mai lãnh_nợ gác cu cầm chầu . Em là vướng cái ngu thứ 2 . Lãnh_nợ . Ngta mất_tích thì em cũng thay sim đt thôi em . Có gì đâu mà lo . Ngân_hàng gọi chừng vài tháng là tự_động ngân_hàng im_ru thôi . Ko phải lo ngân_hàng hâm_dọa đâu em . Bạn anh vay cả trăm triệu nó còn im_lặng được mà . Nhiêu đó ăn_thua gì,0,1,FP
+94c15116aff4a27a4dbbd6a7,confessions.ptit:1403510521633445,Yêu đc mấy tk đầu trâu mặt ngựa kiểu này hay nhỉ zai ptit thì k yêu,Yêu đc mấy tk đầu trâu mặt ngựa kiểu này hay nhỉ zai ptit thì k yêu,1,1,TP
+94f1fb10bf71f307e65dec1d,confessions.ptit:1403510521633445,[MENTION] tôi bán thân đi trả nợ hộ ak,[ MENTION_] tôi bán_thân đi trả nợ hộ ak,0,0,TN
+96d7f4adce72c8c0fa938404,confessions.ptit:1403510521633445,Thứ nứng lòn.,Thứ nứng lòn .,1,1,TP
+97581e4f68ee3400ea4bbc49,confessions.ptit:1403510521633445,chả hiểu có đầu để làm gì,chả hiểu có đầu để làm gì,1,0,FN
+9bc4ef08b4f748b9d10b80b0,confessions.ptit:1403510521633445,Ngu thì chết,Ngu thì chết,1,1,TP
+9d4eaaad80eb6add530c378e,confessions.ptit:1403510521633445,Nhà mới cuối Nguyễn Khuyến full đồ ib mk nhé,Nhà mới cuối Nguyễn_Khuyến_full đồ ib mk nhé,0,0,TN
+9ec407cd12e65dff552051aa,confessions.ptit:1403510521633445,"[MENTION] cánh cửa này khép lại sẽ có cánh cửa khác mở ra, cố gắng lên","[ MENTION_] cánh cửa này khép lại sẽ có cánh cửa khác mở ra , cố_gắng lên",0,0,TN
+a0112339f2d594a1c9a5131d,confessions.ptit:1403510521633445,"có hiếu với trai quá , lúc sướng k thấy ra đây đăng","có hiếu với trai quá , lúc sướng k thấy ra đây đăng",1,0,FN
+a5805d2cfbaaf5ee3beae2c1,confessions.ptit:1403510521633445,Giỏi,Giỏi,0,0,TN
+a733e4b855907df1f8c5cb3b,confessions.ptit:1403510521633445,Rip in piss,Rip in piss,1,0,FN
+ada96170e77f4abed748aa89,confessions.ptit:1403510521633445,Không vay hộ aiKhông vay hộ aiKhông vay hộ aiNgười không đáng tin thì cũng tránh xa đi em,Không vay hộ aiKhông vay hộ aiKhông vay hộ aiNgười không đáng tin thì cũng tránh xa đi em,0,0,TN
+b0198eabedb9954876788d40,confessions.ptit:1403510521633445,Ê m.. thật sự là m ngu vãii í :)))) lớn cỡ này rồi đó dcm. Báo cha báo mẹ,Ê m .. thật_sự là m ngu vãii í :)))) lớn cỡ này rồi đó dcm . Báo cha báo mẹ,1,1,TP
+b0af21b200298111918673e2,confessions.ptit:1403510521633445,"=))) có hiếu với trai thế.bạn quen đúng thằng mê muội bài, dính xít rịt rồi","=))) có hiếu với trai thế . bạn quen đúng thằng mê muội bài , dính_xít rịt rồi",0,0,TN
+b4702bcfffa6867065d99dea,confessions.ptit:1403510521633445,nghe như 1 câu chuyện ở kênh yt Lạnh vcl sao sao ấy...,nghe như 1 câu_chuyện ở kênh yt Lạnh_vcl sao sao ấy ...,0,0,TN
+b4a96ee08d89cdd5799b7983,confessions.ptit:1403510521633445,Ô ngờ ôn khờ u ngu,Ô_ngờ ôn_khờ u ngu,1,1,TP
+b5d0ddfd587a61c4a7c9042f,confessions.ptit:1403510521633445,Khóc đi e đứng ra vay cho người khác là cái nguu nhất trên đời này,Khóc đi e đứng ra vay cho người khác là cái nguu nhất trên đời này,1,0,FN
+b87580b4b32e36a83f067694,confessions.ptit:1403510521633445,[MENTION] jqk,[ MENTION ] jqk,0,0,TN
+c176617b2302a2761b5b93c4,confessions.ptit:1403510521633445,"Sao mà câu chuyện bạn giống tui, nm chắc ông bà tui gánh còng lưng nên hồ sơ vay ko đc chấp nhận. Thôi thì cứ ng thân mà mình ib, có bằng chứng vay hộ, tnhan á","Sao mà câu_chuyện bạn giống tui , nm chắc ông_bà tui gánh còng lưng nên hồ_sơ vay ko đc chấp_nhận . Thôi_thì cứ ng_thân mà mình ib , có bằng_chứng vay hộ , tnhan á",0,0,TN
+c4d60166ab43da0cb3099480,confessions.ptit:1403510521633445,Jz,Jz,0,0,TN
+c4d8b214cc8c5be0badb9ce2,confessions.ptit:1403510521633445,"T nói thật đứa nào khuyên báo công an thì bỏ qua đi nhéCông an nó k giải quyết vì đầu tiên là bạn tình nguyện đứng ra vay, tên khoản vay là tên của bạn ( không quan tâm mục đích vay là gì ), phải trả là nghĩa vụ của bạn.Còn đã chấp nhận đứng ra vay hộ mà nó bỏ thì bạn phải trảNếu không trả thì thời gian đầu nó gọi cháy máy, cháy danh bạ rồi nhắn tin cho gia đình + liên lạc trong danh bạ. Để nó nhảy lên nợ xấu thì sau này không vay mượn gì được nữa, nếu làm trái ngành sang ngân hàng thì next :)). Cic 5 năm mới xoá trả chậm, 10 năm mới xoá nợ xấu đã trả hết nhé :))Còn vay app thì xác định luôn là lãi trên trời. Trả càng chậm lãi càng vcl luôn","T nói thật đứa nào khuyên báo công_an thì bỏ_qua đi nhéCông_an nó k giải_quyết vì đầu_tiên là bạn tình_nguyện đứng ra vay , tên khoản vay là tên của bạn ( không quan_tâm mục_đích vay là gì ) , phải trả là nghĩa_vụ của bạn . Còn đã chấp_nhận đứng ra vay hộ mà nó bỏ thì bạn phải trảNếu không trả thì thời_gian đầu nó gọi cháy máy , cháy danh_bạ rồi nhắn_tin cho gia_đình + liên_lạc trong danh_bạ . Để nó nhảy lên nợ xấu thì sau_này không vay_mượn gì được nữa , nếu làm trái ngành sang ngân_hàng thì next :)) . Cic 5 năm mới xóa trả_chậm , 10 năm mới xóa nợ xấu đã trả hết nhé_:)) Còn vay app thì xác_định luôn là lãi trên trời . Trả càng chậm lãi càng vcl luôn",0,0,TN
+c9d7882b53774afa1551e71e,confessions.ptit:1403510521633445,bỏ trai tốt chốt trai thú vị thì em chịu đi em nhé,bỏ trai tốt chốt trai thú_vị thì em chịu đi em nhé,0,0,TN
+cb8fad0a77075f707e331ad4,confessions.ptit:1403510521633445,Bài học đầu đời của em sv năm 1. E liên hệ với gđ bạn đó và nói về khoản nợ để được trả lại nhé,Bài_học đầu_đời của em sv năm 1 . E liên_hệ với gđ bạn đó và nói về khoản nợ để được trả lại nhé,0,0,TN
+d3a6f2adf40944029f6dcaf6,confessions.ptit:1403510521633445,Mình cũng vậy bạn oi....,Mình cũng vậy bạn oi ....,0,0,TN
+d498b9e8d9186c49224513fb,confessions.ptit:1403510521633445,[MENTION] sao em lại làm vậy,[ MENTION ]_sao em lại làm_vậy,0,0,TN
+d63f803f6570e094cf155fdd,confessions.ptit:1403510521633445,[MENTION] chán m lắm,[ MENTION ] chán m lắm,0,0,TN
+e15f2b6f96b898cf8be09158,confessions.ptit:1403510521633445,Nhi Yến gọi vốn thôi,Nhi Yến gọi vốn thôi,0,0,TN
+e339a54f31cfc0a032c92600,confessions.ptit:1403510521633445,thương dọ,thương dọ,0,0,TN
+e34372f98cd5fc245866b6fb,confessions.ptit:1403510521633445,"Dại trai , ngu chx","Dại trai , ngu chx",1,1,TP
+e84c1ba3fac9ffee495daa74,confessions.ptit:1403510521633445,Ủa sao bên trường kia cũng cái bài y chang dị,Ủa sao bên trường kia cũng cái bài y_chang dị,0,0,TN
+ea235a3cfaa63368796f3ef2,confessions.ptit:1403510521633445,Thì kệ bạn. Chấp nhận giúp nó thì chấp nhận trả. Có sao đâu. Tin tưởng nhau quá mà giờ thành bài học đắt giá đó,Thì kệ bạn . Chấp_nhận giúp nó thì chấp_nhận trả . Có sao đâu . Tin_tưởng nhau quá mà giờ thành bài_học đắt_giá đó,0,0,TN
+eb410335d4e1232df8577ea9,confessions.ptit:1403510521633445,[MENTION] m giỏi,[ MENTION ] m giỏi,0,0,TN
+ed81c7c6c038a9ff1969d6c5,confessions.ptit:1403510521633445,[MENTION] m đúng không em,[ MENTION ] m đúng không em,0,0,TN
+f33a84626c59827ad869b113,confessions.ptit:1403510521633445,"tội e quá, kệ e","tội e quá , kệ e",0,0,TN
+f38d3d3430b02b6facf16cdf,confessions.ptit:1403510521633445,ngu hơn tuất,ngu hơn tuất,1,1,TP
+f53dcaa84e4a60c1d397517c,confessions.ptit:1403510521633445,báo lên cơ quan chức năng đi bạn,báo lên cơ_quan_chức_năng đi bạn,0,0,TN
+fdf8eb9df1dfc67a575fc9f3,confessions.ptit:1403510521633445,"giữ bình tĩnh trước đã, biết là bạn cũng khó xử nma giờ mình nên tìm sự giúp đỡ của mn thân gần chứ k nên đăng lên đây, trên đây 100 người thì may ra 10 người giúp bạn 30 người nghe bạn nói còn 60 người còn lại họ chẳng quan tâm đâu, thậm chí họ còn cười nữa nên là bạn cứ bình tĩnh lại đã, tìm kiếm sự giúp đỡ của những người thân gần thì mới tin tưởng được","giữ bình_tĩnh trước đã , biết là bạn cũng khó xử nma giờ mình nên tìm sự giúp_đỡ của mn_thân gần chứ k nên đăng lên đây , trên đây 100 người thì may_ra 10 người giúp bạn 30 người nghe bạn nói còn 60 người còn lại họ chẳng quan_tâm đâu , thậm_chí họ còn cười nữa nên là bạn cứ bình_tĩnh lại đã , tìm_kiếm sự giúp_đỡ của những người_thân gần thì mới tin_tưởng được",0,0,TN
+ffb180ef93f40edaf85e9c51,confessions.ptit:1403510521633445,[MENTION] ib bn này hỗ trợ,[ MENTION ] ib bn này hỗ_trợ,0,0,TN

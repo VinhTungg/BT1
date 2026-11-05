@@ -1,11 +1,11 @@
 {
-  "dataset_id": "resplit_v1",
+  "dataset_id": "resplit_v2",
   "manifest": "data/clean/manifest.json",
-  "manifest_sha256": "4cfb81639ccaf5f50726bc613c29868ed3ebddf7efb6d7540befe45400c188ed",
+  "manifest_sha256": "6cb72f2e367d8a5abe43290dcc09a1da5b3b27c36a3449454fe70157d498b401",
   "outputs": {
-    "baseline_models": "models/resplit_v1/baselines",
-    "baseline_reports": "reports/resplit_v1/baselines",
-    "improved_models": "models/resplit_v1/improvements",
-    "improved_reports": "reports/resplit_v1/improvements"
+    "baseline_models": "models/resplit_v2/baselines",
+    "baseline_reports": "reports/resplit_v2/baselines",
+    "improved_models": "models/resplit_v2/improvements",
+    "improved_reports": "reports/resplit_v2/improvements"
   }
 }

@@ -1,0 +1,39 @@
+{
+  "model_name": "vinai/phobert-base-v2",
+  "architecture": "RobertaForSequenceClassification",
+  "vocab_size": 64003,
+  "special_tokens": [
+    "[MENTION]",
+    "[URL]"
+  ],
+  "data_hashes": {
+    "train_csv_sha256": "aec20c09ac3f666fc61d4365ee299157d716bc3234f342825142c0d31df9d8c4",
+    "val_csv_sha256": "c75f82626d83ee3fc17d1a6f6597a9d79932dfb283b70e0e9ff5328428b37f04"
+  },
+  "hyperparameters": {
+    "max_length": 128,
+    "batch_size": 32,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "label_smoothing": 0.05,
+    "epochs": 5,
+    "random_seed": 42
+  },
+  "best_epoch": 4,
+  "optimal_threshold": 0.9,
+  "best_validation_metrics": {
+    "val_loss": 0.715655290736602,
+    "accuracy": 0.9478155339805825,
+    "macro_f1": 0.788782183116643,
+    "f1_toxic": 0.6055045871559633,
+    "precision_toxic": 0.6,
+    "recall_toxic": 0.6111111111111112,
+    "confusion_matrix": {
+      "TN": 748,
+      "FP": 22,
+      "FN": 21,
+      "TP": 33
+    }
+  }
+}

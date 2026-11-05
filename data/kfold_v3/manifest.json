@@ -1,0 +1,48 @@
+{
+  "dataset_version": "kfold_v3",
+  "strategy": "5-Fold StratifiedGroupKFold theo post_id",
+  "random_seed": 42,
+  "total_pool_samples": 7669,
+  "total_posts": 95,
+  "total_toxic": 499,
+  "test_samples_reserved": 926,
+  "test_posts_reserved": 13,
+  "fold_statistics": {
+    "fold_0": {
+      "samples": 1548,
+      "posts": 19,
+      "non_toxic": 1447,
+      "toxic": 101,
+      "toxic_pct": 6.52
+    },
+    "fold_1": {
+      "samples": 1525,
+      "posts": 19,
+      "non_toxic": 1431,
+      "toxic": 94,
+      "toxic_pct": 6.16
+    },
+    "fold_2": {
+      "samples": 1529,
+      "posts": 19,
+      "non_toxic": 1429,
+      "toxic": 100,
+      "toxic_pct": 6.54
+    },
+    "fold_3": {
+      "samples": 1540,
+      "posts": 19,
+      "non_toxic": 1429,
+      "toxic": 111,
+      "toxic_pct": 7.21
+    },
+    "fold_4": {
+      "samples": 1527,
+      "posts": 19,
+      "non_toxic": 1434,
+      "toxic": 93,
+      "toxic_pct": 6.09
+    }
+  },
+  "pool_csv_sha256": "191404326fb4fff923ffb3ff891f082c323e7b6b7a379940b1ff29d9e4276bf9"
+}

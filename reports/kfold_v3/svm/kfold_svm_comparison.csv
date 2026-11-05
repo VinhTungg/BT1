@@ -1,0 +1,4 @@
+﻿Mô hình,Macro-F1 Mean (%),Macro-F1 Std (%),Macro-F1 OOF (%),F1-Toxic OOF (%),Recall-Toxic OOF (%),Precision-Toxic OOF (%),Accuracy OOF (%),TP,FP,FN,TN
+bow_svm,64.7,2.99,64.96,33.14,23.45,56.52,93.85,117,90,382,7080
+tfidf_svm,66.3,1.86,66.44,36.12,26.85,55.14,93.82,134,109,365,7061
+word_char_svm,68.94,1.42,68.98,41.34,34.67,51.18,93.6,173,165,326,7005

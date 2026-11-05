@@ -1,20 +1,20 @@
 # Dữ liệu chính
 
-Toàn bộ dữ liệu đang dùng nằm trong **`data/clean/`**. Đây là bộ `resplit_v1`
-đã chốt, được gom lại từ các thư mục cũ. Đường dẫn mặc định được chọn qua
+Toàn bộ dữ liệu đang dùng nằm trong **`data/clean/`**. Đây là bộ **`resplit_v2` (tỷ lệ 80/10/10)**
+được tối ưu từ toàn bộ corpus 8.595 câu đã gộp. Bộ cũ `resplit_v1` (70/15/15) được lưu trữ an toàn tại `archive/before_resplit_v2_20261104_094708/`. Đường dẫn mặc định được chọn qua
 [current_dataset.json](current_dataset.json).
 
-| File | Mục đích | Số câu | Non-toxic | Toxic |
-|---|---|---:|---:|---:|
-| [clean/all_labeled.csv](clean/all_labeled.csv) | Toàn bộ corpus đã gộp, dùng quản lý dữ liệu | 8.595 | 8.036 | 559 |
-| [clean/train.csv](clean/train.csv) | Huấn luyện | 6.000 | 5.606 | 394 |
-| [clean/val.csv](clean/val.csv) | Chọn mô hình và tham số | 1.277 | 1.194 | 83 |
-| [clean/test.csv](clean/test.csv) | Đánh giá cuối | 1.318 | 1.236 | 82 |
-| [clean/manifest.json](clean/manifest.json) | Mã băm, thống kê và chính sách đánh giá | | | |
+| File | Mục đích | Số câu | Non-toxic | Toxic | Tỷ lệ Toxic |
+|---|---|---:|---:|---:|---:|
+| [clean/all_labeled.csv](clean/all_labeled.csv) | Toàn bộ corpus đã gộp, dùng quản lý dữ liệu | 8.595 | 8.036 | 559 | 6.50% |
+| [clean/train.csv](clean/train.csv) | Huấn luyện (~80%) | 6.845 | 6.400 | 445 | 6.50% |
+| [clean/val.csv](clean/val.csv) | Chọn mô hình và tối ưu ngưỡng (~10%) | 824 | 770 | 54 | 6.55% |
+| [clean/test.csv](clean/test.csv) | Đánh giá cuối (~10%) | 926 | 866 | 60 | 6.48% |
+| [clean/manifest.json](clean/manifest.json) | Mã băm, thống kê và chính sách đánh giá | | | | |
 
 `all_labeled.csv` là hợp của ba tập, không phải dữ liệu bổ sung. **Không dùng toàn bộ
 file này để fit mô hình rồi báo điểm trên val/test**, vì các câu đánh giá đã nằm trong đó.
-Mỗi bài viết thuộc trọn một tập: train 70 bài, validation 16 bài, test 22 bài.
+Mỗi bài viết thuộc trọn một tập (chống data leakage): train 82 bài, validation 13 bài, test 13 bài.
 
 ## Làm sạch và loại dư thừa
 

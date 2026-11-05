@@ -39,12 +39,32 @@
       "rstrip": false,
       "single_word": false,
       "special": true
+    },
+    "64001": {
+      "content": "[MENTION]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "64002": {
+      "content": "[URL]",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
     }
   },
   "backend": "custom",
   "bos_token": "<s>",
   "cls_token": "<s>",
   "eos_token": "</s>",
+  "extra_special_tokens": [
+    "[MENTION]",
+    "[URL]"
+  ],
   "is_local": false,
   "local_files_only": false,
   "mask_token": "<mask>",

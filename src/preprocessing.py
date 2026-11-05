@@ -165,6 +165,49 @@ def preprocess_text(text: str) -> tuple[str, str]:
     return cleaned, segment_vietnamese(cleaned)
 
 
+def normalize_phobert_placeholders(text: str) -> str:
+    """Chuẩn hóa và bảo toàn các placeholder [MENTION] và [URL] cho PhoBERT.
+
+    Làm sạch mọi biến thể sinh ra do công cụ tách từ:
+    - [ MENTION ], [ MENTION_], [MENTION]_, _[MENTION], [ MENTION]
+    - [ URL ], [ URL_], [URL]_, _[URL]
+    Trả về token sạch [MENTION] và [URL] độc lập, không dính underscore.
+    """
+    if not isinstance(text, str):
+        return ""
+    text = re.sub(r"_*\[\s*MENTION\s*\w*\]_*", " [MENTION] ", text)
+    text = re.sub(r"_*\[\s*URL\s*\w*\]_*", " [URL] ", text)
+    text = re.sub(r"\s+_+", " ", text)
+    text = re.sub(r"_+\s+", " ", text)
+    return normalize_whitespace(text)
+
+
+def preprocess_for_phobert(text: str, is_tokenized: bool | None = None) -> str:
+    """Tiền xử lý thống nhất cho PhoBERT: dùng chung cho cả train, val và inference.
+
+    - Nếu is_tokenized=False (văn bản thô từ người dùng hoặc cột text):
+        clean_text -> normalize_phobert_placeholders -> segment_vietnamese -> normalize_phobert_placeholders
+    - Nếu is_tokenized=True (cột text_tokenized đã được tách từ trước):
+        normalize_phobert_placeholders
+    - Nếu is_tokenized=None: tự động nhận diện dựa trên sự hiện diện của từ ghép nối underscore.
+
+    Bảo toàn: từ phủ định (không, chẳng, đừng...), emoji, dấu câu tiếng Việt.
+    Đảm bảo tính Idempotent: preprocess_for_phobert(preprocess_for_phobert(x)) == preprocess_for_phobert(x).
+    """
+    if not isinstance(text, str) or not text.strip():
+        return ""
+    if is_tokenized is None:
+        is_tokenized = bool(re.search(r"\w+_\w+", text))
+    if is_tokenized:
+        return normalize_phobert_placeholders(text)
+    cleaned = clean_text(text)
+    if not cleaned:
+        return ""
+    pre_norm = normalize_phobert_placeholders(cleaned)
+    segmented = segment_vietnamese(pre_norm)
+    return normalize_phobert_placeholders(segmented)
+
+
 def preprocess_texts(texts: Iterable[str]) -> tuple[list[str], list[str]]:
     """Tiền xử lý mạnh nhiều văn bản giữ nguyên thứ tự."""
     cleaned_list: list[str] = []

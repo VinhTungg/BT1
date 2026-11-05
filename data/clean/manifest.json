@@ -1,101 +1,65 @@
 {
-  "created_at_utc": "2026-11-01T00:46:57.564116+00:00",
+  "created_at_utc": "2026-11-04T09:47:08.577278+00:00",
   "status": "active",
-  "total_before_dedup": 8598,
+  "dataset_id": "resplit_v2",
+  "split_ratios": "80/10/10",
+  "previous_version": "resplit_v1",
   "total_samples": 8595,
   "posts": 108,
   "toxic": 559,
-  "removed_duplicate_rows": 3,
-  "inputs_sha256": {
-    "data\\expanded\\round_2\\train.csv": "775b4e2b471d69fc46e6261d5174f58fd45a1b2275261a13dae767d2ee1e94cf",
-    "data\\splits\\val.csv": "6d5c54dd9551e90115ebf0e5941096414e36294d43325d81ca114c8e92b0ad4a",
-    "data\\splits\\test.csv": "35d816cb4c386a75abcbe1c5bc5d523e503eb3a2c24767663dfb800db37f53d8"
-  },
   "seed": 42,
-  "n_candidates": 200,
+  "n_candidates": 500,
   "splits": {
     "train": {
       "path": "data/clean/train.csv",
-      "sha256": "349122f38dbe83e36606043d7c8a7aaeebd86390df56407e32ae6553da43c646",
-      "samples": 6000,
-      "posts": 70,
-      "non_toxic": 5606,
-      "toxic": 394,
-      "toxic_pct": 6.566666666666666,
-      "sample_pct": 69.80802792321117,
-      "accepted_rows": 6000
+      "sha256": "aec20c09ac3f666fc61d4365ee299157d716bc3234f342825142c0d31df9d8c4",
+      "samples": 6845,
+      "posts": 82,
+      "non_toxic": 6400,
+      "toxic": 445,
+      "toxic_pct": 6.5,
+      "sample_pct": 79.64
     },
     "val": {
       "path": "data/clean/val.csv",
-      "sha256": "150077176e8ee903db4e8357eb508f7872026c935f4350f3899ef560382e51db",
-      "samples": 1277,
-      "posts": 16,
-      "non_toxic": 1194,
-      "toxic": 83,
-      "toxic_pct": 6.499608457321848,
-      "sample_pct": 14.857475276323443,
-      "accepted_rows": 1277
+      "sha256": "c75f82626d83ee3fc17d1a6f6597a9d79932dfb283b70e0e9ff5328428b37f04",
+      "samples": 824,
+      "posts": 13,
+      "non_toxic": 770,
+      "toxic": 54,
+      "toxic_pct": 6.55,
+      "sample_pct": 9.59
     },
     "test": {
       "path": "data/clean/test.csv",
-      "sha256": "b425a6181cc48a3d15eb9917d235c956db5aad20136d17d9a763a1a8893821f4",
-      "samples": 1318,
-      "posts": 22,
-      "non_toxic": 1236,
-      "toxic": 82,
-      "toxic_pct": 6.22154779969651,
-      "sample_pct": 15.334496800465386,
-      "accepted_rows": 1318
+      "sha256": "e32c11bc8999c718198354f06c911320b0d9fa654c5765eea6ee7673b243a4d2",
+      "samples": 926,
+      "posts": 13,
+      "non_toxic": 866,
+      "toxic": 60,
+      "toxic_pct": 6.48,
+      "sample_pct": 10.77
     }
   },
-  "evaluation_policy": "New experiment partition of previously used data, not a new independently unseen benchmark. Retrain all pipelines from scratch on this train; do not score existing fitted models as unseen-test performance. Do not compare scores directly with the old test or search split seeds by model scores.",
-  "label_policy": "Dataset labels accepted and finalized by the group on 2026-11-02. Keep all existing label values unchanged.",
-  "activated_at_utc": "2026-11-01T01:07:54.289002+00:00",
-  "activation_reason": "User chose resplit_v1: được dùng bản đó đi",
-  "evaluation_label_status": "group_accepted",
-  "checks_at_proposal_creation": {
-    "no_id_post_clean_or_tokenized_overlap": true,
-    "numeric_post_ids_disjoint": true,
-    "all_retained_ids_conserved": true,
-    "current_data_models_and_results_unchanged": true
-  },
+  "evaluation_policy": "New 80/10/10 partition of the same labeled data. Retrain all pipelines from scratch on this train; do not compare scores directly with resplit_v1.",
+  "label_policy": "Same group-accepted labels as resplit_v1. No label changes.",
   "checks": {
-    "no_id_post_clean_or_tokenized_overlap": true,
-    "numeric_post_ids_disjoint": true,
-    "all_retained_ids_conserved": true,
-    "source_data_unchanged": true
+    "no_group_leakage": {
+      "train_val": true,
+      "train_test": true,
+      "val_test": true
+    },
+    "record_conservation": {
+      "total_conserved": true,
+      "id_multiset_equal": true,
+      "no_duplicate_ids_in_splits": true
+    },
+    "cross_split_text_duplicates_count": 0
   },
+  "archive": "archive\\before_resplit_v2_20261104_094708",
   "merged": {
     "path": "data/clean/all_labeled.csv",
     "sha256": "58d643e9aba53fe67f497d0882b62ace5bd3d7283f38c384bdbc69496b0f00a1",
-    "samples": 8595,
-    "usage": "Corpus management only; use train.csv for training."
-  },
-  "provenance": {
-    "path": "reports/data_cleanup/provenance.csv",
-    "sha256": "908431cf68eb7abbb855fb17f20ed7d3a3939294e31e373ec9b5a954c3ffaacc",
-    "counts": {
-      "group_accepted": 8595
-    }
-  },
-  "consolidation": {
-    "archive": "archive/data_before_consolidation_20261101_024306",
-    "previous_manifest": "data\\experiments\\resplit_v1\\manifest.json",
-    "split_bytes_and_assignments_unchanged": true,
-    "additional_rows_removed": 0,
-    "schema": [
-      "id",
-      "post_id",
-      "text",
-      "text_clean",
-      "text_tokenized",
-      "label"
-    ]
-  },
-  "label_acceptance": {
-    "date": "2026-11-02",
-    "accepted_rows": 8595,
-    "decision": "User accepted all current labels as finalized group reference labels.",
-    "previous_metadata_archive": "archive/before_steps23_20261102_151433"
+    "samples": 8595
   }
 }

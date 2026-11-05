@@ -1,0 +1,193 @@
+{
+  "created_at_utc": "2026-11-04T10:07:02.559260+00:00",
+  "mode": "full",
+  "seed": 42,
+  "versions": {
+    "python": "3.11.9",
+    "scikit-learn": "1.8.0",
+    "pandas": "3.0.2",
+    "numpy": "2.4.2",
+    "joblib": "1.5.3"
+  },
+  "train": {
+    "path": "D:\\BT1\\data\\clean\\train.csv",
+    "sha256": "aec20c09ac3f666fc61d4365ee299157d716bc3234f342825142c0d31df9d8c4",
+    "rows": 6845,
+    "posts": 82,
+    "labels": {
+      "0": 6400,
+      "1": 445
+    }
+  },
+  "validation": {
+    "path": "D:\\BT1\\data\\clean\\val.csv",
+    "sha256": "c75f82626d83ee3fc17d1a6f6597a9d79932dfb283b70e0e9ff5328428b37f04",
+    "rows": 824,
+    "posts": 13,
+    "labels": {
+      "0": 770,
+      "1": 54
+    }
+  },
+  "baseline_manifest": "D:\\BT1\\models\\resplit_v2\\baselines\\manifest.json",
+  "baseline_manifest_sha256": "4530ba2ee8cc795cfdb0add1baca48aafe68e3a61ed1185e57a00bd520df5d7d",
+  "input_contract": {
+    "type": "pandas.DataFrame",
+    "columns": [
+      "text_clean",
+      "text_tokenized"
+    ],
+    "word_input": "text_tokenized",
+    "char_input": "text_clean"
+  },
+  "label_mapping": {
+    "0": "non-toxic",
+    "1": "toxic"
+  },
+  "selection_rule": "Highest validation macro_f1, then f1_toxic, then recall_toxic; exact ties keep first trial.",
+  "fit_policy": "Fit on train only; select on validation; fixed SVM decision threshold 0; test never read; original baselines unchanged.",
+  "group_cv_caveat": "3 folds from train posts only, configurations already selected on validation. Post-selection diagnostics, not unbiased nested-CV estimates and not test scores.",
+  "models": [
+    {
+      "model": "word_svm_weighted",
+      "artifact": "D:\\BT1\\models\\resplit_v2\\improvements\\word_svm_weighted.joblib",
+      "sha256": "c2fa7d4c4a0ce72d8d72ae1cd3fd7ae8242336405dca9509037d2bc4b80dae44",
+      "params": {
+        "classifier__C": 0.1,
+        "classifier__class_weight": {
+          "0": 1,
+          "1": 4
+        },
+        "features__word__ngram_range": [
+          1,
+          1
+        ]
+      },
+      "selected_trial": 3,
+      "configurations_tried": 30,
+      "validation_metrics": {
+        "accuracy": 0.9514563106796117,
+        "precision_toxic": 0.6944444444444444,
+        "recall_toxic": 0.46296296296296297,
+        "f1_toxic": 0.5555555555555556,
+        "macro_f1": 0.7649408073028099,
+        "tn": 759,
+        "fp": 11,
+        "fn": 29,
+        "tp": 25,
+        "predicted_toxic": 36
+      },
+      "vocabulary_sizes": {
+        "word": 8950
+      },
+      "reload_verified": true
+    },
+    {
+      "model": "char_svm",
+      "artifact": "D:\\BT1\\models\\resplit_v2\\improvements\\char_svm.joblib",
+      "sha256": "6d37f5f2d8fbb01101518360e88f56053356c8fe25015f6d8b013a921cd6a82c",
+      "params": {
+        "classifier__C": 0.1,
+        "classifier__class_weight": {
+          "0": 1,
+          "1": 4
+        }
+      },
+      "selected_trial": 2,
+      "configurations_tried": 15,
+      "validation_metrics": {
+        "accuracy": 0.9514563106796117,
+        "precision_toxic": 0.6842105263157895,
+        "recall_toxic": 0.48148148148148145,
+        "f1_toxic": 0.5652173913043478,
+        "macro_f1": 0.7697552252151558,
+        "tn": 758,
+        "fp": 12,
+        "fn": 28,
+        "tp": 26,
+        "predicted_toxic": 38
+      },
+      "vocabulary_sizes": {
+        "char": 38533
+      },
+      "reload_verified": true
+    },
+    {
+      "model": "word_char_svm",
+      "artifact": "D:\\BT1\\models\\resplit_v2\\improvements\\word_char_svm.joblib",
+      "sha256": "9a34d67bec2e2e7a1f374fab371d25360c7abfdb9676e26b9f62c7fa73319d2a",
+      "params": {
+        "classifier__C": 0.1,
+        "classifier__class_weight": {
+          "0": 1,
+          "1": 8
+        }
+      },
+      "selected_trial": 3,
+      "configurations_tried": 15,
+      "validation_metrics": {
+        "accuracy": 0.9490291262135923,
+        "precision_toxic": 0.6153846153846154,
+        "recall_toxic": 0.5925925925925926,
+        "f1_toxic": 0.6037735849056604,
+        "macro_f1": 0.7882681154100286,
+        "tn": 750,
+        "fp": 20,
+        "fn": 22,
+        "tp": 32,
+        "predicted_toxic": 52
+      },
+      "vocabulary_sizes": {
+        "word": 55967,
+        "char": 38533
+      },
+      "reload_verified": true
+    }
+  ],
+  "best_model_on_validation": "word_char_svm",
+  "delta_vs_original_best": {
+    "macro_f1": 0.03002512893411491,
+    "f1_toxic": 0.060295324036095166,
+    "precision_toxic": -0.04251012145748989,
+    "recall_toxic": 0.1296296296296296,
+    "fp": 7,
+    "fn": -7
+  },
+  "group_diagnostics": [
+    {
+      "model": "bow_svm",
+      "successful_folds": 3,
+      "failed_folds": 0,
+      "macro_f1_mean": 0.6168371150212625,
+      "macro_f1_std": 0.022652307548930852,
+      "f1_toxic_mean": 0.26786196154664127
+    },
+    {
+      "model": "word_svm_weighted",
+      "successful_folds": 3,
+      "failed_folds": 0,
+      "macro_f1_mean": 0.6320970911437106,
+      "macro_f1_std": 0.023653347542078165,
+      "f1_toxic_mean": 0.29740190365190367
+    },
+    {
+      "model": "char_svm",
+      "successful_folds": 3,
+      "failed_folds": 0,
+      "macro_f1_mean": 0.6309793550693866,
+      "macro_f1_std": 0.02770341687263377,
+      "f1_toxic_mean": 0.2945098039215686
+    },
+    {
+      "model": "word_char_svm",
+      "successful_folds": 3,
+      "failed_folds": 0,
+      "macro_f1_mean": 0.6600142674831926,
+      "macro_f1_std": 0.02012235025355367,
+      "f1_toxic_mean": 0.3550739017632057
+    }
+  ],
+  "group_cv_macro_f1_delta_vs_original": 0.0431771524619301,
+  "generalization_improvement_confirmed": false,
+  "handoff_recommendation": "Keep the four original baselines for the required comparison; hand off the validation winner as an additional candidate. Group diagnostics are exploratory; confirm performance with final test evaluation."
+}

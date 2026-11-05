@@ -187,5 +187,47 @@ class TestDataFrameApplied(unittest.TestCase):
             preprocessing.preprocess_dataframe(frame)
 
 
+class TestPhoBERTPreprocessing(unittest.TestCase):
+    def test_normalize_placeholders_variations(self):
+        cases = [
+            ("[ MENTION ] chào bạn", "[MENTION] chào bạn"),
+            ("[ MENTION_] chào bạn", "[MENTION] chào bạn"),
+            ("[MENTION]_chào bạn", "[MENTION] chào bạn"),
+            ("_[MENTION] chào bạn", "[MENTION] chào bạn"),
+            ("[ URL ] xem ngay", "[URL] xem ngay"),
+            ("[URL]_xem ngay", "[URL] xem ngay"),
+        ]
+        for inp, expected in cases:
+            with self.subTest(inp=inp):
+                self.assertEqual(preprocessing.normalize_phobert_placeholders(inp), expected)
+
+    def test_preprocess_for_phobert_idempotent(self):
+        samples = [
+            "[MENTION] Mày ngu như bò",
+            "đừng chửi bạn ấy, không phải lỗi của bạn",
+            "vui quá 😊 [MENTION]",
+            "[URL] xem thông tin tuyển sinh nha mn",
+        ]
+        for s in samples:
+            with self.subTest(sample=s):
+                first = preprocessing.preprocess_for_phobert(s)
+                second = preprocessing.preprocess_for_phobert(first)
+                self.assertEqual(first, second)
+
+    def test_preprocess_for_phobert_preserves_negation_and_emoji(self):
+        text = "đừng chửi người khác không nên 😊"
+        processed = preprocessing.preprocess_for_phobert(text)
+        self.assertIn("đừng", processed)
+        self.assertIn("không", processed)
+        self.assertIn("😊", processed)
+
+    def test_raw_and_presegmented_produce_consistent_output(self):
+        raw = "[MENTION] sợ thí"
+        tokenized = "[ MENTION ]_sợ thí"
+        from_raw = preprocessing.preprocess_for_phobert(raw, is_tokenized=False)
+        from_tok = preprocessing.preprocess_for_phobert(tokenized, is_tokenized=True)
+        self.assertEqual(from_raw, from_tok)
+
+
 if __name__ == "__main__":
     unittest.main()
