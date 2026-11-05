@@ -1,0 +1,183 @@
+{
+  "created_at_utc": "2026-11-04T10:05:46.154589+00:00",
+  "mode": "full",
+  "seed": 42,
+  "versions": {
+    "python": "3.11.9",
+    "scikit-learn": "1.8.0",
+    "pandas": "3.0.2",
+    "numpy": "2.4.2",
+    "joblib": "1.5.3"
+  },
+  "best_baseline_on_validation": "bow_svm",
+  "train": {
+    "path": "D:\\BT1\\data\\clean\\train.csv",
+    "sha256": "aec20c09ac3f666fc61d4365ee299157d716bc3234f342825142c0d31df9d8c4",
+    "rows": 6845,
+    "posts": 82,
+    "labels": {
+      "0": 6400,
+      "1": 445
+    }
+  },
+  "validation": {
+    "path": "D:\\BT1\\data\\clean\\val.csv",
+    "sha256": "c75f82626d83ee3fc17d1a6f6597a9d79932dfb283b70e0e9ff5328428b37f04",
+    "rows": 824,
+    "posts": 13,
+    "labels": {
+      "0": 770,
+      "1": 54
+    }
+  },
+  "text_column": "text_tokenized",
+  "label_mapping": {
+    "0": "non-toxic",
+    "1": "toxic"
+  },
+  "selection_rule": "Highest validation macro_f1, then f1_toxic, then recall_toxic; exact ties keep first trial.",
+  "inference_input": "Iterable of Vietnamese strings segmented like text_tokenized; vectorizer lowercases and splits on whitespace.",
+  "fit_policy": "All artifacts fitted on train only. Validation selects configurations. No refit on train+val. Test is never read.",
+  "models": [
+    {
+      "model": "bow_nb",
+      "artifact": "D:\\BT1\\models\\resplit_v2\\baselines\\bow_nb.joblib",
+      "sha256": "e87ea2fdb5c4c250d8209e54442c8fe3332c86adb677660c08beba2718b0354a",
+      "params": {
+        "classifier__alpha": 0.1,
+        "vectorizer__min_df": 1,
+        "vectorizer__ngram_range": [
+          1,
+          1
+        ]
+      },
+      "selected_trial": 1,
+      "configurations_tried": 12,
+      "validation_metrics": {
+        "accuracy": 0.9441747572815534,
+        "precision_toxic": 0.6,
+        "recall_toxic": 0.4444444444444444,
+        "f1_toxic": 0.5106382978723404,
+        "macro_f1": 0.7405186341356553,
+        "tn": 754,
+        "fp": 16,
+        "fn": 30,
+        "tp": 24,
+        "predicted_toxic": 40
+      },
+      "reload_verified": true,
+      "vocabulary_size": 8950
+    },
+    {
+      "model": "bow_svm",
+      "artifact": "D:\\BT1\\models\\resplit_v2\\baselines\\bow_svm.joblib",
+      "sha256": "872d2b2d59b7a96314d672dec3f028204334826ace67cb213296b0f7be8edf11",
+      "params": {
+        "classifier__C": 0.1,
+        "classifier__class_weight": "balanced",
+        "vectorizer__min_df": 1,
+        "vectorizer__ngram_range": [
+          1,
+          2
+        ]
+      },
+      "selected_trial": 6,
+      "configurations_tried": 24,
+      "validation_metrics": {
+        "accuracy": 0.9490291262135923,
+        "precision_toxic": 0.6578947368421053,
+        "recall_toxic": 0.46296296296296297,
+        "f1_toxic": 0.5434782608695652,
+        "macro_f1": 0.7582429864759137,
+        "tn": 757,
+        "fp": 13,
+        "fn": 29,
+        "tp": 25,
+        "predicted_toxic": 38
+      },
+      "reload_verified": true,
+      "vocabulary_size": 55967
+    },
+    {
+      "model": "tfidf_nb",
+      "artifact": "D:\\BT1\\models\\resplit_v2\\baselines\\tfidf_nb.joblib",
+      "sha256": "d48facd165d3ac8bcf1830e95e3796b13080ff875f22dc54d77ef1172dc1ee6d",
+      "params": {
+        "classifier__alpha": 0.1,
+        "vectorizer__min_df": 2,
+        "vectorizer__ngram_range": [
+          1,
+          1
+        ]
+      },
+      "selected_trial": 3,
+      "configurations_tried": 12,
+      "validation_metrics": {
+        "accuracy": 0.9393203883495146,
+        "precision_toxic": 0.7,
+        "recall_toxic": 0.12962962962962962,
+        "f1_toxic": 0.21875,
+        "macro_f1": 0.5935921717171717,
+        "tn": 767,
+        "fp": 3,
+        "fn": 47,
+        "tp": 7,
+        "predicted_toxic": 10
+      },
+      "reload_verified": true,
+      "vocabulary_size": 3537
+    },
+    {
+      "model": "tfidf_svm",
+      "artifact": "D:\\BT1\\models\\resplit_v2\\baselines\\tfidf_svm.joblib",
+      "sha256": "e87c88ce4cf330fe5ed2968e3ea12c90c9efb78b348a0314cbddf9cf7d6cb616",
+      "params": {
+        "classifier__C": 1.0,
+        "classifier__class_weight": "balanced",
+        "vectorizer__min_df": 1,
+        "vectorizer__ngram_range": [
+          1,
+          2
+        ]
+      },
+      "selected_trial": 14,
+      "configurations_tried": 24,
+      "validation_metrics": {
+        "accuracy": 0.9466019417475728,
+        "precision_toxic": 0.631578947368421,
+        "recall_toxic": 0.4444444444444444,
+        "f1_toxic": 0.5217391304347826,
+        "macro_f1": 0.7467307477366716,
+        "tn": 756,
+        "fp": 14,
+        "fn": 30,
+        "tp": 24,
+        "predicted_toxic": 38
+      },
+      "reload_verified": true,
+      "vocabulary_size": 55967
+    },
+    {
+      "model": "dummy",
+      "artifact": "D:\\BT1\\models\\resplit_v2\\baselines\\dummy.joblib",
+      "sha256": "f241ac7d7c382256e8baedbd9025a89c51604d15c306237f1e2a24eda2d584a3",
+      "params": {},
+      "selected_trial": 1,
+      "configurations_tried": 1,
+      "validation_metrics": {
+        "accuracy": 0.9344660194174758,
+        "precision_toxic": 0.0,
+        "recall_toxic": 0.0,
+        "f1_toxic": 0.0,
+        "macro_f1": 0.48306148055207027,
+        "tn": 770,
+        "fp": 0,
+        "fn": 54,
+        "tp": 0,
+        "predicted_toxic": 0
+      },
+      "reload_verified": true,
+      "vocabulary_size": 0
+    }
+  ]
+}

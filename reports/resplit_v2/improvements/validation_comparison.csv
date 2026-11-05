@@ -1,0 +1,9 @@
+﻿model,experiment,accuracy,precision_toxic,recall_toxic,f1_toxic,macro_f1,tn,fp,fn,tp,predicted_toxic,params
+bow_nb,original,0.9441747572815534,0.6,0.4444444444444444,0.5106382978723404,0.7405186341356553,754,16,30,24,40,"{""classifier__alpha"": 0.1, ""vectorizer__min_df"": 1, ""vectorizer__ngram_range"": [1, 1]}"
+bow_svm,original,0.9490291262135923,0.6578947368421053,0.46296296296296297,0.5434782608695652,0.7582429864759137,757,13,29,25,38,"{""classifier__C"": 0.1, ""classifier__class_weight"": ""balanced"", ""vectorizer__min_df"": 1, ""vectorizer__ngram_range"": [1, 2]}"
+tfidf_nb,original,0.9393203883495146,0.7,0.12962962962962962,0.21875,0.5935921717171717,767,3,47,7,10,"{""classifier__alpha"": 0.1, ""vectorizer__min_df"": 2, ""vectorizer__ngram_range"": [1, 1]}"
+tfidf_svm,original,0.9466019417475728,0.631578947368421,0.4444444444444444,0.5217391304347826,0.7467307477366716,756,14,30,24,38,"{""classifier__C"": 1.0, ""classifier__class_weight"": ""balanced"", ""vectorizer__min_df"": 1, ""vectorizer__ngram_range"": [1, 2]}"
+dummy,original,0.9344660194174758,0.0,0.0,0.0,0.48306148055207027,770,0,54,0,0,{}
+word_svm_weighted,improved,0.9514563106796117,0.6944444444444444,0.46296296296296297,0.5555555555555556,0.7649408073028099,759,11,29,25,36,"{""classifier__C"": 0.1, ""classifier__class_weight"": {""0"": 1, ""1"": 4}, ""features__word__ngram_range"": [1, 1]}"
+char_svm,improved,0.9514563106796117,0.6842105263157895,0.48148148148148145,0.5652173913043478,0.7697552252151558,758,12,28,26,38,"{""classifier__C"": 0.1, ""classifier__class_weight"": {""0"": 1, ""1"": 4}}"
+word_char_svm,improved,0.9490291262135923,0.6153846153846154,0.5925925925925926,0.6037735849056604,0.7882681154100286,750,20,22,32,52,"{""classifier__C"": 0.1, ""classifier__class_weight"": {""0"": 1, ""1"": 8}}"

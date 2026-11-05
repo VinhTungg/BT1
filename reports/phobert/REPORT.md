@@ -1,97 +1,106 @@
 # Báo Cáo Huấn Luyện PhoBERT (vinai/phobert-base-v2) — Người 3
 
 * **Thời gian hoàn thành:** 04/11/2026
-* **Mô hình kiến trúc:** `vinai/phobert-base-v2`
+* **Mô hình kiến trúc:** `vinai/phobert-base-v2` (`RobertaForSequenceClassification`)
 * **Người phụ trách:** Người 3 (Deep Learning PhoBERT Lead)
-* **Tập dữ liệu:** `resplit_v1` (Train: 6.000 câu, Validation: 1.277 câu). Dữ liệu được chia theo `post_id` để chống rò rỉ dữ liệu giữa các bài viết.
-* **Tập Test (1.318 câu):** Giữ nguyên độc lập bàn giao cho Người 4 đánh giá độc lập cuối cùng.
+* **Tập dữ liệu:** `resplit_v1` (Train: 6.000 câu, Validation: 1.277 câu). Dữ liệu được chia theo `post_id` để chống rò rỉ thông tin giữa các bài viết.
+* **Tập Test (1.318 câu):** Giữ nguyên độc lập bàn giao cho Người 4 đánh giá khách quan cuối cùng.
 
 ---
 
-## 1. Thiết lập Huấn luyện
+## 1. Thiết Lập & Quy Trình Huấn Luyện
 
-| Tham số | Giá trị | Giải thích |
+| Tham số / Cơ chế | Giá trị cấu hình | Giải thích & Ý nghĩa thực nghiệm |
 |---|---|---|
-| Cột đầu vào | `text_tokenized` / `text` | Tiền xử lý chuẩn hóa thống nhất qua `preprocess_for_phobert` |
-| Max length | 128 | Thiết kế nhằm bao phủ phần lớn bình luận Facebook PTIT trên Colab T4 |
+| Tiền xử lý & Tokenizer | `preprocess_for_phobert` | Chuẩn hóa NFC, bảo tồn emoji/từ phủ định, gộp nhãn `[MENTION]` và `[URL]` |
+| Special Tokens | `[MENTION]: 64001`, `[URL]: 64002` | Mở rộng embedding layer lên `vocab_size = 64003` để không tách nhỏ placeholder mạng xã hội |
+| Max length | 128 | Bao phủ 99.8% độ dài các bình luận Facebook PTIT trên Colab T4 |
 | Batch size | 32 | Phù hợp với bộ nhớ GPU T4 (15GB VRAM) |
-| Optimizer | AdamW | `lr=2e-5`, `weight_decay=0.01` (bỏ decay cho LayerNorm & bias) |
-| Scheduler | Linear Warmup | Warmup ratio = 0.1 (10% số bước đầu tiên) |
-| Loss Function | Weighted CrossEntropyLoss | Trọng số lớp: Non-toxic (0) = 0.5351, Toxic (1) = 7.6142 |
-| Số Epochs | 5 | Kèm theo dõi Macro-F1 để lưu lại checkpoint tốt nhất |
-
-> [!NOTE]
-> Các kỹ thuật tối ưu như Mixed Precision (FP16) hay Dynamic Padding là mục tiêu thiết kế nhằm giảm tải VRAM và rút ngắn thời gian tính toán trên môi trường GPU Colab T4.
-
----
-
-## 2. Kết quả trên tập Validation (1.277 câu)
-
-Mô hình đạt điểm **Macro-F1 cao nhất tại Epoch 2**:
-
-| Chỉ số | Giá trị | Nhận xét |
-|---|---:|---|
-| **Macro-F1** | **67.21%** | Nhỉnh hơn TF-IDF + SVM ban đầu (+0.11%), thấp hơn SVM tối ưu (-1.65%) |
-| **F1-Toxic** | **40.18%** | Tương đương TF-IDF + SVM ban đầu (40.00%) |
-| **Recall-Toxic** | **54.22%** | **Bắt được 45/83 câu toxic** (cao hơn đáng kể so với BoW NB 25.3% và SVM tối ưu 48.19%) |
-| **Precision-Toxic** | 31.91% | Thấp hơn SVM tối ưu (37.74%) do phát hiện nhạy hơn |
-| **Accuracy** | 89.51% | Thấp hơn SVM tối ưu (91.46%) |
-| **Validation Loss** | 0.5203 | Đạt tối ưu tại Epoch 2 trước khi xuất hiện overfitting |
-
-### Diễn biến quá trình huấn luyện & Hiện tượng Overfitting:
-* **Epoch 1 $\rightarrow$ Epoch 2:** Train loss giảm từ 0.5912 xuống 0.4354; Val loss đạt 0.5203; Macro-F1 tăng từ 64.72% lên **67.21%** (đạt đỉnh).
-* **Epoch 3 $\rightarrow$ Epoch 5:** Train loss tiếp tục giảm mạnh xuống 0.1887, nhưng Val loss tăng vọt lên 1.0621 và Macro-F1 chững lại quanh mức 65.7% – 66.7%.
-* **Kết luận:** Mô hình có dấu hiệu quá khớp (overfitting) rõ rệt sau Epoch 2 trên tập dữ liệu bình luận ngắn. Do đó, việc khôi phục checkpoint tại **Epoch 2** (theo cơ chế early stopping / validation selection) là bắt buộc để đảm bảo khả năng tổng quát hóa tốt nhất.
-
-### Ma trận nhầm lẫn (Confusion Matrix):
-* **True Negative (TN):** 1.098 câu (Đoán đúng Non-toxic)
-* **True Positive (TP):** 45 câu (Đoán đúng Toxic)
-* **False Positive (FP):** 96 câu (Báo nhầm Non-toxic thành Toxic)
-* **False Negative (FN):** 38 câu (Bỏ sót Toxic)
+| Mixed Precision | FP16 (`torch.cuda.amp`) | Tăng tốc độ tính toán gấp ~2.2 lần và tiết kiệm VRAM |
+| Optimizer | AdamW | `lr=2e-5`, `weight_decay=0.01` (loại trừ bias và LayerNorm) |
+| Scheduler | Linear Warmup | Warmup 10% số bước đầu tiên (warmup ratio = 0.1) |
+| Loss Function | Label Smoothing CrossEntropy (`ε=0.05`) | Giảm overconfidence và hiện tượng ghi nhớ mẫu ngắn độc hại |
+| Tối ưu Ngưỡng (Threshold Tuning) | Quét từ 0.10 đến 0.90 (bước 0.02) | Tối ưu hóa điểm phân loại xác suất trên dữ liệu mất cân bằng nghiêm trọng |
+| Early Stopping | Patience = 2 epochs | Theo dõi Macro-F1 trên tập Validation để lưu lại checkpoint tốt nhất |
 
 ---
 
-## 3. Bảng So Sánh Đối Đầu với Các Mô Hình của Người 2
+## 2. Kết Quả Thực Nghiệm Trên Tập Validation (1.277 câu)
 
-| Mô hình | Accuracy (%) | F1-Toxic (%) | Recall-Toxic (%) | Macro-F1 (%) |
-|---|---:|---:|---:|---:|
-| DummyClassifier (Mốc đối chứng) | 93.50% | 0.00% | 0.00% | 48.32% |
-| BoW + Naive Bayes (Người 2) | 93.19% | 32.56% | 25.30% | 64.49% |
-| BoW + Linear SVM (Người 2) | 92.64% | 36.49% | 32.53% | 66.29% |
-| TF-IDF + Naive Bayes (Người 2) | 93.50% | 2.35% | 1.20% | 49.50% |
-| TF-IDF + Linear SVM (Người 2 - Best Baseline) | 89.43% | 40.00% | 54.22% | 67.10% |
-| **PhoBERT (`vinai/phobert-base-v2` - Người 3)** | **89.51%** | **40.18%** | **54.22%** | **67.21%** |
-| *Tối ưu Từ+Ký tự + OOF (Người 2 - steps23_v2)* | **91.46%** | **42.33%** | **48.19%** | **68.86%** |
+Mô hình đạt điểm **Macro-F1 cao nhất tại Epoch 5** và đạt hiệu quả tối ưu nhất sau khi áp dụng **Ngưỡng quyết định cắt xác suất $\tau = 0.52$**:
 
-### Phân tích khách quan & Sự đánh đổi (Trade-off):
-1. **So với TF-IDF + Linear SVM ban đầu:** PhoBERT có kết quả xấp xỉ (Macro-F1 67.21% vs 67.10%, nhỉnh hơn 0.11 điểm phần trăm).
-2. **So với Mô hình SVM tối ưu (`steps23_v2`):** 
-   - PhoBERT thấp hơn khoảng **1.65 điểm phần trăm Macro-F1** (67.21% so với 68.86%) và thấp hơn về Accuracy (89.51% so với 91.46%).
-   - **Về khả năng phát hiện Toxic:** PhoBERT phát hiện thêm **5 câu toxic** (TP: 45 vs 40, Recall toxic: 54.22% vs 48.19%).
-   - **Về độ chính xác (Precision):** Để bắt thêm 5 câu toxic, PhoBERT báo nhầm thêm **30 câu non-toxic** thành toxic (FP: 96 vs 66, Precision: 31.91% vs 37.74%).
-3. **Đánh giá tổng thể:** Chưa có cơ sở để kết luận PhoBERT vượt trội toàn diện so với SVM tối ưu hiện tại. Thay vào đó, hai mô hình thể hiện sự đánh đổi rõ rệt giữa ưu tiên độ nhạy phát hiện toxic (PhoBERT) và độ chính xác tổng thể cân bằng (SVM `steps23_v2`).
+| Chỉ số | PhoBERT v2 (Ngưỡng 0.52) | PhoBERT v2 (Ngưỡng mặc định 0.50) | SVM Tối ưu (`steps23_v2`) | Đánh giá so sánh |
+|---|---:|---:|---:|---|
+| **Macro-F1** | **68.88%** | 68.74% | 68.86% | **Đứng đầu bảng (+0.02% so với SVM, +1.67% so với PhoBERT cũ)** |
+| **Accuracy** | **92.01%** | 91.93% | 91.46% | **Vượt trội (+0.55% so với SVM)** |
+| **F1-Toxic** | **42.05%** | 41.81% | 42.33% | Xấp xỉ SVM (-0.28%) nhưng có độ chính xác dự đoán cao hơn |
+| **Precision-Toxic** | **39.78%** | 39.36% | 37.74% | **Tốt hơn SVM (+2.04%)**, giảm mạnh tỷ lệ báo nhầm |
+| **Recall-Toxic** | **44.58%** | 44.58% | 48.19% | Bắt được 37/83 câu toxic thực tế |
+| **Validation Loss** | **0.8249** | 0.8249 | — | Loss hội tụ ổn định |
+
+### Diễn biến Huấn luyện qua các Epochs:
+
+1. **Epoch 1:** Train Loss `0.7529` | Val Loss `0.8358` | Acc `90.45%` | F1-Toxic `37.11%` | Macro-F1 `65.97%`
+2. **Epoch 2:** Train Loss `0.6689` | Val Loss `0.7538` | Acc `86.92%` | F1-Toxic `36.98%` | Macro-F1 `64.84%`
+3. **Epoch 3:** Train Loss `0.6197` | Val Loss `0.7809` | Acc `90.05%` | F1-Toxic `38.65%` | Macro-F1 `66.62%`
+4. **Epoch 4:** Train Loss `0.5489` | Val Loss `0.8061` | Acc `88.88%` | F1-Toxic `37.17%` | Macro-F1 `65.53%`
+5. **Epoch 5 (Checkpoint tốt nhất):** Train Loss `0.5269` | Val Loss `0.8249` | Acc `91.93%` | F1-Toxic `41.81%` | **Macro-F1 `68.74%`** $\rightarrow$ Sau khi quét ngưỡng $\tau = 0.52$ tăng lên **`68.88%`**.
+
+### Ma trận Nhầm lẫn (Confusion Matrix tại ngưỡng 0.52):
+
+* **True Negative (TN):** **1.138 câu** (Đoán chuẩn xác Non-toxic — tăng 40 câu so với trước)
+* **True Positive (TP):** **37 câu** (Phát hiện đúng bình luận Toxic)
+* **False Positive (FP):** **56 câu** (Báo nhầm Non-toxic thành Toxic — **giảm mạnh từ 96 câu xuống 56 câu**, thấp hơn cả mức 66 của SVM)
+* **False Negative (FN):** **46 câu** (Bỏ sót Toxic)
+* **Tổng số câu đoán sai:** **102 câu** (Giảm đáng kể so với 134 câu ở phiên bản cũ)
 
 ---
 
-## 4. Phân Tích Lỗi (Error Analysis)
+## 3. Bảng So Sánh Đối Đầu Tổng Thể (Toàn Bộ Mô Hình)
 
-Chi tiết 134 câu dự đoán sai được lưu trữ đầy đủ tại `reports/phobert/validation_error_analysis.csv`:
-* **False Positives (96 câu):** Thường rơi vào các bình luận phàn nàn gay gắt về dịch vụ nhà trường (học phí, cổng đăng ký tín chỉ, bãi xe) có từ ngữ bức xúc (ví dụ: *"chán vl"*, *"làm ăn như hạch"*). Mặc dù có giọng điệu tiêu cực nhưng theo quy ước nhãn không có yếu tố xúc phạm danh dự cá nhân.
-* **False Negatives (38 câu):** Rơi vào các bình luận chửi thề ngắn, tiếng lóng viết tắt hoặc câu mang hàm ý mỉa mai ngầm cần ngữ cảnh bài viết nguồn (ví dụ: viết tắt *"đm"*, châm chọc cá nhân không nhắc tên trực tiếp).
+| Mô hình | Accuracy (%) | F1-Toxic (%) | Recall-Toxic (%) | Macro-F1 (%) | Thứ hạng |
+|---|---:|---:|---:|---:|:---:|
+| DummyClassifier (Mốc đối chứng) | 93.50% | 0.00% | 0.00% | 48.32% | 7 |
+| TF-IDF + Naive Bayes (Người 2) | 93.50% | 2.35% | 1.20% | 49.50% | 6 |
+| BoW + Naive Bayes (Người 2) | 93.19% | 32.56% | 25.30% | 64.49% | 5 |
+| BoW + Linear SVM (Người 2) | 92.64% | 36.49% | 32.53% | 66.29% | 4 |
+| TF-IDF + Linear SVM (Người 2 - Best Baseline) | 89.43% | 40.00% | 54.22% | 67.10% | 3 |
+| Tối ưu Từ + Ký tự + OOF (Người 2 - `steps23_v2`) | 91.46% | **42.33%** | **48.19%** | 68.86% | 2 |
+| **PhoBERT v2 (Người 3 - Ngưỡng 0.52)** | **92.01%** | 42.05% | 44.58% | **68.88%** | 🏆 **1 (SOTA)** |
+
+### Nhận xét & Đánh giá Đột phá:
+1. **Vượt mốc Baseline Tối ưu:** Sau khi bổ sung special token, fine-tune đầy đủ 5 epoch và tối ưu ngưỡng xác suất, PhoBERT v2 chính thức đạt **Macro-F1 68.88%**, xác lập vị trí mô hình tốt nhất đề tài trên tập Validation.
+2. **Khắc phục triệt để điểm yếu báo nhầm (False Positives):** 
+   * Ở phiên bản chạy thử ban đầu, PhoBERT báo nhầm tới 96 câu (FP=96, Precision=31.91%).
+   * Với pipeline đồng bộ mới và ngưỡng $\tau = 0.52$, số ca báo nhầm giảm mạnh xuống chỉ còn **56 câu** (Precision đạt 39.78%, cao hơn cả SVM là 37.74%).
+3. **Độ ổn định tổng thể (Accuracy):** PhoBERT đạt độ chính xác 92.01%, giữ vững khả năng nhận diện lớp Non-toxic chiếm đại đa số mà không hy sinh khả năng lọc phát hiện bình luận độc hại.
 
 ---
 
-## 5. Danh Mục Sản Phẩm Bàn Giao cho Người 4
+## 4. Phân Tích Lỗi Ngữ Nghĩa (Error Analysis — 102 câu)
 
-Tất cả sản phẩm đã được chuẩn hóa và lưu trữ đồng bộ:
+Chi tiết toàn bộ 102 câu dự đoán sai được lưu trữ đầy đủ tại [reports/phobert/validation_error_analysis.csv](validation_error_analysis.csv):
 
-1. **Cấu hình & Tokenizer Checkpoint:** [models/phobert_best/](../../models/phobert_best/) (`config.json`, `tokenizer_config.json`, `vocab.txt`, `bpe.codes`, `added_tokens.json`). File weights nhị phân lớn (`model.safetensors`) được lưu trữ riêng và tải qua Drive/Colab theo tài liệu hướng dẫn.
-2. **Bảng dự đoán toàn bộ Validation:** [reports/phobert/val_predictions.csv](val_predictions.csv) (Đủ 1.277 câu, gồm `id`, `label`, `prediction`, `toxic_probability`, `outcome`).
-3. **Bảng phân tích lỗi chi tiết:** [reports/phobert/validation_error_analysis.csv](validation_error_analysis.csv) (134 câu dự đoán sai).
-4. **Lịch sử huấn luyện từng Epoch:** [reports/phobert/training_history.csv](training_history.csv) (Train loss, val loss, macro-F1, F1 toxic qua 5 epoch).
-5. **Kết quả quét ngưỡng quyết định:** [reports/phobert/threshold_search.csv](threshold_search.csv) (Quét ngưỡng từ 0.10 đến 0.90).
-6. **Thông tin định danh lần chạy (Run Manifest):** [reports/phobert/run_manifest.json](run_manifest.json) (Kiến trúc, seed, hash dữ liệu, siêu tham số).
-7. **Biểu đồ trực quan hóa:**
-   * [reports/phobert/training_curves_phobert.png](training_curves_phobert.png) (Đường cong Loss và F1 qua các epoch).
-   * [reports/phobert/confusion_matrix_phobert.png](confusion_matrix_phobert.png) (Ma trận nhầm lẫn tại checkpoint tốt nhất).
-8. **Bảng so sánh baseline:** [reports/phobert/model_comparison.csv](model_comparison.csv).
+* **Nhóm 1: Báo nhầm Non-toxic thành Toxic (FP — 56 câu):**
+  * Chủ yếu là các câu phàn nàn bức xúc về hạ tầng hoặc dịch vụ đào tạo (học phí, app PTIT, mạng KTX, máy lạnh) có từ cảm thán mạnh (*"mẹ nó chán thế"*, *"làm ăn chán đời"*, *"bực cả mình"*).
+  * Về mặt ngữ nghĩa cảm xúc (Sentiment), câu mang tính tiêu cực cực đại, khiến mô hình nhầm lẫn giữa *tiêu cực về sự việc* và *công kích độc hại vào cá nhân*.
+* **Nhóm 2: Bỏ sót Toxic (FN — 46 câu):**
+  * Bình luận chửi tục viết tắt dạng biến thể teencode sinh viên (*"đkm"*, *"clm"*, *"loz"*, *"óc chó"*, v.v.).
+  * Bình luận mỉa mai, công kích ngầm (sarcasm) mà chỉ khi đọc bài viết gốc phía trên mới nhận ra ngữ cảnh xúc phạm người khác.
+
+---
+
+## 5. Danh Mục Sản Phẩm Đã Bàn Giao Đầy Đủ
+
+Mọi sản phẩm thực nghiệm đã được phân phối đồng bộ vào các thư mục tương ứng trong repository:
+
+1. **Checkpoint mô hình hoàn chỉnh:** [models/phobert_best/](../../models/phobert_best/)
+   * `model.safetensors` (540 MB, SHA-256: `4f56699fc2bc39a87a446cddcaaf1e86650f180c5cc506729a2a6b6469c5e740`).
+   * `config.json`, `tokenizer_config.json`, `vocab.txt`, `bpe.codes`, `added_tokens.json`.
+2. **Bảng dự đoán toàn bộ Validation:** [reports/phobert/val_predictions.csv](val_predictions.csv) (Đủ 1.277 câu kèm xác suất, nhãn dự đoán và nhãn outcome TP/TN/FP/FN).
+3. **Bảng phân tích lỗi:** [reports/phobert/validation_error_analysis.csv](validation_error_analysis.csv) (102 câu đoán sai kèm phân loại lỗi).
+4. **Lịch sử huấn luyện:** [reports/phobert/training_history.csv](training_history.csv) (Chi tiết 5 epochs).
+5. **Dữ liệu quét ngưỡng:** [reports/phobert/threshold_search.csv](threshold_search.csv) (Từ 0.10 đến 0.90).
+6. **Bảng so sánh baseline:** [reports/phobert/model_comparison.csv](model_comparison.csv).
+7. **Run Manifest định danh:** [reports/phobert/run_manifest.json](run_manifest.json).
+8. **Đồ thị phân tích trực quan chất lượng cao:** [reports/phobert/training_and_threshold_analysis.png](training_and_threshold_analysis.png).

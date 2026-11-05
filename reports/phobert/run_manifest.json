@@ -1,17 +1,11 @@
 {
   "model_name": "vinai/phobert-base-v2",
   "architecture": "RobertaForSequenceClassification",
-  "num_labels": 2,
   "vocab_size": 64003,
   "special_tokens": [
     "[MENTION]",
     "[URL]"
   ],
-  "token_id_mapping": {
-    "[MENTION]": 64001,
-    "[URL]": 64002
-  },
-  "split_name": "resplit_v1",
   "data_hashes": {
     "train_csv_sha256": "349122f38dbe83e36606043d7c8a7aaeebd86390df56407e32ae6553da43c646",
     "val_csv_sha256": "150077176e8ee903db4e8357eb508f7872026c935f4350f3899ef560382e51db"
@@ -22,39 +16,24 @@
     "learning_rate": 2e-05,
     "weight_decay": 0.01,
     "warmup_ratio": 0.1,
-    "label_smoothing": 0.0,
+    "label_smoothing": 0.05,
     "epochs": 5,
-    "random_seed": 42,
-    "class_weights": {
-      "0_non_toxic": 0.5351,
-      "1_toxic": 7.6142
-    }
+    "random_seed": 42
   },
-  "best_epoch": 2,
-  "selection_criterion": "highest_validation_macro_f1",
-  "decision_threshold": 0.5,
+  "best_epoch": 5,
+  "optimal_threshold": 0.52,
   "best_validation_metrics": {
-    "model_name": "vinai/phobert-base-v2",
-    "best_epoch": 2,
-    "macro_f1": 0.6721374923359902,
-    "f1_toxic": 0.4017857142857143,
-    "recall_toxic": 0.5421686746987951,
-    "precision_toxic": 0.3191489361702128,
-    "accuracy": 0.8950665622552858,
-    "val_loss": 0.5203303849324584
-  },
-  "confusion_matrix": {
-    "TP": 45,
-    "TN": 1098,
-    "FP": 96,
-    "FN": 38
-  },
-  "artifacts": {
-    "model_dir": "models/phobert_best",
-    "predictions_csv": "reports/phobert/val_predictions.csv",
-    "error_analysis_csv": "reports/phobert/validation_error_analysis.csv",
-    "training_history_csv": "reports/phobert/training_history.csv",
-    "threshold_search_csv": "reports/phobert/threshold_search.csv",
-    "report_markdown": "reports/phobert/REPORT.md"
+    "val_loss": 0.8249039717018605,
+    "accuracy": 0.9201252936570086,
+    "macro_f1": 0.6887806789509902,
+    "f1_toxic": 0.42045454545454547,
+    "precision_toxic": 0.3978494623655914,
+    "recall_toxic": 0.4457831325301205,
+    "confusion_matrix": {
+      "TN": 1138,
+      "FP": 56,
+      "FN": 46,
+      "TP": 37
+    }
   }
 }
