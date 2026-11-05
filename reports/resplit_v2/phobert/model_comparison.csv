@@ -1,0 +1,8 @@
+﻿Mô hình,Accuracy (%),F1-Toxic (%),Recall-Toxic (%),Macro-F1 (%)
+DummyClassifier (Mốc đối chứng),93.5,0.0,0.0,48.32
+BoW + Naive Bayes (Người 2),93.19,32.56,25.3,64.49
+BoW + Linear SVM (Người 2),92.64,36.49,32.53,66.29
+TF-IDF + Naive Bayes (Người 2),93.5,2.35,1.2,49.5
+TF-IDF + Linear SVM (Người 2 - Best Baseline),89.43,40.0,54.22,67.1
+Tối ưu Từ+Ký tự + OOF (Người 2 - steps23_v2),91.46,42.33,48.19,68.86
+PhoBERT v2 (Người 3 - Ngưỡng 0.90),94.78,60.55,61.11,78.88

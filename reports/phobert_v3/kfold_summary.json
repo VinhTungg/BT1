@@ -1,0 +1,12 @@
+{
+  "version": "kfold_v3",
+  "model_name": "vinai/phobert-base-v2",
+  "n_folds": 5,
+  "optimal_ensemble_threshold": 0.8499999999999999,
+  "mean_macro_f1": 0.7115885836369106,
+  "std_macro_f1": 0.023938114022361533,
+  "oof_macro_f1": 0.7122151696764595,
+  "oof_f1_toxic": 0.4609053497942387,
+  "oof_recall_toxic": 0.44889779559118237,
+  "oof_accuracy": 0.931672969096362
+}

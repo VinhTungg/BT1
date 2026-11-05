@@ -7,8 +7,8 @@
     "[URL]"
   ],
   "data_hashes": {
-    "train_csv_sha256": "349122f38dbe83e36606043d7c8a7aaeebd86390df56407e32ae6553da43c646",
-    "val_csv_sha256": "150077176e8ee903db4e8357eb508f7872026c935f4350f3899ef560382e51db"
+    "train_csv_sha256": "aec20c09ac3f666fc61d4365ee299157d716bc3234f342825142c0d31df9d8c4",
+    "val_csv_sha256": "c75f82626d83ee3fc17d1a6f6597a9d79932dfb283b70e0e9ff5328428b37f04"
   },
   "hyperparameters": {
     "max_length": 128,
@@ -20,20 +20,20 @@
     "epochs": 5,
     "random_seed": 42
   },
-  "best_epoch": 5,
-  "optimal_threshold": 0.52,
+  "best_epoch": 4,
+  "optimal_threshold": 0.9,
   "best_validation_metrics": {
-    "val_loss": 0.8249039717018605,
-    "accuracy": 0.9201252936570086,
-    "macro_f1": 0.6887806789509902,
-    "f1_toxic": 0.42045454545454547,
-    "precision_toxic": 0.3978494623655914,
-    "recall_toxic": 0.4457831325301205,
+    "val_loss": 0.715655290736602,
+    "accuracy": 0.9478155339805825,
+    "macro_f1": 0.788782183116643,
+    "f1_toxic": 0.6055045871559633,
+    "precision_toxic": 0.6,
+    "recall_toxic": 0.6111111111111112,
     "confusion_matrix": {
-      "TN": 1138,
-      "FP": 56,
-      "FN": 46,
-      "TP": 37
+      "TN": 748,
+      "FP": 22,
+      "FN": 21,
+      "TP": 33
     }
   }
 }
